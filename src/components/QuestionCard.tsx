@@ -14,13 +14,14 @@ const SCALE_OPTIONS = [
   { value: 5, size: "w-12 h-12 sm:w-14 sm:h-14" },
 ] as const
 
-function getButtonColor(value: number, isSelected: boolean): string {
+function getButtonStyle(value: number, isSelected: boolean): string {
+  const base = "border-2 transition-all duration-200"
   if (!isSelected) {
-    return "bg-white/15 hover:bg-white/30 border-2 border-white/20"
+    return `${base} bg-gray-50 border-gray-200 hover:border-gray-300 hover:bg-gray-100`
   }
-  if (value <= 2) return "bg-[#88619a] border-2 border-[#a87bbe] shadow-lg shadow-[#88619a]/40"
-  if (value === 3) return "bg-white/30 border-2 border-white/40"
-  return "bg-[#33a474] border-2 border-[#4cc493] shadow-lg shadow-[#33a474]/40"
+  if (value <= 2) return `${base} bg-[#7c5e99] border-[#7c5e99] shadow-lg shadow-[#7c5e99]/20`
+  if (value === 3) return `${base} bg-gray-300 border-gray-300`
+  return `${base} bg-[#33a474] border-[#33a474] shadow-lg shadow-[#33a474]/20`
 }
 
 export function QuestionCard({
@@ -30,12 +31,12 @@ export function QuestionCard({
 }: QuestionCardProps) {
   return (
     <div className="animate-fade-in-scale">
-      <p className="text-xl sm:text-2xl font-semibold text-white text-center mb-10 leading-relaxed px-2">
+      <p className="text-xl sm:text-2xl font-bold text-gray-800 text-center mb-10 leading-relaxed">
         {question.text}
       </p>
 
-      <div className="flex items-center justify-between gap-1 sm:gap-2 mb-4 px-2">
-        <span className="text-xs sm:text-sm font-medium text-[#c4a8d8] shrink-0 w-16 sm:w-20 text-center">
+      <div className="flex items-center justify-between gap-1 sm:gap-2 px-2">
+        <span className="text-xs sm:text-sm font-medium text-[#7c5e99] shrink-0 w-16 sm:w-20 text-center">
           同意しない
         </span>
         <div className="flex items-center justify-center gap-2 sm:gap-3">
@@ -46,7 +47,7 @@ export function QuestionCard({
                 key={option.value}
                 type="button"
                 onClick={() => onSelect(option.value)}
-                className={`${option.size} rounded-full transition-all duration-200 active:scale-90 ${getButtonColor(
+                className={`${option.size} rounded-full active:scale-90 ${getButtonStyle(
                   option.value,
                   isSelected
                 )}`}
@@ -54,7 +55,7 @@ export function QuestionCard({
             )
           })}
         </div>
-        <span className="text-xs sm:text-sm font-medium text-[#6dd4a8] shrink-0 w-16 sm:w-20 text-center">
+        <span className="text-xs sm:text-sm font-medium text-[#33a474] shrink-0 w-16 sm:w-20 text-center">
           同意する
         </span>
       </div>

@@ -3,7 +3,6 @@
 import { useSearchParams } from "next/navigation"
 import { Suspense } from "react"
 import Link from "next/link"
-import { Header } from "@/components/Header"
 import { calculateScores, determineMbtiType, getAxisResults } from "@/lib/diagnosis"
 import { AxisBar } from "@/components/AxisBar"
 import { ResultSection } from "@/components/ResultSection"
@@ -18,18 +17,12 @@ const types = typesData as Record<string, MbtiTypeData>
 
 function ErrorState({ message }: { readonly message: string }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#5b4a8a] via-[#7c5e99] to-[#4a8a7a] flex flex-col">
-      <Header variant="dark" />
-      <div className="flex-1 flex items-center justify-center px-6">
-        <div className="text-center">
-          <p className="text-white/60 mb-4">{message}</p>
-          <Link
-            href="/diagnosis"
-            className="text-[#6dd4a8] underline hover:text-[#33a474] transition-colors"
-          >
-            診断をやり直す
-          </Link>
-        </div>
+    <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8] flex items-center justify-center px-6">
+      <div className="text-center">
+        <p className="text-gray-400 mb-4">{message}</p>
+        <Link href="/diagnosis" className="text-[#4298b4] underline hover:text-[#3a89a3]">
+          診断をやり直す
+        </Link>
       </div>
     </div>
   )
@@ -61,49 +54,43 @@ function ResultContent() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#5b4a8a] via-[#7c5e99] to-[#4a8a7a]">
-      <Header variant="dark" />
-
-      <div className="max-w-lg mx-auto px-6 py-8">
-        {/* Type Header - compact */}
-        <div className="text-center mb-6 animate-fade-in">
-          <p className="text-sm text-white/50 mb-2 uppercase tracking-widest">
+    <div className="bg-[#f8f8f8] min-h-[calc(100vh-3.5rem)]">
+      {/* Hero */}
+      <section className="bg-white border-b border-gray-100 py-12 sm:py-16">
+        <div className="max-w-lg mx-auto px-6 text-center animate-fade-in">
+          <p className="text-sm text-gray-400 mb-2 uppercase tracking-widest">
             あなたのタイプ
           </p>
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-1 tracking-tight">
+          <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-900 mb-1 tracking-tight">
             {typeData.type}
           </h1>
-          <p className="text-lg text-[#c4a8d8] font-medium">{typeData.name}</p>
+          <p className="text-lg text-[#7c5e99] font-medium">{typeData.name}</p>
         </div>
+      </section>
 
-        {/* Axis Scores - compact */}
-        <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 mb-8 border border-white/10 animate-slide-up">
+      <div className="max-w-lg mx-auto px-6 py-8">
+        {/* Axis Scores */}
+        <div className="bg-white rounded-xl shadow-sm p-6 mb-8 border border-gray-100 animate-fade-in">
           {axisResults.map((axis) => (
             <AxisBar key={axis.axis} data={axis} />
           ))}
         </div>
 
-        {/* ===== MAIN: Career Matching Section ===== */}
-        <div className="animate-slide-up" style={{ animationDelay: "0.1s" }}>
-          <div className="mb-8">
-            <h2 className="text-xl font-bold text-white mb-1">
-              あなたに合った就職先
-            </h2>
-            <p className="text-sm text-white/40">
-              {typeData.type}の性格特性に基づく提案
-            </p>
-          </div>
+        {/* ===== Career Matching ===== */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
+          <h2 className="text-lg font-bold text-gray-900 mb-5 flex items-center gap-2">
+            <span className="w-1 h-5 bg-[#4298b4] rounded-full" />
+            あなたに合った就職先
+          </h2>
 
           {/* Suitable Jobs */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 mb-4 border border-white/10">
-            <h3 className="text-base font-bold text-[#6dd4a8] mb-3">
-              向いている職種
-            </h3>
+          <div className="bg-white rounded-xl shadow-sm p-5 mb-4 border border-gray-100">
+            <h3 className="text-sm font-bold text-gray-700 mb-3">向いている職種</h3>
             <div className="flex flex-wrap gap-2">
               {typeData.suitableJobs.map((job) => (
                 <span
                   key={job}
-                  className="text-sm bg-[#33a474]/20 text-[#6dd4a8] px-3 py-1.5 rounded-full border border-[#33a474]/20"
+                  className="text-sm bg-[#eef7fa] text-[#4298b4] px-3 py-1.5 rounded-full border border-[#4298b4]/15"
                 >
                   {job}
                 </span>
@@ -112,15 +99,13 @@ function ResultContent() {
           </div>
 
           {/* Suitable Industries */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 mb-4 border border-white/10">
-            <h3 className="text-base font-bold text-[#88c4e8] mb-3">
-              向いている業界
-            </h3>
+          <div className="bg-white rounded-xl shadow-sm p-5 mb-4 border border-gray-100">
+            <h3 className="text-sm font-bold text-gray-700 mb-3">向いている業界</h3>
             <div className="flex flex-wrap gap-2">
               {typeData.suitableIndustries.map((ind) => (
                 <span
                   key={ind}
-                  className="text-sm bg-[#4a8ab8]/20 text-[#88c4e8] px-3 py-1.5 rounded-full border border-[#4a8ab8]/20"
+                  className="text-sm bg-[#eef8f3] text-[#33a474] px-3 py-1.5 rounded-full border border-[#33a474]/15"
                 >
                   {ind}
                 </span>
@@ -128,16 +113,14 @@ function ResultContent() {
             </div>
           </div>
 
-          {/* Recommended Company Types */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 mb-6 border border-white/10">
-            <h3 className="text-base font-bold text-[#e8d46d] mb-3">
-              おすすめの企業タイプ
-            </h3>
+          {/* Company Types */}
+          <div className="bg-white rounded-xl shadow-sm p-5 mb-8 border border-gray-100">
+            <h3 className="text-sm font-bold text-gray-700 mb-3">おすすめの企業タイプ</h3>
             <div className="flex flex-wrap gap-2">
               {typeData.recommendedCompanyTypes.map((ct) => (
                 <span
                   key={ct}
-                  className="text-sm bg-[#b8a440]/20 text-[#e8d46d] px-3 py-1.5 rounded-full border border-[#b8a440]/20"
+                  className="text-sm bg-[#f5f0fa] text-[#7c5e99] px-3 py-1.5 rounded-full border border-[#7c5e99]/15"
                 >
                   {ct}
                 </span>
@@ -146,13 +129,14 @@ function ResultContent() {
           </div>
         </div>
 
-        {/* ===== Company Recommendations (実名) ===== */}
+        {/* ===== Company Recommendations ===== */}
         {matchedCompanies.length > 0 && (
-          <div className="mb-8 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            <h2 className="text-xl font-bold text-white mb-1">
+          <div className="mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+            <h2 className="text-lg font-bold text-gray-900 mb-1 flex items-center gap-2">
+              <span className="w-1 h-5 bg-[#33a474] rounded-full" />
               おすすめ企業
             </h2>
-            <p className="text-sm text-white/40 mb-5">
+            <p className="text-xs text-gray-400 mb-5 ml-3.5">
               あなたのタイプに合う業界から厳選
             </p>
             <div className="space-y-4">
@@ -164,32 +148,34 @@ function ResultContent() {
         )}
 
         {/* ===== Work Style ===== */}
-        <div className="space-y-4 mb-8 animate-slide-up" style={{ animationDelay: "0.3s" }}>
-          <h2 className="text-xl font-bold text-white mb-1">
+        <div className="space-y-4 mb-8 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+          <h2 className="text-lg font-bold text-gray-900 flex items-center gap-2">
+            <span className="w-1 h-5 bg-[#d4a34a] rounded-full" />
             働き方の相性
           </h2>
           <ResultSection
             title="合う働き方"
             items={typeData.suitableWorkStyles}
             icon="&#x25B2;"
-            color="text-[#6dd4a8]"
+            color="text-[#33a474]"
           />
           <ResultSection
             title="合わない働き方"
             items={typeData.unsuitableWorkStyles}
             icon="&#x25BC;"
-            color="text-[#e88888]"
+            color="text-[#c47070]"
           />
         </div>
 
-        {/* ===== Personality (supplementary) ===== */}
-        <div className="animate-slide-up" style={{ animationDelay: "0.4s" }}>
-          <h2 className="text-xl font-bold text-white mb-4">
+        {/* ===== Personality ===== */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
+          <h2 className="text-lg font-bold text-gray-900 mb-5 flex items-center gap-2">
+            <span className="w-1 h-5 bg-[#7c5e99] rounded-full" />
             あなたの性格特性
           </h2>
 
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 mb-4 border border-white/10">
-            <p className="text-white/80 leading-relaxed text-sm">
+          <div className="bg-white rounded-xl shadow-sm p-5 mb-4 border border-gray-100">
+            <p className="text-sm text-gray-600 leading-relaxed">
               {typeData.description}
             </p>
           </div>
@@ -199,28 +185,28 @@ function ResultContent() {
               title="強み"
               items={typeData.strengths}
               icon="&#x25B2;"
-              color="text-[#6dd4a8]"
+              color="text-[#4298b4]"
             />
             <ResultSection
               title="弱み"
               items={typeData.weaknesses}
               icon="&#x25BC;"
-              color="text-[#e8a87c]"
+              color="text-[#d4a34a]"
             />
           </div>
         </div>
 
         {/* Actions */}
-        <div className="flex flex-col gap-3 pb-8 animate-slide-up" style={{ animationDelay: "0.5s" }}>
+        <div className="flex flex-col gap-3 pb-10">
           <Link
             href="/diagnosis"
-            className="w-full text-center bg-white text-[#5b4a8a] font-bold py-4 rounded-full text-sm hover:bg-white/90 transition-all shadow-xl shadow-black/10 hover:scale-[1.01] active:scale-[0.99]"
+            className="w-full text-center bg-[#4298b4] text-white font-bold py-4 rounded-full text-sm hover:bg-[#3a89a3] transition-colors shadow-sm"
           >
             もう一度診断する
           </Link>
           <Link
             href="/"
-            className="w-full text-center text-white/40 text-sm py-2 hover:text-white/70 transition-colors"
+            className="w-full text-center text-gray-400 text-sm py-2 hover:text-gray-600 transition-colors"
           >
             トップに戻る
           </Link>
@@ -234,8 +220,8 @@ export default function ResultPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-gradient-to-br from-[#5b4a8a] via-[#7c5e99] to-[#4a8a7a] flex items-center justify-center">
-          <div className="text-white/40 animate-pulse">読み込み中...</div>
+        <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8] flex items-center justify-center">
+          <div className="text-gray-300 animate-pulse">読み込み中...</div>
         </div>
       }
     >

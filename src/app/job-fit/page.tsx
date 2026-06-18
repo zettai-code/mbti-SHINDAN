@@ -17,7 +17,12 @@ const allIndustries = companiesData as IndustryGroup[]
 
 interface ScoredCompany extends Company {
   industry: string
-  matchScore: number
+  baseScore: number
+  correction: number
+  finalScore: number
+  strengths: string[]
+  weaknesses: string[]
+  corrDetails: { label: string; value: number; reason: string }[]
 }
 
 type Screen = "top" | "attributes" | "questions" | "loading" | "results"
@@ -37,21 +42,93 @@ export default function JobFitPage() {
 
   // Score all companies that have requiredProfile data
   const scoredCompanies = useMemo(() => {
-    if (Object.keys(userScores).length === 0) return []
+    if (Object.keys(userScores).length === 0 || !uni) return []
     const scored: ScoredCompany[] = []
     allIndustries.forEach((group) => {
       group.companies.forEach((c) => {
-        if (Object.keys(c.requiredProfile).length > 0) {
-          const s = scoreCompany(userScores, c.requiredProfile)
-          if (s !== null) {
-            scored.push({ ...c, industry: group.industry, matchScore: s })
+        if (c.requiredProfile && Object.keys(c.requiredProfile).length > 0) {
+          const base = scoreCompany(userScores, c.requiredProfile)
+          if (base !== null) {
+            // Apply university and background corrections
+            let corr = 0
+            const corrDetails: { label: string; value: number; reason: string }[] = []
+
+            // Uni correction
+            if (c.uniCorr && uni in c.uniCorr) {
+              const uVal = c.uniCorr[uni] ?? 0
+              if (uVal !== 0) {
+                corr += uVal
+                corrDetails.push({
+                  label: UNIVERSITY_LABELS[uni] || uni,
+                  value: uVal,
+                  reason: uVal > 0 ? "採用実績と高い親和性" : "採用傾向に基づく調整"
+                })
+              }
+            }
+
+            // Bg corrections
+            if (c.bgCorr) {
+              bgs.forEach((bg) => {
+                const bVal = c.bgCorr?.[bg] ?? 0
+                if (bVal !== 0) {
+                  corr += bVal
+                  const bgLabel = BACKGROUNDS.find((item) => item.key === bg)?.label || bg
+                  corrDetails.push({
+                    label: bgLabel,
+                    value: bVal,
+                    reason: bVal > 0 ? "選考で有利に働く経験" : "採用傾向に基づく調整"
+                  })
+                }
+              })
+            }
+
+            // Clamp correction between -10% and +10%
+            const clampedCorr = Math.max(-10, Math.min(10, corr))
+            const final = Math.max(0, Math.min(100, base + clampedCorr))
+
+            // Compute dynamic strengths / weaknesses
+            const comps = Object.keys(c.requiredProfile).map((p) => {
+              const u = Math.round(userScores[p] ?? 50)
+              const j = c.requiredProfile[p]
+              return {
+                name: p,
+                user: u,
+                job: j,
+                excess: u - j,
+              }
+            })
+
+            // Strengths: User exceeds or is close to job requirements, sorted by user score descending
+            const strengths = comps
+              .filter((comp) => comp.excess >= -5)
+              .sort((a, b) => b.user - a.user)
+              .slice(0, 3)
+              .map((s) => `${s.name}(${s.user})`)
+
+            // Weaknesses: User is lacking, sorted by deficiency descending
+            const weaknesses = comps
+              .filter((comp) => comp.excess < 0)
+              .sort((a, b) => a.excess - b.excess)
+              .slice(0, 2)
+              .map((w) => w.name)
+
+            scored.push({
+              ...c,
+              industry: group.industry,
+              baseScore: Math.round(base * 10) / 10,
+              correction: Math.round(clampedCorr * 10) / 10,
+              finalScore: Math.round(final * 10) / 10,
+              strengths,
+              weaknesses,
+              corrDetails
+            })
           }
         }
       })
     })
-    scored.sort((a, b) => b.matchScore - a.matchScore)
+    scored.sort((a, b) => b.finalScore - a.finalScore)
     return scored
-  }, [userScores])
+  }, [userScores, uni, bgs])
 
   const showToast = useCallback((msg: string, type: "error" | "success" = "error") => {
     setToast({ msg, type })
@@ -317,33 +394,82 @@ export default function JobFitPage() {
               </h3>
               <div className="space-y-4 mb-8">
                 {scoredCompanies.slice(0, 20).map((c, i) => {
-                  const rankEmoji = i < 3 ? ["🥇", "🥈", "🥉"][i] : `#${i + 1}`
+                  const rankEmoji = i < 3 ? ["🥇", "🥈", "🥉"][i] : null;
+                  const rankText = rankEmoji ? "" : `#${i + 1}`;
                   return (
                     <div key={`${c.industry}-${c.name}-${i}`}
-                      className={`bg-white rounded-2xl shadow-sm border p-5 transition-all ${
-                        i === 0 ? "border-indigo-200 ring-1 ring-indigo-100" : "border-gray-100"
+                      className={`bg-white rounded-2xl shadow-sm border p-6 transition-all ${
+                        i === 0 ? "border-indigo-300 ring-2 ring-indigo-50" : "border-gray-100"
                       }`}
                     >
-                      <div className="flex items-start gap-3">
-                        <div className="flex flex-col items-center gap-1 min-w-[48px]">
-                          <span className="text-2xl">{rankEmoji}</span>
-                        </div>
+                      <div className="flex flex-col md:flex-row md:items-start gap-4">
+                        {/* Left Info Column */}
                         <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                            <h4 className="text-base font-bold text-gray-900">{c.name}</h4>
-                            {c.name_en && <span className="text-xs text-gray-400">{c.name_en}</span>}
+                          {/* Rank, Icon, and Name */}
+                          <div className="flex items-center gap-2 flex-wrap mb-2">
+                            {rankEmoji ? (
+                              <span className="text-3xl filter drop-shadow-sm">{rankEmoji}</span>
+                            ) : (
+                              <span className="text-sm font-black text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md">{rankText}</span>
+                            )}
+                            <span className="text-2xl">{c.emoji || "🏢"}</span>
+                            <h4 className="text-lg font-black text-gray-900 leading-tight">
+                              {c.name} <span className="text-gray-400 font-normal mx-1">|</span> <span className="text-indigo-600 font-bold">{c.positions.join("・")}</span>
+                            </h4>
                           </div>
-                          <p className="text-[10px] text-gray-400 mb-2">{c.industry}</p>
-                          <div className="flex flex-wrap gap-1 mb-2">
-                            {c.positions.map((pos) => (
-                              <span key={pos} className="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-medium">{pos}</span>
+
+                          {c.note && (
+                            <p className="text-xs text-gray-600 font-medium mb-3 pl-1 border-l-2 border-indigo-200">
+                              {c.note}
+                            </p>
+                          )}
+
+                          {/* Tags */}
+                          <div className="flex flex-wrap gap-1.5 mb-4">
+                            <span className="px-2 py-0.5 rounded-full bg-gray-100 text-gray-500 text-[10px] font-semibold">{c.industry}</span>
+                            {(c.tags || []).map((t) => (
+                              <span key={t} className="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-semibold">{t}</span>
                             ))}
                           </div>
-                          {c.note && <p className="text-xs text-gray-500 leading-relaxed mb-2">{c.note}</p>}
+
+                          {/* Why Suitable Insight */}
+                          {c.strengths.length > 0 && (
+                            <div className="bg-indigo-50/40 rounded-xl p-3 mb-4 text-xs leading-relaxed text-gray-700">
+                              <span className="font-bold text-indigo-700">💡 なぜ向いているか：</span>
+                              あなたの <span className="font-bold text-gray-900">{c.strengths.join("・")}</span> は、{c.name}が求める水準と高い親和性があります。
+                              {c.weaknesses.length > 0 && (
+                                <>
+                                  {" "}<span className="font-bold text-amber-700">{c.weaknesses.join("・")}</span> の強化が内定確率をさらに高めるカギになります。
+                                </>
+                              )}
+                            </div>
+                          )}
+
+                          {/* Background Fit */}
+                          {c.corrDetails.length > 0 && (
+                            <div className="bg-emerald-50/30 rounded-xl p-3 mb-4 border border-emerald-50">
+                              <p className="text-[10px] font-bold text-emerald-800 mb-1.5 flex items-center gap-1">
+                                <span>📊</span> バックグラウンド適合度
+                              </p>
+                              <div className="space-y-1">
+                                {c.corrDetails.map((det, di) => (
+                                  <div key={di} className="flex justify-between items-center text-[10px]">
+                                    <span className="text-gray-500">{det.label} → {det.reason}</span>
+                                    <span className={`font-bold ${det.value > 0 ? "text-emerald-600" : "text-amber-600"}`}>
+                                      {det.value > 0 ? `+${det.value}%` : `${det.value}%`}
+                                    </span>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
                           {/* Parameter bars */}
-                          <div className="bg-gray-50 rounded-xl p-3">
-                            <p className="text-[10px] font-semibold text-gray-500 mb-2">求められる人物像</p>
-                            <div className="space-y-1.5">
+                          <details className="group">
+                            <summary className="text-[11px] font-bold text-gray-400 cursor-pointer hover:text-gray-600 select-none list-none flex items-center gap-1">
+                              <span className="transition-transform group-open:rotate-90">▶</span> 求められる人物像とあなたの素養（詳細）
+                            </summary>
+                            <div className="bg-gray-50 rounded-xl p-4 mt-2 space-y-2">
                               {Object.keys(c.requiredProfile)
                                 .sort((a, b) => c.requiredProfile[b] - c.requiredProfile[a])
                                 .slice(0, 8)
@@ -354,32 +480,46 @@ export default function JobFitPage() {
                                   const barColor = diff >= 0 ? "#6366f1" : diff >= -15 ? "#f59e0b" : "#ef4444"
                                   return (
                                     <div key={p} className="flex items-center gap-2 text-[10px]">
-                                      <span className="w-16 text-right text-gray-400 shrink-0">{p}</span>
-                                      <div className="flex-1 h-1.5 bg-gray-100 rounded-full relative">
+                                      <span className="w-16 text-right text-gray-400 shrink-0 font-semibold">{p}</span>
+                                      <div className="flex-1 h-1.5 bg-gray-200 rounded-full relative">
                                         <div className="h-full rounded-full" style={{ width: `${uVal}%`, background: barColor }} />
-                                        <div className="absolute top-[-3px] w-0.5 h-[9px] bg-purple-400 rounded-full" style={{ left: `${jVal}%` }} />
+                                        <div className="absolute top-[-3px] w-0.5 h-[9px] bg-indigo-800 rounded-full" style={{ left: `${jVal}%` }} />
                                       </div>
                                       <span className="w-14 text-right shrink-0">
-                                        <b className="text-gray-700">{uVal}</b> <span className="text-gray-300">/ {jVal}</span>
+                                        <b className="text-gray-700">{uVal}</b> <span className="text-gray-400">/ {jVal}</span>
                                       </span>
                                     </div>
                                   )
                                 })}
                             </div>
-                          </div>
+                          </details>
                         </div>
-                        {/* Score */}
-                        <div className="flex flex-col items-center min-w-[72px]">
-                          <div className="relative w-16 h-16">
-                            <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
-                              <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e5e7eb" strokeWidth="2.5" />
-                              <circle cx="18" cy="18" r="15.5" fill="none" stroke="#6366f1" strokeWidth="2.5"
-                                strokeDasharray={`${c.matchScore * 0.974} 100`} strokeLinecap="round" />
-                            </svg>
-                            <div className="absolute inset-0 flex items-center justify-center">
-                              <span className="text-sm font-black text-gray-900">{c.matchScore}</span>
-                              <span className="text-[8px] text-gray-400">%</span>
+
+                        {/* Right Score Column */}
+                        <div className="flex flex-row md:flex-col items-center justify-between md:justify-center shrink-0 p-3 bg-gray-50/50 rounded-2xl border border-gray-100 min-w-[120px] self-stretch md:self-auto">
+                          <div className="flex flex-col items-center">
+                            <div className="relative w-20 h-20">
+                              <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
+                                <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e5e7eb" strokeWidth="2.5" />
+                                <circle cx="18" cy="18" r="15.5" fill="none" stroke="#6366f1" strokeWidth="3"
+                                  strokeDasharray={`${c.finalScore * 0.974} 100`} strokeLinecap="round" />
+                              </svg>
+                              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                                <span className="text-[9px] text-gray-400 font-bold uppercase tracking-wider">MATCH</span>
+                                <div className="flex items-baseline">
+                                  <span className="text-lg font-black text-gray-900">{Math.round(c.finalScore)}</span>
+                                  <span className="text-[10px] text-gray-400 font-bold">%</span>
+                                </div>
+                              </div>
                             </div>
+                          </div>
+                          <div className="text-center md:mt-2 text-[10px] text-gray-400">
+                            <div>ベース: {c.baseScore}%</div>
+                            {c.correction !== 0 && (
+                              <div className={c.correction > 0 ? "text-emerald-600 font-medium" : "text-amber-600 font-medium"}>
+                                補正: {c.correction > 0 ? `+${c.correction}%` : `${c.correction}%`}
+                              </div>
+                            )}
                           </div>
                         </div>
                       </div>

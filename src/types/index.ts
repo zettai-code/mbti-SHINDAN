@@ -39,6 +39,10 @@ export interface Company {
   positions: string[]
   note: string
   requiredProfile: Record<string, number>
+  emoji?: string
+  tags?: string[]
+  uniCorr?: Record<string, number>
+  bgCorr?: Record<string, number>
 }
 
 export interface IndustryGroup {

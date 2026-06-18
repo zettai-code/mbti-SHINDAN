@@ -38,6 +38,7 @@ export interface Company {
   name_en: string
   positions: string[]
   note: string
+  requiredProfile: Record<string, number>
 }
 
 export interface IndustryGroup {

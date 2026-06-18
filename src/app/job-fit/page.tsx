@@ -1,18 +1,21 @@
 "use client"
 
-import { useState, useCallback, useRef, useEffect } from "react"
+import { useState, useCallback, useMemo, useEffect } from "react"
 import Link from "next/link"
 import type { JobFitQuestion, JobProfile, JobResult, Gender, UniversityRank, Background } from "@/lib/job-fit-types"
 import {
   SCALE_OPTIONS, UNIVERSITY_RANKS, UNIVERSITY_LABELS,
   BACKGROUNDS, RADAR_AXES, SCORE_CATEGORIES,
 } from "@/lib/job-fit-types"
-import { computeUserScores, calculateResults, generateInsight } from "@/lib/job-fit-engine"
+import { computeUserScores, calculateResults, generateInsight, scoreCompany } from "@/lib/job-fit-engine"
+import type { IndustryGroup } from "@/types"
 import questionsData from "@/data/job-fit-questions.json"
 import jobsData from "@/data/job-fit-jobs.json"
+import companiesData from "@/data/companies.json"
 
 const questions = questionsData as JobFitQuestion[]
 const jobs = jobsData as JobProfile[]
+const allIndustries = companiesData as IndustryGroup[]
 
 type Screen = "top" | "attributes" | "questions" | "loading" | "results"
 
@@ -28,6 +31,8 @@ export default function JobFitPage() {
   const [loadPct, setLoadPct] = useState(0)
   const [expandedJobs, setExpandedJobs] = useState<Set<string>>(new Set())
   const [toast, setToast] = useState<{ msg: string; type: "error" | "success" } | null>(null)
+  const [expandedIndustries, setExpandedIndustries] = useState<Set<string>>(new Set())
+  const [companySearch, setCompanySearch] = useState("")
 
   const showToast = useCallback((msg: string, type: "error" | "success" = "error") => {
     setToast({ msg, type })
@@ -433,6 +438,104 @@ export default function JobFitPage() {
                 </div>
               )
             })}
+          </div>
+
+          {/* ── COMPANIES FROM companies.json ── */}
+          <div className="mt-12 pt-8 border-t border-gray-200">
+            <h3 className="text-base font-bold text-gray-900 mb-1 flex items-center gap-2">
+              <span>🏢</span> 企業・職種一覧
+              <span className="text-xs text-gray-400 font-normal">全{allIndustries.reduce((s, g) => s + g.companies.length, 0)}社</span>
+            </h3>
+            <p className="text-xs text-gray-400 mb-4">各企業の「求められる人物像」データが揃い次第、適合度スコアが自動計算されます。</p>
+
+            {/* Search */}
+            <input
+              type="text"
+              placeholder="企業名・職種で検索..."
+              value={companySearch}
+              onChange={(e) => setCompanySearch(e.target.value)}
+              className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            />
+
+            <div className="space-y-3">
+              {allIndustries
+                .map((group) => {
+                  if (!companySearch) return group
+                  const lower = companySearch.toLowerCase()
+                  const filtered = group.companies.filter(
+                    (c) => c.name.toLowerCase().includes(lower) || c.name_en.toLowerCase().includes(lower) || c.positions.some((p) => p.toLowerCase().includes(lower))
+                  )
+                  return { ...group, companies: filtered }
+                })
+                .filter((g) => g.companies.length > 0)
+                .map((group) => {
+                  const isOpen = expandedIndustries.has(group.industry)
+                  return (
+                    <div key={group.industry} className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                      <button
+                        onClick={() => setExpandedIndustries((prev) => {
+                          const next = new Set(prev)
+                          next.has(group.industry) ? next.delete(group.industry) : next.add(group.industry)
+                          return next
+                        })}
+                        className="w-full px-5 py-3 flex items-center justify-between hover:bg-gray-50 transition-colors"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span className={`text-gray-400 text-xs transition-transform ${isOpen ? "rotate-90" : ""}`}>▶</span>
+                          <span className="font-bold text-gray-800 text-sm">{group.industry}</span>
+                        </div>
+                        <span className="bg-indigo-50 text-indigo-700 text-xs font-medium px-2 py-0.5 rounded-full">{group.companies.length}社</span>
+                      </button>
+                      {isOpen && (
+                        <div className="border-t border-gray-100">
+                          {group.companies.map((company, ci) => {
+                            const hasProfile = Object.keys(company.requiredProfile).length > 0
+                            const matchScore = hasProfile ? scoreCompany(userScores, company.requiredProfile) : null
+                            return (
+                              <div key={`${group.industry}-${ci}`} className={`px-5 py-3 ${ci !== group.companies.length - 1 ? "border-b border-gray-50" : ""} hover:bg-indigo-50/30 transition-colors`}>
+                                <div className="flex items-start justify-between gap-3">
+                                  <div className="flex-1 min-w-0">
+                                    <div className="flex items-center gap-2 mb-0.5">
+                                      <span className="text-sm font-semibold text-gray-900">{company.name}</span>
+                                      {company.name_en && <span className="text-[10px] text-gray-400">{company.name_en}</span>}
+                                    </div>
+                                    <div className="flex flex-wrap gap-1 mb-1">
+                                      {company.positions.map((pos) => (
+                                        <span key={pos} className="text-[10px] bg-indigo-50 text-indigo-600 px-1.5 py-0.5 rounded-md">{pos}</span>
+                                      ))}
+                                    </div>
+                                    {company.note && <p className="text-[10px] text-gray-500 leading-relaxed">{company.note}</p>}
+                                    {/* Required Profile placeholder */}
+                                    <div className="mt-1.5">
+                                      <span className="text-[10px] text-gray-400">求められる人物像：</span>
+                                      {hasProfile ? (
+                                        <span className="text-[10px] text-gray-600">{JSON.stringify(company.requiredProfile)}</span>
+                                      ) : (
+                                        <span className="text-[10px] text-gray-300 italic">データ準備中</span>
+                                      )}
+                                    </div>
+                                  </div>
+                                  {/* Match score (when available) */}
+                                  <div className="shrink-0 min-w-[48px] text-center">
+                                    {matchScore !== null ? (
+                                      <div>
+                                        <span className="text-sm font-black text-indigo-600">{matchScore}</span>
+                                        <span className="text-[8px] text-gray-400">%</span>
+                                      </div>
+                                    ) : (
+                                      <span className="text-[10px] text-gray-300">—</span>
+                                    )}
+                                  </div>
+                                </div>
+                              </div>
+                            )
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  )
+                })}
+            </div>
           </div>
 
           {/* Actions */}

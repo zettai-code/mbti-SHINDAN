@@ -117,3 +117,34 @@ export function generateInsight(
 function clamp(v: number, lo: number, hi: number): number {
   return Math.max(lo, Math.min(hi, v))
 }
+
+/**
+ * Score a single company from companies.json against user scores.
+ * Returns null if requiredProfile is empty (data not yet available).
+ */
+export function scoreCompany(
+  userScores: Record<string, number>,
+  requiredProfile: Record<string, number>
+): number | null {
+  const params = Object.keys(requiredProfile)
+  if (params.length === 0) return null
+
+  let wSum = 0
+  let wTotal = 0
+  params.forEach((p) => {
+    const u = userScores[p] ?? 50
+    const j = requiredProfile[p]
+    const diff = u - j
+    let match: number
+    if (diff >= 0) {
+      match = Math.max(0.85, 1 - diff / 200)
+    } else {
+      match = Math.pow(Math.max(0, 1 + diff / 100), 1.5)
+    }
+    const weight = j / 100
+    wSum += match * weight
+    wTotal += weight
+  })
+
+  return wTotal > 0 ? Math.round((wSum / wTotal) * 1000) / 10 : null
+}

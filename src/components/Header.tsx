@@ -7,12 +7,20 @@ export function Header() {
         <Link href="/" className="text-lg font-bold text-indigo-600">
           就活MBTI診断
         </Link>
-        <Link
-          href="/companies"
-          className="text-sm text-gray-600 hover:text-indigo-600 transition-colors"
-        >
-          企業一覧
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link
+            href="/job-fit"
+            className="text-sm text-gray-600 hover:text-indigo-600 transition-colors"
+          >
+            職種適合度
+          </Link>
+          <Link
+            href="/companies"
+            className="text-sm text-gray-600 hover:text-indigo-600 transition-colors"
+          >
+            企業一覧
+          </Link>
+        </div>
       </div>
     </header>
   )

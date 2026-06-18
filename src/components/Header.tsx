@@ -20,6 +20,12 @@ export function Header() {
           >
             企業一覧
           </Link>
+          <Link
+            href="/dashboard"
+            className="text-sm text-gray-500 hover:text-gray-800 transition-colors"
+          >
+            データDB
+          </Link>
         </nav>
       </div>
     </header>

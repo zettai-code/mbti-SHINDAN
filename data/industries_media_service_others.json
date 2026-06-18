@@ -1,0 +1,881 @@
+[
+  {
+    "industry": "マスコミ／広告（テレビ）",
+    "companies": [
+      {
+        "name": "日本テレビ放送網",
+        "name_en": "Nippon Television Network Corporation",
+        "positions": ["総合職（コンテンツ制作、ビジネス開発、セールス・マーケティング、コーポレート）"],
+        "note": "入社後に配属先決定。報道・情報・バラエティー等の番組制作、営業、財務、法務、人事など"
+      },
+      {
+        "name": "テレビ朝日",
+        "name_en": "TV Asahi Corporation",
+        "positions": ["総合職（番組制作、報道、営業、コンテンツビジネス、コーポレート）"],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "TBSテレビ",
+        "name_en": "TBS Television, Inc.",
+        "positions": ["総合職（番組制作、報道、営業、デジタル、コーポレート）"],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "フジテレビジョン",
+        "name_en": "Fuji Television Network, Inc.",
+        "positions": ["総合職（番組制作、報道、営業、デジタル、コーポレート）"],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "テレビ東京",
+        "name_en": "TV TOKYO Corporation",
+        "positions": ["総合職（番組制作、報道、営業、コンテンツビジネス、コーポレート）"],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "NHK（日本放送協会）",
+        "name_en": "Japan Broadcasting Corporation (NHK)",
+        "positions": ["番組制作（ディレクター）", "映像デザイン", "音響デザイン", "記者", "映像取材", "映像制作", "アナウンサー", "メディアエンジニア", "経営管理・営業"],
+        "note": "職種別採用。30歳未満が対象"
+      },
+      {
+        "name": "朝日放送テレビ",
+        "name_en": "Asahi Broadcasting Television Corporation",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在阪キー局"
+      },
+      {
+        "name": "関西テレビ放送",
+        "name_en": "Kansai Telecasting Corporation",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在阪キー局・フジテレビ系列"
+      },
+      {
+        "name": "讀賣テレビ放送",
+        "name_en": "Yomiuri Telecasting Corporation",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在阪キー局・日テレ系列"
+      },
+      {
+        "name": "毎日放送",
+        "name_en": "Mainichi Broadcasting System, Inc.",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在阪キー局・TBS系列"
+      },
+      {
+        "name": "テレビ大阪",
+        "name_en": "Television Osaka, Inc.",
+        "positions": ["総合職"],
+        "note": "テレビ東京系列"
+      },
+      {
+        "name": "東海テレビ放送",
+        "name_en": "Tokai Television Broadcasting Co., Ltd.",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在名キー局・フジテレビ系列"
+      },
+      {
+        "name": "中京テレビ放送",
+        "name_en": "Chukyo TV. Broadcasting Corporation",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在名キー局・日テレ系列"
+      },
+      {
+        "name": "CBCテレビ",
+        "name_en": "CBC Television Co., Ltd.",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在名キー局・TBS系列"
+      },
+      {
+        "name": "名古屋テレビ放送（メ〜テレ）",
+        "name_en": "Nagoya Broadcasting Network Co., Ltd.",
+        "positions": ["総合職（番組制作、報道、営業、コーポレート）"],
+        "note": "在名キー局・テレビ朝日系列"
+      },
+      {
+        "name": "WOWOW",
+        "name_en": "WOWOW INC.",
+        "positions": ["総合職（編成・制作、営業・マーケティング、デジタル、コーポレート）"],
+        "note": "有料衛星放送"
+      },
+      {
+        "name": "スカパーJSAT",
+        "name_en": "SKY Perfect JSAT Corporation",
+        "positions": ["総合職（メディア事業）", "総合職（宇宙事業）", "総合職（経営管理・法務・財務経理）"],
+        "note": "メディア事業と宇宙事業の2軸。宇宙事業では通信衛星の調達・管制も担当"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（新聞）",
+    "companies": [
+      {
+        "name": "朝日新聞社",
+        "name_en": "The Asahi Shimbun Company",
+        "positions": ["記者職", "ビジネス職（営業、企画、デジタル、コーポレート）", "技術職"],
+        "note": ""
+      },
+      {
+        "name": "読売新聞社",
+        "name_en": "The Yomiuri Shimbun",
+        "positions": ["記者職", "業務職（営業、販売、事業、コーポレート）", "技術職"],
+        "note": "発行部数日本一"
+      },
+      {
+        "name": "毎日新聞社",
+        "name_en": "The Mainichi Newspapers Co., Ltd.",
+        "positions": ["記者職", "業務職（営業、事業、コーポレート）", "技術職"],
+        "note": ""
+      },
+      {
+        "name": "日本経済新聞社",
+        "name_en": "Nikkei Inc.",
+        "positions": ["記者職", "デジタルサービス（プロモーション・マーケティング）", "営業職", "技術職"],
+        "note": "経済専門紙。デジタル分野にも注力"
+      },
+      {
+        "name": "産経新聞社",
+        "name_en": "The Sankei Shimbun Co., Ltd.",
+        "positions": ["記者職", "業務職（営業、事業、コーポレート）"],
+        "note": ""
+      },
+      {
+        "name": "中日新聞社",
+        "name_en": "The Chunichi Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "中部地方の代表的ブロック紙"
+      },
+      {
+        "name": "西日本新聞社",
+        "name_en": "The Nishinippon Shimbun Co., Ltd.",
+        "positions": ["記者職", "業務職"],
+        "note": "九州地方のブロック紙"
+      },
+      {
+        "name": "北海道新聞社",
+        "name_en": "The Hokkaido Shimbun Press",
+        "positions": ["記者職", "業務職"],
+        "note": "北海道のブロック紙"
+      },
+      {
+        "name": "河北新報社",
+        "name_en": "The Kahoku Shimpo Publishing Co.",
+        "positions": ["記者職", "業務職"],
+        "note": "東北地方のブロック紙"
+      },
+      {
+        "name": "中国新聞社",
+        "name_en": "The Chugoku Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "中国地方のブロック紙"
+      },
+      {
+        "name": "新潟日報社",
+        "name_en": "The Niigata Nippo",
+        "positions": ["記者職", "業務職"],
+        "note": "新潟県の地方紙"
+      },
+      {
+        "name": "静岡新聞社",
+        "name_en": "The Shizuoka Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "静岡県の地方紙"
+      },
+      {
+        "name": "信濃毎日新聞社",
+        "name_en": "The Shinano Mainichi Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "長野県の地方紙"
+      },
+      {
+        "name": "京都新聞社",
+        "name_en": "The Kyoto Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "京都・滋賀の地方紙"
+      },
+      {
+        "name": "神戸新聞社",
+        "name_en": "The Kobe Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "兵庫県の地方紙"
+      },
+      {
+        "name": "山陽新聞社",
+        "name_en": "The Sanyo Shimbun",
+        "positions": ["記者職", "業務職"],
+        "note": "岡山県の地方紙"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（出版）",
+    "companies": [
+      {
+        "name": "集英社",
+        "name_en": "Shueisha Inc.",
+        "positions": ["編集職", "営業・宣伝職", "デジタル職", "管理職"],
+        "note": "週刊少年ジャンプ等を発行。職種横断で一括採用"
+      },
+      {
+        "name": "講談社",
+        "name_en": "Kodansha Ltd.",
+        "positions": ["編集（コミック、文芸、こども・教育、ファッション・ライフスタイル、報道・芸能、学芸・学術）", "営業（ライツ・グローバルビジネス、マーケティング・プロモーション、メディア・コミュニケーション、デジタル・システム）", "校閲"],
+        "note": "部門別に希望を出して応募"
+      },
+      {
+        "name": "小学館",
+        "name_en": "Shogakukan Inc.",
+        "positions": ["編集職", "営業・宣伝・マーケティング職", "広告職", "デジタル職", "管理部門職"],
+        "note": ""
+      },
+      {
+        "name": "KADOKAWA",
+        "name_en": "KADOKAWA CORPORATION",
+        "positions": ["総合職（編集、営業、企画、デジタル、コーポレート）"],
+        "note": "出版・映像・ゲーム等の総合エンタメ企業"
+      },
+      {
+        "name": "新潮社",
+        "name_en": "Shinchosha Publishing Co., Ltd.",
+        "positions": ["編集職", "校閲職", "営業・宣伝職", "コーポレート職"],
+        "note": ""
+      },
+      {
+        "name": "文藝春秋",
+        "name_en": "Bungeishunju Ltd.",
+        "positions": ["編集職", "営業・宣伝職", "管理部門職"],
+        "note": "週刊文春等を発行"
+      },
+      {
+        "name": "マガジンハウス",
+        "name_en": "Magazine House, Ltd.",
+        "positions": ["編集職", "営業・広告職", "デジタル職"],
+        "note": "2025年に創刊80周年"
+      },
+      {
+        "name": "プレジデント社",
+        "name_en": "President Inc.",
+        "positions": ["編集職", "営業・広告職"],
+        "note": "ビジネス誌"
+      },
+      {
+        "name": "東洋経済新報社",
+        "name_en": "Toyo Keizai Inc.",
+        "positions": ["記者・編集職", "営業・広告職", "デジタル職"],
+        "note": "週刊東洋経済、東洋経済オンライン等"
+      },
+      {
+        "name": "ダイヤモンド社",
+        "name_en": "Diamond, Inc.",
+        "positions": ["編集職", "営業・広告職", "デジタル職"],
+        "note": "週刊ダイヤモンド等"
+      },
+      {
+        "name": "日経BP",
+        "name_en": "Nikkei Business Publications, Inc.",
+        "positions": ["記者・編集職", "営業・広告職", "デジタル職"],
+        "note": "日経ビジネス等を発行。日経グループ"
+      },
+      {
+        "name": "扶桑社",
+        "name_en": "Fusosha Publishing Inc.",
+        "positions": ["編集職", "営業・広告職"],
+        "note": "フジサンケイグループ"
+      },
+      {
+        "name": "朝日新聞出版",
+        "name_en": "Asahi Shimbun Publications Inc.",
+        "positions": ["編集職", "営業・広告職"],
+        "note": "AERA等を発行"
+      },
+      {
+        "name": "NHK出版",
+        "name_en": "NHK Publishing, Inc.",
+        "positions": ["編集職", "営業職", "管理部門職"],
+        "note": "NHKテキスト等を発行"
+      },
+      {
+        "name": "白泉社",
+        "name_en": "Hakusensha, Inc.",
+        "positions": ["編集職", "営業職"],
+        "note": "花とゆめ等を発行。一ツ橋グループ（小学館系）"
+      },
+      {
+        "name": "医学書院",
+        "name_en": "Igaku-Shoin Ltd.",
+        "positions": ["編集職", "営業職", "デジタル職"],
+        "note": "医学・看護学系の専門出版社"
+      },
+      {
+        "name": "医歯薬出版",
+        "name_en": "Ishiyaku Publishers, Inc.",
+        "positions": ["編集職", "営業職"],
+        "note": "歯学・医療系の専門出版社"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（通信社）",
+    "companies": [
+      {
+        "name": "共同通信社",
+        "name_en": "Kyodo News",
+        "positions": ["記者職", "技術職", "事務職"],
+        "note": "国内最大の通信社"
+      },
+      {
+        "name": "時事通信社",
+        "name_en": "Jiji Press Ltd.",
+        "positions": ["記者職", "技術職", "事務職"],
+        "note": ""
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（広告代理店）",
+    "companies": [
+      {
+        "name": "電通",
+        "name_en": "Dentsu Inc.",
+        "positions": ["総合職（ビジネスプロデュース、ストラテジー、クリエイティブ、メディア＆コンテンツ、グローバルビジネス、DX）"],
+        "note": "入社後に配属。国内最大手"
+      },
+      {
+        "name": "博報堂",
+        "name_en": "Hakuhodo Inc.",
+        "positions": ["総合職（入社後に職種確定コース）", "データサイエンス職"],
+        "note": "総合職選考と職種確約コースの2種類"
+      },
+      {
+        "name": "ADK（アサツーディ・ケイ）",
+        "name_en": "ADK Holdings Inc.",
+        "positions": ["総合職（オープンコース）"],
+        "note": "入社時30歳未満が対象。新卒・既卒・就業者OK"
+      },
+      {
+        "name": "読売広告社",
+        "name_en": "Yomiko Advertising Inc.",
+        "positions": ["総合職（営業、メディア、クリエイティブ、マーケティング等）"],
+        "note": "読売新聞グループ"
+      },
+      {
+        "name": "セプテーニ",
+        "name_en": "Septeni Co., Ltd.",
+        "positions": ["総合職（デジタルマーケティング、広告運用・分析、SNSマーケティング）"],
+        "note": "デジタル広告特化型。若手裁量が大きい"
+      },
+      {
+        "name": "大広",
+        "name_en": "Daiko Advertising Inc.",
+        "positions": ["総合職（営業、プランニング、クリエイティブ、メディア）"],
+        "note": "博報堂DYグループ"
+      },
+      {
+        "name": "ジェイアール東日本企画（jeki）",
+        "name_en": "jeki Inc.",
+        "positions": ["総合職（営業、プランニング、クリエイティブ、メディア、交通広告）"],
+        "note": "JR東日本グループの広告会社"
+      },
+      {
+        "name": "電通デジタル",
+        "name_en": "Dentsu Digital Inc.",
+        "positions": ["総合職（デジタルマーケティング、データ分析、クリエイティブ、テクノロジー）"],
+        "note": "電通グループのデジタル専業"
+      },
+      {
+        "name": "電通東日本",
+        "name_en": "Dentsu East Japan Inc.",
+        "positions": ["総合職（営業、プランニング、クリエイティブ、メディア）"],
+        "note": "電通グループ・東日本エリア"
+      },
+      {
+        "name": "電通西日本",
+        "name_en": "Dentsu West Japan Inc.",
+        "positions": ["総合職（営業、プランニング、クリエイティブ、メディア）"],
+        "note": "電通グループ・西日本エリア"
+      },
+      {
+        "name": "東急エージェンシー",
+        "name_en": "Tokyu Agency Inc.",
+        "positions": ["総合職（営業、プランニング、クリエイティブ、プロモーション）"],
+        "note": "東急グループ"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（映画・音楽）",
+    "companies": [
+      {
+        "name": "東宝",
+        "name_en": "Toho Co., Ltd.",
+        "positions": ["総合職（映画企画・制作、配給・宣伝、演劇、不動産、コーポレート）"],
+        "note": "映画・演劇・不動産の3本柱"
+      },
+      {
+        "name": "東映",
+        "name_en": "Toei Company, Ltd.",
+        "positions": ["総合職（映画・ドラマ企画制作、営業・宣伝、イベント、撮影所運営、不動産、コーポレート）"],
+        "note": "映画・テレビドラマ制作に強み"
+      },
+      {
+        "name": "松竹",
+        "name_en": "Shochiku Co., Ltd.",
+        "positions": ["総合職（映画企画・制作・配給、演劇、映像、不動産、コーポレート）"],
+        "note": "歌舞伎など伝統芸能にも強み"
+      },
+      {
+        "name": "エイベックス",
+        "name_en": "Avex Inc.",
+        "positions": ["総合職（音楽制作・A&R、マネジメント、デジタル、ライブ・イベント、コーポレート）"],
+        "note": "音楽・エンタメの総合企業"
+      },
+      {
+        "name": "キングレコード",
+        "name_en": "King Record Co., Ltd.",
+        "positions": ["総合職（音楽制作、映像制作、アニメ制作、宣伝・営業、デジタル）"],
+        "note": "演歌からJ-POP、アニメまで幅広い"
+      },
+      {
+        "name": "ポニーキャニオン",
+        "name_en": "Pony Canyon Inc.",
+        "positions": ["総合職（音楽・映像制作、アニメ、ライブ・イベント、デジタル、営業）"],
+        "note": "フジサンケイグループ。ライブ劇場運営も"
+      },
+      {
+        "name": "ソニー・ミュージックエンタテインメント",
+        "name_en": "Sony Music Entertainment (Japan) Inc.",
+        "positions": ["総合職（音楽制作、マネジメント、マーケティング、デジタル、アニメ・ゲーム制作、ライブ・イベント）"],
+        "note": "ソニーグループ。音楽・映像・アニメ・ゲーム等多角展開"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（ゲーム）",
+    "companies": [
+      {
+        "name": "バンダイナムコエンターテインメント",
+        "name_en": "Bandai Namco Entertainment Inc.",
+        "positions": ["プランナー", "プログラマー", "ビジュアルアーティスト", "サウンドクリエイター", "プロデューサー", "総合職（営業、マーケティング、コーポレート）"],
+        "note": "バンダイナムコグループ"
+      },
+      {
+        "name": "スクウェア・エニックス",
+        "name_en": "Square Enix Co., Ltd.",
+        "positions": ["ゲームデザイナー（プランナー）", "ゲームエンジニア", "2Dアーティスト", "3DCGアーティスト", "テクニカルアーティスト", "CG映像エンジニア", "サウンドプログラマー"],
+        "note": "職種別採用。アーティスト・TAは作品提出必須"
+      },
+      {
+        "name": "コナミデジタルエンタテインメント",
+        "name_en": "Konami Digital Entertainment Co., Ltd.",
+        "positions": ["クリエイティブ職（プログラマー、プランナー、デザイナー、サウンドクリエイター）", "プロデューサー職", "ビジネス職（経営企画、財務、人事、営業、マーケティング、IT）"],
+        "note": "コナミグループ一括採用"
+      },
+      {
+        "name": "カプコン",
+        "name_en": "Capcom Co., Ltd.",
+        "positions": ["プランナー", "プログラマー", "デザイナー（2D・3D）", "サウンド", "総合職（営業、マーケティング、コーポレート）"],
+        "note": "モンスターハンター、バイオハザード等"
+      },
+      {
+        "name": "セガサミーホールディングス",
+        "name_en": "SEGA SAMMY Holdings Inc.",
+        "positions": ["総合職（経営企画、財務、人事、広報、スポーツビジネス等）", "クリエイティブ職"],
+        "note": "ゲーム、遊技機、リゾート事業"
+      },
+      {
+        "name": "コーエーテクモホールディングス",
+        "name_en": "Koei Tecmo Holdings Co., Ltd.",
+        "positions": ["プログラマー", "プランナー", "デザイナー", "サウンド", "総合職（営業、マーケティング、コーポレート）"],
+        "note": "HDで一括選考後、グループ子会社へ配属"
+      },
+      {
+        "name": "任天堂",
+        "name_en": "Nintendo Co., Ltd.",
+        "positions": ["理工系（ソフトウェア、ハードウェア等）", "デザイン系", "サウンド系", "制作企画系", "管理・営業系"],
+        "note": "職種系統別の採用"
+      }
+    ]
+  },
+  {
+    "industry": "サービス業",
+    "companies": [
+      {
+        "name": "リクルート",
+        "name_en": "Recruit Holdings Co., Ltd.",
+        "positions": ["ビジネスグロースコース（マーケター、顧客接点、事業企画、コーポレートスタッフ）", "テクノロジー・プロダクト開発コース（PdM、エンジニア）", "デザイン・クリエイティブコース（UI/UXデザイナー、アートディレクター）"],
+        "note": "5つの採用コースから選択"
+      },
+      {
+        "name": "ファーストリテイリング",
+        "name_en": "Fast Retailing Co., Ltd.",
+        "positions": ["グローバルリーダー候補（店舗経営からスタートし、MD、マーケティング、生産管理、海外駐在等へ）"],
+        "note": "ユニクロ、ジーユー等8ブランド展開。入社後は店舗配属からスタート"
+      },
+      {
+        "name": "オリエンタルランド",
+        "name_en": "Oriental Land Co., Ltd.",
+        "positions": ["総合職（全事業領域でジョブローテーション）", "専門職（クリエイティブ：施設・商品・フード開発）", "専門職（テクニカル：施設メンテナンス・保守点検）"],
+        "note": "東京ディズニーリゾート運営。総合職は入社後テーマパーク部門配属からスタート"
+      },
+      {
+        "name": "ベネッセコーポレーション",
+        "name_en": "Benesse Corporation",
+        "positions": ["総合職（企画、営業、マーケティング、デジタル、コーポレート）"],
+        "note": "教育・生活事業"
+      },
+      {
+        "name": "ユー・エス・ジェイ（USJ）",
+        "name_en": "USJ LLC",
+        "positions": ["マーケティング職", "メンテナンス職"],
+        "note": "マーケティング職は入社初年度からプロジェクトリーダー。パークブランディング、コミュニケーション戦略、コンテンツ企画制作、販売戦略立案など"
+      },
+      {
+        "name": "ナイキジャパン",
+        "name_en": "Nike Japan Group LLC",
+        "positions": ["総合職（マーケティング、セールス、リテール、デジタル、コーポレート）"],
+        "note": "外資スポーツブランド"
+      },
+      {
+        "name": "アディダスジャパン",
+        "name_en": "adidas Japan K.K.",
+        "positions": ["総合職（マーケティング、セールス、リテール、デジタル、コーポレート）"],
+        "note": "外資スポーツブランド"
+      }
+    ]
+  },
+  {
+    "industry": "流通／小売業／外食",
+    "companies": [
+      {
+        "name": "ニトリ",
+        "name_en": "Nitori Holdings Co., Ltd.",
+        "positions": ["総合職（商品開発、店舗運営、物流、IT、広告、コーポレート等）"],
+        "note": "製造物流IT小売業。2026年度新卒採用人数630名"
+      },
+      {
+        "name": "コクヨ",
+        "name_en": "KOKUYO Co., Ltd.",
+        "positions": ["総合職（営業、マーケティング、商品企画、生産管理、コーポレート）"],
+        "note": "文具・オフィス家具メーカー"
+      },
+      {
+        "name": "大日本印刷（DNP）",
+        "name_en": "Dai Nippon Printing Co., Ltd.",
+        "positions": ["事務系（営業、企画、コーポレートスタッフ）", "技術系（研究開発、生産技術、SE）"],
+        "note": "全国（東京、埼玉、大阪、北海道、宮城、愛知、福岡等）で採用"
+      },
+      {
+        "name": "TOPPANホールディングス",
+        "name_en": "TOPPAN Holdings Inc.",
+        "positions": ["事務系（営業、企画）", "技術系（研究開発、生産技術、SE）"],
+        "note": "旧凸版印刷。印刷にとどまらず多領域に事業展開"
+      }
+    ]
+  },
+  {
+    "industry": "通信サービス",
+    "companies": [
+      {
+        "name": "NTT東日本（東日本電信電話）",
+        "name_en": "Nippon Telegraph and Telephone East Corporation",
+        "positions": ["事務系総合職（営業、企画、コーポレート）", "技術系総合職（ネットワーク、SE、研究開発）"],
+        "note": "NTTグループ"
+      },
+      {
+        "name": "NTT西日本（西日本電信電話）",
+        "name_en": "Nippon Telegraph and Telephone West Corporation",
+        "positions": ["事務系総合職（営業、企画、コーポレート）", "技術系総合職（ネットワーク、SE、研究開発）"],
+        "note": "NTTグループ。2026年度採用予定201〜300名"
+      },
+      {
+        "name": "NTTドコモ",
+        "name_en": "NTT DOCOMO, INC.",
+        "positions": ["事務系（営業、マーケティング、企画、コーポレート）", "技術系（ネットワーク、SE、研究開発、データサイエンス）"],
+        "note": "NTTグループ。通信キャリア最大手"
+      },
+      {
+        "name": "KDDI",
+        "name_en": "KDDI Corporation",
+        "positions": ["OPENコース（入社後に配属決定）", "WILLコース（技術系職種を選択）"],
+        "note": "au、UQ mobile等のブランド展開"
+      },
+      {
+        "name": "ソフトバンク",
+        "name_en": "SoftBank Corp.",
+        "positions": ["総合職（営業、企画、マーケティング）", "エンジニア職（ネットワーク、SE、AI、データ）"],
+        "note": "通信事業に加えAI・IoT等にも注力"
+      },
+      {
+        "name": "NTTコミュニケーションズ（ドコモビジネス）",
+        "name_en": "NTT Communications Corporation",
+        "positions": ["総合職（営業、SE、企画、コーポレート）"],
+        "note": "旧NTTドコモソリューションズはNTTコミュニケーションズのドコモビジネスブランドに統合"
+      }
+    ]
+  },
+  {
+    "industry": "日用品・化粧品",
+    "companies": [
+      {
+        "name": "P&Gジャパン",
+        "name_en": "P&G Japan G.K.",
+        "positions": ["マーケティング", "営業統括（セールス）", "生産統括（サプライチェーン）", "ファイナンス＆アカウンティング", "HR（人事）", "IT", "R&D（研究開発）", "PS/E（生産技術）"],
+        "note": "職種別採用。原則入社後の職種変更なし。採用予定約100名"
+      },
+      {
+        "name": "ユニリーバ・ジャパン",
+        "name_en": "Unilever Japan K.K.",
+        "positions": ["マーケティング", "カスタマーデベロップメント（営業）", "サプライチェーン", "ファイナンス", "HR", "R&D"],
+        "note": "職種別採用。外資系だがチームワーク重視の穏やかな社風"
+      },
+      {
+        "name": "花王",
+        "name_en": "Kao Corporation",
+        "positions": ["マーケティング（ブランドマネジメント）", "営業職", "SCM職", "技術系（研究開発、生産技術）"],
+        "note": "ブランドごとに部署が分かれる。日系メーカーの中でもマーケ部門別採用を実施"
+      },
+      {
+        "name": "資生堂",
+        "name_en": "Shiseido Company, Limited",
+        "positions": ["マーケティング職", "営業職", "ファイナンス職", "技術系（研究開発）", "美容職（ビューティーコンサルタント）"],
+        "note": "美意識・感性を重視。協調性重視の社風"
+      },
+      {
+        "name": "日本ロレアル",
+        "name_en": "L'Oreal Japan Ltd.",
+        "positions": ["マーケティング職", "セールス職（全国営業所）", "R&D（研究開発・川崎）", "オペレーションズ（生産・御殿場）", "ファイナンス", "HR"],
+        "note": "職種別採用。マネジメントトレーニープログラムあり（入社後最大12ヶ月のOJTローテーション）"
+      },
+      {
+        "name": "ユニ・チャーム",
+        "name_en": "Unicharm Corporation",
+        "positions": ["マーケティング職", "営業職", "技術系（研究開発、生産技術）", "コーポレート職"],
+        "note": "衛生用品国内最大手"
+      },
+      {
+        "name": "ライオン",
+        "name_en": "Lion Corporation",
+        "positions": ["事務系（営業、マーケティング、コーポレート）", "技術系（研究開発、生産技術）"],
+        "note": ""
+      },
+      {
+        "name": "コーセー（KOSE）",
+        "name_en": "KOSE Corporation",
+        "positions": ["総合職（営業、マーケティング、企画、コーポレート）", "技術系（研究開発）", "美容職"],
+        "note": "化粧品大手"
+      },
+      {
+        "name": "マンダム",
+        "name_en": "Mandom Corporation",
+        "positions": ["総合職（営業、マーケティング、企画、コーポレート）", "技術系（研究開発、生産技術）"],
+        "note": "男性化粧品に強み。大阪本社"
+      },
+      {
+        "name": "ミルボン",
+        "name_en": "Milbon Co., Ltd.",
+        "positions": ["総合職（営業、マーケティング、企画）", "技術系（研究開発）"],
+        "note": "業務用ヘアケア製品国内トップ"
+      },
+      {
+        "name": "アース製薬",
+        "name_en": "Earth Corporation",
+        "positions": ["研究開発職", "マーケティング職", "ニューチャネル職", "製造・生産技術職", "営業職"],
+        "note": "殺虫剤・家庭用品"
+      }
+    ]
+  },
+  {
+    "industry": "大学／教育／研究機関（大学職員）",
+    "companies": [
+      {
+        "name": "早稲田大学",
+        "name_en": "Waseda University",
+        "positions": ["事務系専任職員"],
+        "note": "入職後に教務、学生支援、研究支援、国際、広報、総務、財務等に配属"
+      },
+      {
+        "name": "慶應義塾大学",
+        "name_en": "Keio University",
+        "positions": ["事務系専任職員", "技術系専任職員"],
+        "note": "法人事務、学事、渉外、一貫教育、広報、研究支援、国際交流、学生支援、病院、図書館、情報技術等の分野"
+      },
+      {
+        "name": "明治大学",
+        "name_en": "Meiji University",
+        "positions": ["事務系専任職員"],
+        "note": "MARCH"
+      },
+      {
+        "name": "青山学院大学",
+        "name_en": "Aoyama Gakuin University",
+        "positions": ["事務系専任職員"],
+        "note": "MARCH"
+      },
+      {
+        "name": "立教大学",
+        "name_en": "Rikkyo University",
+        "positions": ["事務系専任職員"],
+        "note": "MARCH"
+      },
+      {
+        "name": "中央大学",
+        "name_en": "Chuo University",
+        "positions": ["事務系専任職員"],
+        "note": "MARCH"
+      },
+      {
+        "name": "法政大学",
+        "name_en": "Hosei University",
+        "positions": ["事務系専任職員"],
+        "note": "MARCH"
+      },
+      {
+        "name": "関西大学",
+        "name_en": "Kansai University",
+        "positions": ["事務系専任職員"],
+        "note": "関関同立"
+      },
+      {
+        "name": "関西学院大学",
+        "name_en": "Kwansei Gakuin University",
+        "positions": ["事務系専任職員"],
+        "note": "関関同立"
+      },
+      {
+        "name": "同志社大学",
+        "name_en": "Doshisha University",
+        "positions": ["事務系専任職員"],
+        "note": "関関同立"
+      },
+      {
+        "name": "立命館大学",
+        "name_en": "Ritsumeikan University",
+        "positions": ["事務系専任職員"],
+        "note": "関関同立"
+      }
+    ]
+  },
+  {
+    "industry": "官公庁／公共団体／公益法人",
+    "companies": [
+      {
+        "name": "国際協力機構（JICA）",
+        "name_en": "Japan International Cooperation Agency",
+        "positions": ["総合職"],
+        "note": "開発途上国への技術協力・資金協力等。独立行政法人"
+      },
+      {
+        "name": "日本貿易振興機構（JETRO）",
+        "name_en": "Japan External Trade Organization",
+        "positions": ["総合職"],
+        "note": "貿易振興・対日投資促進。国籍不問"
+      },
+      {
+        "name": "東京商工会議所",
+        "name_en": "Tokyo Chamber of Commerce and Industry",
+        "positions": ["総合職（中小企業支援、政策提言、イベント企画、コーポレート）"],
+        "note": "中小企業の経営支援等"
+      },
+      {
+        "name": "日本中央競馬会（JRA）",
+        "name_en": "Japan Racing Association",
+        "positions": ["事務職", "技術職", "獣医職", "馬術職（きゅう務員技能、装蹄、馬場土木）"],
+        "note": "独自の専門職種あり"
+      },
+      {
+        "name": "日本郵便",
+        "name_en": "Japan Post Co., Ltd.",
+        "positions": ["総合職", "地域基幹職・エリア基幹職", "一般職"],
+        "note": "日本郵政グループ"
+      },
+      {
+        "name": "日本音楽著作権協会（JASRAC）",
+        "name_en": "Japanese Society for Rights of Authors, Composers and Publishers",
+        "positions": ["総合職"],
+        "note": "音楽著作権の管理団体"
+      },
+      {
+        "name": "全国農業協同組合連合会（JA全農）",
+        "name_en": "National Federation of Agricultural Cooperative Associations",
+        "positions": ["総合職"],
+        "note": "農畜産物の販売、生産資材の供給等"
+      },
+      {
+        "name": "都市再生機構（UR都市機構）",
+        "name_en": "Urban Renaissance Agency",
+        "positions": ["総合職（事務系）", "総合職（技術系：土木、建築、機械、電気等）"],
+        "note": "都市の再生・賃貸住宅の管理等。独立行政法人"
+      }
+    ]
+  },
+  {
+    "industry": "その他（倉庫・物流）",
+    "companies": [
+      {
+        "name": "三菱倉庫",
+        "name_en": "Mitsubishi Logistics Corporation",
+        "positions": ["総合職", "エリア総合職", "専任職"],
+        "note": "転勤区分で3つの働き方"
+      },
+      {
+        "name": "三井倉庫ホールディングス",
+        "name_en": "Mitsui-Soko Holdings Co., Ltd.",
+        "positions": ["総合職（物流企画、営業、国際輸送、コーポレート）"],
+        "note": "三井グループ"
+      },
+      {
+        "name": "住友倉庫",
+        "name_en": "The Sumitomo Warehouse Co., Ltd.",
+        "positions": ["総合職（国際輸送営業、国際輸送荷捌、倉庫営業、不動産、コーポレート）"],
+        "note": "住友グループ"
+      }
+    ]
+  },
+  {
+    "industry": "その他（スポーツ・玩具・住設・OA機器）",
+    "companies": [
+      {
+        "name": "エリクソン・ジャパン",
+        "name_en": "Ericsson Japan K.K.",
+        "positions": ["エンジニア職（通信機器の設定・運用・保守）", "営業職", "コーポレート職"],
+        "note": "スウェーデンの通信機器メーカー日本法人"
+      },
+      {
+        "name": "ボッシュ",
+        "name_en": "Bosch Corporation",
+        "positions": ["技術系（研究開発、生産技術）", "事務系（営業、マーケティング、コーポレート）", "JMP（若手リーダーシッププログラム）"],
+        "note": "ドイツの自動車部品・産業機器メーカー日本法人"
+      },
+      {
+        "name": "アシックス",
+        "name_en": "ASICS Corporation",
+        "positions": ["事務系（営業、マーケティング、コーポレート）", "技術系（研究開発、生産技術）"],
+        "note": "スポーツ用品メーカー。神戸本社"
+      },
+      {
+        "name": "タカラトミー",
+        "name_en": "TOMY Company, Ltd.",
+        "positions": ["総合職（商品企画、マーケティング、営業、デザイン、コーポレート）"],
+        "note": "玩具大手"
+      },
+      {
+        "name": "バンダイ",
+        "name_en": "Bandai Co., Ltd.",
+        "positions": ["総合職（商品企画、マーケティング、営業、デザイン、コーポレート）"],
+        "note": "バンダイナムコグループ。玩具・カプセルトイ等"
+      },
+      {
+        "name": "リクシル",
+        "name_en": "LIXIL Corporation",
+        "positions": ["総合職（営業、マーケティング、商品企画、コーポレート）", "技術系（研究開発、生産技術、SE）"],
+        "note": "住宅設備・建材メーカー"
+      },
+      {
+        "name": "富士フイルムビジネスイノベーション",
+        "name_en": "FUJIFILM Business Innovation Corp.",
+        "positions": ["技術系コース", "事務系コース", "SE（システムエンジニア）コース"],
+        "note": "旧富士ゼロックス。複合機・ソリューション事業"
+      }
+    ]
+  }
+]

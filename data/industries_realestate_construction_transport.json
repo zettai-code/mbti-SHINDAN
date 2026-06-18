@@ -1,0 +1,682 @@
+[
+  {
+    "industry": "不動産",
+    "companies": [
+      {
+        "name": "三井不動産",
+        "name_en": "Mitsui Fudosan",
+        "positions": ["総合職", "業務職"],
+        "note": "総合デベロッパー最大手。業務職は事務サポート中心"
+      },
+      {
+        "name": "三菱地所",
+        "name_en": "Mitsubishi Estate",
+        "positions": ["総合職"],
+        "note": "丸の内エリアを中心とした総合デベロッパー"
+      },
+      {
+        "name": "東急不動産",
+        "name_en": "Tokyu Land",
+        "positions": ["総合職"],
+        "note": "東急グループの総合デベロッパー"
+      },
+      {
+        "name": "野村不動産",
+        "name_en": "Nomura Real Estate",
+        "positions": ["総合職（全専攻）", "総合職（建築系）"],
+        "note": "プラウドブランドで知られる。全専攻コースと建築系コースで選考が分かれる"
+      },
+      {
+        "name": "住友不動産",
+        "name_en": "Sumitomo Realty & Development",
+        "positions": ["総合職", "営業職", "技術職", "業務職"],
+        "note": "オフィスビル・マンション開発大手"
+      },
+      {
+        "name": "東京建物",
+        "name_en": "Tokyo Tatemono",
+        "positions": ["総合職"],
+        "note": "日本最古の不動産会社。Brilliaブランドのマンション開発"
+      },
+      {
+        "name": "森ビル",
+        "name_en": "Mori Building",
+        "positions": ["総合職", "ビルマネジメント職"],
+        "note": "六本木ヒルズ・虎ノ門ヒルズ等を展開。ビルマネジメント職は理系（機械・電気・建築系）対象"
+      },
+      {
+        "name": "森トラスト",
+        "name_en": "Mori Trust",
+        "positions": ["総合職"],
+        "note": "ホテル・リゾート事業も展開する総合デベロッパー"
+      },
+      {
+        "name": "ケネディクス",
+        "name_en": "Kenedix",
+        "positions": ["総合職"],
+        "note": "不動産投資運用会社。三井住友フィナンシャルグループ傘下"
+      },
+      {
+        "name": "ヒューリック",
+        "name_en": "Hulic",
+        "positions": ["総合職"],
+        "note": "東京23区中心のオフィスビル・商業施設の不動産会社。少数精鋭採用"
+      },
+      {
+        "name": "地主（日本商業開発）",
+        "name_en": "Jinushi (JLC)",
+        "positions": ["総合職"],
+        "note": "地主ビジネス（底地）に特化。採用数1〜2名と極めて少数精鋭"
+      },
+      {
+        "name": "NTT都市開発",
+        "name_en": "NTT Urban Development",
+        "positions": ["総合職"],
+        "note": "NTTグループの不動産デベロッパー"
+      },
+      {
+        "name": "三井不動産レジデンシャル",
+        "name_en": "Mitsui Fudosan Residential",
+        "positions": ["総合職"],
+        "note": "三井不動産グループの住宅開発会社。パークシリーズを展開"
+      },
+      {
+        "name": "三菱地所レジデンス",
+        "name_en": "Mitsubishi Jisho Residence",
+        "positions": ["総合職（事務系）", "総合職（技術系）", "専門職"],
+        "note": "三菱地所グループの住宅開発会社。ザ・パークハウスブランド"
+      },
+      {
+        "name": "日鉄興和不動産",
+        "name_en": "Nippon Steel Kowa Real Estate",
+        "positions": ["総合職"],
+        "note": "日本製鉄グループの不動産デベロッパー。ビル事業と住宅事業が両輪"
+      },
+      {
+        "name": "伊藤忠都市開発",
+        "name_en": "Itochu Property Development",
+        "positions": ["総合職"],
+        "note": "伊藤忠商事グループの総合デベロッパー。分譲マンション・賃貸マンション事業"
+      },
+      {
+        "name": "三井物産都市開発",
+        "name_en": "Mitsui & Co. Real Estate",
+        "positions": ["総合職"],
+        "note": "三井物産グループの不動産会社。若手から大きな裁量権あり"
+      },
+      {
+        "name": "三菱商事都市開発",
+        "name_en": "Mitsubishi Corporation Urban Development",
+        "positions": ["総合職"],
+        "note": "三菱商事グループの不動産デベロッパー"
+      },
+      {
+        "name": "オリックス不動産",
+        "name_en": "ORIX Real Estate",
+        "positions": ["総合職"],
+        "note": "オリックスグループの不動産会社。施設運営・投資等を展開"
+      },
+      {
+        "name": "日本郵政不動産",
+        "name_en": "Japan Post Real Estate",
+        "positions": ["総合職"],
+        "note": "日本郵政グループの不動産事業会社。郵便局跡地等の再開発"
+      },
+      {
+        "name": "安田不動産",
+        "name_en": "Yasuda Real Estate",
+        "positions": ["総合職"],
+        "note": "安田財閥系の不動産会社。オフィスビル賃貸・マンション開発"
+      },
+      {
+        "name": "中央日本土地建物",
+        "name_en": "Chuo-Nittochi",
+        "positions": ["総合職"],
+        "note": "みずほ系の不動産会社。オフィスビル・住宅開発"
+      },
+      {
+        "name": "平和不動産",
+        "name_en": "Heiwa Real Estate",
+        "positions": ["総合職"],
+        "note": "東京証券取引所ビルの所有・運営で知られる"
+      },
+      {
+        "name": "小田急不動産",
+        "name_en": "Odakyu Real Estate",
+        "positions": ["総合職"],
+        "note": "小田急グループの不動産会社。沿線の住宅用地取得・商品企画・販売"
+      },
+      {
+        "name": "トヨタ不動産",
+        "name_en": "Toyota Real Estate",
+        "positions": ["総合職"],
+        "note": "トヨタグループの不動産会社"
+      },
+      {
+        "name": "ダイビル",
+        "name_en": "Daibiru Corporation",
+        "positions": ["総合職"],
+        "note": "商船三井グループのオフィスビル賃貸会社"
+      },
+      {
+        "name": "サンケイビル",
+        "name_en": "Sankei Building",
+        "positions": ["総合職"],
+        "note": "フジ・メディア・ホールディングスグループの不動産会社"
+      },
+      {
+        "name": "UR都市機構",
+        "name_en": "Urban Renaissance Agency",
+        "positions": ["事務系総合職", "技術系総合職"],
+        "note": "独立行政法人。都市再生・賃貸住宅事業。技術系は土木・建築・機械・電気等"
+      },
+      {
+        "name": "積水ハウス",
+        "name_en": "Sekisui House",
+        "positions": ["営業職", "設計職", "施工管理職", "インテリアコーディネーター職", "ビジネスアシスタント職"],
+        "note": "住宅メーカー最大手。職種別採用を実施"
+      },
+      {
+        "name": "大和ハウス工業",
+        "name_en": "Daiwa House Industry",
+        "positions": ["総合職（営業系）", "総合職（技術系：設計）", "総合職（技術系：住宅系施工）", "総合職（技術系：建築系施工）", "総合職（技術系：設備）"],
+        "note": "売上高業界トップクラスの住宅・建設メーカー。営業系は全学部対象、技術系は理系対象"
+      },
+      {
+        "name": "住友林業",
+        "name_en": "Sumitomo Forestry",
+        "positions": ["業務企画職", "住宅営業職", "建築技術職", "事務企画職"],
+        "note": "木造住宅メーカー大手。海外事業も拡大中"
+      }
+    ]
+  },
+  {
+    "industry": "建設業",
+    "companies": [
+      {
+        "name": "鹿島建設",
+        "name_en": "Kajima Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築系）", "技術系総合職（土木系）"],
+        "note": "スーパーゼネコン。施工管理・設計・研究開発・営業・事務等を含む"
+      },
+      {
+        "name": "大林組",
+        "name_en": "Obayashi Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築系）", "技術系総合職（土木系）", "技術系総合職（機電系）"],
+        "note": "スーパーゼネコン。施工管理・設計・エンジニアリング・研究開発等"
+      },
+      {
+        "name": "清水建設",
+        "name_en": "Shimizu Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築系）", "技術系総合職（土木系）"],
+        "note": "スーパーゼネコン。施工管理・設計・研究開発・営業等"
+      },
+      {
+        "name": "大成建設",
+        "name_en": "Taisei Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築系）", "技術系総合職（土木系）"],
+        "note": "スーパーゼネコン。施工管理・設計・研究開発・都市開発等"
+      },
+      {
+        "name": "竹中工務店",
+        "name_en": "Takenaka Corporation",
+        "positions": ["事務系", "技術系"],
+        "note": "スーパーゼネコン唯一の非上場企業。建築専業に強み"
+      },
+      {
+        "name": "長谷工コーポレーション",
+        "name_en": "Haseko Corporation",
+        "positions": ["営業職", "技術職（設計）", "技術職（施工管理）"],
+        "note": "マンション建設首位。マンションの企画・設計・施工・管理を一貫して手掛ける"
+      },
+      {
+        "name": "三井住友建設",
+        "name_en": "Sumitomo Mitsui Construction",
+        "positions": ["事務系総合職", "技術系総合職（建築）", "技術系総合職（土木）"],
+        "note": "準大手ゼネコン。マンション・橋梁に強み"
+      },
+      {
+        "name": "戸田建設",
+        "name_en": "Toda Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築）", "技術系総合職（土木）"],
+        "note": "準大手ゼネコン。病院建設に強み"
+      },
+      {
+        "name": "五洋建設",
+        "name_en": "Penta-Ocean Construction",
+        "positions": ["事務系総合職", "技術系総合職（建築）", "技術系総合職（土木）"],
+        "note": "海洋土木（マリコン）最大手"
+      },
+      {
+        "name": "前田建設工業",
+        "name_en": "Maeda Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築）", "技術系総合職（土木）"],
+        "note": "インフロニアHD傘下の準大手ゼネコン。ダム・トンネルに実績"
+      },
+      {
+        "name": "奥村組",
+        "name_en": "Okumura Corporation",
+        "positions": ["事務系総合職", "技術系総合職（建築）", "技術系総合職（土木）"],
+        "note": "中堅ゼネコン。トンネル・シールド工事に強み"
+      },
+      {
+        "name": "日鉄エンジニアリング",
+        "name_en": "Nippon Steel Engineering",
+        "positions": ["事務系総合職", "技術系総合職"],
+        "note": "日本製鉄グループ。環境・エネルギー、都市インフラ、製鉄プラントの3セクター"
+      },
+      {
+        "name": "JFEエンジニアリング",
+        "name_en": "JFE Engineering",
+        "positions": ["事務系総合職", "技術系総合職"],
+        "note": "JFEグループ。環境・エネルギー・社会インフラ・DX等の部門。技術系は専攻分野別配属"
+      },
+      {
+        "name": "千代田化工建設",
+        "name_en": "Chiyoda Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "エンジニアリング御三家の一角。LNGプラントに強み"
+      },
+      {
+        "name": "東洋エンジニアリング",
+        "name_en": "Toyo Engineering",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "エンジニアリング御三家。化学・石油化学プラントに強み"
+      },
+      {
+        "name": "日揮",
+        "name_en": "JGC Holdings",
+        "positions": ["技術系総合職（プロセス設計、機器設計、配管設計、電気計装設計、建設管理等）", "事務系総合職（調達、プロジェクトマネジメント、経営管理等）"],
+        "note": "エンジニアリング御三家の最大手。石油・ガス・化学プラントのEPC"
+      },
+      {
+        "name": "八千代エンジニヤリング",
+        "name_en": "Yachiyo Engineering",
+        "positions": ["技術系総合職（建設コンサルタント）", "事務系総合職（営業・管理）"],
+        "note": "建設コンサルタント。技術系は土木・建築・機械・電気・環境・情報系が対象"
+      },
+      {
+        "name": "日本工営",
+        "name_en": "Nippon Koei",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "建設コンサルタント最大手。国内外のインフラ開発"
+      },
+      {
+        "name": "建設技術研究所",
+        "name_en": "CTI Engineering",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "建設コンサルタント大手。河川・道路・環境等の調査・計画・設計"
+      },
+      {
+        "name": "パシフィックコンサルタンツ",
+        "name_en": "Pacific Consultants",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "建設コンサルタント大手。社会インフラの調査・計画・設計・施工監理・マネジメント"
+      }
+    ]
+  },
+  {
+    "industry": "運輸",
+    "companies": [
+      {
+        "name": "JR東海",
+        "name_en": "Central Japan Railway (JR Central)",
+        "positions": ["総合職（事務系）", "総合職（運輸系）", "総合職（車両・機械系）", "総合職（施設系）", "総合職（電気・システム系）", "プロフェッショナル職（運輸）", "プロフェッショナル職（車両・機械）", "プロフェッショナル職（施設）", "プロフェッショナル職（電気・システム）", "アソシエイト職"],
+        "note": "東海道新幹線を運行。3職種×5系統で10の採用区分"
+      },
+      {
+        "name": "JR東日本",
+        "name_en": "East Japan Railway (JR East)",
+        "positions": ["総合職", "地域総合職", "ジョブ型"],
+        "note": "首都圏・東日本エリアの鉄道運行"
+      },
+      {
+        "name": "JR西日本",
+        "name_en": "West Japan Railway (JR West)",
+        "positions": ["総合職（事務・創造系）", "総合職（技術系：運輸・車両・土木・建築・駅機械システム・電気システム・IT・技術創造）", "プロフェッショナル職（運輸）", "プロフェッショナル職（技術）"],
+        "note": "西日本エリアの鉄道運行"
+      },
+      {
+        "name": "東京メトロ",
+        "name_en": "Tokyo Metro",
+        "positions": ["総合職（事務系：運輸営業・都市生活創造・経営企画・一般管理）", "総合職（技術系：車両・電気・土木・建築）", "総合職（デジタル系）", "エキスパート職"],
+        "note": "東京地下鉄。2023年に上場"
+      },
+      {
+        "name": "首都高速道路",
+        "name_en": "Metropolitan Expressway",
+        "positions": ["事務系総合職", "技術系総合職（土木）", "技術系総合職（電気・機械・情報）"],
+        "note": "首都圏の高速道路の管理・運営"
+      },
+      {
+        "name": "阪急阪神HD",
+        "name_en": "Hankyu Hanshin Holdings",
+        "positions": ["総合職"],
+        "note": "阪急電鉄・阪神電鉄を傘下に持つ持株会社。不動産・エンタメ事業も展開"
+      },
+      {
+        "name": "東急",
+        "name_en": "Tokyu Corporation",
+        "positions": ["総合職"],
+        "note": "鉄道・不動産・生活サービス等を展開する総合企業"
+      },
+      {
+        "name": "小田急電鉄",
+        "name_en": "Odakyu Electric Railway",
+        "positions": ["事務系", "販売系", "技術系", "IT系"],
+        "note": "新宿から箱根・江ノ島方面の鉄道運行"
+      },
+      {
+        "name": "京浜急行電鉄",
+        "name_en": "Keikyu Corporation",
+        "positions": ["総合職", "エキスパート職（運輸）", "エキスパート職（技術）"],
+        "note": "品川・羽田空港方面の鉄道運行"
+      },
+      {
+        "name": "京王電鉄",
+        "name_en": "Keio Corporation",
+        "positions": ["総合職", "エキスパート職"],
+        "note": "新宿から多摩方面の鉄道運行"
+      },
+      {
+        "name": "京成電鉄",
+        "name_en": "Keisei Electric Railway",
+        "positions": ["総合職", "鉄道現業職（駅係員・電車乗務員候補）", "鉄道技術職（車両・電気）"],
+        "note": "成田空港アクセスの鉄道運行"
+      },
+      {
+        "name": "近鉄GHD",
+        "name_en": "Kintetsu Group Holdings",
+        "positions": ["総合職", "鉄道職"],
+        "note": "近畿日本鉄道を傘下に持つ。日本最大の私鉄路線網"
+      },
+      {
+        "name": "南海電気鉄道",
+        "name_en": "Nankai Electric Railway",
+        "positions": ["マネジメントコース", "エキスパートコース（技術系：土木・電気・機械・建築・設備・情報）"],
+        "note": "大阪南部〜和歌山・関西空港方面の鉄道運行"
+      },
+      {
+        "name": "東武鉄道",
+        "name_en": "Tobu Railway",
+        "positions": ["総合職（ポテンシャル採用）", "鉄道専門職（プロフェッショナル採用）"],
+        "note": "関東最大の私鉄路線網。鉄道・商業施設・住環境開発等"
+      },
+      {
+        "name": "西武鉄道",
+        "name_en": "Seibu Railway",
+        "positions": ["総合職", "専門職（鉄道技術系）"],
+        "note": "西武グループの鉄道会社。車両保守・メンテナンス等の技術系専門職あり"
+      },
+      {
+        "name": "名古屋鉄道",
+        "name_en": "Meitetsu (Nagoya Railroad)",
+        "positions": ["総合職", "鉄道運輸職", "鉄道技術職"],
+        "note": "中部地方の大手私鉄。不動産・流通・レジャー事業も展開"
+      },
+      {
+        "name": "京阪HD",
+        "name_en": "Keihan Holdings",
+        "positions": ["総合職"],
+        "note": "京阪電鉄を傘下に持つ持株会社。不動産・レジャー事業も展開"
+      },
+      {
+        "name": "北大阪急行",
+        "name_en": "Kita-Osaka Kyuko Railway",
+        "positions": ["総合職"],
+        "note": "千里中央〜大阪市内を結ぶ鉄道。2024年箕面延伸。少数採用"
+      },
+      {
+        "name": "阪神高速",
+        "name_en": "Hanshin Expressway",
+        "positions": ["事務系", "技術系（土木）", "技術系（電気・機械・情報通信）"],
+        "note": "関西圏の高速道路の管理・運営。5部門体制"
+      },
+      {
+        "name": "大阪メトロ",
+        "name_en": "Osaka Metro",
+        "positions": ["総合職（事務系・技術系）", "専門職"],
+        "note": "大阪市の地下鉄・バス運営。MaaS・都市開発・デジタルマーケティング等幅広い事業"
+      },
+      {
+        "name": "JAL",
+        "name_en": "Japan Airlines",
+        "positions": ["業務企画職（コーポレートコース）", "業務企画職（オペレーションコース）", "業務企画職（ビジネス・マーケティングコース）", "業務企画職（エアラインエンジニアコース）", "運航乗務員訓練生（自社養成パイロット）", "客室乗務職"],
+        "note": "国内線・国際線を運航する航空会社。グループ全体で約1,600名採用予定"
+      },
+      {
+        "name": "ANA",
+        "name_en": "All Nippon Airways",
+        "positions": ["グローバルスタッフ職（事務系）", "グローバルスタッフ職（技術系）", "客室乗務職", "運航乗務職（自社養成パイロット）"],
+        "note": "国内最大の航空会社"
+      },
+      {
+        "name": "成田国際空港",
+        "name_en": "Narita International Airport Corporation",
+        "positions": ["総合職"],
+        "note": "成田空港の運営・管理を行う企業"
+      },
+      {
+        "name": "NEXCO東日本",
+        "name_en": "NEXCO East Japan",
+        "positions": ["事務系総合職", "技術系総合職（土木）", "技術系総合職（施設・電気）"],
+        "note": "東日本エリアの高速道路の管理・運営"
+      },
+      {
+        "name": "NEXCO中日本",
+        "name_en": "NEXCO Central Japan",
+        "positions": ["事務系総合職", "技術系総合職（土木）", "技術系総合職（施設）"],
+        "note": "中日本エリアの高速道路の管理・運営"
+      },
+      {
+        "name": "NEXCO西日本",
+        "name_en": "NEXCO West Japan",
+        "positions": ["事務系総合職", "技術系総合職（土木）", "技術系総合職（施設・電気）"],
+        "note": "西日本エリアの高速道路の管理・運営"
+      },
+      {
+        "name": "日本郵船",
+        "name_en": "Nippon Yusen (NYK Line)",
+        "positions": ["陸上職事務系", "陸上職技術系", "海上職"],
+        "note": "海運業界最大手。コンテナ・バルク・LNG船等を運航"
+      },
+      {
+        "name": "商船三井",
+        "name_en": "Mitsui O.S.K. Lines (MOL)",
+        "positions": ["陸上職（全学部全学科）", "陸上職（理工系）", "海上職"],
+        "note": "海運大手3社の一角。LNG船・ドライバルクに強み"
+      },
+      {
+        "name": "川崎汽船",
+        "name_en": "Kawasaki Kisen Kaisha (K Line)",
+        "positions": ["陸上職（事務系）", "陸上職（技術系）", "海上職"],
+        "note": "海運大手3社の一角。自動車船に強み"
+      },
+      {
+        "name": "飯野海運",
+        "name_en": "Iino Kaiun Kaisha",
+        "positions": ["陸上職（営業・事務系）", "海上職"],
+        "note": "中堅海運会社。海運事業と不動産事業を展開"
+      },
+      {
+        "name": "NSユナイテッド海運",
+        "name_en": "NS United Kaiun",
+        "positions": ["陸上総合職", "海上職"],
+        "note": "日本製鉄グループの海運会社。バルク輸送に強み"
+      },
+      {
+        "name": "NYKバルクプロジェクト",
+        "name_en": "NYK Bulk & Projects",
+        "positions": ["陸上系総合職", "海技職"],
+        "note": "日本郵船グループ。重量物・プロジェクト貨物の海上輸送"
+      },
+      {
+        "name": "三井海洋開発",
+        "name_en": "MODEC",
+        "positions": ["技術系総合職（エンジニア）", "事務系総合職"],
+        "note": "浮体式海洋石油・ガス生産設備（FPSO）の設計・建造・運営"
+      },
+      {
+        "name": "郵船ロジスティクス",
+        "name_en": "Yusen Logistics",
+        "positions": ["総合職"],
+        "note": "日本郵船グループの総合物流会社。国際物流を展開"
+      },
+      {
+        "name": "ロジスティード",
+        "name_en": "Logisteed (formerly Hitachi Transport System)",
+        "positions": ["総合職（事務系）", "総合職（IT系）"],
+        "note": "旧日立物流。3PL（サードパーティロジスティクス）大手"
+      }
+    ]
+  },
+  {
+    "industry": "エネルギー",
+    "companies": [
+      {
+        "name": "ENEOS",
+        "name_en": "ENEOS Corporation",
+        "positions": ["技術系（プロセスエンジニア）", "技術系（メカニカルエンジニア）", "技術系（セールスエンジニア）", "技術系（IT企画職）", "事務系"],
+        "note": "石油元売り最大手。技術系は職種別コース選考、事務系は人物重視の選考"
+      },
+      {
+        "name": "出光興産",
+        "name_en": "Idemitsu Kosan",
+        "positions": ["事務系", "技術系"],
+        "note": "石油元売り大手。技術系はプロダクションエンジニア・メンテナンスエンジニア等"
+      },
+      {
+        "name": "コスモエネルギー",
+        "name_en": "Cosmo Energy Holdings",
+        "positions": ["事務系総合職", "技術系総合職"],
+        "note": "石油元売り3番手。石油精製・販売・石油化学"
+      },
+      {
+        "name": "国際石油開発帝石（INPEX）",
+        "name_en": "INPEX Corporation",
+        "positions": ["事務系", "技術系"],
+        "note": "日本最大の石油・天然ガス開発会社。上流部門（探鉱・開発・生産）が主力"
+      },
+      {
+        "name": "石油資源開発（JAPEX）",
+        "name_en": "Japan Petroleum Exploration (JAPEX)",
+        "positions": ["事務系", "技術系"],
+        "note": "石油・天然ガスの探鉱・開発・生産。国内外で事業展開"
+      },
+      {
+        "name": "ENEOSグローブ",
+        "name_en": "ENEOS Globe",
+        "positions": ["総合職（営業系）", "総合職（管理系）"],
+        "note": "ENEOSグループのLPガス事業会社"
+      },
+      {
+        "name": "アストモスエネルギー",
+        "name_en": "Astomos Energy",
+        "positions": ["総合職"],
+        "note": "出光興産・三菱商事系のLPガス元売会社"
+      },
+      {
+        "name": "ENEOSオーシャン",
+        "name_en": "ENEOS Ocean",
+        "positions": ["海上職", "陸上職"],
+        "note": "ENEOSグループの海上輸送会社。石油・LPG等のタンカー運航"
+      },
+      {
+        "name": "東京ガス",
+        "name_en": "Tokyo Gas",
+        "positions": ["サービス&オペレーション領域", "DX（ソフトウェアエンジニアリング）領域", "ソリューションコンサルティング領域", "エンジニアリング領域"],
+        "note": "都市ガス最大手。領域別の選考を実施"
+      },
+      {
+        "name": "大阪ガス",
+        "name_en": "Osaka Gas (Daigas Group)",
+        "positions": ["ゼネラル/スペシャリストコース", "プロフェッショナルコース"],
+        "note": "都市ガス大手。大阪ガスネットワークではエンジニアリング職・戦略スタッフ職を採用"
+      },
+      {
+        "name": "東邦ガス",
+        "name_en": "Toho Gas",
+        "positions": ["総合職（事務系）", "総合職（技術系）"],
+        "note": "中部エリアの都市ガス会社"
+      },
+      {
+        "name": "岩谷産業",
+        "name_en": "Iwatani Corporation",
+        "positions": ["総合職"],
+        "note": "LPガス・水素エネルギーの大手商社。水素ステーション展開"
+      },
+      {
+        "name": "電源開発（J-POWER）",
+        "name_en": "Electric Power Development (J-POWER)",
+        "positions": ["事務系（経営企画、経営管理、総務、法務、人事等）", "技術系（発電所運転・保守、環境、土木、建築等）"],
+        "note": "卸電力会社。水力・火力・風力発電。海外事業も展開"
+      },
+      {
+        "name": "JERA",
+        "name_en": "JERA Co., Inc.",
+        "positions": ["ビジネスコース", "ビジネスコース（デジタルICT）", "テクニカルエンジニアコース"],
+        "note": "東京電力と中部電力の火力発電・燃料事業統合会社。国内最大の発電事業者"
+      },
+      {
+        "name": "東京電力",
+        "name_en": "Tokyo Electric Power Company (TEPCO)",
+        "positions": ["事務系", "技術系"],
+        "note": "東京電力ホールディングス傘下。送配電・小売事業等"
+      },
+      {
+        "name": "関西電力",
+        "name_en": "Kansai Electric Power (KEPCO)",
+        "positions": ["総合職（事務系）", "総合職（技術コンサルティング営業）", "総合職（技術コンサルティング海外PM）", "総合職（新ビジネス創造コース）", "技術職"],
+        "note": "関西エリアの電力会社。原子力発電比率が高い"
+      },
+      {
+        "name": "中部電力",
+        "name_en": "Chubu Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "中部エリアの電力会社。JERAとの協業"
+      },
+      {
+        "name": "九州電力",
+        "name_en": "Kyushu Electric Power",
+        "positions": ["事務系", "技術系（電気・土木・建築・機械）"],
+        "note": "九州エリアの電力会社。原子力・再生可能エネルギーに注力"
+      },
+      {
+        "name": "東北電力",
+        "name_en": "Tohoku Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "東北エリアの電力会社"
+      },
+      {
+        "name": "北海道電力",
+        "name_en": "Hokkaido Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "北海道エリアの電力会社"
+      },
+      {
+        "name": "北陸電力",
+        "name_en": "Hokuriku Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "北陸エリアの電力会社"
+      },
+      {
+        "name": "四国電力",
+        "name_en": "Shikoku Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "四国エリアの電力会社"
+      },
+      {
+        "name": "中国電力",
+        "name_en": "The Chugoku Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "中国エリアの電力会社"
+      },
+      {
+        "name": "沖縄電力",
+        "name_en": "Okinawa Electric Power",
+        "positions": ["事務系", "技術系"],
+        "note": "沖縄エリアの電力会社。離島への安定供給が特徴"
+      }
+    ]
+  }
+]

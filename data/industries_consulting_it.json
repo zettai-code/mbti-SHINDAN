@@ -1,0 +1,930 @@
+[
+  {
+    "industry": "コンサルティング（戦略）",
+    "companies": [
+      {
+        "name": "マッキンゼー・アンド・カンパニー",
+        "name_en": "McKinsey & Company",
+        "positions": ["ビジネスアナリスト"],
+        "note": "新卒はビジネスアナリスト（BA）として入社。年間採用10〜20名程度"
+      },
+      {
+        "name": "ボストン コンサルティング グループ",
+        "name_en": "BCG (Boston Consulting Group)",
+        "positions": ["アソシエイト"],
+        "note": "新卒はアソシエイトとして入社。年間採用20〜30名程度"
+      },
+      {
+        "name": "ベイン・アンド・カンパニー",
+        "name_en": "Bain & Company",
+        "positions": ["アソシエイトコンサルタント"],
+        "note": "新卒はアソシエイトコンサルタント（AC）として入社。年間採用10〜15名程度"
+      },
+      {
+        "name": "A.T. カーニー",
+        "name_en": "Kearney (A.T. Kearney)",
+        "positions": ["ビジネスアナリスト"],
+        "note": "新卒はビジネスアナリストとして入社"
+      },
+      {
+        "name": "ローランド・ベルガー",
+        "name_en": "Roland Berger",
+        "positions": ["ジュニアコンサルタント"],
+        "note": "新卒はジュニアコンサルタントとして入社。少数精鋭採用"
+      },
+      {
+        "name": "アーサー・ディ・リトル",
+        "name_en": "Arthur D. Little (ADL)",
+        "positions": ["ビジネスアナリスト"],
+        "note": "新卒はビジネスアナリストとして入社。サマー・ウィンターインターンシップ経由が主"
+      },
+      {
+        "name": "Strategy&（PwC）",
+        "name_en": "Strategy& (PwC)",
+        "positions": ["戦略コンサルタント"],
+        "note": "PwCコンサルティング内の戦略部門。PwCの戦略コンサルタント職として採用"
+      },
+      {
+        "name": "オリバー・ワイマン",
+        "name_en": "Oliver Wyman",
+        "positions": ["コンサルタント"],
+        "note": "新卒はコンサルタントとして入社。少数精鋭採用"
+      },
+      {
+        "name": "ZSアソシエイツ",
+        "name_en": "ZS Associates",
+        "positions": ["アソシエイトコンサルタント", "ビジネステクノロジーアナリスト"],
+        "note": "ヘルスケア・製薬業界に強み"
+      },
+      {
+        "name": "ドリームインキュベータ",
+        "name_en": "Dream Incubator (DI)",
+        "positions": ["コンサルタント（グローバル戦略共創）"],
+        "note": "新卒初任給：大学卒600万円/年、大学院卒620万円/年。少数精鋭採用"
+      },
+      {
+        "name": "経営共創基盤",
+        "name_en": "Industrial Growth Platform, Inc. (IGPI)",
+        "positions": ["アソシエイト"],
+        "note": "戦略立案から実行まで一貫して支援。少数精鋭採用"
+      },
+      {
+        "name": "コーポレイトディレクション",
+        "name_en": "Corporate Directions, Inc. (CDI)",
+        "positions": ["コンサルタント"],
+        "note": "新卒入社スタッフ比率が6割以上。全員をマネジャー以上に育成する方針"
+      },
+      {
+        "name": "P&Eディレクションズ",
+        "name_en": "P&E Directions",
+        "positions": ["コンサルタント"],
+        "note": "CDI発のブティックファーム"
+      }
+    ]
+  },
+  {
+    "industry": "コンサルティング（総合）",
+    "companies": [
+      {
+        "name": "アクセンチュア",
+        "name_en": "Accenture",
+        "positions": [
+          "ビジネスコンサルタント",
+          "ソリューション・エンジニア",
+          "デジタルコンサルタント",
+          "データサイエンティスト",
+          "AIアーキテクト",
+          "マーケティング",
+          "デザイン",
+          "コンテンツデザイン/ディレクター",
+          "クリエイティブ",
+          "オペレーションスペシャリスト"
+        ],
+        "note": "初年度年俸430万円（基準年俸）＋業績賞与。戦略/ビジネスコンサル/デジタルコンサル/SE等の領域"
+      },
+      {
+        "name": "PwCコンサルティング",
+        "name_en": "PwC Consulting",
+        "positions": [
+          "戦略コンサルタント",
+          "ビジネスコンサルタント",
+          "デジタルコンサルタント",
+          "ITソリューションコンサルタント"
+        ],
+        "note": "PwC Japanグループ。Strategy&は戦略コンサルタント職に含まれる"
+      },
+      {
+        "name": "PwCアドバイザリー",
+        "name_en": "PwC Advisory",
+        "positions": ["M&A・戦略コンサルタント"],
+        "note": "M&A、事業再生、インフラの3領域が中心"
+      },
+      {
+        "name": "デロイト トーマツ コンサルティング",
+        "name_en": "Deloitte Tohmatsu Consulting (DTC)",
+        "positions": ["コンサルタント"],
+        "note": "2025年12月にDTFA・DTRAと合併し「合同会社デロイト トーマツ」に。学士卒年収約580万円、修士卒約600万円"
+      },
+      {
+        "name": "EYストラテジー・アンド・コンサルティング",
+        "name_en": "EY Strategy and Consulting (EYSC)",
+        "positions": [
+          "ビジネスコンサルタント",
+          "テクノロジーコンサルタント",
+          "戦略コンサルタント",
+          "M&Aフィナンシャルアドバイザー"
+        ],
+        "note": "スタンダード（ビジネスコンサルタント）と専門（テクノロジー/戦略/M&A FA）の2トラック"
+      },
+      {
+        "name": "KPMGコンサルティング",
+        "name_en": "KPMG Consulting",
+        "positions": ["コンサルタント"],
+        "note": "ビジネストランスフォーメーション、リスクマネジメント、サイバーセキュリティ等。学士年収約625万円"
+      },
+      {
+        "name": "アビームコンサルティング",
+        "name_en": "ABeam Consulting",
+        "positions": [
+          "ストラテジーコンサルタント",
+          "ソリューションコンサルタント",
+          "プランニング＆オペレーション"
+        ],
+        "note": "日系最大級の総合コンサルファーム"
+      },
+      {
+        "name": "ベイカレントコンサルティング",
+        "name_en": "BayCurrent Consulting",
+        "positions": ["コンサルタント（アナリスト）"],
+        "note": "新卒はアナリストとして入社。年間採用100〜150名程度。初年度年収約600万円"
+      },
+      {
+        "name": "日本IBM",
+        "name_en": "IBM Japan",
+        "positions": [
+          "ITスペシャリスト",
+          "コンサルタント",
+          "データサイエンティスト",
+          "デザイナー",
+          "営業",
+          "ファイナンス"
+        ],
+        "note": "職種別採用。IBMコンサルティング事業本部、テクノロジー事業本部等のコース制"
+      }
+    ]
+  },
+  {
+    "industry": "コンサルティング（FAS / 監査法人系アドバイザリー）",
+    "companies": [
+      {
+        "name": "KPMG FAS",
+        "name_en": "KPMG FAS",
+        "positions": ["M&A・戦略コンサルタント"],
+        "note": "M&Aアドバイザリー、事業再生、フォレンジック等"
+      },
+      {
+        "name": "デロイト トーマツ ファイナンシャルアドバイザリー",
+        "name_en": "Deloitte Tohmatsu Financial Advisory (DTFA)",
+        "positions": ["M&Aコンサルタント", "ファイナンシャルアドバイザー"],
+        "note": "2025年12月にDTCと合併し「合同会社デロイト トーマツ」に統合"
+      },
+      {
+        "name": "PwCあらた有限責任監査法人",
+        "name_en": "PwC Aarata",
+        "positions": ["ビジネスリスクコンサルタント", "システムリスクコンサルタント", "監査職"],
+        "note": "PwC Japan有限責任監査法人。監査・保証業務およびアドバイザリー"
+      },
+      {
+        "name": "EY新日本有限責任監査法人",
+        "name_en": "Ernst & Young ShinNihon",
+        "positions": ["監査職", "アドバイザリー"],
+        "note": "4大監査法人の一つ。監査・保証部門とアドバイザリー部門"
+      },
+      {
+        "name": "有限責任あずさ監査法人",
+        "name_en": "KPMG AZSA",
+        "positions": ["監査職", "アドバイザリー"],
+        "note": "KPMGメンバーファーム。監査・保証業務が中心"
+      }
+    ]
+  },
+  {
+    "industry": "コンサルティング（シンクタンク / その他）",
+    "companies": [
+      {
+        "name": "フロンティア・マネジメント",
+        "name_en": "Frontier Management",
+        "positions": ["経営コンサルタント", "M&Aアドバイザー"],
+        "note": "経営コンサルティングとM&Aアドバイザリーの二本柱"
+      },
+      {
+        "name": "シグマクシス",
+        "name_en": "Sigmaxyz",
+        "positions": ["コンサルタント"],
+        "note": "デジタルトランスフォーメーション領域に強み"
+      },
+      {
+        "name": "野村総合研究所",
+        "name_en": "Nomura Research Institute (NRI)",
+        "positions": [
+          "経営コンサルタント",
+          "アプリケーションエンジニア（AE）",
+          "テクニカルエンジニア（TE）",
+          "エリアシステムエンジニア（札幌/福岡）",
+          "本社スタッフ（法務/会計）",
+          "セキュリティスペシャリスト"
+        ],
+        "note": "6職種の統一採用。コンサルとITソリューションの2コースでインターンも実施"
+      },
+      {
+        "name": "三菱総合研究所",
+        "name_en": "Mitsubishi Research Institute (MRI)",
+        "positions": ["研究員・コンサルタント", "コーポレート職（経理財務・総務・法務・人事）"],
+        "note": "シンクタンク。政策提言・社会課題解決型の研究・コンサルティング"
+      },
+      {
+        "name": "三菱UFJリサーチ＆コンサルティング",
+        "name_en": "Mitsubishi UFJ Research and Consulting (MURC)",
+        "positions": ["コンサルタント（部門別採用）", "リサーチャー"],
+        "note": "コンサルティング事業と政策研究事業の部門別採用"
+      },
+      {
+        "name": "日本総合研究所",
+        "name_en": "Japan Research Institute (JRI)",
+        "positions": ["コンサルタント", "ITエンジニア", "リサーチャー"],
+        "note": "SMBCグループ。コンサル/IT/リサーチの3職種"
+      },
+      {
+        "name": "大和総研",
+        "name_en": "Daiwa Institute of Research (DIR)",
+        "positions": ["総合職", "総合職（エキスパート・コース）"],
+        "note": "大和証券グループ。リサーチ・コンサルティング・システムの3事業。コンサル/SE配属あり"
+      },
+      {
+        "name": "みずほリサーチ＆テクノロジーズ",
+        "name_en": "Mizuho Research & Technologies",
+        "positions": ["コンサルタント", "ITエンジニア", "リサーチャー", "先端技術スペシャリスト"],
+        "note": "みずほFG。金融工学・AI/データサイエンス・数値解析等の先端技術コースあり"
+      },
+      {
+        "name": "NTTデータ経営研究所",
+        "name_en": "NTT DATA Institute of Management Consulting",
+        "positions": ["コンサルタント"],
+        "note": "戦略コンサルティング＋シンクタンク。官民双方への政策提言・戦略コンサル"
+      },
+      {
+        "name": "クニエ",
+        "name_en": "QUNIE (Fortienceコンサルティングに改称)",
+        "positions": ["コンサルタント"],
+        "note": "NTTデータ100%子会社。製造業コンサルに強み。2024年にフォーティエンスコンサルティングに社名変更"
+      },
+      {
+        "name": "日立コンサルティング",
+        "name_en": "Hitachi Consulting",
+        "positions": ["コンサルタント"],
+        "note": "日立グループ。IT×コンサルティングに強み"
+      },
+      {
+        "name": "マーサージャパン",
+        "name_en": "Mercer Japan",
+        "positions": ["コンサルタント"],
+        "note": "組織・人事コンサルティング。報酬・福利厚生・M&A・組織変革等"
+      },
+      {
+        "name": "コーン・フェリー・ジャパン",
+        "name_en": "Korn Ferry Japan",
+        "positions": ["アナリスト（組織戦略コンサルタント）"],
+        "note": "組織・人事コンサルティング。新卒はコンサルティング部門のみ採用"
+      },
+      {
+        "name": "サイモン・クチャー",
+        "name_en": "Simon-Kucher",
+        "positions": ["コンサルタント"],
+        "note": "プライシング・グロース戦略に特化"
+      },
+      {
+        "name": "YCPソリディアンス",
+        "name_en": "YCP Solidiance",
+        "positions": ["コンサルタント"],
+        "note": "アジア特化の戦略コンサルティング"
+      },
+      {
+        "name": "船井総研",
+        "name_en": "Funai Soken",
+        "positions": ["経営コンサルタント"],
+        "note": "中堅・中小企業向け経営コンサルティング"
+      },
+      {
+        "name": "山田コンサルティンググループ",
+        "name_en": "Yamada Consulting Group",
+        "positions": ["経営コンサルタント", "M&Aアドバイザー"],
+        "note": "事業再生・M&Aアドバイザリー・経営コンサル"
+      },
+      {
+        "name": "日本能率協会コンサルティング",
+        "name_en": "JMA Consultants (JMAC)",
+        "positions": ["コンサルタント"],
+        "note": "製造業・サービス業の生産性向上コンサルティング"
+      },
+      {
+        "name": "リブコンサルティング",
+        "name_en": "LiB Consulting",
+        "positions": ["コンサルタント"],
+        "note": "ベンチャー・中堅企業の成長支援コンサルティング"
+      },
+      {
+        "name": "レイヤーズコンサルティング",
+        "name_en": "Layers Consulting",
+        "positions": ["コンサルタント"],
+        "note": "経営管理・SCM・BPR等の実行支援型コンサルティング"
+      },
+      {
+        "name": "日本経営システム",
+        "name_en": "Nihon Keiei System",
+        "positions": ["コンサルタント"],
+        "note": "経営コンサルティング"
+      },
+      {
+        "name": "キャップジェミニ",
+        "name_en": "Capgemini",
+        "positions": ["コンサルタント", "エンジニア"],
+        "note": "フランス系グローバル総合コンサル・ITサービス"
+      },
+      {
+        "name": "B&DX",
+        "name_en": "B&DX",
+        "positions": ["コンサルタント"],
+        "note": "DX・デジタル変革支援"
+      },
+      {
+        "name": "イグニション・ポイント",
+        "name_en": "Ignition Point",
+        "positions": ["コンサルタント"],
+        "note": "イノベーション・DXコンサルティング"
+      },
+      {
+        "name": "スカイライトコンサルティング",
+        "name_en": "Skylight Consulting",
+        "positions": ["コンサルタント"],
+        "note": "ITマネジメント・業務改革コンサルティング"
+      },
+      {
+        "name": "REVAMP",
+        "name_en": "REVAMP",
+        "positions": ["コンサルタント", "エンジニア"],
+        "note": "経営支援・DX支援。ハンズオン型経営参画"
+      },
+      {
+        "name": "ケンブリッジ・テクノロジー・パートナーズ",
+        "name_en": "Cambridge Technology Partners",
+        "positions": ["コンサルタント"],
+        "note": "ファシリテーション型コンサルティング"
+      },
+      {
+        "name": "プロレド・パートナーズ",
+        "name_en": "PRORED Partners",
+        "positions": ["コンサルタント"],
+        "note": "コスト削減・経営改善コンサルティング"
+      },
+      {
+        "name": "プラスアルファ・コンサルティング",
+        "name_en": "Plus Alpha Consulting",
+        "positions": ["コンサルタント", "エンジニア"],
+        "note": "テキストマイニング・データ活用コンサルティング"
+      },
+      {
+        "name": "ビッグツリーテクノロジー＆コンサルティング",
+        "name_en": "BigTree Technology & Consulting",
+        "positions": ["コンサルタント"],
+        "note": "IT戦略・デジタルトランスフォーメーション支援"
+      },
+      {
+        "name": "博報堂コンサルティング",
+        "name_en": "Hakuhodo Consulting",
+        "positions": ["コンサルタント"],
+        "note": "マーケティング・ブランド戦略コンサルティング"
+      },
+      {
+        "name": "ウルシステムズ",
+        "name_en": "UL Systems",
+        "positions": ["ITコンサルタント"],
+        "note": "ITコンサルティング専業。戦略的IT投資の支援"
+      },
+      {
+        "name": "デロイト トーマツ アクト",
+        "name_en": "Deloitte Tohmatsu Act",
+        "positions": ["コンサルタント", "エンジニア"],
+        "note": "デロイトトーマツグループのテクノロジー実装部門"
+      },
+      {
+        "name": "リンクアンドモチベーション",
+        "name_en": "Link and Motivation",
+        "positions": ["コンサルタント", "営業"],
+        "note": "組織人事・モチベーションコンサルティング"
+      },
+      {
+        "name": "デロイト トーマツ リスクアドバイザリー",
+        "name_en": "Deloitte Tohmatsu Risk Advisory (DTRA)",
+        "positions": ["コンサルタント"],
+        "note": "リスク管理・内部統制・サイバーセキュリティ。DTCと合併しデロイト トーマツに統合"
+      },
+      {
+        "name": "デロイト トーマツ サイバー",
+        "name_en": "Deloitte Tohmatsu Cyber (DTCY)",
+        "positions": ["サイバーセキュリティコンサルタント"],
+        "note": "サイバーセキュリティ専門。デロイトトーマツグループ"
+      }
+    ]
+  },
+  {
+    "industry": "IT / ITサービス（外資系）",
+    "companies": [
+      {
+        "name": "Google（グーグル）",
+        "name_en": "Google",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "ビジネス職（セールス・マーケティング等）",
+          "リサーチサイエンティスト",
+          "プロダクトマネージャー",
+          "セキュリティエンジニア",
+          "テクニカルアカウントマネージャー"
+        ],
+        "note": "新卒プログラムあり。30日ごとに3職種まで応募可能"
+      },
+      {
+        "name": "マイクロソフト（日本マイクロソフト）",
+        "name_en": "Microsoft Japan",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "サポートエンジニア",
+          "クラウドソリューションアーキテクト",
+          "セールス",
+          "マーケティング"
+        ],
+        "note": "技術職・営業職・マーケティング等の職種別採用"
+      },
+      {
+        "name": "アマゾンジャパン",
+        "name_en": "Amazon Japan",
+        "positions": [
+          "コンシューマー総合職（営業・マーケティング）",
+          "オペレーション総合職",
+          "ソフトウェアデベロッパー"
+        ],
+        "note": "Consumer部門・AWS部門・Operation部門の3部門"
+      },
+      {
+        "name": "アマゾン ウェブ サービス ジャパン",
+        "name_en": "AWS Japan",
+        "positions": [
+          "クラウドサポートエンジニア",
+          "ソリューションアーキテクト",
+          "セールス（営業）"
+        ],
+        "note": "AWS部門。技術職・営業職の職種別採用"
+      },
+      {
+        "name": "Apple（アップルジャパン）",
+        "name_en": "Apple Japan",
+        "positions": ["ソフトウェアエンジニア", "ハードウェアエンジニア", "セールス"],
+        "note": "不定期採用。ポジションベースの通年採用が中心"
+      },
+      {
+        "name": "シスコシステムズ",
+        "name_en": "Cisco Systems",
+        "positions": ["セールス", "システムズエンジニア", "カスタマーサクセス"],
+        "note": "新卒採用プログラムあり。入社後の基礎研修が充実"
+      },
+      {
+        "name": "セールスフォース・ジャパン",
+        "name_en": "Salesforce Japan",
+        "positions": ["内勤営業（Sales Development）", "ソリューションエンジニア（技術営業）", "カスタマーサクセス/テクニカルサポート"],
+        "note": "Futureforce新卒プログラム"
+      },
+      {
+        "name": "SAPジャパン",
+        "name_en": "SAP Japan",
+        "positions": ["営業", "プリセールスコンサルタント", "開発エンジニア"],
+        "note": "ERP等の企業向けソフトウェア大手"
+      },
+      {
+        "name": "日本オラクル",
+        "name_en": "Oracle Japan",
+        "positions": ["営業", "コンサルタント", "ソリューションエンジニア"],
+        "note": "データベース・クラウドサービス大手"
+      },
+      {
+        "name": "ヴイエムウェア",
+        "name_en": "VMware (Broadcom)",
+        "positions": ["セールス", "システムズエンジニア"],
+        "note": "2023年にBroadcomが買収。仮想化技術大手"
+      },
+      {
+        "name": "ブルームバーグ",
+        "name_en": "Bloomberg L.P.",
+        "positions": ["ソフトウェアエンジニア", "データアナリスト", "セールス＆アナリティクス", "カスタマーサポート"],
+        "note": "金融情報サービス大手。新卒・第二新卒向けプログラムあり"
+      },
+      {
+        "name": "日本HP",
+        "name_en": "HP Japan",
+        "positions": ["セールス", "プリセールスエンジニア", "カスタマーサポート"],
+        "note": "PC・プリンター等のコンシューマー/法人向けハードウェア"
+      },
+      {
+        "name": "デル・テクノロジーズ",
+        "name_en": "Dell Technologies",
+        "positions": ["セールス", "テクニカルサポート", "ソリューションエンジニア"],
+        "note": "PC・サーバー等のハードウェア大手"
+      },
+      {
+        "name": "日本ヒューレット・パッカード",
+        "name_en": "Hewlett Packard Enterprise (HPE)",
+        "positions": ["システムエンジニア", "サービスエンジニア", "セールススペシャリスト", "プリセールスエンジニア"],
+        "note": "エンタープライズIT基盤。新卒採用プログラムあり"
+      },
+      {
+        "name": "トレンドマイクロ",
+        "name_en": "Trend Micro",
+        "positions": ["セキュリティエンジニア", "セールス", "テクニカルサポート"],
+        "note": "サイバーセキュリティ大手"
+      },
+      {
+        "name": "アドビ",
+        "name_en": "Adobe",
+        "positions": ["ソフトウェアエンジニア", "セールス", "カスタマーサクセス"],
+        "note": "クリエイティブ・マーケティングツール大手"
+      },
+      {
+        "name": "メタ",
+        "name_en": "Meta (Facebook)",
+        "positions": ["ソフトウェアエンジニア", "データサイエンティスト"],
+        "note": "ポジションベースの通年採用が中心"
+      }
+    ]
+  },
+  {
+    "industry": "IT / ITサービス（日系）",
+    "companies": [
+      {
+        "name": "ソニーグループ",
+        "name_en": "Sony Group",
+        "positions": [
+          "技術系（電気・情報・機械・化学・物理・材料・数学等）",
+          "事務系（企画・営業・管理等）"
+        ],
+        "note": "コース別採用。ゲーム・音楽・映画・エレクトロニクス・金融等の幅広い事業"
+      },
+      {
+        "name": "任天堂",
+        "name_en": "Nintendo",
+        "positions": [
+          "理工系（ソフトウェア・ハードウェア）",
+          "デザイン系",
+          "サウンド系",
+          "制作企画系",
+          "事務系"
+        ],
+        "note": "技術系・デザイン系・制作企画系・事務系の4カテゴリで募集"
+      },
+      {
+        "name": "キーエンス",
+        "name_en": "KEYENCE",
+        "positions": ["ビジネス職（営業・マーケティング等）", "エンジニア職（開発・設計等）"],
+        "note": "センサー・計測機器等の製造。高年収で知られる"
+      },
+      {
+        "name": "NTTドコモ",
+        "name_en": "NTT docomo",
+        "positions": ["事務系総合職", "技術系総合職"],
+        "note": "通信キャリア大手。2027年3月までの卒業見込み者が対象"
+      },
+      {
+        "name": "KDDI",
+        "name_en": "KDDI",
+        "positions": [
+          "初期配属確約コース（ネットワーク・クラウド等）",
+          "初期配属非確約コース（総合職）"
+        ],
+        "note": "au等の通信サービス。配属確約/非確約の2コース"
+      },
+      {
+        "name": "ソフトバンク",
+        "name_en": "SoftBank",
+        "positions": ["総合コース", "エンジニアコース", "営業コース"],
+        "note": "通信・IT事業。コース別採用"
+      },
+      {
+        "name": "LINEヤフー",
+        "name_en": "LY Corporation (LINE Yahoo)",
+        "positions": ["エンジニア", "デザイナー", "企画・ビジネス"],
+        "note": "2023年にLINEとヤフーが統合。ポジション別採用"
+      },
+      {
+        "name": "楽天グループ",
+        "name_en": "Rakuten Group",
+        "positions": ["ビジネス総合コース", "エンジニア職", "フィンテックコース"],
+        "note": "Eコマース・金融・通信等の総合IT企業"
+      },
+      {
+        "name": "サイバーエージェント",
+        "name_en": "CyberAgent",
+        "positions": ["ビジネスコース", "エンジニアコース", "クリエイターコース"],
+        "note": "インターネット広告・メディア・ゲーム事業。年間採用約280名。倍率100〜150倍"
+      },
+      {
+        "name": "DeNA",
+        "name_en": "DeNA",
+        "positions": [
+          "エンジニア職",
+          "ビジネス職",
+          "デザイナー職",
+          "AIジェネラリストコース",
+          "AIスペシャリストコース"
+        ],
+        "note": "AIジェネラリスト年収600万円〜、AIスペシャリスト年収700万円〜"
+      },
+      {
+        "name": "エムスリー",
+        "name_en": "M3, Inc.",
+        "positions": ["ビジネス職", "エンジニア職", "プロダクトマネージャー"],
+        "note": "医療×IT。m3.comを運営"
+      },
+      {
+        "name": "メルカリ",
+        "name_en": "Mercari",
+        "positions": ["ソフトウェアエンジニア", "プロダクトマネージャー", "バックエンドエンジニア"],
+        "note": "フリマアプリ大手。エンジニア採用が中心"
+      },
+      {
+        "name": "SmartNews",
+        "name_en": "SmartNews",
+        "positions": ["ソフトウェアエンジニア", "プロダクトマネージャー"],
+        "note": "ニュースアプリ。エンジニア採用中心の少数精鋭"
+      },
+      {
+        "name": "Sansan",
+        "name_en": "Sansan",
+        "positions": ["総合職", "エンジニア職", "研究開発職", "クリエイター職"],
+        "note": "名刺管理・営業DXサービス。4職種で学部学科不問"
+      },
+      {
+        "name": "ビジョナル",
+        "name_en": "Visional",
+        "positions": ["ビジネス職", "エンジニア職"],
+        "note": "ビズリーチ等を運営するHRテック企業"
+      },
+      {
+        "name": "マネーフォワード",
+        "name_en": "MoneyForward",
+        "positions": ["ビジネス職", "エンジニア職"],
+        "note": "家計簿・会計ソフト等のFinTech企業"
+      },
+      {
+        "name": "ジャストシステム",
+        "name_en": "JustSystems",
+        "positions": ["総合職（企画・営業）", "技術職（開発）"],
+        "note": "一太郎・ATOK・スマイルゼミ等の開発"
+      },
+      {
+        "name": "リクルート",
+        "name_en": "Recruit",
+        "positions": [
+          "マーケター",
+          "顧客接点",
+          "事業企画",
+          "コーポレートスタッフ",
+          "プロダクトマネージャー",
+          "エンジニア",
+          "UI/UXデザイナー"
+        ],
+        "note": "リクルートHD採用後、グループ各社（Recruit、Indeed等）へ配属"
+      }
+    ]
+  },
+  {
+    "industry": "SI（システムインテグレーター）",
+    "companies": [
+      {
+        "name": "NTTデータ",
+        "name_en": "NTT DATA",
+        "positions": [
+          "SE・営業コース（システムエンジニア/営業）",
+          "コンサルタントコース",
+          "ファシリティマネジメントコース（建築系/電力系）"
+        ],
+        "note": "日本最大級のSI企業。コース別採用"
+      },
+      {
+        "name": "日鉄ソリューションズ",
+        "name_en": "NS Solutions (NSSOL)",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "研究開発",
+          "ITコンサルタント",
+          "経営管理（財務・総務・人事）"
+        ],
+        "note": "日本製鉄グループ。修士了月給29万円、大学卒月給26.3万円"
+      },
+      {
+        "name": "野村総合研究所",
+        "name_en": "Nomura Research Institute (NRI)",
+        "positions": [
+          "経営コンサルタント",
+          "アプリケーションエンジニア（AE）",
+          "テクニカルエンジニア（TE）",
+          "エリアシステムエンジニア",
+          "本社スタッフ",
+          "セキュリティスペシャリスト"
+        ],
+        "note": "コンサル・SI兼業。6職種統一採用。コンサル業界にも分類"
+      },
+      {
+        "name": "SCSK",
+        "name_en": "SCSK Corporation",
+        "positions": ["システムエンジニア", "営業", "スタッフ"],
+        "note": "住友商事グループ。情報系/非情報理系/文系ほぼ均等に採用"
+      },
+      {
+        "name": "TIS",
+        "name_en": "TIS Inc.",
+        "positions": [
+          "ITコンサルタント",
+          "プロジェクトマネージャー",
+          "ITアーキテクト",
+          "アプリケーションスペシャリスト",
+          "ITスペシャリスト"
+        ],
+        "note": "2026年7月にインテック と合併しTISI株式会社に"
+      },
+      {
+        "name": "オービック",
+        "name_en": "OBIC",
+        "positions": ["システムエンジニア", "営業", "コンサルタント"],
+        "note": "自社開発ERP「OBIC7」を展開。独立系SI"
+      },
+      {
+        "name": "日立ソリューションズ",
+        "name_en": "Hitachi Solutions",
+        "positions": ["システムエンジニア", "営業", "コンサルタント", "研究開発"],
+        "note": "日立グループのSI企業"
+      },
+      {
+        "name": "NTTデータグループ子会社上位",
+        "name_en": "NTT DATA Group Subsidiaries",
+        "positions": ["システムエンジニア", "営業"],
+        "note": "NTTデータフィナンシャルテクノロジー、NTTデータCCS等の子会社群"
+      },
+      {
+        "name": "伊藤忠テクノソリューションズ",
+        "name_en": "ITOCHU Techno-Solutions (CTC)",
+        "positions": [
+          "エンジニア（SE・理工系エンジニア）",
+          "営業",
+          "コーポレートスタッフ（経理・法務・人事）"
+        ],
+        "note": "伊藤忠グループ。2026年採用予定372名。修士卒月給32.1万円、大学卒月給30.2万円"
+      },
+      {
+        "name": "BIPROGY（旧 日本ユニシス）",
+        "name_en": "BIPROGY (formerly Nihon Unisys)",
+        "positions": ["システムエンジニア", "営業", "コンサルタント", "コーポレートスタッフ"],
+        "note": "2022年に日本ユニシスから社名変更"
+      },
+      {
+        "name": "JSOL",
+        "name_en": "JSOL Corporation",
+        "positions": ["ITコンサルタント", "システムエンジニア"],
+        "note": "NTTデータグループ。製造・金融・公共分野のSI"
+      },
+      {
+        "name": "フューチャー",
+        "name_en": "Future Corporation",
+        "positions": ["ITコンサルタント"],
+        "note": "ITコンサルティング&サービス。フューチャーアーキテクトが中核"
+      },
+      {
+        "name": "シンプレクス",
+        "name_en": "Simplex",
+        "positions": ["ITコンサルタント", "システムエンジニア"],
+        "note": "金融機関向けのITソリューション。戦略〜開発〜運用の一気通貫"
+      },
+      {
+        "name": "電通総研",
+        "name_en": "Dentsu Soken (formerly ISID)",
+        "positions": ["ITコンサルタント", "システムエンジニア", "営業", "コーポレートスタッフ"],
+        "note": "電通グループ。2024年にISIDから社名変更。採用130〜150名程度"
+      },
+      {
+        "name": "NECソリューションイノベータ",
+        "name_en": "NEC Solution Innovators",
+        "positions": ["システムエンジニア", "営業", "研究開発"],
+        "note": "NECグループのSI中核企業"
+      },
+      {
+        "name": "三菱UFJインフォメーションテクノロジー",
+        "name_en": "Mitsubishi UFJ Information Technology (MUIT)",
+        "positions": ["システムエンジニア", "プロジェクトマネージャー"],
+        "note": "三菱UFJフィナンシャル・グループのIT子会社"
+      },
+      {
+        "name": "農中情報システム",
+        "name_en": "Norinchukin Information System",
+        "positions": ["システムエンジニア"],
+        "note": "農林中央金庫グループのIT子会社"
+      },
+      {
+        "name": "東京海上日動システムズ",
+        "name_en": "Tokio Marine & Nichido Systems",
+        "positions": ["システムエンジニア", "ITスペシャリスト"],
+        "note": "東京海上グループのIT子会社"
+      },
+      {
+        "name": "オリックス・システム",
+        "name_en": "ORIX System",
+        "positions": ["システムエンジニア"],
+        "note": "オリックスグループのIT子会社"
+      },
+      {
+        "name": "三菱UFJトラストシステム",
+        "name_en": "Mitsubishi UFJ Trust Systems",
+        "positions": ["システムエンジニア"],
+        "note": "三菱UFJ信託銀行グループのIT子会社"
+      },
+      {
+        "name": "ニッセイ情報テクノロジー",
+        "name_en": "Nissay Information Technology",
+        "positions": ["システムエンジニア", "営業", "コンサルタント"],
+        "note": "日本生命グループのIT子会社"
+      },
+      {
+        "name": "丸紅情報システムズ",
+        "name_en": "Marubeni Information Systems (MSYS)",
+        "positions": ["システムエンジニア", "営業"],
+        "note": "丸紅グループのIT子会社"
+      },
+      {
+        "name": "トヨタシステムズ",
+        "name_en": "Toyota Systems",
+        "positions": ["システムエンジニア", "インフラエンジニア"],
+        "note": "トヨタグループのIT子会社"
+      },
+      {
+        "name": "日立システムズ",
+        "name_en": "Hitachi Systems",
+        "positions": ["システムエンジニア", "営業", "コンサルタント"],
+        "note": "日立グループのITサービス企業"
+      },
+      {
+        "name": "商船三井システムズ",
+        "name_en": "MOL Systems",
+        "positions": ["システムエンジニア"],
+        "note": "商船三井グループのIT子会社"
+      },
+      {
+        "name": "セゾンテクノロジー",
+        "name_en": "Saison Technology (formerly Saison Information Systems)",
+        "positions": ["システムエンジニア", "営業"],
+        "note": "データ連携・ファイル転送等のソフトウェア製品"
+      },
+      {
+        "name": "ビジネスエンジニアリング",
+        "name_en": "Business Engineering (B-EN-G)",
+        "positions": ["コンサルタント", "システムエンジニア"],
+        "note": "製造業向けERP・SCMソリューション"
+      },
+      {
+        "name": "NYKビジネスシステムズ",
+        "name_en": "NYK Business Systems",
+        "positions": ["システムエンジニア"],
+        "note": "日本郵船グループのIT子会社"
+      },
+      {
+        "name": "都築電気",
+        "name_en": "Tsuzuki Denki",
+        "positions": ["システムエンジニア", "営業"],
+        "note": "ICTソリューション・ネットワークインフラ"
+      },
+      {
+        "name": "日本タタ・コンサルタンシー・サービシズ",
+        "name_en": "Tata Consultancy Services Japan (TCS)",
+        "positions": ["ITコンサルタント", "システムエンジニア"],
+        "note": "インド最大のIT企業TCSの日本法人"
+      },
+      {
+        "name": "アバナード",
+        "name_en": "Avanade",
+        "positions": ["コンサルタント", "システムエンジニア"],
+        "note": "アクセンチュアとマイクロソフトの合弁。Microsoft技術特化"
+      },
+      {
+        "name": "キヤノンマーケティングジャパン",
+        "name_en": "Canon Marketing Japan",
+        "positions": ["ITソリューション営業", "システムエンジニア", "コンサルタント"],
+        "note": "キヤノングループの国内マーケティング・ITソリューション"
+      }
+    ]
+  }
+]

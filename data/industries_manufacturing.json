@@ -1,0 +1,976 @@
+[
+  {
+    "industry": "製造業（電機・精密・半導体）",
+    "companies": [
+      {
+        "name": "トヨタ自動車",
+        "name_en": "Toyota Motor Corporation",
+        "positions": ["技術職", "事務職", "業務職"],
+        "note": "技術職は研究・開発・生産技術等、事務職は企画・営業・管理等、業務職は業務プロセス効率化担当"
+      },
+      {
+        "name": "本田技研工業",
+        "name_en": "Honda Motor Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "Honda・本田技術研究所・ホンダレーシング・ホンダアクセスの4社合同採用"
+      },
+      {
+        "name": "日産自動車",
+        "name_en": "Nissan Motor Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系は自由応募・学校推薦あり。生産技術開発、IE・生産システムイノベーション等"
+      },
+      {
+        "name": "スバル",
+        "name_en": "SUBARU Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系は自動車部門・航空宇宙部門あり。事務系は商品企画・調達・販売・人事・法務等"
+      },
+      {
+        "name": "マツダ",
+        "name_en": "Mazda Motor Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系は学校推薦・自由応募、事務系は職種別採用・オープン採用"
+      },
+      {
+        "name": "三菱自動車",
+        "name_en": "Mitsubishi Motors Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系は機械系・電気電子系・情報工学系・物理系・化学系"
+      },
+      {
+        "name": "ダイハツ工業",
+        "name_en": "Daihatsu Motor Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "トヨタグループ。軽自動車・小型車の開発・生産"
+      },
+      {
+        "name": "豊田自動織機",
+        "name_en": "Toyota Industries Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "フォークリフト・繊維機械・自動車関連等の開発・生産"
+      },
+      {
+        "name": "デンソー",
+        "name_en": "DENSO Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "コース別採用。ソフトウェアエンジニア等の専門コースあり"
+      },
+      {
+        "name": "アイシン",
+        "name_en": "AISIN Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "自動車部品メーカー。パワートレイン・シャシー・ボディ等"
+      },
+      {
+        "name": "ジェイテクト",
+        "name_en": "JTEKT Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ステアリング・軸受・工作機械等"
+      },
+      {
+        "name": "トヨタ車体",
+        "name_en": "Toyota Auto Body Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ミニバン・商用車等の開発・生産"
+      },
+      {
+        "name": "ヤマハ発動機",
+        "name_en": "Yamaha Motor Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "二輪車・マリン製品・ロボティクス等"
+      },
+      {
+        "name": "日立製作所",
+        "name_en": "Hitachi, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ジョブマッチング方式。設計開発・SE・品質保証・研究開発・営業・経理・人事等。希望事業・職種への応募が可能"
+      },
+      {
+        "name": "ソニーグループ",
+        "name_en": "Sony Group Corporation",
+        "positions": ["技術系コース", "事務系コース"],
+        "note": "ソニーグループ共通エントリー。各事業会社（ソニー・ソニーセミコンダクタ等）ごとに採用"
+      },
+      {
+        "name": "パナソニック",
+        "name_en": "Panasonic Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "事業会社別選考。技術系は研究開発・設計開発・生産技術・SE等。事務系は営業・マーケティング・経理・人事・法務等"
+      },
+      {
+        "name": "三菱電機",
+        "name_en": "Mitsubishi Electric Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "オープンコース・職種確約コース・事業確約コースの3コース"
+      },
+      {
+        "name": "富士通",
+        "name_en": "Fujitsu Limited",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "職種マッチング採用。内定時に配属先・職種が確約される"
+      },
+      {
+        "name": "NEC",
+        "name_en": "NEC Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "研究・技術開発、SE、サービスエンジニア、コンサルタント、法務、FP&A、人事、知的財産等"
+      },
+      {
+        "name": "東芝",
+        "name_en": "Toshiba Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "エネルギー・インフラ・半導体等の研究開発・設計・SE等"
+      },
+      {
+        "name": "シャープ",
+        "name_en": "Sharp Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ディスプレイ・電子デバイス・情報通信等の開発・生産"
+      },
+      {
+        "name": "キーエンス",
+        "name_en": "KEYENCE Corporation",
+        "positions": ["ビジネス職", "エンジニア職", "S職"],
+        "note": "ビジネス職（営業・SCM）は全学部、エンジニア職（商品開発・生産技術・ICT・コンサルティングエンジニア等）は理系のみ、S職は事務職"
+      },
+      {
+        "name": "ファナック",
+        "name_en": "FANUC Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "CNC・ロボット・ロボマシンの開発・製造。研究開発・設計・SE等"
+      },
+      {
+        "name": "安川電機",
+        "name_en": "YASKAWA Electric Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "サーボモータ・インバータ・産業用ロボット等の開発・製造"
+      },
+      {
+        "name": "オムロン",
+        "name_en": "OMRON Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "FA・ヘルスケア・社会システム等の開発・製造"
+      },
+      {
+        "name": "村田製作所",
+        "name_en": "Murata Manufacturing Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "電子部品の研究開発・設計・生産技術・品質管理等"
+      },
+      {
+        "name": "京セラ",
+        "name_en": "Kyocera Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "セラミック部品・電子部品・通信機器等の開発・製造"
+      },
+      {
+        "name": "TDK",
+        "name_en": "TDK Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系は材料開発・プロセス開発・部品設計・ソフトウェア開発・装置開発・生産技術・評価解析・品質保証・知的財産等"
+      },
+      {
+        "name": "ニデック",
+        "name_en": "Nidec Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "旧・日本電産。モータ・精密機器等の開発・製造"
+      },
+      {
+        "name": "ローム",
+        "name_en": "ROHM Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "半導体・電子部品の設計開発・生産技術・品質管理等"
+      },
+      {
+        "name": "ルネサスエレクトロニクス",
+        "name_en": "Renesas Electronics Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "半導体（マイコン・SoC・アナログ等）の設計開発等"
+      },
+      {
+        "name": "キオクシア",
+        "name_en": "KIOXIA Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "フラッシュメモリ・SSDの開発・製造"
+      },
+      {
+        "name": "東京エレクトロン",
+        "name_en": "Tokyo Electron Limited",
+        "positions": ["技術系総合職", "営業・管理系総合職"],
+        "note": "技術系は製品開発（メカ・エレキ・ソフト・プロセス）・要素研究・フィールドエンジニア・製造エンジニア。営業管理系はセールスエンジニア・マーケティング・管理部門"
+      },
+      {
+        "name": "アドバンテスト",
+        "name_en": "Advantest Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "半導体試験装置の開発・設計・SE等"
+      },
+      {
+        "name": "SCREENホールディングス",
+        "name_en": "SCREEN Holdings Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "半導体製造装置・ディスプレイ製造装置等の開発・製造"
+      },
+      {
+        "name": "ディスコ",
+        "name_en": "DISCO Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "半導体精密加工装置の開発・製造"
+      },
+      {
+        "name": "HOYA",
+        "name_en": "HOYA Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "光学ガラス・半導体マスクブランクス・医療用内視鏡等"
+      },
+      {
+        "name": "オリンパス",
+        "name_en": "Olympus Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "医療用内視鏡・顕微鏡等の開発・製造"
+      },
+      {
+        "name": "テルモ",
+        "name_en": "Terumo Corporation",
+        "positions": ["技術系総合職", "事務系総合職", "MR職"],
+        "note": "医療機器・医薬品の研究開発・生産技術・品質管理・MR等"
+      },
+      {
+        "name": "シスメックス",
+        "name_en": "Sysmex Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "臨床検査機器・試薬の研究開発・製造・SE等"
+      },
+      {
+        "name": "日本光電",
+        "name_en": "Nihon Kohden Corporation",
+        "positions": ["技術系総合職", "事務系総合職", "営業職"],
+        "note": "医療用電子機器の開発・製造・営業"
+      },
+      {
+        "name": "ニコン",
+        "name_en": "Nikon Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "光学機器・半導体露光装置等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "キヤノン",
+        "name_en": "Canon Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "カメラ・プリンタ・半導体露光装置・医療機器等の開発・製造"
+      },
+      {
+        "name": "セイコーエプソン",
+        "name_en": "Seiko Epson Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "プリンタ・プロジェクタ・ロボット・ウオッチ等の開発・製造"
+      },
+      {
+        "name": "リコー",
+        "name_en": "Ricoh Company, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "複合機・プリンタ・ITソリューション等の開発・製造"
+      },
+      {
+        "name": "コニカミノルタ",
+        "name_en": "Konica Minolta, Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "複合機・産業用計測機器・ヘルスケア等の開発・製造"
+      },
+      {
+        "name": "ブラザー工業",
+        "name_en": "Brother Industries, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "プリンタ・ミシン・工作機械等の開発・製造"
+      },
+      {
+        "name": "カシオ計算機",
+        "name_en": "Casio Computer Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "時計・電子辞書・電卓等の開発・製造"
+      },
+      {
+        "name": "島津製作所",
+        "name_en": "Shimadzu Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "分析計測機器・医用機器等の研究開発・設計・生産技術・SE・営業等"
+      },
+      {
+        "name": "小松製作所",
+        "name_en": "Komatsu Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "建設機械・鉱山機械等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "クボタ",
+        "name_en": "Kubota Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "農業機械・建設機械・水環境インフラ等の開発・製造"
+      },
+      {
+        "name": "三菱重工業",
+        "name_en": "Mitsubishi Heavy Industries, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "エネルギー・航空宇宙・防衛・プラント等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "川崎重工業",
+        "name_en": "Kawasaki Heavy Industries, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "航空宇宙・エネルギー・産業機器・二輪車等の研究開発・設計等"
+      },
+      {
+        "name": "IHI",
+        "name_en": "IHI Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "航空エンジン・ロケット・プラント等の開発・製造"
+      },
+      {
+        "name": "DMG森精機",
+        "name_en": "DMG MORI Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "工作機械の開発・製造。日独合弁"
+      },
+      {
+        "name": "日立建機",
+        "name_en": "Hitachi Construction Machinery Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "建設機械・鉱山機械の開発・製造"
+      },
+      {
+        "name": "住友重機械工業",
+        "name_en": "Sumitomo Heavy Industries, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "変減速機・射出成形機・建設機械等の開発・製造"
+      },
+      {
+        "name": "荏原製作所",
+        "name_en": "EBARA Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ポンプ・コンプレッサ・半導体製造装置等の開発・製造"
+      },
+      {
+        "name": "ダイキン工業",
+        "name_en": "Daikin Industries, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職", "化学事業コース"],
+        "note": "OPEN採用（初期配属確約なし）とWILL採用（初期配属職種確約）の2方式。コース内から3職種を選択"
+      },
+      {
+        "name": "ダイフク",
+        "name_en": "Daifuku Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "マテリアルハンドリング・物流システム等の設計・開発・施工管理等"
+      },
+      {
+        "name": "シマノ",
+        "name_en": "Shimano Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "自転車部品・釣具等の開発・製造"
+      },
+      {
+        "name": "マイクロンメモリジャパン",
+        "name_en": "Micron Memory Japan, G.K.",
+        "positions": ["技術系総合職"],
+        "note": "DRAMの設計・開発・製造。旧エルピーダメモリ"
+      }
+    ]
+  },
+  {
+    "industry": "製造業（素材・化学）",
+    "companies": [
+      {
+        "name": "三菱ケミカル",
+        "name_en": "Mitsubishi Chemical Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "化学・素材の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "住友化学",
+        "name_en": "Sumitomo Chemical Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "石油化学・情報電子・農薬・医薬等の研究開発・生産技術等"
+      },
+      {
+        "name": "信越化学工業",
+        "name_en": "Shin-Etsu Chemical Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "シリコン・PVC等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "三井化学",
+        "name_en": "Mitsui Chemicals, Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "機能性材料・基礎化学品等の研究開発・生産技術等"
+      },
+      {
+        "name": "旭化成",
+        "name_en": "Asahi Kasei Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "マテリアル・住宅・ヘルスケア等。グループ一括採用"
+      },
+      {
+        "name": "東レ",
+        "name_en": "Toray Industries, Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系は研究開発・技術製品開発・生産技術・エンジニアリング・解析評価・情報システム等。事務系は営業・管理部門"
+      },
+      {
+        "name": "帝人",
+        "name_en": "Teijin Limited",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "繊維・炭素繊維・ヘルスケア等の研究開発・生産技術等"
+      },
+      {
+        "name": "積水化学工業",
+        "name_en": "Sekisui Chemical Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "住宅・環境ライフライン・高機能プラスチック等"
+      },
+      {
+        "name": "日本製鉄",
+        "name_en": "Nippon Steel Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "事務系は企画・営業・総務・人事・財務経理・原料購買等。技術系は操業技術・設備技術・品質管理・研究開発・技術営業等"
+      },
+      {
+        "name": "JFEスチール",
+        "name_en": "JFE Steel Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "鉄鋼の生産技術・研究開発・設備技術・営業等"
+      },
+      {
+        "name": "神戸製鋼所",
+        "name_en": "Kobe Steel, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "鉄鋼・アルミ・機械・電力等の研究開発・生産技術等"
+      },
+      {
+        "name": "住友金属鉱山",
+        "name_en": "Sumitomo Metal Mining Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "非鉄金属・電子材料の採掘・精錬・開発等"
+      },
+      {
+        "name": "住友電気工業",
+        "name_en": "Sumitomo Electric Industries, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "電線・光ファイバ・自動車部品等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "古河電気工業",
+        "name_en": "Furukawa Electric Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "電線・光ファイバ・自動車部品等の研究開発・製造等"
+      },
+      {
+        "name": "三井金属鉱業",
+        "name_en": "Mitsui Mining & Smelting Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "非鉄金属・機能材料の開発・製造"
+      },
+      {
+        "name": "日本軽金属",
+        "name_en": "Nippon Light Metal Holdings Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "アルミニウム関連製品の開発・製造"
+      },
+      {
+        "name": "大同特殊鋼",
+        "name_en": "Daido Steel Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "特殊鋼の開発・製造・営業"
+      },
+      {
+        "name": "山陽特殊製鋼",
+        "name_en": "Sanyo Special Steel Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "特殊鋼（軸受鋼等）の開発・製造"
+      },
+      {
+        "name": "プロテリアル",
+        "name_en": "Proterial, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "旧・日立金属。特殊鋼・磁性材料・電線等の開発・製造"
+      },
+      {
+        "name": "AGC",
+        "name_en": "AGC Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "事務系は営業・人事総務・法務・経理財務・資材物流等。技術系は開発（研究・プロセス・商品）・製造エンジニア・設備設計・情報システム・知的財産・環境安全等"
+      },
+      {
+        "name": "TOTO",
+        "name_en": "TOTO Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "衛生陶器・水まわり設備の開発・製造。技術系は機械・電気電子・化学系等"
+      },
+      {
+        "name": "日本ガイシ",
+        "name_en": "NGK Insulators, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "セラミックス・排ガス浄化装置・NAS電池等の開発・製造"
+      },
+      {
+        "name": "レゾナック",
+        "name_en": "Resonac Holdings Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "旧・昭和電工マテリアルズ。半導体材料・化学品等の開発・製造"
+      },
+      {
+        "name": "日産化学",
+        "name_en": "Nissan Chemical Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "機能性材料・農薬・医薬中間体等の研究開発・生産技術等"
+      },
+      {
+        "name": "日東電工",
+        "name_en": "Nitto Denko Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "機能性フィルム・電子材料・医療関連等の開発・製造"
+      },
+      {
+        "name": "日本触媒",
+        "name_en": "Nippon Shokubai Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "高吸水性樹脂・アクリル酸等の研究開発・生産技術等"
+      },
+      {
+        "name": "東ソー",
+        "name_en": "Tosoh Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "クロルアルカリ・機能商品・エンジニアリング等"
+      },
+      {
+        "name": "カネカ",
+        "name_en": "Kaneka Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "化成品・機能性樹脂・食品・医薬等の研究開発・生産技術等"
+      },
+      {
+        "name": "クラレ",
+        "name_en": "Kuraray Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ポバール・エバール等の化学素材の研究開発・生産技術等"
+      },
+      {
+        "name": "DIC",
+        "name_en": "DIC Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "インキ・有機顔料・合成樹脂等の研究開発・生産技術等"
+      },
+      {
+        "name": "JSR",
+        "name_en": "JSR Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "半導体材料・ディスプレイ材料等の研究開発・生産技術等"
+      },
+      {
+        "name": "日本ゼオン",
+        "name_en": "Zeon Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "合成ゴム・特殊化学品等の研究開発・生産技術等"
+      },
+      {
+        "name": "DOWAホールディングス",
+        "name_en": "DOWA Holdings Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "非鉄金属・環境リサイクル・電子材料等の開発・製造"
+      },
+      {
+        "name": "UBE",
+        "name_en": "UBE Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "旧・宇部興産。化学・機械等の研究開発・生産技術等"
+      },
+      {
+        "name": "ADEKA",
+        "name_en": "ADEKA Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "化学品・食品の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "デンカ",
+        "name_en": "Denka Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "電子材料・機能性樹脂・セメント等の研究開発・生産技術等"
+      },
+      {
+        "name": "三菱マテリアル",
+        "name_en": "Mitsubishi Materials Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "超硬工具・銅加工品・セメント等の開発・製造"
+      },
+      {
+        "name": "三菱ガス化学",
+        "name_en": "Mitsubishi Gas Chemical Company, Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "メタノール・BT樹脂・電子材料用過酸化水素等の研究開発・生産技術等"
+      },
+      {
+        "name": "大陽日酸",
+        "name_en": "Taiyo Nippon Sanso Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "産業ガスの製造・販売・プラントエンジニアリング等"
+      },
+      {
+        "name": "エア・ウォーター",
+        "name_en": "Air Water Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "産業ガス・ケミカル・医療・農業食品等"
+      },
+      {
+        "name": "不二製油グループ",
+        "name_en": "Fuji Oil Holdings Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "植物性油脂・業務用チョコレート・大豆たん白等の研究開発・生産技術等"
+      },
+      {
+        "name": "栗田工業",
+        "name_en": "Kurita Water Industries Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "水処理薬品・水処理装置の開発・設計・施工・営業等"
+      },
+      {
+        "name": "GSユアサ",
+        "name_en": "GS Yuasa Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "自動車用・産業用バッテリーの研究開発・生産技術等"
+      },
+      {
+        "name": "王子ホールディングス",
+        "name_en": "Oji Holdings Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "紙・パルプ・包装・機能材等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "住友林業",
+        "name_en": "Sumitomo Forestry Co., Ltd.",
+        "positions": ["業務企画職", "技術職"],
+        "note": "業務企画職は営業・企画・管理等。住宅・木材・環境緑化等"
+      },
+      {
+        "name": "ブリヂストン",
+        "name_en": "Bridgestone Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "技術系はポテンシャル採用・職種別採用（研究開発・モノづくり・IT・データサイエンティスト・フィールドエンジニア等）。事務系はポテンシャル採用（Sales&Marketing・HR・知的財産等）"
+      },
+      {
+        "name": "3Mジャパン",
+        "name_en": "3M Japan Limited",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "工業用接着剤・研磨材・フィルム等の開発・営業等。外資系"
+      },
+      {
+        "name": "富士フイルム",
+        "name_en": "FUJIFILM Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ヘルスケア・マテリアルズ・イメージング等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "日鉄鉱業",
+        "name_en": "Nittetsu Mining Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "石灰石・銅鉱石等の採掘・資源開発等"
+      },
+      {
+        "name": "JX金属",
+        "name_en": "JX Metals Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "非鉄金属（銅）・電子材料・リサイクル等の研究開発・生産技術等"
+      }
+    ]
+  },
+  {
+    "industry": "食料品・飲料・嗜好品",
+    "companies": [
+      {
+        "name": "味の素",
+        "name_en": "Ajinomoto Co., Inc.",
+        "positions": ["R&D（研究開発）", "生産", "Sales/Business（営業・企画）", "財務・経理", "法務", "デジタル・情報システム", "知的財産（特許）", "知的財産（契約）", "サステナビリティ情報開示", "クリエイティブ"],
+        "note": "全職種グローバル型。R&Dと生産は理系、Sales/Businessは全学部。コース別に選考、併願可能"
+      },
+      {
+        "name": "サントリーホールディングス",
+        "name_en": "Suntory Holdings Limited",
+        "positions": ["ビジネス部門（営業・マーケティング・財務経理・サプライチェーン等）", "生産研究部門（生産技術・基礎研究・製品開発）", "デジタル&テクノロジー部門"],
+        "note": "各部門内にコースあり。ビジネス部門4コース、生産研究3コース"
+      },
+      {
+        "name": "キリンホールディングス",
+        "name_en": "Kirin Holdings Company, Limited",
+        "positions": ["事務系総合職", "技術系総合職"],
+        "note": "営業・営業企画、エンジニアリング、デジタルテクノロジー・ICT、ロジスティクス、法務等のコース"
+      },
+      {
+        "name": "アサヒグループホールディングス",
+        "name_en": "Asahi Group Holdings, Ltd.",
+        "positions": ["事務系コース", "技術系コース"],
+        "note": "事務系は営業・マーケティング・コーポレート部門等。技術系は研究開発・生産・製造・エンジニアリング等"
+      },
+      {
+        "name": "日清食品",
+        "name_en": "Nissin Food Products Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "分析・研究、設計・開発、営業（セールス）、包材開発、品質保証、生産技術等"
+      },
+      {
+        "name": "日清製粉グループ",
+        "name_en": "Nisshin Seifun Group Inc.",
+        "positions": ["事務系コース", "食品化学系コース", "工学系コース"],
+        "note": "グループ一括採用と職種別・事業別採用の2方式。全14コース（事務系7、食品化学系4、工学系3）"
+      },
+      {
+        "name": "明治",
+        "name_en": "Meiji Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "菓子・乳製品等の研究開発・生産技術・品質管理・営業・マーケティング等"
+      },
+      {
+        "name": "キッコーマン",
+        "name_en": "Kikkoman Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "醤油・調味料等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "ネスレ日本",
+        "name_en": "Nestle Japan Ltd.",
+        "positions": ["マーケティング&コミュニケーションズ", "セールス", "サプライチェーン（生産・物流等）"],
+        "note": "外資系。3つの選考コースから選択。デジタル&eコマース等の部門もあり"
+      },
+      {
+        "name": "JT（日本たばこ産業）",
+        "name_en": "Japan Tobacco Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "たばこ・医薬・加工食品。研究開発・生産技術・営業・企画管理等"
+      },
+      {
+        "name": "カゴメ",
+        "name_en": "KAGOME Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "初回配属は工場・営業・SCM本部・システム戦略推進部・財務経理部等"
+      },
+      {
+        "name": "サッポロビール",
+        "name_en": "Sapporo Breweries Limited",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "ビール・飲料の醸造・品質管理・営業・マーケティング等"
+      },
+      {
+        "name": "ニッスイ",
+        "name_en": "Nippon Suisan Kaisha, Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "水産・食品の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "日本ハム",
+        "name_en": "NH Foods Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "食肉加工品の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "森永製菓",
+        "name_en": "Morinaga & Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "菓子・食品の研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "森永乳業",
+        "name_en": "Morinaga Milk Industry Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "乳製品の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "カルビー",
+        "name_en": "Calbee, Inc.",
+        "positions": ["ビジネス総合コース", "研究コース", "プロダクト開発コース", "生産マネジメントコース", "生産技術コース", "財務経理コース"],
+        "note": "早期選考（生産技術・財務経理・研究）と通常選考あり。コース別採用"
+      },
+      {
+        "name": "江崎グリコ",
+        "name_en": "Ezaki Glico Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "菓子・乳製品等の研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "ハウス食品",
+        "name_en": "House Foods Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "カレー・スパイス等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "ロッテ",
+        "name_en": "Lotte Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "菓子・アイスの研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "ヤクルト本社",
+        "name_en": "Yakult Honsha Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "乳酸菌飲料・医薬品等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "ミツカン",
+        "name_en": "Mizkan Holdings Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "調味料（酢等）の研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "雪印メグミルク",
+        "name_en": "Megmilk Snow Brand Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "乳製品の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "キユーピー",
+        "name_en": "Kewpie Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "マヨネーズ・ドレッシング等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "マルハニチロ",
+        "name_en": "Maruha Nichiro Corporation",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "水産・食品の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "アサヒ飲料",
+        "name_en": "Asahi Soft Drinks Co., Ltd.",
+        "positions": ["事務系コース", "技術系コース"],
+        "note": "事務系は営業・マーケティング・コーポレート等。技術系は研究開発・生産・製造・エンジニアリング等"
+      },
+      {
+        "name": "不二製油グループ",
+        "name_en": "Fuji Oil Holdings Inc.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "植物性油脂・業務用チョコレート・大豆たん白等の研究開発・生産技術等。素材化学業界にも記載"
+      }
+    ]
+  },
+  {
+    "industry": "医薬品",
+    "companies": [
+      {
+        "name": "武田薬品工業",
+        "name_en": "Takeda Pharmaceutical Company Limited",
+        "positions": ["研究技術職", "品質職", "MR職", "コーポレートスタッフ"],
+        "note": "グローバル製薬企業。品質職は品質試験・品質保証等。研究技術職はグローバルケミストリー研究員等"
+      },
+      {
+        "name": "第一三共",
+        "name_en": "Daiichi Sankyo Co., Ltd.",
+        "positions": ["研究職", "データサイエンス職", "開発職", "ファーマコビジランス職", "MR職", "サプライチェーンスタッフ", "コーポレートスタッフ"],
+        "note": "職種別採用。各職種に専任の採用チーム"
+      },
+      {
+        "name": "アステラス製薬",
+        "name_en": "Astellas Pharma Inc.",
+        "positions": ["創薬研究職", "製薬技術職", "開発職", "MR職", "メディカルサイエンスリエゾン職", "コーポレートスタッフ"],
+        "note": "博士選考あり。製薬技術職は製剤研究・合成技術・バイオプロセス・品質管理等"
+      },
+      {
+        "name": "中外製薬",
+        "name_en": "Chugai Pharmaceutical Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "品質管理職", "コーポレートスタッフ"],
+        "note": "ロシュグループ。創薬・開発研究、臨床試験オペレーション、治験薬製造等"
+      },
+      {
+        "name": "エーザイ",
+        "name_en": "Eisai Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "コーポレートスタッフ"],
+        "note": "認知症領域等に強み。研究・開発・生産・営業等"
+      },
+      {
+        "name": "塩野義製薬",
+        "name_en": "Shionogi & Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "品質管理職", "コーポレートスタッフ"],
+        "note": "感染症・疼痛領域等に強み"
+      },
+      {
+        "name": "大塚製薬",
+        "name_en": "Otsuka Pharmaceutical Co., Ltd.",
+        "positions": ["MR職", "ニュートラシューティカルズ事業部営業職", "メディカル・アフェアーズ職", "研究技術職", "生産職"],
+        "note": "医薬品とニュートラシューティカルズ（ポカリスエット等）の両事業"
+      },
+      {
+        "name": "小野薬品工業",
+        "name_en": "Ono Pharmaceutical Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "製造技術職"],
+        "note": "オプジーボ等の免疫チェックポイント阻害薬"
+      },
+      {
+        "name": "協和キリン",
+        "name_en": "Kyowa Kirin Co., Ltd.",
+        "positions": ["創薬研究職", "製薬技術研究職", "品質職", "生産職", "開発職", "営業職", "コーポレートスタッフ", "ファーマコビジランス職"],
+        "note": "キリングループ。バイオ医薬品に強み"
+      },
+      {
+        "name": "住友ファーマ",
+        "name_en": "Sumitomo Pharma Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "コーポレートスタッフ"],
+        "note": "精神神経領域・がん領域等"
+      },
+      {
+        "name": "田辺三菱製薬",
+        "name_en": "Mitsubishi Tanabe Pharma Corporation",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "コーポレートスタッフ"],
+        "note": "三菱ケミカルグループ。自己免疫疾患等"
+      },
+      {
+        "name": "大鵬薬品工業",
+        "name_en": "Taiho Pharmaceutical Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職"],
+        "note": "大塚グループ。がん領域に強み"
+      },
+      {
+        "name": "日本新薬",
+        "name_en": "Nippon Shinyaku Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "コーポレートスタッフ"],
+        "note": "泌尿器科・血液内科領域等"
+      },
+      {
+        "name": "参天製薬",
+        "name_en": "Santen Pharmaceutical Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "コーポレートスタッフ"],
+        "note": "眼科領域に特化"
+      },
+      {
+        "name": "小林製薬",
+        "name_en": "Kobayashi Pharmaceutical Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "OTC医薬品・日用品の商品開発・研究・生産技術・マーケティング・営業等"
+      },
+      {
+        "name": "久光製薬",
+        "name_en": "Hisamitsu Pharmaceutical Co., Inc.",
+        "positions": ["研究職", "MR職", "生産技術職", "事務系総合職"],
+        "note": "経皮吸収型製剤（サロンパス等）に強み"
+      },
+      {
+        "name": "ロート製薬",
+        "name_en": "Rohto Pharmaceutical Co., Ltd.",
+        "positions": ["技術系総合職", "事務系総合職"],
+        "note": "OTC医薬品・スキンケア等の研究開発・生産技術・マーケティング・営業等"
+      },
+      {
+        "name": "大正製薬",
+        "name_en": "Taisho Pharmaceutical Co., Ltd.",
+        "positions": ["研究職", "開発職", "MR職", "生産技術職", "事務系総合職"],
+        "note": "OTC医薬品（リポビタンD等）・医療用医薬品"
+      },
+      {
+        "name": "アッヴィ",
+        "name_en": "AbbVie Inc.",
+        "positions": ["MR職", "開発職", "メディカルアフェアーズ職"],
+        "note": "外資系製薬。免疫・がん領域等"
+      },
+      {
+        "name": "ジョンソン・エンド・ジョンソン",
+        "name_en": "Johnson & Johnson",
+        "positions": ["営業職（MR・医療機器営業）", "マーケティング職", "R&D職", "品質管理職"],
+        "note": "外資系。医薬品・医療機器・コンシューマー製品。職種別採用"
+      }
+    ]
+  }
+]

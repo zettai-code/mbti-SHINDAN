@@ -1,0 +1,879 @@
+[
+  {
+    "industry": "総合商社",
+    "companies": [
+      {
+        "name": "三菱商事",
+        "name_en": "Mitsubishi Corporation",
+        "positions": ["総合職", "バックオフィス職"],
+        "note": "2026年度実績: 総合職のみ募集。2027年度よりバックオフィス職も新設。初任給: 学士卒350,000円、修士卒385,000円"
+      },
+      {
+        "name": "三井物産",
+        "name_en": "Mitsui & Co.",
+        "positions": ["担当職（総合職）", "業務職"],
+        "note": "選考では「自分史」の提出が特徴的。担当職は全国・海外転勤あり"
+      },
+      {
+        "name": "伊藤忠商事",
+        "name_en": "ITOCHU Corporation",
+        "positions": ["総合職"],
+        "note": "総合職のみの一括採用。事務職の募集は行っていない"
+      },
+      {
+        "name": "住友商事",
+        "name_en": "Sumitomo Corporation",
+        "positions": ["総合職（グローバル）", "総合職（プロフェッショナル）"],
+        "note": "AI面接を本選考に導入。採用人数は年間100-150名程度"
+      },
+      {
+        "name": "丸紅",
+        "name_en": "Marubeni Corporation",
+        "positions": ["総合職（オープン採用）", "総合職（職種別採用）"],
+        "note": "職種別採用では経理財務・法務・デジタルなど特定領域での採用あり"
+      },
+      {
+        "name": "豊田通商",
+        "name_en": "Toyota Tsusho Corporation",
+        "positions": ["総合職（グローバル）", "総合職（エリア）"],
+        "note": "トヨタグループの総合商社。メタル、モビリティ、アフリカなど多様な事業本部で展開"
+      },
+      {
+        "name": "双日",
+        "name_en": "Sojitz Corporation",
+        "positions": ["総合職（担当職）", "総合職（事務職）"],
+        "note": "化学品・食品・エネルギー・機械・情報通信など幅広い分野で事業展開"
+      }
+    ]
+  },
+  {
+    "industry": "専門商社",
+    "companies": [
+      {
+        "name": "伊藤忠丸紅鉄鋼",
+        "name_en": "ITOCHU-MARUBENI IRON & STEEL INC.",
+        "positions": ["BPグループ（総合職）オープン採用", "BPグループ（総合職）配属部署確約採用", "APグループ（地域限定職）"],
+        "note": "鉄鋼専門商社最大手。BPグループにはグローバル法務コースあり。APグループは東京・大阪・広島勤務。初任給: 修士卒375,000円、学士卒340,000円"
+      },
+      {
+        "name": "メタルワン",
+        "name_en": "Metal One Corporation",
+        "positions": ["総合職", "一般職"],
+        "note": "三菱商事・双日系の鉄鋼商社"
+      },
+      {
+        "name": "JFE商事",
+        "name_en": "JFE Shoji Corporation",
+        "positions": ["総合職"],
+        "note": "JFEグループの中核商社。全国転勤あり、普通自動車免許が必要"
+      },
+      {
+        "name": "長瀬産業",
+        "name_en": "Nagase & Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "化学品専門商社大手。平均年収1,330万円"
+      },
+      {
+        "name": "日鉄物産",
+        "name_en": "Nippon Steel Trading Corporation",
+        "positions": ["総合職", "一般職"],
+        "note": "日本製鉄グループの中核商社。鉄鋼・産機・繊維・食品の4事業"
+      },
+      {
+        "name": "阪和興業",
+        "name_en": "Hanwa Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "独立系鉄鋼商社。鉄鋼・非鉄金属・食品等を取扱い"
+      },
+      {
+        "name": "岡谷鋼機",
+        "name_en": "Okaya & Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "名古屋本社の老舗鉄鋼商社。鉄鋼・情報・電子・生活産業など多角展開"
+      },
+      {
+        "name": "稲畑産業",
+        "name_en": "Inabata & Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "化学品を中心とする専門商社。情報電子・生活産業・合成樹脂など"
+      },
+      {
+        "name": "蝶理",
+        "name_en": "CHORI CO., LTD.",
+        "positions": ["総合職"],
+        "note": "東レグループの繊維・化学品商社"
+      },
+      {
+        "name": "豊島",
+        "name_en": "Toyoshima & Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "繊維専門商社。ライフスタイル提案型ビジネスを展開"
+      },
+      {
+        "name": "住友商事グローバルメタルズ",
+        "name_en": "Sumitomo Corporation Global Metals Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "住友商事グループの鉄鋼・非鉄金属専門商社。トレードビジネスと事業開発・投資・経営を展開"
+      },
+      {
+        "name": "神鋼商事",
+        "name_en": "Shinsho Corporation",
+        "positions": ["総合職"],
+        "note": "KOBELCOグループの中核商社。鉄鋼・アルミ・銅・原料・機械・溶接の5事業ユニット"
+      },
+      {
+        "name": "日本紙パルプ商事",
+        "name_en": "Japan Pulp & Paper Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "紙・パルプ専門商社最大手"
+      },
+      {
+        "name": "三洋貿易",
+        "name_en": "Sanyo Trading Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "ゴム・化学品・機械・産業資材等を扱う専門商社"
+      },
+      {
+        "name": "日立ハイテク",
+        "name_en": "Hitachi High-Tech Corporation",
+        "positions": ["営業職", "OTシステムエンジニア", "OT設計開発職（ソフトウェア設計）", "OT設計開発職（電気・電子系エンジニア）"],
+        "note": "日立グループの技術商社。理系学部在籍者が対象の職種あり"
+      },
+      {
+        "name": "ユアサ商事",
+        "name_en": "Yuasa Trading Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "産業機器・住設建材・工業機械等を扱う独立系商社"
+      },
+      {
+        "name": "第一実業",
+        "name_en": "Daiichi Jitsugyo Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "プラント・産業機械専門の技術商社"
+      },
+      {
+        "name": "マクニカ",
+        "name_en": "Macnica, Inc.",
+        "positions": ["総合職（営業）", "総合職（エンジニア）"],
+        "note": "半導体・ネットワーク機器の技術商社。セキュリティ・AI分野にも注力"
+      }
+    ]
+  },
+  {
+    "industry": "金融（銀行）",
+    "companies": [
+      {
+        "name": "日本銀行",
+        "name_en": "Bank of Japan",
+        "positions": ["総合職", "特定職", "一般職"],
+        "note": "中央銀行。総合職は政策企画・リサーチ等、特定職は専門業務、一般職は事務業務。入行1年目は全国各地の支店に配属"
+      },
+      {
+        "name": "三菱UFJ銀行",
+        "name_en": "MUFG Bank, Ltd.",
+        "positions": ["オープンコース", "グローバルコース", "カスタマーサービスコース", "トレードビジネスコース", "フィナンシャル・エンジニアリングコース", "戦略財務（会計・税務）コース", "システム・デジタルコース", "ウェルスマネジメントコース", "グローバル・マーケッツコース"],
+        "note": "9コース制採用。初任給: 学士卒300,000円、修士卒330,000円"
+      },
+      {
+        "name": "三井住友銀行",
+        "name_en": "Sumitomo Mitsui Banking Corporation",
+        "positions": ["総合職（オープン型）", "総合職（キャリア特定型）", "総合職（オーダーメイド型）"],
+        "note": "3つの型、全14コースから選択可能。リテールビジネス、CIB、カスタマーサービスプロフェッショナル等"
+      },
+      {
+        "name": "みずほフィナンシャルグループ",
+        "name_en": "Mizuho Financial Group",
+        "positions": ["オープンコース", "特定コース（各種）"],
+        "note": "3つの型、全16コースから選択。みずほ銀行・みずほ信託銀行への配属"
+      },
+      {
+        "name": "農林中央金庫",
+        "name_en": "Norinchukin Bank",
+        "positions": ["総合職", "特定職"],
+        "note": "JAバンクの中央機関。機関投資家として世界最大級の運用資産"
+      },
+      {
+        "name": "日本政策投資銀行",
+        "name_en": "Development Bank of Japan (DBJ)",
+        "positions": ["総合職"],
+        "note": "政府系金融機関。長期融資・投資を通じた産業支援"
+      },
+      {
+        "name": "国際協力銀行",
+        "name_en": "Japan Bank for International Cooperation (JBIC)",
+        "positions": ["総合職（プロフェッショナル職）"],
+        "note": "政府系金融機関。日本企業の海外展開支援・国際金融秩序安定"
+      },
+      {
+        "name": "商工組合中央金庫",
+        "name_en": "Shoko Chukin Bank",
+        "positions": ["総合職"],
+        "note": "中小企業金融専門の政府系金融機関。融資・シンジケートローン・デリバティブ取引等"
+      },
+      {
+        "name": "りそな銀行",
+        "name_en": "Resona Bank, Ltd.",
+        "positions": ["総合職（ソリューションコース）", "総合職（カスタマーサービスコース）"],
+        "note": "りそなグループ。信託機能を併せ持つ商業銀行"
+      },
+      {
+        "name": "横浜銀行",
+        "name_en": "Bank of Yokohama, Ltd.",
+        "positions": ["総合職", "総合職（特定職務）"],
+        "note": "地銀最大手。コンコルディア・フィナンシャルグループ"
+      },
+      {
+        "name": "千葉銀行",
+        "name_en": "Chiba Bank, Ltd.",
+        "positions": ["総合職", "エリア総合職"],
+        "note": "千葉県地盤の大手地銀。大学・短大・専門学校卒が対象"
+      },
+      {
+        "name": "静岡銀行",
+        "name_en": "Shizuoka Bank, Ltd.",
+        "positions": ["総合職"],
+        "note": "静岡県地盤の大手地銀。多様なソリューション提供"
+      },
+      {
+        "name": "福岡銀行",
+        "name_en": "Bank of Fukuoka, Ltd.",
+        "positions": ["総合職（Fコース）", "総合職（Aコース）"],
+        "note": "ふくおかフィナンシャルグループ。Fコースは遠隔地転勤あり、Aコースは地域限定"
+      },
+      {
+        "name": "京都銀行",
+        "name_en": "Bank of Kyoto, Ltd.",
+        "positions": ["総合職"],
+        "note": "京都府地盤の大手地銀"
+      },
+      {
+        "name": "SBI新生銀行",
+        "name_en": "SBI Shinsei Bank, Limited",
+        "positions": ["総合職"],
+        "note": "SBIグループ傘下のネット銀行・商業銀行"
+      },
+      {
+        "name": "あおぞら銀行",
+        "name_en": "Aozora Bank, Ltd.",
+        "positions": ["総合職"],
+        "note": "法人向け・不動産ファイナンスに強み"
+      },
+      {
+        "name": "ゆうちょ銀行",
+        "name_en": "Japan Post Bank",
+        "positions": ["総合職（エリア基幹職）", "総合職（地域基幹職）"],
+        "note": "日本郵政グループ。全国約24,000の郵便局ネットワーク"
+      },
+      {
+        "name": "オリックス銀行",
+        "name_en": "ORIX Bank Corporation",
+        "positions": ["総合職"],
+        "note": "オリックスグループのネット銀行。不動産投資ローン等に強み"
+      },
+      {
+        "name": "東京スター銀行",
+        "name_en": "Tokyo Star Bank, Limited",
+        "positions": ["総合職"],
+        "note": "台湾・中信金融グループ傘下。リテール・法人向け金融サービス"
+      },
+      {
+        "name": "日本政策金融公庫",
+        "name_en": "Japan Finance Corporation",
+        "positions": ["総合職"],
+        "note": "政府系金融機関。中小企業・農林水産業者向け融資、教育ローン等"
+      }
+    ]
+  },
+  {
+    "industry": "金融（証券）",
+    "companies": [
+      {
+        "name": "野村證券",
+        "name_en": "Nomura Securities Co., Ltd.",
+        "positions": ["ウェルス・マネジメントコース", "ウェルス・マネジメントコース（エリア限定）", "インベストメント・バンキングコース", "グローバル・マーケッツコース", "コンテンツ・カンパニー（リサーチ）コース", "IT・デジタルコース", "リスク・マネジメントコース", "コーポレートコース"],
+        "note": "国内最大手証券。8コース制採用"
+      },
+      {
+        "name": "SMBC日興証券",
+        "name_en": "SMBC Nikko Securities Inc.",
+        "positions": ["総合コース（オープン採用）", "総合コース（部門別採用）", "事務コース"],
+        "note": "三井住友フィナンシャルグループ。投資銀行・セールストレーディング・リサーチ・コンサルティング等"
+      },
+      {
+        "name": "大和証券",
+        "name_en": "Daiwa Securities Co., Ltd.",
+        "positions": ["総合職（全域型）", "総合職（エリア型）", "カスタマーサービス職"],
+        "note": "国内大手証券。リテール・ホールセール・アセットマネジメント事業を展開"
+      },
+      {
+        "name": "みずほ証券",
+        "name_en": "Mizuho Securities Co., Ltd.",
+        "positions": ["オープンコース", "部門別コース"],
+        "note": "みずほフィナンシャルグループの証券会社"
+      },
+      {
+        "name": "三菱UFJモルガン・スタンレー証券",
+        "name_en": "Mitsubishi UFJ Morgan Stanley Securities Co., Ltd.",
+        "positions": ["総合職（オープン）", "総合職（IBD）", "総合職（マーケッツ）", "総合職（リサーチ）"],
+        "note": "日系×外資の合弁ホールセール専業証券"
+      },
+      {
+        "name": "岡三証券",
+        "name_en": "Okasan Securities Co., Ltd.",
+        "positions": ["総合職（全国転勤型）", "総合職（地域限定型）"],
+        "note": "独立系中堅証券。リテール営業に強み"
+      },
+      {
+        "name": "松井証券",
+        "name_en": "Matsui Securities Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "ネット証券大手。少数精鋭採用"
+      },
+      {
+        "name": "マネックス証券",
+        "name_en": "Monex Securities, Inc.",
+        "positions": ["総合職"],
+        "note": "ネット証券。テクノロジー活用に注力"
+      },
+      {
+        "name": "Goldman Sachs",
+        "name_en": "Goldman Sachs Japan Co., Ltd.",
+        "positions": ["投資銀行部門", "証券部門（セールス＆トレーディング）", "リサーチ部門", "エンジニアリング部門", "オペレーションズ部門", "アセットマネジメント部門"],
+        "note": "米系投資銀行。部門別採用。募集部門は年度により変動"
+      },
+      {
+        "name": "Morgan Stanley",
+        "name_en": "Morgan Stanley Japan",
+        "positions": ["投資銀行部門", "マーケッツ部門（債券・株式・為替）", "リサーチ部門", "テクノロジー部門", "オペレーションズ部門"],
+        "note": "米系投資銀行。ビジネスエリア別採用"
+      },
+      {
+        "name": "JP Morgan",
+        "name_en": "J.P. Morgan Japan",
+        "positions": ["投資銀行部門", "マーケッツ部門", "アセットマネジメント部門", "テクノロジー部門", "オペレーションズ部門"],
+        "note": "米系総合金融。投資銀行・マーケッツ・資産運用を展開"
+      },
+      {
+        "name": "Bank of America",
+        "name_en": "BofA Securities Japan",
+        "positions": ["投資銀行部門", "グローバルマーケッツ部門", "リサーチ部門", "オペレーションズ部門"],
+        "note": "米系投資銀行。旧メリルリンチ"
+      },
+      {
+        "name": "UBS",
+        "name_en": "UBS Securities Japan Co., Ltd.",
+        "positions": ["投資銀行部門", "グローバル・マーケッツ部門", "ウェルス・マネジメント部門", "テクノロジー部門", "オペレーションズ部門"],
+        "note": "スイス系金融グループ。国内採用と海外採用の2種"
+      },
+      {
+        "name": "Citi",
+        "name_en": "Citigroup Global Markets Japan Inc.",
+        "positions": ["投資銀行部門", "マーケッツ部門", "リサーチ部門"],
+        "note": "米系投資銀行。グローバルネットワークに強み"
+      },
+      {
+        "name": "Barclays",
+        "name_en": "Barclays Securities Japan Limited",
+        "positions": ["投資銀行部門", "マーケッツ部門", "テクノロジー部門"],
+        "note": "英系投資銀行"
+      },
+      {
+        "name": "Deutsche Bank",
+        "name_en": "Deutsche Securities Inc.",
+        "positions": ["投資銀行部門", "マーケッツ部門", "テクノロジー部門"],
+        "note": "独系投資銀行"
+      },
+      {
+        "name": "BNP Paribas",
+        "name_en": "BNP Paribas Securities Japan Limited",
+        "positions": ["コーポレート・バンキング部門", "グローバル・マーケッツ部門", "テクノロジー部門"],
+        "note": "仏系金融グループ。2027年度新卒採用を実施"
+      },
+      {
+        "name": "Credit Agricole",
+        "name_en": "Credit Agricole CIB Japan",
+        "positions": ["コーポレート・バンキング部門", "マーケッツ部門"],
+        "note": "仏系金融グループ"
+      },
+      {
+        "name": "HSBC",
+        "name_en": "HSBC Securities (Japan) Limited",
+        "positions": ["グローバル・バンキング部門", "マーケッツ部門"],
+        "note": "英系金融グループ。アジアに強み"
+      },
+      {
+        "name": "Societe Generale",
+        "name_en": "Societe Generale Securities Japan Limited",
+        "positions": ["グローバル・マーケッツ部門", "テクノロジー部門"],
+        "note": "仏系金融グループ。デリバティブに強み"
+      }
+    ]
+  },
+  {
+    "industry": "金融（保険 - 損害保険）",
+    "companies": [
+      {
+        "name": "東京海上日動火災保険",
+        "name_en": "Tokio Marine & Nichido Fire Insurance Co., Ltd.",
+        "positions": ["総合職（オープンコース）", "総合職（EDGEコース）", "総合職（損害サービスコース）", "総合職（オペレーションマネジメントコース）", "総合職（SPEC IT戦略）", "総合職（SPEC 資産運用）", "総合職（SPEC アクチュアリー）"],
+        "note": "2026年4月より人事制度を刷新し、募集職種を総合職に一本化。同意に基づく転居・転勤制度を実現"
+      },
+      {
+        "name": "三井住友海上火災保険",
+        "name_en": "Mitsui Sumitomo Insurance Co., Ltd.",
+        "positions": ["総合職（全域型）", "総合職（地域型）"],
+        "note": "MS&ADインシュアランスグループ。2027年4月にあいおいニッセイ同和損保と合併予定"
+      },
+      {
+        "name": "損害保険ジャパン",
+        "name_en": "Sompo Japan Insurance Inc.",
+        "positions": ["総合職（総合コース）", "総合職（ジョブ型コース）"],
+        "note": "SOMPOホールディングス。デジタル・データ活用に注力"
+      },
+      {
+        "name": "あいおいニッセイ同和損害保険",
+        "name_en": "Aioi Nissay Dowa Insurance Co., Ltd.",
+        "positions": ["総合職（全域型）", "総合職（地域型）"],
+        "note": "MS&ADグループ。2027年4月に三井住友海上と合併予定"
+      },
+      {
+        "name": "AIG損害保険",
+        "name_en": "AIG General Insurance Company, Limited",
+        "positions": ["総合職"],
+        "note": "米AIG系。企業向け保険に強み"
+      },
+      {
+        "name": "イーデザイン損保",
+        "name_en": "e-design sonpo Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "東京海上グループのダイレクト損保"
+      }
+    ]
+  },
+  {
+    "industry": "金融（保険 - 生命保険）",
+    "companies": [
+      {
+        "name": "日本生命保険",
+        "name_en": "Nippon Life Insurance Company",
+        "positions": ["総合基幹職（オープンコース）", "総合基幹職（アクチュアリーコース）", "総合基幹職（資産運用コース）", "総合基幹職（IT戦略コース）", "総合基幹職（地域ビジネスコース）", "営業総合基幹職（マネジメントコース）", "営業総合基幹職（総合コンサルティングコース）"],
+        "note": "国内最大手生命保険会社。7コース制採用"
+      },
+      {
+        "name": "第一生命保険",
+        "name_en": "Dai-ichi Life Insurance Company, Limited",
+        "positions": ["基幹総合職（オープンコース）", "基幹総合職（アクチュアリーコース）", "基幹総合職（クオンツ&データサイエンティストコース）", "基幹総合職（IT・デジタルコース）", "基幹総合職（資産運用コース）", "基幹総合職（建築・不動産コース）", "基幹総合職（海外コース）", "基幹総合職（会計・税務コース）", "基幹総合職（法務コース）"],
+        "note": "G型（全域型）・R型（地域型）あり。9コース制採用"
+      },
+      {
+        "name": "住友生命保険",
+        "name_en": "Sumitomo Life Insurance Company",
+        "positions": ["総合職（総合キャリア職）", "総合職（ビジネスキャリア職）"],
+        "note": "大手生保4社の一角。Vitalityブランドで健康増進型保険を展開"
+      },
+      {
+        "name": "明治安田生命保険",
+        "name_en": "Meiji Yasuda Life Insurance Company",
+        "positions": ["総合職（全国型：Career V）", "総合職（地域型：Career S）"],
+        "note": "大手生保4社の一角。総合職では営業業務はほぼなし"
+      },
+      {
+        "name": "ソニー生命保険",
+        "name_en": "Sony Life Insurance Co., Ltd.",
+        "positions": ["総合職", "ライフプランナー職"],
+        "note": "ソニーフィナンシャルグループ。コンサルティング型の生命保険"
+      },
+      {
+        "name": "アフラック生命保険",
+        "name_en": "Aflac Life Insurance Japan Ltd.",
+        "positions": ["総合職"],
+        "note": "がん保険・医療保険のパイオニア"
+      },
+      {
+        "name": "大同生命保険",
+        "name_en": "Daido Life Insurance Company",
+        "positions": ["総合職（全国型）", "総合職（アクチュアリー）"],
+        "note": "T&Dホールディングスグループ。中小企業マーケットに特化"
+      },
+      {
+        "name": "富国生命保険",
+        "name_en": "Fukoku Mutual Life Insurance Company",
+        "positions": ["総合職（全国型）", "総合職（エリア型）"],
+        "note": "相互会社形態の中堅生保"
+      },
+      {
+        "name": "太陽生命保険",
+        "name_en": "Taiyo Life Insurance Company",
+        "positions": ["総合職"],
+        "note": "T&Dホールディングスグループ。シニア・女性向け保険に注力"
+      },
+      {
+        "name": "朝日生命保険",
+        "name_en": "Asahi Mutual Life Insurance Company",
+        "positions": ["総合職"],
+        "note": "相互会社形態の中堅生保"
+      },
+      {
+        "name": "大樹生命保険",
+        "name_en": "Taiju Life Insurance Company Limited",
+        "positions": ["総合職"],
+        "note": "日本生命グループ。旧三井生命"
+      },
+      {
+        "name": "かんぽ生命保険",
+        "name_en": "Japan Post Insurance Co., Ltd.",
+        "positions": ["総合職（エリア基幹職）", "総合職（地域基幹職）"],
+        "note": "日本郵政グループ。郵便局ネットワークを活用"
+      },
+      {
+        "name": "東京海上日動あんしん生命保険",
+        "name_en": "Tokio Marine & Nichido Life Insurance Co., Ltd.",
+        "positions": ["総合職（オープンコース）", "総合職（営業コース）"],
+        "note": "東京海上グループの生命保険会社"
+      },
+      {
+        "name": "三井住友海上あいおい生命保険",
+        "name_en": "Mitsui Sumitomo Aioi Life Insurance Co., Ltd.",
+        "positions": ["総合社員", "総合社員（専門コース）"],
+        "note": "MS&ADインシュアランスグループの生命保険会社"
+      },
+      {
+        "name": "SOMPOひまわり生命保険",
+        "name_en": "SOMPO Himawari Life Insurance, Inc.",
+        "positions": ["総合職"],
+        "note": "SOMPOホールディングスグループ。健康応援企業を標榜"
+      },
+      {
+        "name": "アクサ生命保険",
+        "name_en": "AXA Life Insurance Co., Ltd.",
+        "positions": ["総合職", "ファイナンシャルプランアドバイザー職"],
+        "note": "仏AXAグループ。2026年卒の募集は終了、2027年卒を実施中"
+      }
+    ]
+  },
+  {
+    "industry": "金融（アセットマネジメント）",
+    "companies": [
+      {
+        "name": "野村アセットマネジメント",
+        "name_en": "Nomura Asset Management Co., Ltd.",
+        "positions": ["運用コース", "マーケティングコース", "ビジネスマネジメントコース", "IT・デジタルコース", "オープンコース"],
+        "note": "野村グループ。5コース制採用。約6年で複数の部門を経験するローテーション制度あり"
+      },
+      {
+        "name": "アモーヴァ・アセットマネジメント（旧 日興アセットマネジメント）",
+        "name_en": "Amova Asset Management (formerly Nikko Asset Management)",
+        "positions": ["総合職"],
+        "note": "2025年9月に日興アセットマネジメントから社名変更"
+      },
+      {
+        "name": "東京海上アセットマネジメント",
+        "name_en": "Tokio Marine Asset Management Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "東京海上グループの資産運用会社"
+      },
+      {
+        "name": "三井住友DSアセットマネジメント",
+        "name_en": "Sumitomo Mitsui DS Asset Management Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "三井住友フィナンシャルグループ・大和証券グループの資産運用会社"
+      },
+      {
+        "name": "アセットマネジメントOne",
+        "name_en": "Asset Management One Co., Ltd.",
+        "positions": ["総合職（株式運用コース）", "総合職（マーケティングコース）"],
+        "note": "みずほフィナンシャルグループ・第一生命グループの資産運用会社"
+      },
+      {
+        "name": "大和アセットマネジメント",
+        "name_en": "Daiwa Asset Management Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "大和証券グループの資産運用会社。1959年設立"
+      },
+      {
+        "name": "三菱UFJアセットマネジメント",
+        "name_en": "Mitsubishi UFJ Asset Management Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "MUFGグループの資産運用会社。eMAXIS Slimシリーズで有名"
+      },
+      {
+        "name": "三井住友トラスト・アセットマネジメント",
+        "name_en": "Sumitomo Mitsui Trust Asset Management Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "三井住友信託銀行グループの資産運用会社"
+      },
+      {
+        "name": "ニッセイアセットマネジメント",
+        "name_en": "Nissay Asset Management Corporation",
+        "positions": ["総合職"],
+        "note": "日本生命グループの資産運用会社"
+      },
+      {
+        "name": "ゴールドマン・サックス・アセット・マネジメント",
+        "name_en": "Goldman Sachs Asset Management (GSAM)",
+        "positions": ["アナリスト"],
+        "note": "GS証券のアセットマネジメント部門として採用"
+      },
+      {
+        "name": "JPモルガン・アセット・マネジメント",
+        "name_en": "J.P. Morgan Asset Management (JPMAM)",
+        "positions": ["アナリスト"],
+        "note": "JPモルガンのアセットマネジメント部門として採用"
+      },
+      {
+        "name": "UBSアセット・マネジメント",
+        "name_en": "UBS Asset Management",
+        "positions": ["アナリスト"],
+        "note": "UBSグループのアセットマネジメント部門"
+      },
+      {
+        "name": "ブラックロック・ジャパン",
+        "name_en": "BlackRock Japan Co., Ltd.",
+        "positions": ["Full-Time Analyst Program"],
+        "note": "世界最大の資産運用会社。2026 Summer InternshipとFull-Time Analyst Programを実施"
+      },
+      {
+        "name": "フィデリティ投信",
+        "name_en": "Fidelity International",
+        "positions": ["総合職"],
+        "note": "米系大手資産運用会社の日本法人"
+      },
+      {
+        "name": "DWS",
+        "name_en": "DWS Group",
+        "positions": ["アナリスト"],
+        "note": "ドイツ銀行グループの資産運用会社"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - 取引所・インフラ・業界団体）",
+    "companies": [
+      {
+        "name": "日本取引所グループ",
+        "name_en": "Japan Exchange Group (JPX)",
+        "positions": ["スタッフ職（GSコース：ゼネラル・ソリューション）", "スタッフ職（DSコース：デジタル・ソリューション）", "スタッフ職（SSコース：スタッフ・サポート）"],
+        "note": "東証・大証を運営。採用予定40名程度。全学部全学科対象"
+      },
+      {
+        "name": "日本証券金融",
+        "name_en": "Japan Securities Finance Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "証券市場における貸借取引の中心機関。信用取引に必要な資金・株式を供給"
+      },
+      {
+        "name": "証券保管振替機構",
+        "name_en": "Japan Securities Depository Center (JASDEC)",
+        "positions": ["総合職"],
+        "note": "日本唯一の総合的な証券決済インフラ機関"
+      },
+      {
+        "name": "損害保険料率算出機構",
+        "name_en": "General Insurance Rating Organization of Japan",
+        "positions": ["総合職"],
+        "note": "損害保険の参考純率・基準料率を算出する料率団体"
+      },
+      {
+        "name": "日本貿易保険",
+        "name_en": "Nippon Export and Investment Insurance (NEXI)",
+        "positions": ["総合職"],
+        "note": "貿易保険を通じて日本企業の海外プロジェクトを支援"
+      },
+      {
+        "name": "全国銀行協会",
+        "name_en": "Japanese Bankers Association",
+        "positions": ["総合職"],
+        "note": "銀行業界の業界団体"
+      },
+      {
+        "name": "日本証券業協会",
+        "name_en": "Japan Securities Dealers Association",
+        "positions": ["総合職"],
+        "note": "証券業界の自主規制団体"
+      },
+      {
+        "name": "日本損害保険協会",
+        "name_en": "General Insurance Association of Japan",
+        "positions": ["総合職"],
+        "note": "損害保険業界の業界団体"
+      },
+      {
+        "name": "生命保険協会",
+        "name_en": "Life Insurance Association of Japan",
+        "positions": ["総合職"],
+        "note": "生命保険業界の業界団体"
+      },
+      {
+        "name": "日本財団",
+        "name_en": "The Nippon Foundation",
+        "positions": ["総合職（経営企画部門）", "総合職（事業部門）", "総合職（監査部門）"],
+        "note": "公益財団法人。社会課題解決のための助成・事業を展開"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - カード・リース・ファイナンス）",
+    "companies": [
+      {
+        "name": "三井住友カード",
+        "name_en": "Sumitomo Mitsui Card Company, Limited",
+        "positions": ["総合職"],
+        "note": "三井住友フィナンシャルグループのクレジットカード会社"
+      },
+      {
+        "name": "JCB",
+        "name_en": "JCB Co., Ltd.",
+        "positions": ["総合職（G職）", "総合職（S職）"],
+        "note": "日本発の国際カードブランド。G職は全国転勤あり、S職は地域限定"
+      },
+      {
+        "name": "楽天カード",
+        "name_en": "Rakuten Card Co., Ltd.",
+        "positions": ["総合職", "エリア職"],
+        "note": "楽天グループのクレジットカード会社"
+      },
+      {
+        "name": "三菱UFJニコス",
+        "name_en": "Mitsubishi UFJ NICOS Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "MUFGグループのクレジットカード・信販会社。文理不問"
+      },
+      {
+        "name": "三菱HCキャピタル",
+        "name_en": "Mitsubishi HC Capital Inc.",
+        "positions": ["総合職"],
+        "note": "三菱グループ・日立グループのリース会社。初任給: 学士卒315,000円、修士卒335,000円"
+      },
+      {
+        "name": "東京センチュリー",
+        "name_en": "Tokyo Century Corporation",
+        "positions": ["総合職"],
+        "note": "伊藤忠グループのリース大手"
+      },
+      {
+        "name": "三井住友ファイナンス&リース",
+        "name_en": "Sumitomo Mitsui Finance and Leasing Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "三井住友フィナンシャルグループ・住友商事のリース大手"
+      },
+      {
+        "name": "芙蓉総合リース",
+        "name_en": "Fuyo General Lease Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "みずほ系のリース大手"
+      },
+      {
+        "name": "みずほリース",
+        "name_en": "Mizuho Leasing Company, Limited",
+        "positions": ["総合職"],
+        "note": "みずほフィナンシャルグループのリース会社"
+      },
+      {
+        "name": "JA三井リース",
+        "name_en": "JA Mitsui Leasing, Ltd.",
+        "positions": ["総合職"],
+        "note": "農林中央金庫・三井住友フィナンシャルグループ系のリース会社"
+      },
+      {
+        "name": "オリックス",
+        "name_en": "ORIX Corporation",
+        "positions": ["総合職"],
+        "note": "リース・不動産・金融・エネルギーなど多角経営。多様な事業領域でキャリアを構築可能"
+      },
+      {
+        "name": "NTTファイナンス",
+        "name_en": "NTT Finance Corporation",
+        "positions": ["総合職"],
+        "note": "NTTグループの金融会社。ファイナンス・ビリング・クレジットカード事業"
+      },
+      {
+        "name": "トーア再保険",
+        "name_en": "Toa Reinsurance Company, Limited",
+        "positions": ["総合職"],
+        "note": "日本唯一の総合再保険専門会社"
+      },
+      {
+        "name": "SBIホールディングス",
+        "name_en": "SBI Holdings, Inc.",
+        "positions": ["総合職"],
+        "note": "ネット金融を中心とした総合金融グループ。証券・銀行・保険・資産運用等"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - M&A・VC・投資育成）",
+    "companies": [
+      {
+        "name": "JAFCO",
+        "name_en": "JAFCO Group Co., Ltd.",
+        "positions": ["キャピタリスト職"],
+        "note": "日本最大級のベンチャーキャピタル。1982年に国内初の未上場企業向け投資事業組合を設立"
+      },
+      {
+        "name": "M&Aキャピタルパートナーズ",
+        "name_en": "M&A Capital Partners Co., Ltd.",
+        "positions": ["M&Aアドバイザー"],
+        "note": "M&A仲介大手。1人のアドバイザーがソーシングからクロージングまで全工程を担当"
+      },
+      {
+        "name": "日本M&Aセンター",
+        "name_en": "Nihon M&A Center Holdings Inc.",
+        "positions": ["M&Aコンサルタント", "コーポレートアドバイザー"],
+        "note": "M&A仲介最大手。中堅・中小企業の事業承継に特化"
+      },
+      {
+        "name": "M&A総合研究所",
+        "name_en": "M&A Research Institute Holdings Inc.",
+        "positions": ["M&Aアドバイザー"],
+        "note": "テクノロジー活用型のM&A仲介。急成長中"
+      },
+      {
+        "name": "ストライク",
+        "name_en": "Strike Co., Ltd.",
+        "positions": ["M&Aコンサルタント"],
+        "note": "M&A仲介。中小企業の事業承継・スタートアップのEXIT支援に注力"
+      },
+      {
+        "name": "レオス・キャピタルワークス",
+        "name_en": "Rheos Capital Works Inc.",
+        "positions": ["総合職"],
+        "note": "独立系資産運用会社。「ひふみ」シリーズで有名。2003年設立"
+      },
+      {
+        "name": "東京中小企業投資育成",
+        "name_en": "Tokyo Small and Medium Business Investment & Consultation Co. (SBIC)",
+        "positions": ["総合職"],
+        "note": "中小企業の自己資本充実と健全な成長を支援する公的投資育成機関"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - 共済・短資）",
+    "companies": [
+      {
+        "name": "JA共済",
+        "name_en": "National Mutual Insurance Federation of Agricultural Cooperatives",
+        "positions": ["総合職"],
+        "note": "JAグループの共済事業。生命共済と損害共済の両方を取扱い"
+      },
+      {
+        "name": "上田八木短資",
+        "name_en": "Ueda Yagi Tanshi Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "短期金融市場の仲介業者（ブローカー）"
+      },
+      {
+        "name": "東京短資",
+        "name_en": "Tokyo Tanshi Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "短期金融市場の仲介業者。コール市場等の取引仲介"
+      },
+      {
+        "name": "セントラル短資",
+        "name_en": "Central Tanshi Co., Ltd.",
+        "positions": ["総合職"],
+        "note": "短期金融市場の仲介業者。外国為替証拠金取引も展開"
+      }
+    ]
+  }
+]

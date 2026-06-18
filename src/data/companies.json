@@ -1,0 +1,6398 @@
+[
+  {
+    "industry": "コンサルティング（戦略）",
+    "companies": [
+      {
+        "name": "マッキンゼー・アンド・カンパニー",
+        "name_en": "McKinsey & Company",
+        "positions": [
+          "ビジネスアナリスト"
+        ],
+        "note": "新卒はビジネスアナリスト（BA）として入社。年間採用10〜20名程度"
+      },
+      {
+        "name": "ボストン コンサルティング グループ",
+        "name_en": "BCG (Boston Consulting Group)",
+        "positions": [
+          "アソシエイト"
+        ],
+        "note": "新卒はアソシエイトとして入社。年間採用20〜30名程度"
+      },
+      {
+        "name": "ベイン・アンド・カンパニー",
+        "name_en": "Bain & Company",
+        "positions": [
+          "アソシエイトコンサルタント"
+        ],
+        "note": "新卒はアソシエイトコンサルタント（AC）として入社。年間採用10〜15名程度"
+      },
+      {
+        "name": "A.T. カーニー",
+        "name_en": "Kearney (A.T. Kearney)",
+        "positions": [
+          "ビジネスアナリスト"
+        ],
+        "note": "新卒はビジネスアナリストとして入社"
+      },
+      {
+        "name": "ローランド・ベルガー",
+        "name_en": "Roland Berger",
+        "positions": [
+          "ジュニアコンサルタント"
+        ],
+        "note": "新卒はジュニアコンサルタントとして入社。少数精鋭採用"
+      },
+      {
+        "name": "アーサー・ディ・リトル",
+        "name_en": "Arthur D. Little (ADL)",
+        "positions": [
+          "ビジネスアナリスト"
+        ],
+        "note": "新卒はビジネスアナリストとして入社。サマー・ウィンターインターンシップ経由が主"
+      },
+      {
+        "name": "Strategy&（PwC）",
+        "name_en": "Strategy& (PwC)",
+        "positions": [
+          "戦略コンサルタント"
+        ],
+        "note": "PwCコンサルティング内の戦略部門。PwCの戦略コンサルタント職として採用"
+      },
+      {
+        "name": "オリバー・ワイマン",
+        "name_en": "Oliver Wyman",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "新卒はコンサルタントとして入社。少数精鋭採用"
+      },
+      {
+        "name": "ZSアソシエイツ",
+        "name_en": "ZS Associates",
+        "positions": [
+          "アソシエイトコンサルタント",
+          "ビジネステクノロジーアナリスト"
+        ],
+        "note": "ヘルスケア・製薬業界に強み"
+      },
+      {
+        "name": "ドリームインキュベータ",
+        "name_en": "Dream Incubator (DI)",
+        "positions": [
+          "コンサルタント（グローバル戦略共創）"
+        ],
+        "note": "新卒初任給：大学卒600万円/年、大学院卒620万円/年。少数精鋭採用"
+      },
+      {
+        "name": "経営共創基盤",
+        "name_en": "Industrial Growth Platform, Inc. (IGPI)",
+        "positions": [
+          "アソシエイト"
+        ],
+        "note": "戦略立案から実行まで一貫して支援。少数精鋭採用"
+      },
+      {
+        "name": "コーポレイトディレクション",
+        "name_en": "Corporate Directions, Inc. (CDI)",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "新卒入社スタッフ比率が6割以上。全員をマネジャー以上に育成する方針"
+      },
+      {
+        "name": "P&Eディレクションズ",
+        "name_en": "P&E Directions",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "CDI発のブティックファーム"
+      }
+    ]
+  },
+  {
+    "industry": "コンサルティング（総合）",
+    "companies": [
+      {
+        "name": "アクセンチュア",
+        "name_en": "Accenture",
+        "positions": [
+          "ビジネスコンサルタント",
+          "ソリューション・エンジニア",
+          "デジタルコンサルタント",
+          "データサイエンティスト",
+          "AIアーキテクト",
+          "マーケティング",
+          "デザイン",
+          "コンテンツデザイン/ディレクター",
+          "クリエイティブ",
+          "オペレーションスペシャリスト"
+        ],
+        "note": "初年度年俸430万円（基準年俸）＋業績賞与。戦略/ビジネスコンサル/デジタルコンサル/SE等の領域"
+      },
+      {
+        "name": "PwCコンサルティング",
+        "name_en": "PwC Consulting",
+        "positions": [
+          "戦略コンサルタント",
+          "ビジネスコンサルタント",
+          "デジタルコンサルタント",
+          "ITソリューションコンサルタント"
+        ],
+        "note": "PwC Japanグループ。Strategy&は戦略コンサルタント職に含まれる"
+      },
+      {
+        "name": "PwCアドバイザリー",
+        "name_en": "PwC Advisory",
+        "positions": [
+          "M&A・戦略コンサルタント"
+        ],
+        "note": "M&A、事業再生、インフラの3領域が中心"
+      },
+      {
+        "name": "デロイト トーマツ コンサルティング",
+        "name_en": "Deloitte Tohmatsu Consulting (DTC)",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "2025年12月にDTFA・DTRAと合併し「合同会社デロイト トーマツ」に。学士卒年収約580万円、修士卒約600万円"
+      },
+      {
+        "name": "EYストラテジー・アンド・コンサルティング",
+        "name_en": "EY Strategy and Consulting (EYSC)",
+        "positions": [
+          "ビジネスコンサルタント",
+          "テクノロジーコンサルタント",
+          "戦略コンサルタント",
+          "M&Aフィナンシャルアドバイザー"
+        ],
+        "note": "スタンダード（ビジネスコンサルタント）と専門（テクノロジー/戦略/M&A FA）の2トラック"
+      },
+      {
+        "name": "KPMGコンサルティング",
+        "name_en": "KPMG Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "ビジネストランスフォーメーション、リスクマネジメント、サイバーセキュリティ等。学士年収約625万円"
+      },
+      {
+        "name": "アビームコンサルティング",
+        "name_en": "ABeam Consulting",
+        "positions": [
+          "ストラテジーコンサルタント",
+          "ソリューションコンサルタント",
+          "プランニング＆オペレーション"
+        ],
+        "note": "日系最大級の総合コンサルファーム"
+      },
+      {
+        "name": "ベイカレントコンサルティング",
+        "name_en": "BayCurrent Consulting",
+        "positions": [
+          "コンサルタント（アナリスト）"
+        ],
+        "note": "新卒はアナリストとして入社。年間採用100〜150名程度。初年度年収約600万円"
+      },
+      {
+        "name": "日本IBM",
+        "name_en": "IBM Japan",
+        "positions": [
+          "ITスペシャリスト",
+          "コンサルタント",
+          "データサイエンティスト",
+          "デザイナー",
+          "営業",
+          "ファイナンス"
+        ],
+        "note": "職種別採用。IBMコンサルティング事業本部、テクノロジー事業本部等のコース制"
+      }
+    ]
+  },
+  {
+    "industry": "コンサルティング（FAS / 監査法人系アドバイザリー）",
+    "companies": [
+      {
+        "name": "KPMG FAS",
+        "name_en": "KPMG FAS",
+        "positions": [
+          "M&A・戦略コンサルタント"
+        ],
+        "note": "M&Aアドバイザリー、事業再生、フォレンジック等"
+      },
+      {
+        "name": "デロイト トーマツ ファイナンシャルアドバイザリー",
+        "name_en": "Deloitte Tohmatsu Financial Advisory (DTFA)",
+        "positions": [
+          "M&Aコンサルタント",
+          "ファイナンシャルアドバイザー"
+        ],
+        "note": "2025年12月にDTCと合併し「合同会社デロイト トーマツ」に統合"
+      },
+      {
+        "name": "PwCあらた有限責任監査法人",
+        "name_en": "PwC Aarata",
+        "positions": [
+          "ビジネスリスクコンサルタント",
+          "システムリスクコンサルタント",
+          "監査職"
+        ],
+        "note": "PwC Japan有限責任監査法人。監査・保証業務およびアドバイザリー"
+      },
+      {
+        "name": "EY新日本有限責任監査法人",
+        "name_en": "Ernst & Young ShinNihon",
+        "positions": [
+          "監査職",
+          "アドバイザリー"
+        ],
+        "note": "4大監査法人の一つ。監査・保証部門とアドバイザリー部門"
+      },
+      {
+        "name": "有限責任あずさ監査法人",
+        "name_en": "KPMG AZSA",
+        "positions": [
+          "監査職",
+          "アドバイザリー"
+        ],
+        "note": "KPMGメンバーファーム。監査・保証業務が中心"
+      }
+    ]
+  },
+  {
+    "industry": "コンサルティング（シンクタンク / その他）",
+    "companies": [
+      {
+        "name": "フロンティア・マネジメント",
+        "name_en": "Frontier Management",
+        "positions": [
+          "経営コンサルタント",
+          "M&Aアドバイザー"
+        ],
+        "note": "経営コンサルティングとM&Aアドバイザリーの二本柱"
+      },
+      {
+        "name": "シグマクシス",
+        "name_en": "Sigmaxyz",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "デジタルトランスフォーメーション領域に強み"
+      },
+      {
+        "name": "野村総合研究所",
+        "name_en": "Nomura Research Institute (NRI)",
+        "positions": [
+          "経営コンサルタント",
+          "アプリケーションエンジニア（AE）",
+          "テクニカルエンジニア（TE）",
+          "エリアシステムエンジニア（札幌/福岡）",
+          "本社スタッフ（法務/会計）",
+          "セキュリティスペシャリスト"
+        ],
+        "note": "6職種の統一採用。コンサルとITソリューションの2コースでインターンも実施"
+      },
+      {
+        "name": "三菱総合研究所",
+        "name_en": "Mitsubishi Research Institute (MRI)",
+        "positions": [
+          "研究員・コンサルタント",
+          "コーポレート職（経理財務・総務・法務・人事）"
+        ],
+        "note": "シンクタンク。政策提言・社会課題解決型の研究・コンサルティング"
+      },
+      {
+        "name": "三菱UFJリサーチ＆コンサルティング",
+        "name_en": "Mitsubishi UFJ Research and Consulting (MURC)",
+        "positions": [
+          "コンサルタント（部門別採用）",
+          "リサーチャー"
+        ],
+        "note": "コンサルティング事業と政策研究事業の部門別採用"
+      },
+      {
+        "name": "日本総合研究所",
+        "name_en": "Japan Research Institute (JRI)",
+        "positions": [
+          "コンサルタント",
+          "ITエンジニア",
+          "リサーチャー"
+        ],
+        "note": "SMBCグループ。コンサル/IT/リサーチの3職種"
+      },
+      {
+        "name": "大和総研",
+        "name_en": "Daiwa Institute of Research (DIR)",
+        "positions": [
+          "総合職",
+          "総合職（エキスパート・コース）"
+        ],
+        "note": "大和証券グループ。リサーチ・コンサルティング・システムの3事業。コンサル/SE配属あり"
+      },
+      {
+        "name": "みずほリサーチ＆テクノロジーズ",
+        "name_en": "Mizuho Research & Technologies",
+        "positions": [
+          "コンサルタント",
+          "ITエンジニア",
+          "リサーチャー",
+          "先端技術スペシャリスト"
+        ],
+        "note": "みずほFG。金融工学・AI/データサイエンス・数値解析等の先端技術コースあり"
+      },
+      {
+        "name": "NTTデータ経営研究所",
+        "name_en": "NTT DATA Institute of Management Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "戦略コンサルティング＋シンクタンク。官民双方への政策提言・戦略コンサル"
+      },
+      {
+        "name": "クニエ",
+        "name_en": "QUNIE (Fortienceコンサルティングに改称)",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "NTTデータ100%子会社。製造業コンサルに強み。2024年にフォーティエンスコンサルティングに社名変更"
+      },
+      {
+        "name": "日立コンサルティング",
+        "name_en": "Hitachi Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "日立グループ。IT×コンサルティングに強み"
+      },
+      {
+        "name": "マーサージャパン",
+        "name_en": "Mercer Japan",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "組織・人事コンサルティング。報酬・福利厚生・M&A・組織変革等"
+      },
+      {
+        "name": "コーン・フェリー・ジャパン",
+        "name_en": "Korn Ferry Japan",
+        "positions": [
+          "アナリスト（組織戦略コンサルタント）"
+        ],
+        "note": "組織・人事コンサルティング。新卒はコンサルティング部門のみ採用"
+      },
+      {
+        "name": "サイモン・クチャー",
+        "name_en": "Simon-Kucher",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "プライシング・グロース戦略に特化"
+      },
+      {
+        "name": "YCPソリディアンス",
+        "name_en": "YCP Solidiance",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "アジア特化の戦略コンサルティング"
+      },
+      {
+        "name": "船井総研",
+        "name_en": "Funai Soken",
+        "positions": [
+          "経営コンサルタント"
+        ],
+        "note": "中堅・中小企業向け経営コンサルティング"
+      },
+      {
+        "name": "山田コンサルティンググループ",
+        "name_en": "Yamada Consulting Group",
+        "positions": [
+          "経営コンサルタント",
+          "M&Aアドバイザー"
+        ],
+        "note": "事業再生・M&Aアドバイザリー・経営コンサル"
+      },
+      {
+        "name": "日本能率協会コンサルティング",
+        "name_en": "JMA Consultants (JMAC)",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "製造業・サービス業の生産性向上コンサルティング"
+      },
+      {
+        "name": "リブコンサルティング",
+        "name_en": "LiB Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "ベンチャー・中堅企業の成長支援コンサルティング"
+      },
+      {
+        "name": "レイヤーズコンサルティング",
+        "name_en": "Layers Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "経営管理・SCM・BPR等の実行支援型コンサルティング"
+      },
+      {
+        "name": "日本経営システム",
+        "name_en": "Nihon Keiei System",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "経営コンサルティング"
+      },
+      {
+        "name": "キャップジェミニ",
+        "name_en": "Capgemini",
+        "positions": [
+          "コンサルタント",
+          "エンジニア"
+        ],
+        "note": "フランス系グローバル総合コンサル・ITサービス"
+      },
+      {
+        "name": "B&DX",
+        "name_en": "B&DX",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "DX・デジタル変革支援"
+      },
+      {
+        "name": "イグニション・ポイント",
+        "name_en": "Ignition Point",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "イノベーション・DXコンサルティング"
+      },
+      {
+        "name": "スカイライトコンサルティング",
+        "name_en": "Skylight Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "ITマネジメント・業務改革コンサルティング"
+      },
+      {
+        "name": "REVAMP",
+        "name_en": "REVAMP",
+        "positions": [
+          "コンサルタント",
+          "エンジニア"
+        ],
+        "note": "経営支援・DX支援。ハンズオン型経営参画"
+      },
+      {
+        "name": "ケンブリッジ・テクノロジー・パートナーズ",
+        "name_en": "Cambridge Technology Partners",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "ファシリテーション型コンサルティング"
+      },
+      {
+        "name": "プロレド・パートナーズ",
+        "name_en": "PRORED Partners",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "コスト削減・経営改善コンサルティング"
+      },
+      {
+        "name": "プラスアルファ・コンサルティング",
+        "name_en": "Plus Alpha Consulting",
+        "positions": [
+          "コンサルタント",
+          "エンジニア"
+        ],
+        "note": "テキストマイニング・データ活用コンサルティング"
+      },
+      {
+        "name": "ビッグツリーテクノロジー＆コンサルティング",
+        "name_en": "BigTree Technology & Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "IT戦略・デジタルトランスフォーメーション支援"
+      },
+      {
+        "name": "博報堂コンサルティング",
+        "name_en": "Hakuhodo Consulting",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "マーケティング・ブランド戦略コンサルティング"
+      },
+      {
+        "name": "ウルシステムズ",
+        "name_en": "UL Systems",
+        "positions": [
+          "ITコンサルタント"
+        ],
+        "note": "ITコンサルティング専業。戦略的IT投資の支援"
+      },
+      {
+        "name": "デロイト トーマツ アクト",
+        "name_en": "Deloitte Tohmatsu Act",
+        "positions": [
+          "コンサルタント",
+          "エンジニア"
+        ],
+        "note": "デロイトトーマツグループのテクノロジー実装部門"
+      },
+      {
+        "name": "リンクアンドモチベーション",
+        "name_en": "Link and Motivation",
+        "positions": [
+          "コンサルタント",
+          "営業"
+        ],
+        "note": "組織人事・モチベーションコンサルティング"
+      },
+      {
+        "name": "デロイト トーマツ リスクアドバイザリー",
+        "name_en": "Deloitte Tohmatsu Risk Advisory (DTRA)",
+        "positions": [
+          "コンサルタント"
+        ],
+        "note": "リスク管理・内部統制・サイバーセキュリティ。DTCと合併しデロイト トーマツに統合"
+      },
+      {
+        "name": "デロイト トーマツ サイバー",
+        "name_en": "Deloitte Tohmatsu Cyber (DTCY)",
+        "positions": [
+          "サイバーセキュリティコンサルタント"
+        ],
+        "note": "サイバーセキュリティ専門。デロイトトーマツグループ"
+      }
+    ]
+  },
+  {
+    "industry": "IT / ITサービス（外資系）",
+    "companies": [
+      {
+        "name": "Google（グーグル）",
+        "name_en": "Google",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "ビジネス職（セールス・マーケティング等）",
+          "リサーチサイエンティスト",
+          "プロダクトマネージャー",
+          "セキュリティエンジニア",
+          "テクニカルアカウントマネージャー"
+        ],
+        "note": "新卒プログラムあり。30日ごとに3職種まで応募可能"
+      },
+      {
+        "name": "マイクロソフト（日本マイクロソフト）",
+        "name_en": "Microsoft Japan",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "サポートエンジニア",
+          "クラウドソリューションアーキテクト",
+          "セールス",
+          "マーケティング"
+        ],
+        "note": "技術職・営業職・マーケティング等の職種別採用"
+      },
+      {
+        "name": "アマゾンジャパン",
+        "name_en": "Amazon Japan",
+        "positions": [
+          "コンシューマー総合職（営業・マーケティング）",
+          "オペレーション総合職",
+          "ソフトウェアデベロッパー"
+        ],
+        "note": "Consumer部門・AWS部門・Operation部門の3部門"
+      },
+      {
+        "name": "アマゾン ウェブ サービス ジャパン",
+        "name_en": "AWS Japan",
+        "positions": [
+          "クラウドサポートエンジニア",
+          "ソリューションアーキテクト",
+          "セールス（営業）"
+        ],
+        "note": "AWS部門。技術職・営業職の職種別採用"
+      },
+      {
+        "name": "Apple（アップルジャパン）",
+        "name_en": "Apple Japan",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "ハードウェアエンジニア",
+          "セールス"
+        ],
+        "note": "不定期採用。ポジションベースの通年採用が中心"
+      },
+      {
+        "name": "シスコシステムズ",
+        "name_en": "Cisco Systems",
+        "positions": [
+          "セールス",
+          "システムズエンジニア",
+          "カスタマーサクセス"
+        ],
+        "note": "新卒採用プログラムあり。入社後の基礎研修が充実"
+      },
+      {
+        "name": "セールスフォース・ジャパン",
+        "name_en": "Salesforce Japan",
+        "positions": [
+          "内勤営業（Sales Development）",
+          "ソリューションエンジニア（技術営業）",
+          "カスタマーサクセス/テクニカルサポート"
+        ],
+        "note": "Futureforce新卒プログラム"
+      },
+      {
+        "name": "SAPジャパン",
+        "name_en": "SAP Japan",
+        "positions": [
+          "営業",
+          "プリセールスコンサルタント",
+          "開発エンジニア"
+        ],
+        "note": "ERP等の企業向けソフトウェア大手"
+      },
+      {
+        "name": "日本オラクル",
+        "name_en": "Oracle Japan",
+        "positions": [
+          "営業",
+          "コンサルタント",
+          "ソリューションエンジニア"
+        ],
+        "note": "データベース・クラウドサービス大手"
+      },
+      {
+        "name": "ヴイエムウェア",
+        "name_en": "VMware (Broadcom)",
+        "positions": [
+          "セールス",
+          "システムズエンジニア"
+        ],
+        "note": "2023年にBroadcomが買収。仮想化技術大手"
+      },
+      {
+        "name": "ブルームバーグ",
+        "name_en": "Bloomberg L.P.",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "データアナリスト",
+          "セールス＆アナリティクス",
+          "カスタマーサポート"
+        ],
+        "note": "金融情報サービス大手。新卒・第二新卒向けプログラムあり"
+      },
+      {
+        "name": "日本HP",
+        "name_en": "HP Japan",
+        "positions": [
+          "セールス",
+          "プリセールスエンジニア",
+          "カスタマーサポート"
+        ],
+        "note": "PC・プリンター等のコンシューマー/法人向けハードウェア"
+      },
+      {
+        "name": "デル・テクノロジーズ",
+        "name_en": "Dell Technologies",
+        "positions": [
+          "セールス",
+          "テクニカルサポート",
+          "ソリューションエンジニア"
+        ],
+        "note": "PC・サーバー等のハードウェア大手"
+      },
+      {
+        "name": "日本ヒューレット・パッカード",
+        "name_en": "Hewlett Packard Enterprise (HPE)",
+        "positions": [
+          "システムエンジニア",
+          "サービスエンジニア",
+          "セールススペシャリスト",
+          "プリセールスエンジニア"
+        ],
+        "note": "エンタープライズIT基盤。新卒採用プログラムあり"
+      },
+      {
+        "name": "トレンドマイクロ",
+        "name_en": "Trend Micro",
+        "positions": [
+          "セキュリティエンジニア",
+          "セールス",
+          "テクニカルサポート"
+        ],
+        "note": "サイバーセキュリティ大手"
+      },
+      {
+        "name": "アドビ",
+        "name_en": "Adobe",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "セールス",
+          "カスタマーサクセス"
+        ],
+        "note": "クリエイティブ・マーケティングツール大手"
+      },
+      {
+        "name": "メタ",
+        "name_en": "Meta (Facebook)",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "データサイエンティスト"
+        ],
+        "note": "ポジションベースの通年採用が中心"
+      }
+    ]
+  },
+  {
+    "industry": "IT / ITサービス（日系）",
+    "companies": [
+      {
+        "name": "ソニーグループ",
+        "name_en": "Sony Group",
+        "positions": [
+          "技術系（電気・情報・機械・化学・物理・材料・数学等）",
+          "事務系（企画・営業・管理等）"
+        ],
+        "note": "コース別採用。ゲーム・音楽・映画・エレクトロニクス・金融等の幅広い事業"
+      },
+      {
+        "name": "任天堂",
+        "name_en": "Nintendo",
+        "positions": [
+          "理工系（ソフトウェア・ハードウェア）",
+          "デザイン系",
+          "サウンド系",
+          "制作企画系",
+          "事務系"
+        ],
+        "note": "技術系・デザイン系・制作企画系・事務系の4カテゴリで募集"
+      },
+      {
+        "name": "キーエンス",
+        "name_en": "KEYENCE",
+        "positions": [
+          "ビジネス職（営業・マーケティング等）",
+          "エンジニア職（開発・設計等）"
+        ],
+        "note": "センサー・計測機器等の製造。高年収で知られる"
+      },
+      {
+        "name": "NTTドコモ",
+        "name_en": "NTT docomo",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "note": "通信キャリア大手。2027年3月までの卒業見込み者が対象"
+      },
+      {
+        "name": "KDDI",
+        "name_en": "KDDI",
+        "positions": [
+          "初期配属確約コース（ネットワーク・クラウド等）",
+          "初期配属非確約コース（総合職）"
+        ],
+        "note": "au等の通信サービス。配属確約/非確約の2コース"
+      },
+      {
+        "name": "ソフトバンク",
+        "name_en": "SoftBank",
+        "positions": [
+          "総合コース",
+          "エンジニアコース",
+          "営業コース"
+        ],
+        "note": "通信・IT事業。コース別採用"
+      },
+      {
+        "name": "LINEヤフー",
+        "name_en": "LY Corporation (LINE Yahoo)",
+        "positions": [
+          "エンジニア",
+          "デザイナー",
+          "企画・ビジネス"
+        ],
+        "note": "2023年にLINEとヤフーが統合。ポジション別採用"
+      },
+      {
+        "name": "楽天グループ",
+        "name_en": "Rakuten Group",
+        "positions": [
+          "ビジネス総合コース",
+          "エンジニア職",
+          "フィンテックコース"
+        ],
+        "note": "Eコマース・金融・通信等の総合IT企業"
+      },
+      {
+        "name": "サイバーエージェント",
+        "name_en": "CyberAgent",
+        "positions": [
+          "ビジネスコース",
+          "エンジニアコース",
+          "クリエイターコース"
+        ],
+        "note": "インターネット広告・メディア・ゲーム事業。年間採用約280名。倍率100〜150倍"
+      },
+      {
+        "name": "DeNA",
+        "name_en": "DeNA",
+        "positions": [
+          "エンジニア職",
+          "ビジネス職",
+          "デザイナー職",
+          "AIジェネラリストコース",
+          "AIスペシャリストコース"
+        ],
+        "note": "AIジェネラリスト年収600万円〜、AIスペシャリスト年収700万円〜"
+      },
+      {
+        "name": "エムスリー",
+        "name_en": "M3, Inc.",
+        "positions": [
+          "ビジネス職",
+          "エンジニア職",
+          "プロダクトマネージャー"
+        ],
+        "note": "医療×IT。m3.comを運営"
+      },
+      {
+        "name": "メルカリ",
+        "name_en": "Mercari",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "プロダクトマネージャー",
+          "バックエンドエンジニア"
+        ],
+        "note": "フリマアプリ大手。エンジニア採用が中心"
+      },
+      {
+        "name": "SmartNews",
+        "name_en": "SmartNews",
+        "positions": [
+          "ソフトウェアエンジニア",
+          "プロダクトマネージャー"
+        ],
+        "note": "ニュースアプリ。エンジニア採用中心の少数精鋭"
+      },
+      {
+        "name": "Sansan",
+        "name_en": "Sansan",
+        "positions": [
+          "総合職",
+          "エンジニア職",
+          "研究開発職",
+          "クリエイター職"
+        ],
+        "note": "名刺管理・営業DXサービス。4職種で学部学科不問"
+      },
+      {
+        "name": "ビジョナル",
+        "name_en": "Visional",
+        "positions": [
+          "ビジネス職",
+          "エンジニア職"
+        ],
+        "note": "ビズリーチ等を運営するHRテック企業"
+      },
+      {
+        "name": "マネーフォワード",
+        "name_en": "MoneyForward",
+        "positions": [
+          "ビジネス職",
+          "エンジニア職"
+        ],
+        "note": "家計簿・会計ソフト等のFinTech企業"
+      },
+      {
+        "name": "ジャストシステム",
+        "name_en": "JustSystems",
+        "positions": [
+          "総合職（企画・営業）",
+          "技術職（開発）"
+        ],
+        "note": "一太郎・ATOK・スマイルゼミ等の開発"
+      },
+      {
+        "name": "リクルート",
+        "name_en": "Recruit",
+        "positions": [
+          "マーケター",
+          "顧客接点",
+          "事業企画",
+          "コーポレートスタッフ",
+          "プロダクトマネージャー",
+          "エンジニア",
+          "UI/UXデザイナー"
+        ],
+        "note": "リクルートHD採用後、グループ各社（Recruit、Indeed等）へ配属"
+      }
+    ]
+  },
+  {
+    "industry": "SI（システムインテグレーター）",
+    "companies": [
+      {
+        "name": "NTTデータ",
+        "name_en": "NTT DATA",
+        "positions": [
+          "SE・営業コース（システムエンジニア/営業）",
+          "コンサルタントコース",
+          "ファシリティマネジメントコース（建築系/電力系）"
+        ],
+        "note": "日本最大級のSI企業。コース別採用"
+      },
+      {
+        "name": "日鉄ソリューションズ",
+        "name_en": "NS Solutions (NSSOL)",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "研究開発",
+          "ITコンサルタント",
+          "経営管理（財務・総務・人事）"
+        ],
+        "note": "日本製鉄グループ。修士了月給29万円、大学卒月給26.3万円"
+      },
+      {
+        "name": "野村総合研究所",
+        "name_en": "Nomura Research Institute (NRI)",
+        "positions": [
+          "経営コンサルタント",
+          "アプリケーションエンジニア（AE）",
+          "テクニカルエンジニア（TE）",
+          "エリアシステムエンジニア",
+          "本社スタッフ",
+          "セキュリティスペシャリスト"
+        ],
+        "note": "コンサル・SI兼業。6職種統一採用。コンサル業界にも分類"
+      },
+      {
+        "name": "SCSK",
+        "name_en": "SCSK Corporation",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "スタッフ"
+        ],
+        "note": "住友商事グループ。情報系/非情報理系/文系ほぼ均等に採用"
+      },
+      {
+        "name": "TIS",
+        "name_en": "TIS Inc.",
+        "positions": [
+          "ITコンサルタント",
+          "プロジェクトマネージャー",
+          "ITアーキテクト",
+          "アプリケーションスペシャリスト",
+          "ITスペシャリスト"
+        ],
+        "note": "2026年7月にインテック と合併しTISI株式会社に"
+      },
+      {
+        "name": "オービック",
+        "name_en": "OBIC",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "コンサルタント"
+        ],
+        "note": "自社開発ERP「OBIC7」を展開。独立系SI"
+      },
+      {
+        "name": "日立ソリューションズ",
+        "name_en": "Hitachi Solutions",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "コンサルタント",
+          "研究開発"
+        ],
+        "note": "日立グループのSI企業"
+      },
+      {
+        "name": "NTTデータグループ子会社上位",
+        "name_en": "NTT DATA Group Subsidiaries",
+        "positions": [
+          "システムエンジニア",
+          "営業"
+        ],
+        "note": "NTTデータフィナンシャルテクノロジー、NTTデータCCS等の子会社群"
+      },
+      {
+        "name": "伊藤忠テクノソリューションズ",
+        "name_en": "ITOCHU Techno-Solutions (CTC)",
+        "positions": [
+          "エンジニア（SE・理工系エンジニア）",
+          "営業",
+          "コーポレートスタッフ（経理・法務・人事）"
+        ],
+        "note": "伊藤忠グループ。2026年採用予定372名。修士卒月給32.1万円、大学卒月給30.2万円"
+      },
+      {
+        "name": "BIPROGY（旧 日本ユニシス）",
+        "name_en": "BIPROGY (formerly Nihon Unisys)",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "コンサルタント",
+          "コーポレートスタッフ"
+        ],
+        "note": "2022年に日本ユニシスから社名変更"
+      },
+      {
+        "name": "JSOL",
+        "name_en": "JSOL Corporation",
+        "positions": [
+          "ITコンサルタント",
+          "システムエンジニア"
+        ],
+        "note": "NTTデータグループ。製造・金融・公共分野のSI"
+      },
+      {
+        "name": "フューチャー",
+        "name_en": "Future Corporation",
+        "positions": [
+          "ITコンサルタント"
+        ],
+        "note": "ITコンサルティング&サービス。フューチャーアーキテクトが中核"
+      },
+      {
+        "name": "シンプレクス",
+        "name_en": "Simplex",
+        "positions": [
+          "ITコンサルタント",
+          "システムエンジニア"
+        ],
+        "note": "金融機関向けのITソリューション。戦略〜開発〜運用の一気通貫"
+      },
+      {
+        "name": "電通総研",
+        "name_en": "Dentsu Soken (formerly ISID)",
+        "positions": [
+          "ITコンサルタント",
+          "システムエンジニア",
+          "営業",
+          "コーポレートスタッフ"
+        ],
+        "note": "電通グループ。2024年にISIDから社名変更。採用130〜150名程度"
+      },
+      {
+        "name": "NECソリューションイノベータ",
+        "name_en": "NEC Solution Innovators",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "研究開発"
+        ],
+        "note": "NECグループのSI中核企業"
+      },
+      {
+        "name": "三菱UFJインフォメーションテクノロジー",
+        "name_en": "Mitsubishi UFJ Information Technology (MUIT)",
+        "positions": [
+          "システムエンジニア",
+          "プロジェクトマネージャー"
+        ],
+        "note": "三菱UFJフィナンシャル・グループのIT子会社"
+      },
+      {
+        "name": "農中情報システム",
+        "name_en": "Norinchukin Information System",
+        "positions": [
+          "システムエンジニア"
+        ],
+        "note": "農林中央金庫グループのIT子会社"
+      },
+      {
+        "name": "東京海上日動システムズ",
+        "name_en": "Tokio Marine & Nichido Systems",
+        "positions": [
+          "システムエンジニア",
+          "ITスペシャリスト"
+        ],
+        "note": "東京海上グループのIT子会社"
+      },
+      {
+        "name": "オリックス・システム",
+        "name_en": "ORIX System",
+        "positions": [
+          "システムエンジニア"
+        ],
+        "note": "オリックスグループのIT子会社"
+      },
+      {
+        "name": "三菱UFJトラストシステム",
+        "name_en": "Mitsubishi UFJ Trust Systems",
+        "positions": [
+          "システムエンジニア"
+        ],
+        "note": "三菱UFJ信託銀行グループのIT子会社"
+      },
+      {
+        "name": "ニッセイ情報テクノロジー",
+        "name_en": "Nissay Information Technology",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "コンサルタント"
+        ],
+        "note": "日本生命グループのIT子会社"
+      },
+      {
+        "name": "丸紅情報システムズ",
+        "name_en": "Marubeni Information Systems (MSYS)",
+        "positions": [
+          "システムエンジニア",
+          "営業"
+        ],
+        "note": "丸紅グループのIT子会社"
+      },
+      {
+        "name": "トヨタシステムズ",
+        "name_en": "Toyota Systems",
+        "positions": [
+          "システムエンジニア",
+          "インフラエンジニア"
+        ],
+        "note": "トヨタグループのIT子会社"
+      },
+      {
+        "name": "日立システムズ",
+        "name_en": "Hitachi Systems",
+        "positions": [
+          "システムエンジニア",
+          "営業",
+          "コンサルタント"
+        ],
+        "note": "日立グループのITサービス企業"
+      },
+      {
+        "name": "商船三井システムズ",
+        "name_en": "MOL Systems",
+        "positions": [
+          "システムエンジニア"
+        ],
+        "note": "商船三井グループのIT子会社"
+      },
+      {
+        "name": "セゾンテクノロジー",
+        "name_en": "Saison Technology (formerly Saison Information Systems)",
+        "positions": [
+          "システムエンジニア",
+          "営業"
+        ],
+        "note": "データ連携・ファイル転送等のソフトウェア製品"
+      },
+      {
+        "name": "ビジネスエンジニアリング",
+        "name_en": "Business Engineering (B-EN-G)",
+        "positions": [
+          "コンサルタント",
+          "システムエンジニア"
+        ],
+        "note": "製造業向けERP・SCMソリューション"
+      },
+      {
+        "name": "NYKビジネスシステムズ",
+        "name_en": "NYK Business Systems",
+        "positions": [
+          "システムエンジニア"
+        ],
+        "note": "日本郵船グループのIT子会社"
+      },
+      {
+        "name": "都築電気",
+        "name_en": "Tsuzuki Denki",
+        "positions": [
+          "システムエンジニア",
+          "営業"
+        ],
+        "note": "ICTソリューション・ネットワークインフラ"
+      },
+      {
+        "name": "日本タタ・コンサルタンシー・サービシズ",
+        "name_en": "Tata Consultancy Services Japan (TCS)",
+        "positions": [
+          "ITコンサルタント",
+          "システムエンジニア"
+        ],
+        "note": "インド最大のIT企業TCSの日本法人"
+      },
+      {
+        "name": "アバナード",
+        "name_en": "Avanade",
+        "positions": [
+          "コンサルタント",
+          "システムエンジニア"
+        ],
+        "note": "アクセンチュアとマイクロソフトの合弁。Microsoft技術特化"
+      },
+      {
+        "name": "キヤノンマーケティングジャパン",
+        "name_en": "Canon Marketing Japan",
+        "positions": [
+          "ITソリューション営業",
+          "システムエンジニア",
+          "コンサルタント"
+        ],
+        "note": "キヤノングループの国内マーケティング・ITソリューション"
+      }
+    ]
+  },
+  {
+    "industry": "総合商社",
+    "companies": [
+      {
+        "name": "三菱商事",
+        "name_en": "Mitsubishi Corporation",
+        "positions": [
+          "総合職",
+          "バックオフィス職"
+        ],
+        "note": "2026年度実績: 総合職のみ募集。2027年度よりバックオフィス職も新設。初任給: 学士卒350,000円、修士卒385,000円"
+      },
+      {
+        "name": "三井物産",
+        "name_en": "Mitsui & Co.",
+        "positions": [
+          "担当職（総合職）",
+          "業務職"
+        ],
+        "note": "選考では「自分史」の提出が特徴的。担当職は全国・海外転勤あり"
+      },
+      {
+        "name": "伊藤忠商事",
+        "name_en": "ITOCHU Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "総合職のみの一括採用。事務職の募集は行っていない"
+      },
+      {
+        "name": "住友商事",
+        "name_en": "Sumitomo Corporation",
+        "positions": [
+          "総合職（グローバル）",
+          "総合職（プロフェッショナル）"
+        ],
+        "note": "AI面接を本選考に導入。採用人数は年間100-150名程度"
+      },
+      {
+        "name": "丸紅",
+        "name_en": "Marubeni Corporation",
+        "positions": [
+          "総合職（オープン採用）",
+          "総合職（職種別採用）"
+        ],
+        "note": "職種別採用では経理財務・法務・デジタルなど特定領域での採用あり"
+      },
+      {
+        "name": "豊田通商",
+        "name_en": "Toyota Tsusho Corporation",
+        "positions": [
+          "総合職（グローバル）",
+          "総合職（エリア）"
+        ],
+        "note": "トヨタグループの総合商社。メタル、モビリティ、アフリカなど多様な事業本部で展開"
+      },
+      {
+        "name": "双日",
+        "name_en": "Sojitz Corporation",
+        "positions": [
+          "総合職（担当職）",
+          "総合職（事務職）"
+        ],
+        "note": "化学品・食品・エネルギー・機械・情報通信など幅広い分野で事業展開"
+      }
+    ]
+  },
+  {
+    "industry": "専門商社",
+    "companies": [
+      {
+        "name": "伊藤忠丸紅鉄鋼",
+        "name_en": "ITOCHU-MARUBENI IRON & STEEL INC.",
+        "positions": [
+          "BPグループ（総合職）オープン採用",
+          "BPグループ（総合職）配属部署確約採用",
+          "APグループ（地域限定職）"
+        ],
+        "note": "鉄鋼専門商社最大手。BPグループにはグローバル法務コースあり。APグループは東京・大阪・広島勤務。初任給: 修士卒375,000円、学士卒340,000円"
+      },
+      {
+        "name": "メタルワン",
+        "name_en": "Metal One Corporation",
+        "positions": [
+          "総合職",
+          "一般職"
+        ],
+        "note": "三菱商事・双日系の鉄鋼商社"
+      },
+      {
+        "name": "JFE商事",
+        "name_en": "JFE Shoji Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "JFEグループの中核商社。全国転勤あり、普通自動車免許が必要"
+      },
+      {
+        "name": "長瀬産業",
+        "name_en": "Nagase & Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "化学品専門商社大手。平均年収1,330万円"
+      },
+      {
+        "name": "日鉄物産",
+        "name_en": "Nippon Steel Trading Corporation",
+        "positions": [
+          "総合職",
+          "一般職"
+        ],
+        "note": "日本製鉄グループの中核商社。鉄鋼・産機・繊維・食品の4事業"
+      },
+      {
+        "name": "阪和興業",
+        "name_en": "Hanwa Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "独立系鉄鋼商社。鉄鋼・非鉄金属・食品等を取扱い"
+      },
+      {
+        "name": "岡谷鋼機",
+        "name_en": "Okaya & Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "名古屋本社の老舗鉄鋼商社。鉄鋼・情報・電子・生活産業など多角展開"
+      },
+      {
+        "name": "稲畑産業",
+        "name_en": "Inabata & Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "化学品を中心とする専門商社。情報電子・生活産業・合成樹脂など"
+      },
+      {
+        "name": "蝶理",
+        "name_en": "CHORI CO., LTD.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "東レグループの繊維・化学品商社"
+      },
+      {
+        "name": "豊島",
+        "name_en": "Toyoshima & Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "繊維専門商社。ライフスタイル提案型ビジネスを展開"
+      },
+      {
+        "name": "住友商事グローバルメタルズ",
+        "name_en": "Sumitomo Corporation Global Metals Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "住友商事グループの鉄鋼・非鉄金属専門商社。トレードビジネスと事業開発・投資・経営を展開"
+      },
+      {
+        "name": "神鋼商事",
+        "name_en": "Shinsho Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "KOBELCOグループの中核商社。鉄鋼・アルミ・銅・原料・機械・溶接の5事業ユニット"
+      },
+      {
+        "name": "日本紙パルプ商事",
+        "name_en": "Japan Pulp & Paper Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "紙・パルプ専門商社最大手"
+      },
+      {
+        "name": "三洋貿易",
+        "name_en": "Sanyo Trading Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "ゴム・化学品・機械・産業資材等を扱う専門商社"
+      },
+      {
+        "name": "日立ハイテク",
+        "name_en": "Hitachi High-Tech Corporation",
+        "positions": [
+          "営業職",
+          "OTシステムエンジニア",
+          "OT設計開発職（ソフトウェア設計）",
+          "OT設計開発職（電気・電子系エンジニア）"
+        ],
+        "note": "日立グループの技術商社。理系学部在籍者が対象の職種あり"
+      },
+      {
+        "name": "ユアサ商事",
+        "name_en": "Yuasa Trading Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "産業機器・住設建材・工業機械等を扱う独立系商社"
+      },
+      {
+        "name": "第一実業",
+        "name_en": "Daiichi Jitsugyo Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "プラント・産業機械専門の技術商社"
+      },
+      {
+        "name": "マクニカ",
+        "name_en": "Macnica, Inc.",
+        "positions": [
+          "総合職（営業）",
+          "総合職（エンジニア）"
+        ],
+        "note": "半導体・ネットワーク機器の技術商社。セキュリティ・AI分野にも注力"
+      }
+    ]
+  },
+  {
+    "industry": "金融（銀行）",
+    "companies": [
+      {
+        "name": "日本銀行",
+        "name_en": "Bank of Japan",
+        "positions": [
+          "総合職",
+          "特定職",
+          "一般職"
+        ],
+        "note": "中央銀行。総合職は政策企画・リサーチ等、特定職は専門業務、一般職は事務業務。入行1年目は全国各地の支店に配属"
+      },
+      {
+        "name": "三菱UFJ銀行",
+        "name_en": "MUFG Bank, Ltd.",
+        "positions": [
+          "オープンコース",
+          "グローバルコース",
+          "カスタマーサービスコース",
+          "トレードビジネスコース",
+          "フィナンシャル・エンジニアリングコース",
+          "戦略財務（会計・税務）コース",
+          "システム・デジタルコース",
+          "ウェルスマネジメントコース",
+          "グローバル・マーケッツコース"
+        ],
+        "note": "9コース制採用。初任給: 学士卒300,000円、修士卒330,000円"
+      },
+      {
+        "name": "三井住友銀行",
+        "name_en": "Sumitomo Mitsui Banking Corporation",
+        "positions": [
+          "総合職（オープン型）",
+          "総合職（キャリア特定型）",
+          "総合職（オーダーメイド型）"
+        ],
+        "note": "3つの型、全14コースから選択可能。リテールビジネス、CIB、カスタマーサービスプロフェッショナル等"
+      },
+      {
+        "name": "みずほフィナンシャルグループ",
+        "name_en": "Mizuho Financial Group",
+        "positions": [
+          "オープンコース",
+          "特定コース（各種）"
+        ],
+        "note": "3つの型、全16コースから選択。みずほ銀行・みずほ信託銀行への配属"
+      },
+      {
+        "name": "農林中央金庫",
+        "name_en": "Norinchukin Bank",
+        "positions": [
+          "総合職",
+          "特定職"
+        ],
+        "note": "JAバンクの中央機関。機関投資家として世界最大級の運用資産"
+      },
+      {
+        "name": "日本政策投資銀行",
+        "name_en": "Development Bank of Japan (DBJ)",
+        "positions": [
+          "総合職"
+        ],
+        "note": "政府系金融機関。長期融資・投資を通じた産業支援"
+      },
+      {
+        "name": "国際協力銀行",
+        "name_en": "Japan Bank for International Cooperation (JBIC)",
+        "positions": [
+          "総合職（プロフェッショナル職）"
+        ],
+        "note": "政府系金融機関。日本企業の海外展開支援・国際金融秩序安定"
+      },
+      {
+        "name": "商工組合中央金庫",
+        "name_en": "Shoko Chukin Bank",
+        "positions": [
+          "総合職"
+        ],
+        "note": "中小企業金融専門の政府系金融機関。融資・シンジケートローン・デリバティブ取引等"
+      },
+      {
+        "name": "りそな銀行",
+        "name_en": "Resona Bank, Ltd.",
+        "positions": [
+          "総合職（ソリューションコース）",
+          "総合職（カスタマーサービスコース）"
+        ],
+        "note": "りそなグループ。信託機能を併せ持つ商業銀行"
+      },
+      {
+        "name": "横浜銀行",
+        "name_en": "Bank of Yokohama, Ltd.",
+        "positions": [
+          "総合職",
+          "総合職（特定職務）"
+        ],
+        "note": "地銀最大手。コンコルディア・フィナンシャルグループ"
+      },
+      {
+        "name": "千葉銀行",
+        "name_en": "Chiba Bank, Ltd.",
+        "positions": [
+          "総合職",
+          "エリア総合職"
+        ],
+        "note": "千葉県地盤の大手地銀。大学・短大・専門学校卒が対象"
+      },
+      {
+        "name": "静岡銀行",
+        "name_en": "Shizuoka Bank, Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "静岡県地盤の大手地銀。多様なソリューション提供"
+      },
+      {
+        "name": "福岡銀行",
+        "name_en": "Bank of Fukuoka, Ltd.",
+        "positions": [
+          "総合職（Fコース）",
+          "総合職（Aコース）"
+        ],
+        "note": "ふくおかフィナンシャルグループ。Fコースは遠隔地転勤あり、Aコースは地域限定"
+      },
+      {
+        "name": "京都銀行",
+        "name_en": "Bank of Kyoto, Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "京都府地盤の大手地銀"
+      },
+      {
+        "name": "SBI新生銀行",
+        "name_en": "SBI Shinsei Bank, Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "SBIグループ傘下のネット銀行・商業銀行"
+      },
+      {
+        "name": "あおぞら銀行",
+        "name_en": "Aozora Bank, Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "法人向け・不動産ファイナンスに強み"
+      },
+      {
+        "name": "ゆうちょ銀行",
+        "name_en": "Japan Post Bank",
+        "positions": [
+          "総合職（エリア基幹職）",
+          "総合職（地域基幹職）"
+        ],
+        "note": "日本郵政グループ。全国約24,000の郵便局ネットワーク"
+      },
+      {
+        "name": "オリックス銀行",
+        "name_en": "ORIX Bank Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "オリックスグループのネット銀行。不動産投資ローン等に強み"
+      },
+      {
+        "name": "東京スター銀行",
+        "name_en": "Tokyo Star Bank, Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "台湾・中信金融グループ傘下。リテール・法人向け金融サービス"
+      },
+      {
+        "name": "日本政策金融公庫",
+        "name_en": "Japan Finance Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "政府系金融機関。中小企業・農林水産業者向け融資、教育ローン等"
+      }
+    ]
+  },
+  {
+    "industry": "金融（証券）",
+    "companies": [
+      {
+        "name": "野村證券",
+        "name_en": "Nomura Securities Co., Ltd.",
+        "positions": [
+          "ウェルス・マネジメントコース",
+          "ウェルス・マネジメントコース（エリア限定）",
+          "インベストメント・バンキングコース",
+          "グローバル・マーケッツコース",
+          "コンテンツ・カンパニー（リサーチ）コース",
+          "IT・デジタルコース",
+          "リスク・マネジメントコース",
+          "コーポレートコース"
+        ],
+        "note": "国内最大手証券。8コース制採用"
+      },
+      {
+        "name": "SMBC日興証券",
+        "name_en": "SMBC Nikko Securities Inc.",
+        "positions": [
+          "総合コース（オープン採用）",
+          "総合コース（部門別採用）",
+          "事務コース"
+        ],
+        "note": "三井住友フィナンシャルグループ。投資銀行・セールストレーディング・リサーチ・コンサルティング等"
+      },
+      {
+        "name": "大和証券",
+        "name_en": "Daiwa Securities Co., Ltd.",
+        "positions": [
+          "総合職（全域型）",
+          "総合職（エリア型）",
+          "カスタマーサービス職"
+        ],
+        "note": "国内大手証券。リテール・ホールセール・アセットマネジメント事業を展開"
+      },
+      {
+        "name": "みずほ証券",
+        "name_en": "Mizuho Securities Co., Ltd.",
+        "positions": [
+          "オープンコース",
+          "部門別コース"
+        ],
+        "note": "みずほフィナンシャルグループの証券会社"
+      },
+      {
+        "name": "三菱UFJモルガン・スタンレー証券",
+        "name_en": "Mitsubishi UFJ Morgan Stanley Securities Co., Ltd.",
+        "positions": [
+          "総合職（オープン）",
+          "総合職（IBD）",
+          "総合職（マーケッツ）",
+          "総合職（リサーチ）"
+        ],
+        "note": "日系×外資の合弁ホールセール専業証券"
+      },
+      {
+        "name": "岡三証券",
+        "name_en": "Okasan Securities Co., Ltd.",
+        "positions": [
+          "総合職（全国転勤型）",
+          "総合職（地域限定型）"
+        ],
+        "note": "独立系中堅証券。リテール営業に強み"
+      },
+      {
+        "name": "松井証券",
+        "name_en": "Matsui Securities Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "ネット証券大手。少数精鋭採用"
+      },
+      {
+        "name": "マネックス証券",
+        "name_en": "Monex Securities, Inc.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "ネット証券。テクノロジー活用に注力"
+      },
+      {
+        "name": "Goldman Sachs",
+        "name_en": "Goldman Sachs Japan Co., Ltd.",
+        "positions": [
+          "投資銀行部門",
+          "証券部門（セールス＆トレーディング）",
+          "リサーチ部門",
+          "エンジニアリング部門",
+          "オペレーションズ部門",
+          "アセットマネジメント部門"
+        ],
+        "note": "米系投資銀行。部門別採用。募集部門は年度により変動"
+      },
+      {
+        "name": "Morgan Stanley",
+        "name_en": "Morgan Stanley Japan",
+        "positions": [
+          "投資銀行部門",
+          "マーケッツ部門（債券・株式・為替）",
+          "リサーチ部門",
+          "テクノロジー部門",
+          "オペレーションズ部門"
+        ],
+        "note": "米系投資銀行。ビジネスエリア別採用"
+      },
+      {
+        "name": "JP Morgan",
+        "name_en": "J.P. Morgan Japan",
+        "positions": [
+          "投資銀行部門",
+          "マーケッツ部門",
+          "アセットマネジメント部門",
+          "テクノロジー部門",
+          "オペレーションズ部門"
+        ],
+        "note": "米系総合金融。投資銀行・マーケッツ・資産運用を展開"
+      },
+      {
+        "name": "Bank of America",
+        "name_en": "BofA Securities Japan",
+        "positions": [
+          "投資銀行部門",
+          "グローバルマーケッツ部門",
+          "リサーチ部門",
+          "オペレーションズ部門"
+        ],
+        "note": "米系投資銀行。旧メリルリンチ"
+      },
+      {
+        "name": "UBS",
+        "name_en": "UBS Securities Japan Co., Ltd.",
+        "positions": [
+          "投資銀行部門",
+          "グローバル・マーケッツ部門",
+          "ウェルス・マネジメント部門",
+          "テクノロジー部門",
+          "オペレーションズ部門"
+        ],
+        "note": "スイス系金融グループ。国内採用と海外採用の2種"
+      },
+      {
+        "name": "Citi",
+        "name_en": "Citigroup Global Markets Japan Inc.",
+        "positions": [
+          "投資銀行部門",
+          "マーケッツ部門",
+          "リサーチ部門"
+        ],
+        "note": "米系投資銀行。グローバルネットワークに強み"
+      },
+      {
+        "name": "Barclays",
+        "name_en": "Barclays Securities Japan Limited",
+        "positions": [
+          "投資銀行部門",
+          "マーケッツ部門",
+          "テクノロジー部門"
+        ],
+        "note": "英系投資銀行"
+      },
+      {
+        "name": "Deutsche Bank",
+        "name_en": "Deutsche Securities Inc.",
+        "positions": [
+          "投資銀行部門",
+          "マーケッツ部門",
+          "テクノロジー部門"
+        ],
+        "note": "独系投資銀行"
+      },
+      {
+        "name": "BNP Paribas",
+        "name_en": "BNP Paribas Securities Japan Limited",
+        "positions": [
+          "コーポレート・バンキング部門",
+          "グローバル・マーケッツ部門",
+          "テクノロジー部門"
+        ],
+        "note": "仏系金融グループ。2027年度新卒採用を実施"
+      },
+      {
+        "name": "Credit Agricole",
+        "name_en": "Credit Agricole CIB Japan",
+        "positions": [
+          "コーポレート・バンキング部門",
+          "マーケッツ部門"
+        ],
+        "note": "仏系金融グループ"
+      },
+      {
+        "name": "HSBC",
+        "name_en": "HSBC Securities (Japan) Limited",
+        "positions": [
+          "グローバル・バンキング部門",
+          "マーケッツ部門"
+        ],
+        "note": "英系金融グループ。アジアに強み"
+      },
+      {
+        "name": "Societe Generale",
+        "name_en": "Societe Generale Securities Japan Limited",
+        "positions": [
+          "グローバル・マーケッツ部門",
+          "テクノロジー部門"
+        ],
+        "note": "仏系金融グループ。デリバティブに強み"
+      }
+    ]
+  },
+  {
+    "industry": "金融（保険 - 損害保険）",
+    "companies": [
+      {
+        "name": "東京海上日動火災保険",
+        "name_en": "Tokio Marine & Nichido Fire Insurance Co., Ltd.",
+        "positions": [
+          "総合職（オープンコース）",
+          "総合職（EDGEコース）",
+          "総合職（損害サービスコース）",
+          "総合職（オペレーションマネジメントコース）",
+          "総合職（SPEC IT戦略）",
+          "総合職（SPEC 資産運用）",
+          "総合職（SPEC アクチュアリー）"
+        ],
+        "note": "2026年4月より人事制度を刷新し、募集職種を総合職に一本化。同意に基づく転居・転勤制度を実現"
+      },
+      {
+        "name": "三井住友海上火災保険",
+        "name_en": "Mitsui Sumitomo Insurance Co., Ltd.",
+        "positions": [
+          "総合職（全域型）",
+          "総合職（地域型）"
+        ],
+        "note": "MS&ADインシュアランスグループ。2027年4月にあいおいニッセイ同和損保と合併予定"
+      },
+      {
+        "name": "損害保険ジャパン",
+        "name_en": "Sompo Japan Insurance Inc.",
+        "positions": [
+          "総合職（総合コース）",
+          "総合職（ジョブ型コース）"
+        ],
+        "note": "SOMPOホールディングス。デジタル・データ活用に注力"
+      },
+      {
+        "name": "あいおいニッセイ同和損害保険",
+        "name_en": "Aioi Nissay Dowa Insurance Co., Ltd.",
+        "positions": [
+          "総合職（全域型）",
+          "総合職（地域型）"
+        ],
+        "note": "MS&ADグループ。2027年4月に三井住友海上と合併予定"
+      },
+      {
+        "name": "AIG損害保険",
+        "name_en": "AIG General Insurance Company, Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "米AIG系。企業向け保険に強み"
+      },
+      {
+        "name": "イーデザイン損保",
+        "name_en": "e-design sonpo Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "東京海上グループのダイレクト損保"
+      }
+    ]
+  },
+  {
+    "industry": "金融（保険 - 生命保険）",
+    "companies": [
+      {
+        "name": "日本生命保険",
+        "name_en": "Nippon Life Insurance Company",
+        "positions": [
+          "総合基幹職（オープンコース）",
+          "総合基幹職（アクチュアリーコース）",
+          "総合基幹職（資産運用コース）",
+          "総合基幹職（IT戦略コース）",
+          "総合基幹職（地域ビジネスコース）",
+          "営業総合基幹職（マネジメントコース）",
+          "営業総合基幹職（総合コンサルティングコース）"
+        ],
+        "note": "国内最大手生命保険会社。7コース制採用"
+      },
+      {
+        "name": "第一生命保険",
+        "name_en": "Dai-ichi Life Insurance Company, Limited",
+        "positions": [
+          "基幹総合職（オープンコース）",
+          "基幹総合職（アクチュアリーコース）",
+          "基幹総合職（クオンツ&データサイエンティストコース）",
+          "基幹総合職（IT・デジタルコース）",
+          "基幹総合職（資産運用コース）",
+          "基幹総合職（建築・不動産コース）",
+          "基幹総合職（海外コース）",
+          "基幹総合職（会計・税務コース）",
+          "基幹総合職（法務コース）"
+        ],
+        "note": "G型（全域型）・R型（地域型）あり。9コース制採用"
+      },
+      {
+        "name": "住友生命保険",
+        "name_en": "Sumitomo Life Insurance Company",
+        "positions": [
+          "総合職（総合キャリア職）",
+          "総合職（ビジネスキャリア職）"
+        ],
+        "note": "大手生保4社の一角。Vitalityブランドで健康増進型保険を展開"
+      },
+      {
+        "name": "明治安田生命保険",
+        "name_en": "Meiji Yasuda Life Insurance Company",
+        "positions": [
+          "総合職（全国型：Career V）",
+          "総合職（地域型：Career S）"
+        ],
+        "note": "大手生保4社の一角。総合職では営業業務はほぼなし"
+      },
+      {
+        "name": "ソニー生命保険",
+        "name_en": "Sony Life Insurance Co., Ltd.",
+        "positions": [
+          "総合職",
+          "ライフプランナー職"
+        ],
+        "note": "ソニーフィナンシャルグループ。コンサルティング型の生命保険"
+      },
+      {
+        "name": "アフラック生命保険",
+        "name_en": "Aflac Life Insurance Japan Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "がん保険・医療保険のパイオニア"
+      },
+      {
+        "name": "大同生命保険",
+        "name_en": "Daido Life Insurance Company",
+        "positions": [
+          "総合職（全国型）",
+          "総合職（アクチュアリー）"
+        ],
+        "note": "T&Dホールディングスグループ。中小企業マーケットに特化"
+      },
+      {
+        "name": "富国生命保険",
+        "name_en": "Fukoku Mutual Life Insurance Company",
+        "positions": [
+          "総合職（全国型）",
+          "総合職（エリア型）"
+        ],
+        "note": "相互会社形態の中堅生保"
+      },
+      {
+        "name": "太陽生命保険",
+        "name_en": "Taiyo Life Insurance Company",
+        "positions": [
+          "総合職"
+        ],
+        "note": "T&Dホールディングスグループ。シニア・女性向け保険に注力"
+      },
+      {
+        "name": "朝日生命保険",
+        "name_en": "Asahi Mutual Life Insurance Company",
+        "positions": [
+          "総合職"
+        ],
+        "note": "相互会社形態の中堅生保"
+      },
+      {
+        "name": "大樹生命保険",
+        "name_en": "Taiju Life Insurance Company Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本生命グループ。旧三井生命"
+      },
+      {
+        "name": "かんぽ生命保険",
+        "name_en": "Japan Post Insurance Co., Ltd.",
+        "positions": [
+          "総合職（エリア基幹職）",
+          "総合職（地域基幹職）"
+        ],
+        "note": "日本郵政グループ。郵便局ネットワークを活用"
+      },
+      {
+        "name": "東京海上日動あんしん生命保険",
+        "name_en": "Tokio Marine & Nichido Life Insurance Co., Ltd.",
+        "positions": [
+          "総合職（オープンコース）",
+          "総合職（営業コース）"
+        ],
+        "note": "東京海上グループの生命保険会社"
+      },
+      {
+        "name": "三井住友海上あいおい生命保険",
+        "name_en": "Mitsui Sumitomo Aioi Life Insurance Co., Ltd.",
+        "positions": [
+          "総合社員",
+          "総合社員（専門コース）"
+        ],
+        "note": "MS&ADインシュアランスグループの生命保険会社"
+      },
+      {
+        "name": "SOMPOひまわり生命保険",
+        "name_en": "SOMPO Himawari Life Insurance, Inc.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "SOMPOホールディングスグループ。健康応援企業を標榜"
+      },
+      {
+        "name": "アクサ生命保険",
+        "name_en": "AXA Life Insurance Co., Ltd.",
+        "positions": [
+          "総合職",
+          "ファイナンシャルプランアドバイザー職"
+        ],
+        "note": "仏AXAグループ。2026年卒の募集は終了、2027年卒を実施中"
+      }
+    ]
+  },
+  {
+    "industry": "金融（アセットマネジメント）",
+    "companies": [
+      {
+        "name": "野村アセットマネジメント",
+        "name_en": "Nomura Asset Management Co., Ltd.",
+        "positions": [
+          "運用コース",
+          "マーケティングコース",
+          "ビジネスマネジメントコース",
+          "IT・デジタルコース",
+          "オープンコース"
+        ],
+        "note": "野村グループ。5コース制採用。約6年で複数の部門を経験するローテーション制度あり"
+      },
+      {
+        "name": "アモーヴァ・アセットマネジメント（旧 日興アセットマネジメント）",
+        "name_en": "Amova Asset Management (formerly Nikko Asset Management)",
+        "positions": [
+          "総合職"
+        ],
+        "note": "2025年9月に日興アセットマネジメントから社名変更"
+      },
+      {
+        "name": "東京海上アセットマネジメント",
+        "name_en": "Tokio Marine Asset Management Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "東京海上グループの資産運用会社"
+      },
+      {
+        "name": "三井住友DSアセットマネジメント",
+        "name_en": "Sumitomo Mitsui DS Asset Management Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三井住友フィナンシャルグループ・大和証券グループの資産運用会社"
+      },
+      {
+        "name": "アセットマネジメントOne",
+        "name_en": "Asset Management One Co., Ltd.",
+        "positions": [
+          "総合職（株式運用コース）",
+          "総合職（マーケティングコース）"
+        ],
+        "note": "みずほフィナンシャルグループ・第一生命グループの資産運用会社"
+      },
+      {
+        "name": "大和アセットマネジメント",
+        "name_en": "Daiwa Asset Management Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "大和証券グループの資産運用会社。1959年設立"
+      },
+      {
+        "name": "三菱UFJアセットマネジメント",
+        "name_en": "Mitsubishi UFJ Asset Management Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "MUFGグループの資産運用会社。eMAXIS Slimシリーズで有名"
+      },
+      {
+        "name": "三井住友トラスト・アセットマネジメント",
+        "name_en": "Sumitomo Mitsui Trust Asset Management Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三井住友信託銀行グループの資産運用会社"
+      },
+      {
+        "name": "ニッセイアセットマネジメント",
+        "name_en": "Nissay Asset Management Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本生命グループの資産運用会社"
+      },
+      {
+        "name": "ゴールドマン・サックス・アセット・マネジメント",
+        "name_en": "Goldman Sachs Asset Management (GSAM)",
+        "positions": [
+          "アナリスト"
+        ],
+        "note": "GS証券のアセットマネジメント部門として採用"
+      },
+      {
+        "name": "JPモルガン・アセット・マネジメント",
+        "name_en": "J.P. Morgan Asset Management (JPMAM)",
+        "positions": [
+          "アナリスト"
+        ],
+        "note": "JPモルガンのアセットマネジメント部門として採用"
+      },
+      {
+        "name": "UBSアセット・マネジメント",
+        "name_en": "UBS Asset Management",
+        "positions": [
+          "アナリスト"
+        ],
+        "note": "UBSグループのアセットマネジメント部門"
+      },
+      {
+        "name": "ブラックロック・ジャパン",
+        "name_en": "BlackRock Japan Co., Ltd.",
+        "positions": [
+          "Full-Time Analyst Program"
+        ],
+        "note": "世界最大の資産運用会社。2026 Summer InternshipとFull-Time Analyst Programを実施"
+      },
+      {
+        "name": "フィデリティ投信",
+        "name_en": "Fidelity International",
+        "positions": [
+          "総合職"
+        ],
+        "note": "米系大手資産運用会社の日本法人"
+      },
+      {
+        "name": "DWS",
+        "name_en": "DWS Group",
+        "positions": [
+          "アナリスト"
+        ],
+        "note": "ドイツ銀行グループの資産運用会社"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - 取引所・インフラ・業界団体）",
+    "companies": [
+      {
+        "name": "日本取引所グループ",
+        "name_en": "Japan Exchange Group (JPX)",
+        "positions": [
+          "スタッフ職（GSコース：ゼネラル・ソリューション）",
+          "スタッフ職（DSコース：デジタル・ソリューション）",
+          "スタッフ職（SSコース：スタッフ・サポート）"
+        ],
+        "note": "東証・大証を運営。採用予定40名程度。全学部全学科対象"
+      },
+      {
+        "name": "日本証券金融",
+        "name_en": "Japan Securities Finance Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "証券市場における貸借取引の中心機関。信用取引に必要な資金・株式を供給"
+      },
+      {
+        "name": "証券保管振替機構",
+        "name_en": "Japan Securities Depository Center (JASDEC)",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本唯一の総合的な証券決済インフラ機関"
+      },
+      {
+        "name": "損害保険料率算出機構",
+        "name_en": "General Insurance Rating Organization of Japan",
+        "positions": [
+          "総合職"
+        ],
+        "note": "損害保険の参考純率・基準料率を算出する料率団体"
+      },
+      {
+        "name": "日本貿易保険",
+        "name_en": "Nippon Export and Investment Insurance (NEXI)",
+        "positions": [
+          "総合職"
+        ],
+        "note": "貿易保険を通じて日本企業の海外プロジェクトを支援"
+      },
+      {
+        "name": "全国銀行協会",
+        "name_en": "Japanese Bankers Association",
+        "positions": [
+          "総合職"
+        ],
+        "note": "銀行業界の業界団体"
+      },
+      {
+        "name": "日本証券業協会",
+        "name_en": "Japan Securities Dealers Association",
+        "positions": [
+          "総合職"
+        ],
+        "note": "証券業界の自主規制団体"
+      },
+      {
+        "name": "日本損害保険協会",
+        "name_en": "General Insurance Association of Japan",
+        "positions": [
+          "総合職"
+        ],
+        "note": "損害保険業界の業界団体"
+      },
+      {
+        "name": "生命保険協会",
+        "name_en": "Life Insurance Association of Japan",
+        "positions": [
+          "総合職"
+        ],
+        "note": "生命保険業界の業界団体"
+      },
+      {
+        "name": "日本財団",
+        "name_en": "The Nippon Foundation",
+        "positions": [
+          "総合職（経営企画部門）",
+          "総合職（事業部門）",
+          "総合職（監査部門）"
+        ],
+        "note": "公益財団法人。社会課題解決のための助成・事業を展開"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - カード・リース・ファイナンス）",
+    "companies": [
+      {
+        "name": "三井住友カード",
+        "name_en": "Sumitomo Mitsui Card Company, Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三井住友フィナンシャルグループのクレジットカード会社"
+      },
+      {
+        "name": "JCB",
+        "name_en": "JCB Co., Ltd.",
+        "positions": [
+          "総合職（G職）",
+          "総合職（S職）"
+        ],
+        "note": "日本発の国際カードブランド。G職は全国転勤あり、S職は地域限定"
+      },
+      {
+        "name": "楽天カード",
+        "name_en": "Rakuten Card Co., Ltd.",
+        "positions": [
+          "総合職",
+          "エリア職"
+        ],
+        "note": "楽天グループのクレジットカード会社"
+      },
+      {
+        "name": "三菱UFJニコス",
+        "name_en": "Mitsubishi UFJ NICOS Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "MUFGグループのクレジットカード・信販会社。文理不問"
+      },
+      {
+        "name": "三菱HCキャピタル",
+        "name_en": "Mitsubishi HC Capital Inc.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三菱グループ・日立グループのリース会社。初任給: 学士卒315,000円、修士卒335,000円"
+      },
+      {
+        "name": "東京センチュリー",
+        "name_en": "Tokyo Century Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "伊藤忠グループのリース大手"
+      },
+      {
+        "name": "三井住友ファイナンス&リース",
+        "name_en": "Sumitomo Mitsui Finance and Leasing Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三井住友フィナンシャルグループ・住友商事のリース大手"
+      },
+      {
+        "name": "芙蓉総合リース",
+        "name_en": "Fuyo General Lease Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "みずほ系のリース大手"
+      },
+      {
+        "name": "みずほリース",
+        "name_en": "Mizuho Leasing Company, Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "みずほフィナンシャルグループのリース会社"
+      },
+      {
+        "name": "JA三井リース",
+        "name_en": "JA Mitsui Leasing, Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "農林中央金庫・三井住友フィナンシャルグループ系のリース会社"
+      },
+      {
+        "name": "オリックス",
+        "name_en": "ORIX Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "リース・不動産・金融・エネルギーなど多角経営。多様な事業領域でキャリアを構築可能"
+      },
+      {
+        "name": "NTTファイナンス",
+        "name_en": "NTT Finance Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "NTTグループの金融会社。ファイナンス・ビリング・クレジットカード事業"
+      },
+      {
+        "name": "トーア再保険",
+        "name_en": "Toa Reinsurance Company, Limited",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本唯一の総合再保険専門会社"
+      },
+      {
+        "name": "SBIホールディングス",
+        "name_en": "SBI Holdings, Inc.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "ネット金融を中心とした総合金融グループ。証券・銀行・保険・資産運用等"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - M&A・VC・投資育成）",
+    "companies": [
+      {
+        "name": "JAFCO",
+        "name_en": "JAFCO Group Co., Ltd.",
+        "positions": [
+          "キャピタリスト職"
+        ],
+        "note": "日本最大級のベンチャーキャピタル。1982年に国内初の未上場企業向け投資事業組合を設立"
+      },
+      {
+        "name": "M&Aキャピタルパートナーズ",
+        "name_en": "M&A Capital Partners Co., Ltd.",
+        "positions": [
+          "M&Aアドバイザー"
+        ],
+        "note": "M&A仲介大手。1人のアドバイザーがソーシングからクロージングまで全工程を担当"
+      },
+      {
+        "name": "日本M&Aセンター",
+        "name_en": "Nihon M&A Center Holdings Inc.",
+        "positions": [
+          "M&Aコンサルタント",
+          "コーポレートアドバイザー"
+        ],
+        "note": "M&A仲介最大手。中堅・中小企業の事業承継に特化"
+      },
+      {
+        "name": "M&A総合研究所",
+        "name_en": "M&A Research Institute Holdings Inc.",
+        "positions": [
+          "M&Aアドバイザー"
+        ],
+        "note": "テクノロジー活用型のM&A仲介。急成長中"
+      },
+      {
+        "name": "ストライク",
+        "name_en": "Strike Co., Ltd.",
+        "positions": [
+          "M&Aコンサルタント"
+        ],
+        "note": "M&A仲介。中小企業の事業承継・スタートアップのEXIT支援に注力"
+      },
+      {
+        "name": "レオス・キャピタルワークス",
+        "name_en": "Rheos Capital Works Inc.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "独立系資産運用会社。「ひふみ」シリーズで有名。2003年設立"
+      },
+      {
+        "name": "東京中小企業投資育成",
+        "name_en": "Tokyo Small and Medium Business Investment & Consultation Co. (SBIC)",
+        "positions": [
+          "総合職"
+        ],
+        "note": "中小企業の自己資本充実と健全な成長を支援する公的投資育成機関"
+      }
+    ]
+  },
+  {
+    "industry": "金融（その他 - 共済・短資）",
+    "companies": [
+      {
+        "name": "JA共済",
+        "name_en": "National Mutual Insurance Federation of Agricultural Cooperatives",
+        "positions": [
+          "総合職"
+        ],
+        "note": "JAグループの共済事業。生命共済と損害共済の両方を取扱い"
+      },
+      {
+        "name": "上田八木短資",
+        "name_en": "Ueda Yagi Tanshi Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "短期金融市場の仲介業者（ブローカー）"
+      },
+      {
+        "name": "東京短資",
+        "name_en": "Tokyo Tanshi Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "短期金融市場の仲介業者。コール市場等の取引仲介"
+      },
+      {
+        "name": "セントラル短資",
+        "name_en": "Central Tanshi Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "短期金融市場の仲介業者。外国為替証拠金取引も展開"
+      }
+    ]
+  },
+  {
+    "industry": "製造業（電機・精密・半導体）",
+    "companies": [
+      {
+        "name": "トヨタ自動車",
+        "name_en": "Toyota Motor Corporation",
+        "positions": [
+          "技術職",
+          "事務職",
+          "業務職"
+        ],
+        "note": "技術職は研究・開発・生産技術等、事務職は企画・営業・管理等、業務職は業務プロセス効率化担当"
+      },
+      {
+        "name": "本田技研工業",
+        "name_en": "Honda Motor Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "Honda・本田技術研究所・ホンダレーシング・ホンダアクセスの4社合同採用"
+      },
+      {
+        "name": "日産自動車",
+        "name_en": "Nissan Motor Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系は自由応募・学校推薦あり。生産技術開発、IE・生産システムイノベーション等"
+      },
+      {
+        "name": "スバル",
+        "name_en": "SUBARU Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系は自動車部門・航空宇宙部門あり。事務系は商品企画・調達・販売・人事・法務等"
+      },
+      {
+        "name": "マツダ",
+        "name_en": "Mazda Motor Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系は学校推薦・自由応募、事務系は職種別採用・オープン採用"
+      },
+      {
+        "name": "三菱自動車",
+        "name_en": "Mitsubishi Motors Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系は機械系・電気電子系・情報工学系・物理系・化学系"
+      },
+      {
+        "name": "ダイハツ工業",
+        "name_en": "Daihatsu Motor Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "トヨタグループ。軽自動車・小型車の開発・生産"
+      },
+      {
+        "name": "豊田自動織機",
+        "name_en": "Toyota Industries Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "フォークリフト・繊維機械・自動車関連等の開発・生産"
+      },
+      {
+        "name": "デンソー",
+        "name_en": "DENSO Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "コース別採用。ソフトウェアエンジニア等の専門コースあり"
+      },
+      {
+        "name": "アイシン",
+        "name_en": "AISIN Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "自動車部品メーカー。パワートレイン・シャシー・ボディ等"
+      },
+      {
+        "name": "ジェイテクト",
+        "name_en": "JTEKT Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ステアリング・軸受・工作機械等"
+      },
+      {
+        "name": "トヨタ車体",
+        "name_en": "Toyota Auto Body Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ミニバン・商用車等の開発・生産"
+      },
+      {
+        "name": "ヤマハ発動機",
+        "name_en": "Yamaha Motor Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "二輪車・マリン製品・ロボティクス等"
+      },
+      {
+        "name": "日立製作所",
+        "name_en": "Hitachi, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ジョブマッチング方式。設計開発・SE・品質保証・研究開発・営業・経理・人事等。希望事業・職種への応募が可能"
+      },
+      {
+        "name": "ソニーグループ",
+        "name_en": "Sony Group Corporation",
+        "positions": [
+          "技術系コース",
+          "事務系コース"
+        ],
+        "note": "ソニーグループ共通エントリー。各事業会社（ソニー・ソニーセミコンダクタ等）ごとに採用"
+      },
+      {
+        "name": "パナソニック",
+        "name_en": "Panasonic Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "事業会社別選考。技術系は研究開発・設計開発・生産技術・SE等。事務系は営業・マーケティング・経理・人事・法務等"
+      },
+      {
+        "name": "三菱電機",
+        "name_en": "Mitsubishi Electric Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "オープンコース・職種確約コース・事業確約コースの3コース"
+      },
+      {
+        "name": "富士通",
+        "name_en": "Fujitsu Limited",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "職種マッチング採用。内定時に配属先・職種が確約される"
+      },
+      {
+        "name": "NEC",
+        "name_en": "NEC Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "研究・技術開発、SE、サービスエンジニア、コンサルタント、法務、FP&A、人事、知的財産等"
+      },
+      {
+        "name": "東芝",
+        "name_en": "Toshiba Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "エネルギー・インフラ・半導体等の研究開発・設計・SE等"
+      },
+      {
+        "name": "シャープ",
+        "name_en": "Sharp Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ディスプレイ・電子デバイス・情報通信等の開発・生産"
+      },
+      {
+        "name": "キーエンス",
+        "name_en": "KEYENCE Corporation",
+        "positions": [
+          "ビジネス職",
+          "エンジニア職",
+          "S職"
+        ],
+        "note": "ビジネス職（営業・SCM）は全学部、エンジニア職（商品開発・生産技術・ICT・コンサルティングエンジニア等）は理系のみ、S職は事務職"
+      },
+      {
+        "name": "ファナック",
+        "name_en": "FANUC Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "CNC・ロボット・ロボマシンの開発・製造。研究開発・設計・SE等"
+      },
+      {
+        "name": "安川電機",
+        "name_en": "YASKAWA Electric Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "サーボモータ・インバータ・産業用ロボット等の開発・製造"
+      },
+      {
+        "name": "オムロン",
+        "name_en": "OMRON Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "FA・ヘルスケア・社会システム等の開発・製造"
+      },
+      {
+        "name": "村田製作所",
+        "name_en": "Murata Manufacturing Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "電子部品の研究開発・設計・生産技術・品質管理等"
+      },
+      {
+        "name": "京セラ",
+        "name_en": "Kyocera Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "セラミック部品・電子部品・通信機器等の開発・製造"
+      },
+      {
+        "name": "TDK",
+        "name_en": "TDK Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系は材料開発・プロセス開発・部品設計・ソフトウェア開発・装置開発・生産技術・評価解析・品質保証・知的財産等"
+      },
+      {
+        "name": "ニデック",
+        "name_en": "Nidec Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "旧・日本電産。モータ・精密機器等の開発・製造"
+      },
+      {
+        "name": "ローム",
+        "name_en": "ROHM Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "半導体・電子部品の設計開発・生産技術・品質管理等"
+      },
+      {
+        "name": "ルネサスエレクトロニクス",
+        "name_en": "Renesas Electronics Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "半導体（マイコン・SoC・アナログ等）の設計開発等"
+      },
+      {
+        "name": "キオクシア",
+        "name_en": "KIOXIA Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "フラッシュメモリ・SSDの開発・製造"
+      },
+      {
+        "name": "東京エレクトロン",
+        "name_en": "Tokyo Electron Limited",
+        "positions": [
+          "技術系総合職",
+          "営業・管理系総合職"
+        ],
+        "note": "技術系は製品開発（メカ・エレキ・ソフト・プロセス）・要素研究・フィールドエンジニア・製造エンジニア。営業管理系はセールスエンジニア・マーケティング・管理部門"
+      },
+      {
+        "name": "アドバンテスト",
+        "name_en": "Advantest Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "半導体試験装置の開発・設計・SE等"
+      },
+      {
+        "name": "SCREENホールディングス",
+        "name_en": "SCREEN Holdings Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "半導体製造装置・ディスプレイ製造装置等の開発・製造"
+      },
+      {
+        "name": "ディスコ",
+        "name_en": "DISCO Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "半導体精密加工装置の開発・製造"
+      },
+      {
+        "name": "HOYA",
+        "name_en": "HOYA Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "光学ガラス・半導体マスクブランクス・医療用内視鏡等"
+      },
+      {
+        "name": "オリンパス",
+        "name_en": "Olympus Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "医療用内視鏡・顕微鏡等の開発・製造"
+      },
+      {
+        "name": "テルモ",
+        "name_en": "Terumo Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職",
+          "MR職"
+        ],
+        "note": "医療機器・医薬品の研究開発・生産技術・品質管理・MR等"
+      },
+      {
+        "name": "シスメックス",
+        "name_en": "Sysmex Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "臨床検査機器・試薬の研究開発・製造・SE等"
+      },
+      {
+        "name": "日本光電",
+        "name_en": "Nihon Kohden Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職",
+          "営業職"
+        ],
+        "note": "医療用電子機器の開発・製造・営業"
+      },
+      {
+        "name": "ニコン",
+        "name_en": "Nikon Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "光学機器・半導体露光装置等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "キヤノン",
+        "name_en": "Canon Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "カメラ・プリンタ・半導体露光装置・医療機器等の開発・製造"
+      },
+      {
+        "name": "セイコーエプソン",
+        "name_en": "Seiko Epson Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "プリンタ・プロジェクタ・ロボット・ウオッチ等の開発・製造"
+      },
+      {
+        "name": "リコー",
+        "name_en": "Ricoh Company, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "複合機・プリンタ・ITソリューション等の開発・製造"
+      },
+      {
+        "name": "コニカミノルタ",
+        "name_en": "Konica Minolta, Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "複合機・産業用計測機器・ヘルスケア等の開発・製造"
+      },
+      {
+        "name": "ブラザー工業",
+        "name_en": "Brother Industries, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "プリンタ・ミシン・工作機械等の開発・製造"
+      },
+      {
+        "name": "カシオ計算機",
+        "name_en": "Casio Computer Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "時計・電子辞書・電卓等の開発・製造"
+      },
+      {
+        "name": "島津製作所",
+        "name_en": "Shimadzu Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "分析計測機器・医用機器等の研究開発・設計・生産技術・SE・営業等"
+      },
+      {
+        "name": "小松製作所",
+        "name_en": "Komatsu Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "建設機械・鉱山機械等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "クボタ",
+        "name_en": "Kubota Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "農業機械・建設機械・水環境インフラ等の開発・製造"
+      },
+      {
+        "name": "三菱重工業",
+        "name_en": "Mitsubishi Heavy Industries, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "エネルギー・航空宇宙・防衛・プラント等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "川崎重工業",
+        "name_en": "Kawasaki Heavy Industries, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "航空宇宙・エネルギー・産業機器・二輪車等の研究開発・設計等"
+      },
+      {
+        "name": "IHI",
+        "name_en": "IHI Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "航空エンジン・ロケット・プラント等の開発・製造"
+      },
+      {
+        "name": "DMG森精機",
+        "name_en": "DMG MORI Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "工作機械の開発・製造。日独合弁"
+      },
+      {
+        "name": "日立建機",
+        "name_en": "Hitachi Construction Machinery Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "建設機械・鉱山機械の開発・製造"
+      },
+      {
+        "name": "住友重機械工業",
+        "name_en": "Sumitomo Heavy Industries, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "変減速機・射出成形機・建設機械等の開発・製造"
+      },
+      {
+        "name": "荏原製作所",
+        "name_en": "EBARA Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ポンプ・コンプレッサ・半導体製造装置等の開発・製造"
+      },
+      {
+        "name": "ダイキン工業",
+        "name_en": "Daikin Industries, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職",
+          "化学事業コース"
+        ],
+        "note": "OPEN採用（初期配属確約なし）とWILL採用（初期配属職種確約）の2方式。コース内から3職種を選択"
+      },
+      {
+        "name": "ダイフク",
+        "name_en": "Daifuku Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "マテリアルハンドリング・物流システム等の設計・開発・施工管理等"
+      },
+      {
+        "name": "シマノ",
+        "name_en": "Shimano Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "自転車部品・釣具等の開発・製造"
+      },
+      {
+        "name": "マイクロンメモリジャパン",
+        "name_en": "Micron Memory Japan, G.K.",
+        "positions": [
+          "技術系総合職"
+        ],
+        "note": "DRAMの設計・開発・製造。旧エルピーダメモリ"
+      }
+    ]
+  },
+  {
+    "industry": "製造業（素材・化学）",
+    "companies": [
+      {
+        "name": "三菱ケミカル",
+        "name_en": "Mitsubishi Chemical Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "化学・素材の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "住友化学",
+        "name_en": "Sumitomo Chemical Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "石油化学・情報電子・農薬・医薬等の研究開発・生産技術等"
+      },
+      {
+        "name": "信越化学工業",
+        "name_en": "Shin-Etsu Chemical Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "シリコン・PVC等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "三井化学",
+        "name_en": "Mitsui Chemicals, Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "機能性材料・基礎化学品等の研究開発・生産技術等"
+      },
+      {
+        "name": "旭化成",
+        "name_en": "Asahi Kasei Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "マテリアル・住宅・ヘルスケア等。グループ一括採用"
+      },
+      {
+        "name": "東レ",
+        "name_en": "Toray Industries, Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系は研究開発・技術製品開発・生産技術・エンジニアリング・解析評価・情報システム等。事務系は営業・管理部門"
+      },
+      {
+        "name": "帝人",
+        "name_en": "Teijin Limited",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "繊維・炭素繊維・ヘルスケア等の研究開発・生産技術等"
+      },
+      {
+        "name": "積水化学工業",
+        "name_en": "Sekisui Chemical Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "住宅・環境ライフライン・高機能プラスチック等"
+      },
+      {
+        "name": "日本製鉄",
+        "name_en": "Nippon Steel Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "事務系は企画・営業・総務・人事・財務経理・原料購買等。技術系は操業技術・設備技術・品質管理・研究開発・技術営業等"
+      },
+      {
+        "name": "JFEスチール",
+        "name_en": "JFE Steel Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "鉄鋼の生産技術・研究開発・設備技術・営業等"
+      },
+      {
+        "name": "神戸製鋼所",
+        "name_en": "Kobe Steel, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "鉄鋼・アルミ・機械・電力等の研究開発・生産技術等"
+      },
+      {
+        "name": "住友金属鉱山",
+        "name_en": "Sumitomo Metal Mining Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "非鉄金属・電子材料の採掘・精錬・開発等"
+      },
+      {
+        "name": "住友電気工業",
+        "name_en": "Sumitomo Electric Industries, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "電線・光ファイバ・自動車部品等の研究開発・設計・生産技術等"
+      },
+      {
+        "name": "古河電気工業",
+        "name_en": "Furukawa Electric Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "電線・光ファイバ・自動車部品等の研究開発・製造等"
+      },
+      {
+        "name": "三井金属鉱業",
+        "name_en": "Mitsui Mining & Smelting Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "非鉄金属・機能材料の開発・製造"
+      },
+      {
+        "name": "日本軽金属",
+        "name_en": "Nippon Light Metal Holdings Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "アルミニウム関連製品の開発・製造"
+      },
+      {
+        "name": "大同特殊鋼",
+        "name_en": "Daido Steel Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "特殊鋼の開発・製造・営業"
+      },
+      {
+        "name": "山陽特殊製鋼",
+        "name_en": "Sanyo Special Steel Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "特殊鋼（軸受鋼等）の開発・製造"
+      },
+      {
+        "name": "プロテリアル",
+        "name_en": "Proterial, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "旧・日立金属。特殊鋼・磁性材料・電線等の開発・製造"
+      },
+      {
+        "name": "AGC",
+        "name_en": "AGC Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "事務系は営業・人事総務・法務・経理財務・資材物流等。技術系は開発（研究・プロセス・商品）・製造エンジニア・設備設計・情報システム・知的財産・環境安全等"
+      },
+      {
+        "name": "TOTO",
+        "name_en": "TOTO Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "衛生陶器・水まわり設備の開発・製造。技術系は機械・電気電子・化学系等"
+      },
+      {
+        "name": "日本ガイシ",
+        "name_en": "NGK Insulators, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "セラミックス・排ガス浄化装置・NAS電池等の開発・製造"
+      },
+      {
+        "name": "レゾナック",
+        "name_en": "Resonac Holdings Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "旧・昭和電工マテリアルズ。半導体材料・化学品等の開発・製造"
+      },
+      {
+        "name": "日産化学",
+        "name_en": "Nissan Chemical Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "機能性材料・農薬・医薬中間体等の研究開発・生産技術等"
+      },
+      {
+        "name": "日東電工",
+        "name_en": "Nitto Denko Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "機能性フィルム・電子材料・医療関連等の開発・製造"
+      },
+      {
+        "name": "日本触媒",
+        "name_en": "Nippon Shokubai Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "高吸水性樹脂・アクリル酸等の研究開発・生産技術等"
+      },
+      {
+        "name": "東ソー",
+        "name_en": "Tosoh Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "クロルアルカリ・機能商品・エンジニアリング等"
+      },
+      {
+        "name": "カネカ",
+        "name_en": "Kaneka Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "化成品・機能性樹脂・食品・医薬等の研究開発・生産技術等"
+      },
+      {
+        "name": "クラレ",
+        "name_en": "Kuraray Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ポバール・エバール等の化学素材の研究開発・生産技術等"
+      },
+      {
+        "name": "DIC",
+        "name_en": "DIC Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "インキ・有機顔料・合成樹脂等の研究開発・生産技術等"
+      },
+      {
+        "name": "JSR",
+        "name_en": "JSR Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "半導体材料・ディスプレイ材料等の研究開発・生産技術等"
+      },
+      {
+        "name": "日本ゼオン",
+        "name_en": "Zeon Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "合成ゴム・特殊化学品等の研究開発・生産技術等"
+      },
+      {
+        "name": "DOWAホールディングス",
+        "name_en": "DOWA Holdings Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "非鉄金属・環境リサイクル・電子材料等の開発・製造"
+      },
+      {
+        "name": "UBE",
+        "name_en": "UBE Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "旧・宇部興産。化学・機械等の研究開発・生産技術等"
+      },
+      {
+        "name": "ADEKA",
+        "name_en": "ADEKA Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "化学品・食品の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "デンカ",
+        "name_en": "Denka Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "電子材料・機能性樹脂・セメント等の研究開発・生産技術等"
+      },
+      {
+        "name": "三菱マテリアル",
+        "name_en": "Mitsubishi Materials Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "超硬工具・銅加工品・セメント等の開発・製造"
+      },
+      {
+        "name": "三菱ガス化学",
+        "name_en": "Mitsubishi Gas Chemical Company, Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "メタノール・BT樹脂・電子材料用過酸化水素等の研究開発・生産技術等"
+      },
+      {
+        "name": "大陽日酸",
+        "name_en": "Taiyo Nippon Sanso Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "産業ガスの製造・販売・プラントエンジニアリング等"
+      },
+      {
+        "name": "エア・ウォーター",
+        "name_en": "Air Water Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "産業ガス・ケミカル・医療・農業食品等"
+      },
+      {
+        "name": "不二製油グループ",
+        "name_en": "Fuji Oil Holdings Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "植物性油脂・業務用チョコレート・大豆たん白等の研究開発・生産技術等"
+      },
+      {
+        "name": "栗田工業",
+        "name_en": "Kurita Water Industries Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "水処理薬品・水処理装置の開発・設計・施工・営業等"
+      },
+      {
+        "name": "GSユアサ",
+        "name_en": "GS Yuasa Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "自動車用・産業用バッテリーの研究開発・生産技術等"
+      },
+      {
+        "name": "王子ホールディングス",
+        "name_en": "Oji Holdings Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "紙・パルプ・包装・機能材等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "住友林業",
+        "name_en": "Sumitomo Forestry Co., Ltd.",
+        "positions": [
+          "業務企画職",
+          "技術職"
+        ],
+        "note": "業務企画職は営業・企画・管理等。住宅・木材・環境緑化等"
+      },
+      {
+        "name": "ブリヂストン",
+        "name_en": "Bridgestone Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "技術系はポテンシャル採用・職種別採用（研究開発・モノづくり・IT・データサイエンティスト・フィールドエンジニア等）。事務系はポテンシャル採用（Sales&Marketing・HR・知的財産等）"
+      },
+      {
+        "name": "3Mジャパン",
+        "name_en": "3M Japan Limited",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "工業用接着剤・研磨材・フィルム等の開発・営業等。外資系"
+      },
+      {
+        "name": "富士フイルム",
+        "name_en": "FUJIFILM Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ヘルスケア・マテリアルズ・イメージング等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "日鉄鉱業",
+        "name_en": "Nittetsu Mining Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "石灰石・銅鉱石等の採掘・資源開発等"
+      },
+      {
+        "name": "JX金属",
+        "name_en": "JX Metals Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "非鉄金属（銅）・電子材料・リサイクル等の研究開発・生産技術等"
+      }
+    ]
+  },
+  {
+    "industry": "食料品・飲料・嗜好品",
+    "companies": [
+      {
+        "name": "味の素",
+        "name_en": "Ajinomoto Co., Inc.",
+        "positions": [
+          "R&D（研究開発）",
+          "生産",
+          "Sales/Business（営業・企画）",
+          "財務・経理",
+          "法務",
+          "デジタル・情報システム",
+          "知的財産（特許）",
+          "知的財産（契約）",
+          "サステナビリティ情報開示",
+          "クリエイティブ"
+        ],
+        "note": "全職種グローバル型。R&Dと生産は理系、Sales/Businessは全学部。コース別に選考、併願可能"
+      },
+      {
+        "name": "サントリーホールディングス",
+        "name_en": "Suntory Holdings Limited",
+        "positions": [
+          "ビジネス部門（営業・マーケティング・財務経理・サプライチェーン等）",
+          "生産研究部門（生産技術・基礎研究・製品開発）",
+          "デジタル&テクノロジー部門"
+        ],
+        "note": "各部門内にコースあり。ビジネス部門4コース、生産研究3コース"
+      },
+      {
+        "name": "キリンホールディングス",
+        "name_en": "Kirin Holdings Company, Limited",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "note": "営業・営業企画、エンジニアリング、デジタルテクノロジー・ICT、ロジスティクス、法務等のコース"
+      },
+      {
+        "name": "アサヒグループホールディングス",
+        "name_en": "Asahi Group Holdings, Ltd.",
+        "positions": [
+          "事務系コース",
+          "技術系コース"
+        ],
+        "note": "事務系は営業・マーケティング・コーポレート部門等。技術系は研究開発・生産・製造・エンジニアリング等"
+      },
+      {
+        "name": "日清食品",
+        "name_en": "Nissin Food Products Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "分析・研究、設計・開発、営業（セールス）、包材開発、品質保証、生産技術等"
+      },
+      {
+        "name": "日清製粉グループ",
+        "name_en": "Nisshin Seifun Group Inc.",
+        "positions": [
+          "事務系コース",
+          "食品化学系コース",
+          "工学系コース"
+        ],
+        "note": "グループ一括採用と職種別・事業別採用の2方式。全14コース（事務系7、食品化学系4、工学系3）"
+      },
+      {
+        "name": "明治",
+        "name_en": "Meiji Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "菓子・乳製品等の研究開発・生産技術・品質管理・営業・マーケティング等"
+      },
+      {
+        "name": "キッコーマン",
+        "name_en": "Kikkoman Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "醤油・調味料等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "ネスレ日本",
+        "name_en": "Nestle Japan Ltd.",
+        "positions": [
+          "マーケティング&コミュニケーションズ",
+          "セールス",
+          "サプライチェーン（生産・物流等）"
+        ],
+        "note": "外資系。3つの選考コースから選択。デジタル&eコマース等の部門もあり"
+      },
+      {
+        "name": "JT（日本たばこ産業）",
+        "name_en": "Japan Tobacco Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "たばこ・医薬・加工食品。研究開発・生産技術・営業・企画管理等"
+      },
+      {
+        "name": "カゴメ",
+        "name_en": "KAGOME Co., Ltd.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "初回配属は工場・営業・SCM本部・システム戦略推進部・財務経理部等"
+      },
+      {
+        "name": "サッポロビール",
+        "name_en": "Sapporo Breweries Limited",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "ビール・飲料の醸造・品質管理・営業・マーケティング等"
+      },
+      {
+        "name": "ニッスイ",
+        "name_en": "Nippon Suisan Kaisha, Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "水産・食品の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "日本ハム",
+        "name_en": "NH Foods Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "食肉加工品の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "森永製菓",
+        "name_en": "Morinaga & Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "菓子・食品の研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "森永乳業",
+        "name_en": "Morinaga Milk Industry Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "乳製品の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "カルビー",
+        "name_en": "Calbee, Inc.",
+        "positions": [
+          "ビジネス総合コース",
+          "研究コース",
+          "プロダクト開発コース",
+          "生産マネジメントコース",
+          "生産技術コース",
+          "財務経理コース"
+        ],
+        "note": "早期選考（生産技術・財務経理・研究）と通常選考あり。コース別採用"
+      },
+      {
+        "name": "江崎グリコ",
+        "name_en": "Ezaki Glico Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "菓子・乳製品等の研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "ハウス食品",
+        "name_en": "House Foods Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "カレー・スパイス等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "ロッテ",
+        "name_en": "Lotte Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "菓子・アイスの研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "ヤクルト本社",
+        "name_en": "Yakult Honsha Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "乳酸菌飲料・医薬品等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "ミツカン",
+        "name_en": "Mizkan Holdings Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "調味料（酢等）の研究開発・生産技術・営業・マーケティング等"
+      },
+      {
+        "name": "雪印メグミルク",
+        "name_en": "Megmilk Snow Brand Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "乳製品の研究開発・生産技術・品質管理・営業等"
+      },
+      {
+        "name": "キユーピー",
+        "name_en": "Kewpie Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "マヨネーズ・ドレッシング等の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "マルハニチロ",
+        "name_en": "Maruha Nichiro Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "水産・食品の研究開発・生産技術・営業等"
+      },
+      {
+        "name": "アサヒ飲料",
+        "name_en": "Asahi Soft Drinks Co., Ltd.",
+        "positions": [
+          "事務系コース",
+          "技術系コース"
+        ],
+        "note": "事務系は営業・マーケティング・コーポレート等。技術系は研究開発・生産・製造・エンジニアリング等"
+      },
+      {
+        "name": "不二製油グループ",
+        "name_en": "Fuji Oil Holdings Inc.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "植物性油脂・業務用チョコレート・大豆たん白等の研究開発・生産技術等。素材化学業界にも記載"
+      }
+    ]
+  },
+  {
+    "industry": "医薬品",
+    "companies": [
+      {
+        "name": "武田薬品工業",
+        "name_en": "Takeda Pharmaceutical Company Limited",
+        "positions": [
+          "研究技術職",
+          "品質職",
+          "MR職",
+          "コーポレートスタッフ"
+        ],
+        "note": "グローバル製薬企業。品質職は品質試験・品質保証等。研究技術職はグローバルケミストリー研究員等"
+      },
+      {
+        "name": "第一三共",
+        "name_en": "Daiichi Sankyo Co., Ltd.",
+        "positions": [
+          "研究職",
+          "データサイエンス職",
+          "開発職",
+          "ファーマコビジランス職",
+          "MR職",
+          "サプライチェーンスタッフ",
+          "コーポレートスタッフ"
+        ],
+        "note": "職種別採用。各職種に専任の採用チーム"
+      },
+      {
+        "name": "アステラス製薬",
+        "name_en": "Astellas Pharma Inc.",
+        "positions": [
+          "創薬研究職",
+          "製薬技術職",
+          "開発職",
+          "MR職",
+          "メディカルサイエンスリエゾン職",
+          "コーポレートスタッフ"
+        ],
+        "note": "博士選考あり。製薬技術職は製剤研究・合成技術・バイオプロセス・品質管理等"
+      },
+      {
+        "name": "中外製薬",
+        "name_en": "Chugai Pharmaceutical Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "品質管理職",
+          "コーポレートスタッフ"
+        ],
+        "note": "ロシュグループ。創薬・開発研究、臨床試験オペレーション、治験薬製造等"
+      },
+      {
+        "name": "エーザイ",
+        "name_en": "Eisai Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "コーポレートスタッフ"
+        ],
+        "note": "認知症領域等に強み。研究・開発・生産・営業等"
+      },
+      {
+        "name": "塩野義製薬",
+        "name_en": "Shionogi & Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "品質管理職",
+          "コーポレートスタッフ"
+        ],
+        "note": "感染症・疼痛領域等に強み"
+      },
+      {
+        "name": "大塚製薬",
+        "name_en": "Otsuka Pharmaceutical Co., Ltd.",
+        "positions": [
+          "MR職",
+          "ニュートラシューティカルズ事業部営業職",
+          "メディカル・アフェアーズ職",
+          "研究技術職",
+          "生産職"
+        ],
+        "note": "医薬品とニュートラシューティカルズ（ポカリスエット等）の両事業"
+      },
+      {
+        "name": "小野薬品工業",
+        "name_en": "Ono Pharmaceutical Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "製造技術職"
+        ],
+        "note": "オプジーボ等の免疫チェックポイント阻害薬"
+      },
+      {
+        "name": "協和キリン",
+        "name_en": "Kyowa Kirin Co., Ltd.",
+        "positions": [
+          "創薬研究職",
+          "製薬技術研究職",
+          "品質職",
+          "生産職",
+          "開発職",
+          "営業職",
+          "コーポレートスタッフ",
+          "ファーマコビジランス職"
+        ],
+        "note": "キリングループ。バイオ医薬品に強み"
+      },
+      {
+        "name": "住友ファーマ",
+        "name_en": "Sumitomo Pharma Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "コーポレートスタッフ"
+        ],
+        "note": "精神神経領域・がん領域等"
+      },
+      {
+        "name": "田辺三菱製薬",
+        "name_en": "Mitsubishi Tanabe Pharma Corporation",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "コーポレートスタッフ"
+        ],
+        "note": "三菱ケミカルグループ。自己免疫疾患等"
+      },
+      {
+        "name": "大鵬薬品工業",
+        "name_en": "Taiho Pharmaceutical Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職"
+        ],
+        "note": "大塚グループ。がん領域に強み"
+      },
+      {
+        "name": "日本新薬",
+        "name_en": "Nippon Shinyaku Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "コーポレートスタッフ"
+        ],
+        "note": "泌尿器科・血液内科領域等"
+      },
+      {
+        "name": "参天製薬",
+        "name_en": "Santen Pharmaceutical Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "コーポレートスタッフ"
+        ],
+        "note": "眼科領域に特化"
+      },
+      {
+        "name": "小林製薬",
+        "name_en": "Kobayashi Pharmaceutical Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "OTC医薬品・日用品の商品開発・研究・生産技術・マーケティング・営業等"
+      },
+      {
+        "name": "久光製薬",
+        "name_en": "Hisamitsu Pharmaceutical Co., Inc.",
+        "positions": [
+          "研究職",
+          "MR職",
+          "生産技術職",
+          "事務系総合職"
+        ],
+        "note": "経皮吸収型製剤（サロンパス等）に強み"
+      },
+      {
+        "name": "ロート製薬",
+        "name_en": "Rohto Pharmaceutical Co., Ltd.",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "OTC医薬品・スキンケア等の研究開発・生産技術・マーケティング・営業等"
+      },
+      {
+        "name": "大正製薬",
+        "name_en": "Taisho Pharmaceutical Co., Ltd.",
+        "positions": [
+          "研究職",
+          "開発職",
+          "MR職",
+          "生産技術職",
+          "事務系総合職"
+        ],
+        "note": "OTC医薬品（リポビタンD等）・医療用医薬品"
+      },
+      {
+        "name": "アッヴィ",
+        "name_en": "AbbVie Inc.",
+        "positions": [
+          "MR職",
+          "開発職",
+          "メディカルアフェアーズ職"
+        ],
+        "note": "外資系製薬。免疫・がん領域等"
+      },
+      {
+        "name": "ジョンソン・エンド・ジョンソン",
+        "name_en": "Johnson & Johnson",
+        "positions": [
+          "営業職（MR・医療機器営業）",
+          "マーケティング職",
+          "R&D職",
+          "品質管理職"
+        ],
+        "note": "外資系。医薬品・医療機器・コンシューマー製品。職種別採用"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（テレビ）",
+    "companies": [
+      {
+        "name": "日本テレビ放送網",
+        "name_en": "Nippon Television Network Corporation",
+        "positions": [
+          "総合職（コンテンツ制作、ビジネス開発、セールス・マーケティング、コーポレート）"
+        ],
+        "note": "入社後に配属先決定。報道・情報・バラエティー等の番組制作、営業、財務、法務、人事など"
+      },
+      {
+        "name": "テレビ朝日",
+        "name_en": "TV Asahi Corporation",
+        "positions": [
+          "総合職（番組制作、報道、営業、コンテンツビジネス、コーポレート）"
+        ],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "TBSテレビ",
+        "name_en": "TBS Television, Inc.",
+        "positions": [
+          "総合職（番組制作、報道、営業、デジタル、コーポレート）"
+        ],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "フジテレビジョン",
+        "name_en": "Fuji Television Network, Inc.",
+        "positions": [
+          "総合職（番組制作、報道、営業、デジタル、コーポレート）"
+        ],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "テレビ東京",
+        "name_en": "TV TOKYO Corporation",
+        "positions": [
+          "総合職（番組制作、報道、営業、コンテンツビジネス、コーポレート）"
+        ],
+        "note": "入社後に配属先決定"
+      },
+      {
+        "name": "NHK（日本放送協会）",
+        "name_en": "Japan Broadcasting Corporation (NHK)",
+        "positions": [
+          "番組制作（ディレクター）",
+          "映像デザイン",
+          "音響デザイン",
+          "記者",
+          "映像取材",
+          "映像制作",
+          "アナウンサー",
+          "メディアエンジニア",
+          "経営管理・営業"
+        ],
+        "note": "職種別採用。30歳未満が対象"
+      },
+      {
+        "name": "朝日放送テレビ",
+        "name_en": "Asahi Broadcasting Television Corporation",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在阪キー局"
+      },
+      {
+        "name": "関西テレビ放送",
+        "name_en": "Kansai Telecasting Corporation",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在阪キー局・フジテレビ系列"
+      },
+      {
+        "name": "讀賣テレビ放送",
+        "name_en": "Yomiuri Telecasting Corporation",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在阪キー局・日テレ系列"
+      },
+      {
+        "name": "毎日放送",
+        "name_en": "Mainichi Broadcasting System, Inc.",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在阪キー局・TBS系列"
+      },
+      {
+        "name": "テレビ大阪",
+        "name_en": "Television Osaka, Inc.",
+        "positions": [
+          "総合職"
+        ],
+        "note": "テレビ東京系列"
+      },
+      {
+        "name": "東海テレビ放送",
+        "name_en": "Tokai Television Broadcasting Co., Ltd.",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在名キー局・フジテレビ系列"
+      },
+      {
+        "name": "中京テレビ放送",
+        "name_en": "Chukyo TV. Broadcasting Corporation",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在名キー局・日テレ系列"
+      },
+      {
+        "name": "CBCテレビ",
+        "name_en": "CBC Television Co., Ltd.",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在名キー局・TBS系列"
+      },
+      {
+        "name": "名古屋テレビ放送（メ〜テレ）",
+        "name_en": "Nagoya Broadcasting Network Co., Ltd.",
+        "positions": [
+          "総合職（番組制作、報道、営業、コーポレート）"
+        ],
+        "note": "在名キー局・テレビ朝日系列"
+      },
+      {
+        "name": "WOWOW",
+        "name_en": "WOWOW INC.",
+        "positions": [
+          "総合職（編成・制作、営業・マーケティング、デジタル、コーポレート）"
+        ],
+        "note": "有料衛星放送"
+      },
+      {
+        "name": "スカパーJSAT",
+        "name_en": "SKY Perfect JSAT Corporation",
+        "positions": [
+          "総合職（メディア事業）",
+          "総合職（宇宙事業）",
+          "総合職（経営管理・法務・財務経理）"
+        ],
+        "note": "メディア事業と宇宙事業の2軸。宇宙事業では通信衛星の調達・管制も担当"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（新聞）",
+    "companies": [
+      {
+        "name": "朝日新聞社",
+        "name_en": "The Asahi Shimbun Company",
+        "positions": [
+          "記者職",
+          "ビジネス職（営業、企画、デジタル、コーポレート）",
+          "技術職"
+        ],
+        "note": ""
+      },
+      {
+        "name": "読売新聞社",
+        "name_en": "The Yomiuri Shimbun",
+        "positions": [
+          "記者職",
+          "業務職（営業、販売、事業、コーポレート）",
+          "技術職"
+        ],
+        "note": "発行部数日本一"
+      },
+      {
+        "name": "毎日新聞社",
+        "name_en": "The Mainichi Newspapers Co., Ltd.",
+        "positions": [
+          "記者職",
+          "業務職（営業、事業、コーポレート）",
+          "技術職"
+        ],
+        "note": ""
+      },
+      {
+        "name": "日本経済新聞社",
+        "name_en": "Nikkei Inc.",
+        "positions": [
+          "記者職",
+          "デジタルサービス（プロモーション・マーケティング）",
+          "営業職",
+          "技術職"
+        ],
+        "note": "経済専門紙。デジタル分野にも注力"
+      },
+      {
+        "name": "産経新聞社",
+        "name_en": "The Sankei Shimbun Co., Ltd.",
+        "positions": [
+          "記者職",
+          "業務職（営業、事業、コーポレート）"
+        ],
+        "note": ""
+      },
+      {
+        "name": "中日新聞社",
+        "name_en": "The Chunichi Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "中部地方の代表的ブロック紙"
+      },
+      {
+        "name": "西日本新聞社",
+        "name_en": "The Nishinippon Shimbun Co., Ltd.",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "九州地方のブロック紙"
+      },
+      {
+        "name": "北海道新聞社",
+        "name_en": "The Hokkaido Shimbun Press",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "北海道のブロック紙"
+      },
+      {
+        "name": "河北新報社",
+        "name_en": "The Kahoku Shimpo Publishing Co.",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "東北地方のブロック紙"
+      },
+      {
+        "name": "中国新聞社",
+        "name_en": "The Chugoku Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "中国地方のブロック紙"
+      },
+      {
+        "name": "新潟日報社",
+        "name_en": "The Niigata Nippo",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "新潟県の地方紙"
+      },
+      {
+        "name": "静岡新聞社",
+        "name_en": "The Shizuoka Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "静岡県の地方紙"
+      },
+      {
+        "name": "信濃毎日新聞社",
+        "name_en": "The Shinano Mainichi Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "長野県の地方紙"
+      },
+      {
+        "name": "京都新聞社",
+        "name_en": "The Kyoto Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "京都・滋賀の地方紙"
+      },
+      {
+        "name": "神戸新聞社",
+        "name_en": "The Kobe Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "兵庫県の地方紙"
+      },
+      {
+        "name": "山陽新聞社",
+        "name_en": "The Sanyo Shimbun",
+        "positions": [
+          "記者職",
+          "業務職"
+        ],
+        "note": "岡山県の地方紙"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（出版）",
+    "companies": [
+      {
+        "name": "集英社",
+        "name_en": "Shueisha Inc.",
+        "positions": [
+          "編集職",
+          "営業・宣伝職",
+          "デジタル職",
+          "管理職"
+        ],
+        "note": "週刊少年ジャンプ等を発行。職種横断で一括採用"
+      },
+      {
+        "name": "講談社",
+        "name_en": "Kodansha Ltd.",
+        "positions": [
+          "編集（コミック、文芸、こども・教育、ファッション・ライフスタイル、報道・芸能、学芸・学術）",
+          "営業（ライツ・グローバルビジネス、マーケティング・プロモーション、メディア・コミュニケーション、デジタル・システム）",
+          "校閲"
+        ],
+        "note": "部門別に希望を出して応募"
+      },
+      {
+        "name": "小学館",
+        "name_en": "Shogakukan Inc.",
+        "positions": [
+          "編集職",
+          "営業・宣伝・マーケティング職",
+          "広告職",
+          "デジタル職",
+          "管理部門職"
+        ],
+        "note": ""
+      },
+      {
+        "name": "KADOKAWA",
+        "name_en": "KADOKAWA CORPORATION",
+        "positions": [
+          "総合職（編集、営業、企画、デジタル、コーポレート）"
+        ],
+        "note": "出版・映像・ゲーム等の総合エンタメ企業"
+      },
+      {
+        "name": "新潮社",
+        "name_en": "Shinchosha Publishing Co., Ltd.",
+        "positions": [
+          "編集職",
+          "校閲職",
+          "営業・宣伝職",
+          "コーポレート職"
+        ],
+        "note": ""
+      },
+      {
+        "name": "文藝春秋",
+        "name_en": "Bungeishunju Ltd.",
+        "positions": [
+          "編集職",
+          "営業・宣伝職",
+          "管理部門職"
+        ],
+        "note": "週刊文春等を発行"
+      },
+      {
+        "name": "マガジンハウス",
+        "name_en": "Magazine House, Ltd.",
+        "positions": [
+          "編集職",
+          "営業・広告職",
+          "デジタル職"
+        ],
+        "note": "2025年に創刊80周年"
+      },
+      {
+        "name": "プレジデント社",
+        "name_en": "President Inc.",
+        "positions": [
+          "編集職",
+          "営業・広告職"
+        ],
+        "note": "ビジネス誌"
+      },
+      {
+        "name": "東洋経済新報社",
+        "name_en": "Toyo Keizai Inc.",
+        "positions": [
+          "記者・編集職",
+          "営業・広告職",
+          "デジタル職"
+        ],
+        "note": "週刊東洋経済、東洋経済オンライン等"
+      },
+      {
+        "name": "ダイヤモンド社",
+        "name_en": "Diamond, Inc.",
+        "positions": [
+          "編集職",
+          "営業・広告職",
+          "デジタル職"
+        ],
+        "note": "週刊ダイヤモンド等"
+      },
+      {
+        "name": "日経BP",
+        "name_en": "Nikkei Business Publications, Inc.",
+        "positions": [
+          "記者・編集職",
+          "営業・広告職",
+          "デジタル職"
+        ],
+        "note": "日経ビジネス等を発行。日経グループ"
+      },
+      {
+        "name": "扶桑社",
+        "name_en": "Fusosha Publishing Inc.",
+        "positions": [
+          "編集職",
+          "営業・広告職"
+        ],
+        "note": "フジサンケイグループ"
+      },
+      {
+        "name": "朝日新聞出版",
+        "name_en": "Asahi Shimbun Publications Inc.",
+        "positions": [
+          "編集職",
+          "営業・広告職"
+        ],
+        "note": "AERA等を発行"
+      },
+      {
+        "name": "NHK出版",
+        "name_en": "NHK Publishing, Inc.",
+        "positions": [
+          "編集職",
+          "営業職",
+          "管理部門職"
+        ],
+        "note": "NHKテキスト等を発行"
+      },
+      {
+        "name": "白泉社",
+        "name_en": "Hakusensha, Inc.",
+        "positions": [
+          "編集職",
+          "営業職"
+        ],
+        "note": "花とゆめ等を発行。一ツ橋グループ（小学館系）"
+      },
+      {
+        "name": "医学書院",
+        "name_en": "Igaku-Shoin Ltd.",
+        "positions": [
+          "編集職",
+          "営業職",
+          "デジタル職"
+        ],
+        "note": "医学・看護学系の専門出版社"
+      },
+      {
+        "name": "医歯薬出版",
+        "name_en": "Ishiyaku Publishers, Inc.",
+        "positions": [
+          "編集職",
+          "営業職"
+        ],
+        "note": "歯学・医療系の専門出版社"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（通信社）",
+    "companies": [
+      {
+        "name": "共同通信社",
+        "name_en": "Kyodo News",
+        "positions": [
+          "記者職",
+          "技術職",
+          "事務職"
+        ],
+        "note": "国内最大の通信社"
+      },
+      {
+        "name": "時事通信社",
+        "name_en": "Jiji Press Ltd.",
+        "positions": [
+          "記者職",
+          "技術職",
+          "事務職"
+        ],
+        "note": ""
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（広告代理店）",
+    "companies": [
+      {
+        "name": "電通",
+        "name_en": "Dentsu Inc.",
+        "positions": [
+          "総合職（ビジネスプロデュース、ストラテジー、クリエイティブ、メディア＆コンテンツ、グローバルビジネス、DX）"
+        ],
+        "note": "入社後に配属。国内最大手"
+      },
+      {
+        "name": "博報堂",
+        "name_en": "Hakuhodo Inc.",
+        "positions": [
+          "総合職（入社後に職種確定コース）",
+          "データサイエンス職"
+        ],
+        "note": "総合職選考と職種確約コースの2種類"
+      },
+      {
+        "name": "ADK（アサツーディ・ケイ）",
+        "name_en": "ADK Holdings Inc.",
+        "positions": [
+          "総合職（オープンコース）"
+        ],
+        "note": "入社時30歳未満が対象。新卒・既卒・就業者OK"
+      },
+      {
+        "name": "読売広告社",
+        "name_en": "Yomiko Advertising Inc.",
+        "positions": [
+          "総合職（営業、メディア、クリエイティブ、マーケティング等）"
+        ],
+        "note": "読売新聞グループ"
+      },
+      {
+        "name": "セプテーニ",
+        "name_en": "Septeni Co., Ltd.",
+        "positions": [
+          "総合職（デジタルマーケティング、広告運用・分析、SNSマーケティング）"
+        ],
+        "note": "デジタル広告特化型。若手裁量が大きい"
+      },
+      {
+        "name": "大広",
+        "name_en": "Daiko Advertising Inc.",
+        "positions": [
+          "総合職（営業、プランニング、クリエイティブ、メディア）"
+        ],
+        "note": "博報堂DYグループ"
+      },
+      {
+        "name": "ジェイアール東日本企画（jeki）",
+        "name_en": "jeki Inc.",
+        "positions": [
+          "総合職（営業、プランニング、クリエイティブ、メディア、交通広告）"
+        ],
+        "note": "JR東日本グループの広告会社"
+      },
+      {
+        "name": "電通デジタル",
+        "name_en": "Dentsu Digital Inc.",
+        "positions": [
+          "総合職（デジタルマーケティング、データ分析、クリエイティブ、テクノロジー）"
+        ],
+        "note": "電通グループのデジタル専業"
+      },
+      {
+        "name": "電通東日本",
+        "name_en": "Dentsu East Japan Inc.",
+        "positions": [
+          "総合職（営業、プランニング、クリエイティブ、メディア）"
+        ],
+        "note": "電通グループ・東日本エリア"
+      },
+      {
+        "name": "電通西日本",
+        "name_en": "Dentsu West Japan Inc.",
+        "positions": [
+          "総合職（営業、プランニング、クリエイティブ、メディア）"
+        ],
+        "note": "電通グループ・西日本エリア"
+      },
+      {
+        "name": "東急エージェンシー",
+        "name_en": "Tokyu Agency Inc.",
+        "positions": [
+          "総合職（営業、プランニング、クリエイティブ、プロモーション）"
+        ],
+        "note": "東急グループ"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（映画・音楽）",
+    "companies": [
+      {
+        "name": "東宝",
+        "name_en": "Toho Co., Ltd.",
+        "positions": [
+          "総合職（映画企画・制作、配給・宣伝、演劇、不動産、コーポレート）"
+        ],
+        "note": "映画・演劇・不動産の3本柱"
+      },
+      {
+        "name": "東映",
+        "name_en": "Toei Company, Ltd.",
+        "positions": [
+          "総合職（映画・ドラマ企画制作、営業・宣伝、イベント、撮影所運営、不動産、コーポレート）"
+        ],
+        "note": "映画・テレビドラマ制作に強み"
+      },
+      {
+        "name": "松竹",
+        "name_en": "Shochiku Co., Ltd.",
+        "positions": [
+          "総合職（映画企画・制作・配給、演劇、映像、不動産、コーポレート）"
+        ],
+        "note": "歌舞伎など伝統芸能にも強み"
+      },
+      {
+        "name": "エイベックス",
+        "name_en": "Avex Inc.",
+        "positions": [
+          "総合職（音楽制作・A&R、マネジメント、デジタル、ライブ・イベント、コーポレート）"
+        ],
+        "note": "音楽・エンタメの総合企業"
+      },
+      {
+        "name": "キングレコード",
+        "name_en": "King Record Co., Ltd.",
+        "positions": [
+          "総合職（音楽制作、映像制作、アニメ制作、宣伝・営業、デジタル）"
+        ],
+        "note": "演歌からJ-POP、アニメまで幅広い"
+      },
+      {
+        "name": "ポニーキャニオン",
+        "name_en": "Pony Canyon Inc.",
+        "positions": [
+          "総合職（音楽・映像制作、アニメ、ライブ・イベント、デジタル、営業）"
+        ],
+        "note": "フジサンケイグループ。ライブ劇場運営も"
+      },
+      {
+        "name": "ソニー・ミュージックエンタテインメント",
+        "name_en": "Sony Music Entertainment (Japan) Inc.",
+        "positions": [
+          "総合職（音楽制作、マネジメント、マーケティング、デジタル、アニメ・ゲーム制作、ライブ・イベント）"
+        ],
+        "note": "ソニーグループ。音楽・映像・アニメ・ゲーム等多角展開"
+      }
+    ]
+  },
+  {
+    "industry": "マスコミ／広告（ゲーム）",
+    "companies": [
+      {
+        "name": "バンダイナムコエンターテインメント",
+        "name_en": "Bandai Namco Entertainment Inc.",
+        "positions": [
+          "プランナー",
+          "プログラマー",
+          "ビジュアルアーティスト",
+          "サウンドクリエイター",
+          "プロデューサー",
+          "総合職（営業、マーケティング、コーポレート）"
+        ],
+        "note": "バンダイナムコグループ"
+      },
+      {
+        "name": "スクウェア・エニックス",
+        "name_en": "Square Enix Co., Ltd.",
+        "positions": [
+          "ゲームデザイナー（プランナー）",
+          "ゲームエンジニア",
+          "2Dアーティスト",
+          "3DCGアーティスト",
+          "テクニカルアーティスト",
+          "CG映像エンジニア",
+          "サウンドプログラマー"
+        ],
+        "note": "職種別採用。アーティスト・TAは作品提出必須"
+      },
+      {
+        "name": "コナミデジタルエンタテインメント",
+        "name_en": "Konami Digital Entertainment Co., Ltd.",
+        "positions": [
+          "クリエイティブ職（プログラマー、プランナー、デザイナー、サウンドクリエイター）",
+          "プロデューサー職",
+          "ビジネス職（経営企画、財務、人事、営業、マーケティング、IT）"
+        ],
+        "note": "コナミグループ一括採用"
+      },
+      {
+        "name": "カプコン",
+        "name_en": "Capcom Co., Ltd.",
+        "positions": [
+          "プランナー",
+          "プログラマー",
+          "デザイナー（2D・3D）",
+          "サウンド",
+          "総合職（営業、マーケティング、コーポレート）"
+        ],
+        "note": "モンスターハンター、バイオハザード等"
+      },
+      {
+        "name": "セガサミーホールディングス",
+        "name_en": "SEGA SAMMY Holdings Inc.",
+        "positions": [
+          "総合職（経営企画、財務、人事、広報、スポーツビジネス等）",
+          "クリエイティブ職"
+        ],
+        "note": "ゲーム、遊技機、リゾート事業"
+      },
+      {
+        "name": "コーエーテクモホールディングス",
+        "name_en": "Koei Tecmo Holdings Co., Ltd.",
+        "positions": [
+          "プログラマー",
+          "プランナー",
+          "デザイナー",
+          "サウンド",
+          "総合職（営業、マーケティング、コーポレート）"
+        ],
+        "note": "HDで一括選考後、グループ子会社へ配属"
+      },
+      {
+        "name": "任天堂",
+        "name_en": "Nintendo Co., Ltd.",
+        "positions": [
+          "理工系（ソフトウェア、ハードウェア等）",
+          "デザイン系",
+          "サウンド系",
+          "制作企画系",
+          "管理・営業系"
+        ],
+        "note": "職種系統別の採用"
+      }
+    ]
+  },
+  {
+    "industry": "サービス業",
+    "companies": [
+      {
+        "name": "リクルート",
+        "name_en": "Recruit Holdings Co., Ltd.",
+        "positions": [
+          "ビジネスグロースコース（マーケター、顧客接点、事業企画、コーポレートスタッフ）",
+          "テクノロジー・プロダクト開発コース（PdM、エンジニア）",
+          "デザイン・クリエイティブコース（UI/UXデザイナー、アートディレクター）"
+        ],
+        "note": "5つの採用コースから選択"
+      },
+      {
+        "name": "ファーストリテイリング",
+        "name_en": "Fast Retailing Co., Ltd.",
+        "positions": [
+          "グローバルリーダー候補（店舗経営からスタートし、MD、マーケティング、生産管理、海外駐在等へ）"
+        ],
+        "note": "ユニクロ、ジーユー等8ブランド展開。入社後は店舗配属からスタート"
+      },
+      {
+        "name": "オリエンタルランド",
+        "name_en": "Oriental Land Co., Ltd.",
+        "positions": [
+          "総合職（全事業領域でジョブローテーション）",
+          "専門職（クリエイティブ：施設・商品・フード開発）",
+          "専門職（テクニカル：施設メンテナンス・保守点検）"
+        ],
+        "note": "東京ディズニーリゾート運営。総合職は入社後テーマパーク部門配属からスタート"
+      },
+      {
+        "name": "ベネッセコーポレーション",
+        "name_en": "Benesse Corporation",
+        "positions": [
+          "総合職（企画、営業、マーケティング、デジタル、コーポレート）"
+        ],
+        "note": "教育・生活事業"
+      },
+      {
+        "name": "ユー・エス・ジェイ（USJ）",
+        "name_en": "USJ LLC",
+        "positions": [
+          "マーケティング職",
+          "メンテナンス職"
+        ],
+        "note": "マーケティング職は入社初年度からプロジェクトリーダー。パークブランディング、コミュニケーション戦略、コンテンツ企画制作、販売戦略立案など"
+      },
+      {
+        "name": "ナイキジャパン",
+        "name_en": "Nike Japan Group LLC",
+        "positions": [
+          "総合職（マーケティング、セールス、リテール、デジタル、コーポレート）"
+        ],
+        "note": "外資スポーツブランド"
+      },
+      {
+        "name": "アディダスジャパン",
+        "name_en": "adidas Japan K.K.",
+        "positions": [
+          "総合職（マーケティング、セールス、リテール、デジタル、コーポレート）"
+        ],
+        "note": "外資スポーツブランド"
+      }
+    ]
+  },
+  {
+    "industry": "流通／小売業／外食",
+    "companies": [
+      {
+        "name": "ニトリ",
+        "name_en": "Nitori Holdings Co., Ltd.",
+        "positions": [
+          "総合職（商品開発、店舗運営、物流、IT、広告、コーポレート等）"
+        ],
+        "note": "製造物流IT小売業。2026年度新卒採用人数630名"
+      },
+      {
+        "name": "コクヨ",
+        "name_en": "KOKUYO Co., Ltd.",
+        "positions": [
+          "総合職（営業、マーケティング、商品企画、生産管理、コーポレート）"
+        ],
+        "note": "文具・オフィス家具メーカー"
+      },
+      {
+        "name": "大日本印刷（DNP）",
+        "name_en": "Dai Nippon Printing Co., Ltd.",
+        "positions": [
+          "事務系（営業、企画、コーポレートスタッフ）",
+          "技術系（研究開発、生産技術、SE）"
+        ],
+        "note": "全国（東京、埼玉、大阪、北海道、宮城、愛知、福岡等）で採用"
+      },
+      {
+        "name": "TOPPANホールディングス",
+        "name_en": "TOPPAN Holdings Inc.",
+        "positions": [
+          "事務系（営業、企画）",
+          "技術系（研究開発、生産技術、SE）"
+        ],
+        "note": "旧凸版印刷。印刷にとどまらず多領域に事業展開"
+      }
+    ]
+  },
+  {
+    "industry": "通信サービス",
+    "companies": [
+      {
+        "name": "NTT東日本（東日本電信電話）",
+        "name_en": "Nippon Telegraph and Telephone East Corporation",
+        "positions": [
+          "事務系総合職（営業、企画、コーポレート）",
+          "技術系総合職（ネットワーク、SE、研究開発）"
+        ],
+        "note": "NTTグループ"
+      },
+      {
+        "name": "NTT西日本（西日本電信電話）",
+        "name_en": "Nippon Telegraph and Telephone West Corporation",
+        "positions": [
+          "事務系総合職（営業、企画、コーポレート）",
+          "技術系総合職（ネットワーク、SE、研究開発）"
+        ],
+        "note": "NTTグループ。2026年度採用予定201〜300名"
+      },
+      {
+        "name": "NTTドコモ",
+        "name_en": "NTT DOCOMO, INC.",
+        "positions": [
+          "事務系（営業、マーケティング、企画、コーポレート）",
+          "技術系（ネットワーク、SE、研究開発、データサイエンス）"
+        ],
+        "note": "NTTグループ。通信キャリア最大手"
+      },
+      {
+        "name": "KDDI",
+        "name_en": "KDDI Corporation",
+        "positions": [
+          "OPENコース（入社後に配属決定）",
+          "WILLコース（技術系職種を選択）"
+        ],
+        "note": "au、UQ mobile等のブランド展開"
+      },
+      {
+        "name": "ソフトバンク",
+        "name_en": "SoftBank Corp.",
+        "positions": [
+          "総合職（営業、企画、マーケティング）",
+          "エンジニア職（ネットワーク、SE、AI、データ）"
+        ],
+        "note": "通信事業に加えAI・IoT等にも注力"
+      },
+      {
+        "name": "NTTコミュニケーションズ（ドコモビジネス）",
+        "name_en": "NTT Communications Corporation",
+        "positions": [
+          "総合職（営業、SE、企画、コーポレート）"
+        ],
+        "note": "旧NTTドコモソリューションズはNTTコミュニケーションズのドコモビジネスブランドに統合"
+      }
+    ]
+  },
+  {
+    "industry": "日用品・化粧品",
+    "companies": [
+      {
+        "name": "P&Gジャパン",
+        "name_en": "P&G Japan G.K.",
+        "positions": [
+          "マーケティング",
+          "営業統括（セールス）",
+          "生産統括（サプライチェーン）",
+          "ファイナンス＆アカウンティング",
+          "HR（人事）",
+          "IT",
+          "R&D（研究開発）",
+          "PS/E（生産技術）"
+        ],
+        "note": "職種別採用。原則入社後の職種変更なし。採用予定約100名"
+      },
+      {
+        "name": "ユニリーバ・ジャパン",
+        "name_en": "Unilever Japan K.K.",
+        "positions": [
+          "マーケティング",
+          "カスタマーデベロップメント（営業）",
+          "サプライチェーン",
+          "ファイナンス",
+          "HR",
+          "R&D"
+        ],
+        "note": "職種別採用。外資系だがチームワーク重視の穏やかな社風"
+      },
+      {
+        "name": "花王",
+        "name_en": "Kao Corporation",
+        "positions": [
+          "マーケティング（ブランドマネジメント）",
+          "営業職",
+          "SCM職",
+          "技術系（研究開発、生産技術）"
+        ],
+        "note": "ブランドごとに部署が分かれる。日系メーカーの中でもマーケ部門別採用を実施"
+      },
+      {
+        "name": "資生堂",
+        "name_en": "Shiseido Company, Limited",
+        "positions": [
+          "マーケティング職",
+          "営業職",
+          "ファイナンス職",
+          "技術系（研究開発）",
+          "美容職（ビューティーコンサルタント）"
+        ],
+        "note": "美意識・感性を重視。協調性重視の社風"
+      },
+      {
+        "name": "日本ロレアル",
+        "name_en": "L'Oreal Japan Ltd.",
+        "positions": [
+          "マーケティング職",
+          "セールス職（全国営業所）",
+          "R&D（研究開発・川崎）",
+          "オペレーションズ（生産・御殿場）",
+          "ファイナンス",
+          "HR"
+        ],
+        "note": "職種別採用。マネジメントトレーニープログラムあり（入社後最大12ヶ月のOJTローテーション）"
+      },
+      {
+        "name": "ユニ・チャーム",
+        "name_en": "Unicharm Corporation",
+        "positions": [
+          "マーケティング職",
+          "営業職",
+          "技術系（研究開発、生産技術）",
+          "コーポレート職"
+        ],
+        "note": "衛生用品国内最大手"
+      },
+      {
+        "name": "ライオン",
+        "name_en": "Lion Corporation",
+        "positions": [
+          "事務系（営業、マーケティング、コーポレート）",
+          "技術系（研究開発、生産技術）"
+        ],
+        "note": ""
+      },
+      {
+        "name": "コーセー（KOSE）",
+        "name_en": "KOSE Corporation",
+        "positions": [
+          "総合職（営業、マーケティング、企画、コーポレート）",
+          "技術系（研究開発）",
+          "美容職"
+        ],
+        "note": "化粧品大手"
+      },
+      {
+        "name": "マンダム",
+        "name_en": "Mandom Corporation",
+        "positions": [
+          "総合職（営業、マーケティング、企画、コーポレート）",
+          "技術系（研究開発、生産技術）"
+        ],
+        "note": "男性化粧品に強み。大阪本社"
+      },
+      {
+        "name": "ミルボン",
+        "name_en": "Milbon Co., Ltd.",
+        "positions": [
+          "総合職（営業、マーケティング、企画）",
+          "技術系（研究開発）"
+        ],
+        "note": "業務用ヘアケア製品国内トップ"
+      },
+      {
+        "name": "アース製薬",
+        "name_en": "Earth Corporation",
+        "positions": [
+          "研究開発職",
+          "マーケティング職",
+          "ニューチャネル職",
+          "製造・生産技術職",
+          "営業職"
+        ],
+        "note": "殺虫剤・家庭用品"
+      }
+    ]
+  },
+  {
+    "industry": "大学／教育／研究機関（大学職員）",
+    "companies": [
+      {
+        "name": "早稲田大学",
+        "name_en": "Waseda University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "入職後に教務、学生支援、研究支援、国際、広報、総務、財務等に配属"
+      },
+      {
+        "name": "慶應義塾大学",
+        "name_en": "Keio University",
+        "positions": [
+          "事務系専任職員",
+          "技術系専任職員"
+        ],
+        "note": "法人事務、学事、渉外、一貫教育、広報、研究支援、国際交流、学生支援、病院、図書館、情報技術等の分野"
+      },
+      {
+        "name": "明治大学",
+        "name_en": "Meiji University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "MARCH"
+      },
+      {
+        "name": "青山学院大学",
+        "name_en": "Aoyama Gakuin University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "MARCH"
+      },
+      {
+        "name": "立教大学",
+        "name_en": "Rikkyo University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "MARCH"
+      },
+      {
+        "name": "中央大学",
+        "name_en": "Chuo University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "MARCH"
+      },
+      {
+        "name": "法政大学",
+        "name_en": "Hosei University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "MARCH"
+      },
+      {
+        "name": "関西大学",
+        "name_en": "Kansai University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "関関同立"
+      },
+      {
+        "name": "関西学院大学",
+        "name_en": "Kwansei Gakuin University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "関関同立"
+      },
+      {
+        "name": "同志社大学",
+        "name_en": "Doshisha University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "関関同立"
+      },
+      {
+        "name": "立命館大学",
+        "name_en": "Ritsumeikan University",
+        "positions": [
+          "事務系専任職員"
+        ],
+        "note": "関関同立"
+      }
+    ]
+  },
+  {
+    "industry": "官公庁／公共団体／公益法人",
+    "companies": [
+      {
+        "name": "国際協力機構（JICA）",
+        "name_en": "Japan International Cooperation Agency",
+        "positions": [
+          "総合職"
+        ],
+        "note": "開発途上国への技術協力・資金協力等。独立行政法人"
+      },
+      {
+        "name": "日本貿易振興機構（JETRO）",
+        "name_en": "Japan External Trade Organization",
+        "positions": [
+          "総合職"
+        ],
+        "note": "貿易振興・対日投資促進。国籍不問"
+      },
+      {
+        "name": "東京商工会議所",
+        "name_en": "Tokyo Chamber of Commerce and Industry",
+        "positions": [
+          "総合職（中小企業支援、政策提言、イベント企画、コーポレート）"
+        ],
+        "note": "中小企業の経営支援等"
+      },
+      {
+        "name": "日本中央競馬会（JRA）",
+        "name_en": "Japan Racing Association",
+        "positions": [
+          "事務職",
+          "技術職",
+          "獣医職",
+          "馬術職（きゅう務員技能、装蹄、馬場土木）"
+        ],
+        "note": "独自の専門職種あり"
+      },
+      {
+        "name": "日本郵便",
+        "name_en": "Japan Post Co., Ltd.",
+        "positions": [
+          "総合職",
+          "地域基幹職・エリア基幹職",
+          "一般職"
+        ],
+        "note": "日本郵政グループ"
+      },
+      {
+        "name": "日本音楽著作権協会（JASRAC）",
+        "name_en": "Japanese Society for Rights of Authors, Composers and Publishers",
+        "positions": [
+          "総合職"
+        ],
+        "note": "音楽著作権の管理団体"
+      },
+      {
+        "name": "全国農業協同組合連合会（JA全農）",
+        "name_en": "National Federation of Agricultural Cooperative Associations",
+        "positions": [
+          "総合職"
+        ],
+        "note": "農畜産物の販売、生産資材の供給等"
+      },
+      {
+        "name": "都市再生機構（UR都市機構）",
+        "name_en": "Urban Renaissance Agency",
+        "positions": [
+          "総合職（事務系）",
+          "総合職（技術系：土木、建築、機械、電気等）"
+        ],
+        "note": "都市の再生・賃貸住宅の管理等。独立行政法人"
+      }
+    ]
+  },
+  {
+    "industry": "その他（倉庫・物流）",
+    "companies": [
+      {
+        "name": "三菱倉庫",
+        "name_en": "Mitsubishi Logistics Corporation",
+        "positions": [
+          "総合職",
+          "エリア総合職",
+          "専任職"
+        ],
+        "note": "転勤区分で3つの働き方"
+      },
+      {
+        "name": "三井倉庫ホールディングス",
+        "name_en": "Mitsui-Soko Holdings Co., Ltd.",
+        "positions": [
+          "総合職（物流企画、営業、国際輸送、コーポレート）"
+        ],
+        "note": "三井グループ"
+      },
+      {
+        "name": "住友倉庫",
+        "name_en": "The Sumitomo Warehouse Co., Ltd.",
+        "positions": [
+          "総合職（国際輸送営業、国際輸送荷捌、倉庫営業、不動産、コーポレート）"
+        ],
+        "note": "住友グループ"
+      }
+    ]
+  },
+  {
+    "industry": "その他（スポーツ・玩具・住設・OA機器）",
+    "companies": [
+      {
+        "name": "エリクソン・ジャパン",
+        "name_en": "Ericsson Japan K.K.",
+        "positions": [
+          "エンジニア職（通信機器の設定・運用・保守）",
+          "営業職",
+          "コーポレート職"
+        ],
+        "note": "スウェーデンの通信機器メーカー日本法人"
+      },
+      {
+        "name": "ボッシュ",
+        "name_en": "Bosch Corporation",
+        "positions": [
+          "技術系（研究開発、生産技術）",
+          "事務系（営業、マーケティング、コーポレート）",
+          "JMP（若手リーダーシッププログラム）"
+        ],
+        "note": "ドイツの自動車部品・産業機器メーカー日本法人"
+      },
+      {
+        "name": "アシックス",
+        "name_en": "ASICS Corporation",
+        "positions": [
+          "事務系（営業、マーケティング、コーポレート）",
+          "技術系（研究開発、生産技術）"
+        ],
+        "note": "スポーツ用品メーカー。神戸本社"
+      },
+      {
+        "name": "タカラトミー",
+        "name_en": "TOMY Company, Ltd.",
+        "positions": [
+          "総合職（商品企画、マーケティング、営業、デザイン、コーポレート）"
+        ],
+        "note": "玩具大手"
+      },
+      {
+        "name": "バンダイ",
+        "name_en": "Bandai Co., Ltd.",
+        "positions": [
+          "総合職（商品企画、マーケティング、営業、デザイン、コーポレート）"
+        ],
+        "note": "バンダイナムコグループ。玩具・カプセルトイ等"
+      },
+      {
+        "name": "リクシル",
+        "name_en": "LIXIL Corporation",
+        "positions": [
+          "総合職（営業、マーケティング、商品企画、コーポレート）",
+          "技術系（研究開発、生産技術、SE）"
+        ],
+        "note": "住宅設備・建材メーカー"
+      },
+      {
+        "name": "富士フイルムビジネスイノベーション",
+        "name_en": "FUJIFILM Business Innovation Corp.",
+        "positions": [
+          "技術系コース",
+          "事務系コース",
+          "SE（システムエンジニア）コース"
+        ],
+        "note": "旧富士ゼロックス。複合機・ソリューション事業"
+      }
+    ]
+  },
+  {
+    "industry": "不動産",
+    "companies": [
+      {
+        "name": "三井不動産",
+        "name_en": "Mitsui Fudosan",
+        "positions": [
+          "総合職",
+          "業務職"
+        ],
+        "note": "総合デベロッパー最大手。業務職は事務サポート中心"
+      },
+      {
+        "name": "三菱地所",
+        "name_en": "Mitsubishi Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "丸の内エリアを中心とした総合デベロッパー"
+      },
+      {
+        "name": "東急不動産",
+        "name_en": "Tokyu Land",
+        "positions": [
+          "総合職"
+        ],
+        "note": "東急グループの総合デベロッパー"
+      },
+      {
+        "name": "野村不動産",
+        "name_en": "Nomura Real Estate",
+        "positions": [
+          "総合職（全専攻）",
+          "総合職（建築系）"
+        ],
+        "note": "プラウドブランドで知られる。全専攻コースと建築系コースで選考が分かれる"
+      },
+      {
+        "name": "住友不動産",
+        "name_en": "Sumitomo Realty & Development",
+        "positions": [
+          "総合職",
+          "営業職",
+          "技術職",
+          "業務職"
+        ],
+        "note": "オフィスビル・マンション開発大手"
+      },
+      {
+        "name": "東京建物",
+        "name_en": "Tokyo Tatemono",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本最古の不動産会社。Brilliaブランドのマンション開発"
+      },
+      {
+        "name": "森ビル",
+        "name_en": "Mori Building",
+        "positions": [
+          "総合職",
+          "ビルマネジメント職"
+        ],
+        "note": "六本木ヒルズ・虎ノ門ヒルズ等を展開。ビルマネジメント職は理系（機械・電気・建築系）対象"
+      },
+      {
+        "name": "森トラスト",
+        "name_en": "Mori Trust",
+        "positions": [
+          "総合職"
+        ],
+        "note": "ホテル・リゾート事業も展開する総合デベロッパー"
+      },
+      {
+        "name": "ケネディクス",
+        "name_en": "Kenedix",
+        "positions": [
+          "総合職"
+        ],
+        "note": "不動産投資運用会社。三井住友フィナンシャルグループ傘下"
+      },
+      {
+        "name": "ヒューリック",
+        "name_en": "Hulic",
+        "positions": [
+          "総合職"
+        ],
+        "note": "東京23区中心のオフィスビル・商業施設の不動産会社。少数精鋭採用"
+      },
+      {
+        "name": "地主（日本商業開発）",
+        "name_en": "Jinushi (JLC)",
+        "positions": [
+          "総合職"
+        ],
+        "note": "地主ビジネス（底地）に特化。採用数1〜2名と極めて少数精鋭"
+      },
+      {
+        "name": "NTT都市開発",
+        "name_en": "NTT Urban Development",
+        "positions": [
+          "総合職"
+        ],
+        "note": "NTTグループの不動産デベロッパー"
+      },
+      {
+        "name": "三井不動産レジデンシャル",
+        "name_en": "Mitsui Fudosan Residential",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三井不動産グループの住宅開発会社。パークシリーズを展開"
+      },
+      {
+        "name": "三菱地所レジデンス",
+        "name_en": "Mitsubishi Jisho Residence",
+        "positions": [
+          "総合職（事務系）",
+          "総合職（技術系）",
+          "専門職"
+        ],
+        "note": "三菱地所グループの住宅開発会社。ザ・パークハウスブランド"
+      },
+      {
+        "name": "日鉄興和不動産",
+        "name_en": "Nippon Steel Kowa Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本製鉄グループの不動産デベロッパー。ビル事業と住宅事業が両輪"
+      },
+      {
+        "name": "伊藤忠都市開発",
+        "name_en": "Itochu Property Development",
+        "positions": [
+          "総合職"
+        ],
+        "note": "伊藤忠商事グループの総合デベロッパー。分譲マンション・賃貸マンション事業"
+      },
+      {
+        "name": "三井物産都市開発",
+        "name_en": "Mitsui & Co. Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三井物産グループの不動産会社。若手から大きな裁量権あり"
+      },
+      {
+        "name": "三菱商事都市開発",
+        "name_en": "Mitsubishi Corporation Urban Development",
+        "positions": [
+          "総合職"
+        ],
+        "note": "三菱商事グループの不動産デベロッパー"
+      },
+      {
+        "name": "オリックス不動産",
+        "name_en": "ORIX Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "オリックスグループの不動産会社。施設運営・投資等を展開"
+      },
+      {
+        "name": "日本郵政不動産",
+        "name_en": "Japan Post Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本郵政グループの不動産事業会社。郵便局跡地等の再開発"
+      },
+      {
+        "name": "安田不動産",
+        "name_en": "Yasuda Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "安田財閥系の不動産会社。オフィスビル賃貸・マンション開発"
+      },
+      {
+        "name": "中央日本土地建物",
+        "name_en": "Chuo-Nittochi",
+        "positions": [
+          "総合職"
+        ],
+        "note": "みずほ系の不動産会社。オフィスビル・住宅開発"
+      },
+      {
+        "name": "平和不動産",
+        "name_en": "Heiwa Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "東京証券取引所ビルの所有・運営で知られる"
+      },
+      {
+        "name": "小田急不動産",
+        "name_en": "Odakyu Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "小田急グループの不動産会社。沿線の住宅用地取得・商品企画・販売"
+      },
+      {
+        "name": "トヨタ不動産",
+        "name_en": "Toyota Real Estate",
+        "positions": [
+          "総合職"
+        ],
+        "note": "トヨタグループの不動産会社"
+      },
+      {
+        "name": "ダイビル",
+        "name_en": "Daibiru Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "商船三井グループのオフィスビル賃貸会社"
+      },
+      {
+        "name": "サンケイビル",
+        "name_en": "Sankei Building",
+        "positions": [
+          "総合職"
+        ],
+        "note": "フジ・メディア・ホールディングスグループの不動産会社"
+      },
+      {
+        "name": "UR都市機構",
+        "name_en": "Urban Renaissance Agency",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "note": "独立行政法人。都市再生・賃貸住宅事業。技術系は土木・建築・機械・電気等"
+      },
+      {
+        "name": "積水ハウス",
+        "name_en": "Sekisui House",
+        "positions": [
+          "営業職",
+          "設計職",
+          "施工管理職",
+          "インテリアコーディネーター職",
+          "ビジネスアシスタント職"
+        ],
+        "note": "住宅メーカー最大手。職種別採用を実施"
+      },
+      {
+        "name": "大和ハウス工業",
+        "name_en": "Daiwa House Industry",
+        "positions": [
+          "総合職（営業系）",
+          "総合職（技術系：設計）",
+          "総合職（技術系：住宅系施工）",
+          "総合職（技術系：建築系施工）",
+          "総合職（技術系：設備）"
+        ],
+        "note": "売上高業界トップクラスの住宅・建設メーカー。営業系は全学部対象、技術系は理系対象"
+      },
+      {
+        "name": "住友林業",
+        "name_en": "Sumitomo Forestry",
+        "positions": [
+          "業務企画職",
+          "住宅営業職",
+          "建築技術職",
+          "事務企画職"
+        ],
+        "note": "木造住宅メーカー大手。海外事業も拡大中"
+      }
+    ]
+  },
+  {
+    "industry": "建設業",
+    "companies": [
+      {
+        "name": "鹿島建設",
+        "name_en": "Kajima Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築系）",
+          "技術系総合職（土木系）"
+        ],
+        "note": "スーパーゼネコン。施工管理・設計・研究開発・営業・事務等を含む"
+      },
+      {
+        "name": "大林組",
+        "name_en": "Obayashi Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築系）",
+          "技術系総合職（土木系）",
+          "技術系総合職（機電系）"
+        ],
+        "note": "スーパーゼネコン。施工管理・設計・エンジニアリング・研究開発等"
+      },
+      {
+        "name": "清水建設",
+        "name_en": "Shimizu Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築系）",
+          "技術系総合職（土木系）"
+        ],
+        "note": "スーパーゼネコン。施工管理・設計・研究開発・営業等"
+      },
+      {
+        "name": "大成建設",
+        "name_en": "Taisei Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築系）",
+          "技術系総合職（土木系）"
+        ],
+        "note": "スーパーゼネコン。施工管理・設計・研究開発・都市開発等"
+      },
+      {
+        "name": "竹中工務店",
+        "name_en": "Takenaka Corporation",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "スーパーゼネコン唯一の非上場企業。建築専業に強み"
+      },
+      {
+        "name": "長谷工コーポレーション",
+        "name_en": "Haseko Corporation",
+        "positions": [
+          "営業職",
+          "技術職（設計）",
+          "技術職（施工管理）"
+        ],
+        "note": "マンション建設首位。マンションの企画・設計・施工・管理を一貫して手掛ける"
+      },
+      {
+        "name": "三井住友建設",
+        "name_en": "Sumitomo Mitsui Construction",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築）",
+          "技術系総合職（土木）"
+        ],
+        "note": "準大手ゼネコン。マンション・橋梁に強み"
+      },
+      {
+        "name": "戸田建設",
+        "name_en": "Toda Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築）",
+          "技術系総合職（土木）"
+        ],
+        "note": "準大手ゼネコン。病院建設に強み"
+      },
+      {
+        "name": "五洋建設",
+        "name_en": "Penta-Ocean Construction",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築）",
+          "技術系総合職（土木）"
+        ],
+        "note": "海洋土木（マリコン）最大手"
+      },
+      {
+        "name": "前田建設工業",
+        "name_en": "Maeda Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築）",
+          "技術系総合職（土木）"
+        ],
+        "note": "インフロニアHD傘下の準大手ゼネコン。ダム・トンネルに実績"
+      },
+      {
+        "name": "奥村組",
+        "name_en": "Okumura Corporation",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（建築）",
+          "技術系総合職（土木）"
+        ],
+        "note": "中堅ゼネコン。トンネル・シールド工事に強み"
+      },
+      {
+        "name": "日鉄エンジニアリング",
+        "name_en": "Nippon Steel Engineering",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "note": "日本製鉄グループ。環境・エネルギー、都市インフラ、製鉄プラントの3セクター"
+      },
+      {
+        "name": "JFEエンジニアリング",
+        "name_en": "JFE Engineering",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "note": "JFEグループ。環境・エネルギー・社会インフラ・DX等の部門。技術系は専攻分野別配属"
+      },
+      {
+        "name": "千代田化工建設",
+        "name_en": "Chiyoda Corporation",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "エンジニアリング御三家の一角。LNGプラントに強み"
+      },
+      {
+        "name": "東洋エンジニアリング",
+        "name_en": "Toyo Engineering",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "エンジニアリング御三家。化学・石油化学プラントに強み"
+      },
+      {
+        "name": "日揮",
+        "name_en": "JGC Holdings",
+        "positions": [
+          "技術系総合職（プロセス設計、機器設計、配管設計、電気計装設計、建設管理等）",
+          "事務系総合職（調達、プロジェクトマネジメント、経営管理等）"
+        ],
+        "note": "エンジニアリング御三家の最大手。石油・ガス・化学プラントのEPC"
+      },
+      {
+        "name": "八千代エンジニヤリング",
+        "name_en": "Yachiyo Engineering",
+        "positions": [
+          "技術系総合職（建設コンサルタント）",
+          "事務系総合職（営業・管理）"
+        ],
+        "note": "建設コンサルタント。技術系は土木・建築・機械・電気・環境・情報系が対象"
+      },
+      {
+        "name": "日本工営",
+        "name_en": "Nippon Koei",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "建設コンサルタント最大手。国内外のインフラ開発"
+      },
+      {
+        "name": "建設技術研究所",
+        "name_en": "CTI Engineering",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "建設コンサルタント大手。河川・道路・環境等の調査・計画・設計"
+      },
+      {
+        "name": "パシフィックコンサルタンツ",
+        "name_en": "Pacific Consultants",
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "note": "建設コンサルタント大手。社会インフラの調査・計画・設計・施工監理・マネジメント"
+      }
+    ]
+  },
+  {
+    "industry": "運輸",
+    "companies": [
+      {
+        "name": "JR東海",
+        "name_en": "Central Japan Railway (JR Central)",
+        "positions": [
+          "総合職（事務系）",
+          "総合職（運輸系）",
+          "総合職（車両・機械系）",
+          "総合職（施設系）",
+          "総合職（電気・システム系）",
+          "プロフェッショナル職（運輸）",
+          "プロフェッショナル職（車両・機械）",
+          "プロフェッショナル職（施設）",
+          "プロフェッショナル職（電気・システム）",
+          "アソシエイト職"
+        ],
+        "note": "東海道新幹線を運行。3職種×5系統で10の採用区分"
+      },
+      {
+        "name": "JR東日本",
+        "name_en": "East Japan Railway (JR East)",
+        "positions": [
+          "総合職",
+          "地域総合職",
+          "ジョブ型"
+        ],
+        "note": "首都圏・東日本エリアの鉄道運行"
+      },
+      {
+        "name": "JR西日本",
+        "name_en": "West Japan Railway (JR West)",
+        "positions": [
+          "総合職（事務・創造系）",
+          "総合職（技術系：運輸・車両・土木・建築・駅機械システム・電気システム・IT・技術創造）",
+          "プロフェッショナル職（運輸）",
+          "プロフェッショナル職（技術）"
+        ],
+        "note": "西日本エリアの鉄道運行"
+      },
+      {
+        "name": "東京メトロ",
+        "name_en": "Tokyo Metro",
+        "positions": [
+          "総合職（事務系：運輸営業・都市生活創造・経営企画・一般管理）",
+          "総合職（技術系：車両・電気・土木・建築）",
+          "総合職（デジタル系）",
+          "エキスパート職"
+        ],
+        "note": "東京地下鉄。2023年に上場"
+      },
+      {
+        "name": "首都高速道路",
+        "name_en": "Metropolitan Expressway",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（土木）",
+          "技術系総合職（電気・機械・情報）"
+        ],
+        "note": "首都圏の高速道路の管理・運営"
+      },
+      {
+        "name": "阪急阪神HD",
+        "name_en": "Hankyu Hanshin Holdings",
+        "positions": [
+          "総合職"
+        ],
+        "note": "阪急電鉄・阪神電鉄を傘下に持つ持株会社。不動産・エンタメ事業も展開"
+      },
+      {
+        "name": "東急",
+        "name_en": "Tokyu Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "鉄道・不動産・生活サービス等を展開する総合企業"
+      },
+      {
+        "name": "小田急電鉄",
+        "name_en": "Odakyu Electric Railway",
+        "positions": [
+          "事務系",
+          "販売系",
+          "技術系",
+          "IT系"
+        ],
+        "note": "新宿から箱根・江ノ島方面の鉄道運行"
+      },
+      {
+        "name": "京浜急行電鉄",
+        "name_en": "Keikyu Corporation",
+        "positions": [
+          "総合職",
+          "エキスパート職（運輸）",
+          "エキスパート職（技術）"
+        ],
+        "note": "品川・羽田空港方面の鉄道運行"
+      },
+      {
+        "name": "京王電鉄",
+        "name_en": "Keio Corporation",
+        "positions": [
+          "総合職",
+          "エキスパート職"
+        ],
+        "note": "新宿から多摩方面の鉄道運行"
+      },
+      {
+        "name": "京成電鉄",
+        "name_en": "Keisei Electric Railway",
+        "positions": [
+          "総合職",
+          "鉄道現業職（駅係員・電車乗務員候補）",
+          "鉄道技術職（車両・電気）"
+        ],
+        "note": "成田空港アクセスの鉄道運行"
+      },
+      {
+        "name": "近鉄GHD",
+        "name_en": "Kintetsu Group Holdings",
+        "positions": [
+          "総合職",
+          "鉄道職"
+        ],
+        "note": "近畿日本鉄道を傘下に持つ。日本最大の私鉄路線網"
+      },
+      {
+        "name": "南海電気鉄道",
+        "name_en": "Nankai Electric Railway",
+        "positions": [
+          "マネジメントコース",
+          "エキスパートコース（技術系：土木・電気・機械・建築・設備・情報）"
+        ],
+        "note": "大阪南部〜和歌山・関西空港方面の鉄道運行"
+      },
+      {
+        "name": "東武鉄道",
+        "name_en": "Tobu Railway",
+        "positions": [
+          "総合職（ポテンシャル採用）",
+          "鉄道専門職（プロフェッショナル採用）"
+        ],
+        "note": "関東最大の私鉄路線網。鉄道・商業施設・住環境開発等"
+      },
+      {
+        "name": "西武鉄道",
+        "name_en": "Seibu Railway",
+        "positions": [
+          "総合職",
+          "専門職（鉄道技術系）"
+        ],
+        "note": "西武グループの鉄道会社。車両保守・メンテナンス等の技術系専門職あり"
+      },
+      {
+        "name": "名古屋鉄道",
+        "name_en": "Meitetsu (Nagoya Railroad)",
+        "positions": [
+          "総合職",
+          "鉄道運輸職",
+          "鉄道技術職"
+        ],
+        "note": "中部地方の大手私鉄。不動産・流通・レジャー事業も展開"
+      },
+      {
+        "name": "京阪HD",
+        "name_en": "Keihan Holdings",
+        "positions": [
+          "総合職"
+        ],
+        "note": "京阪電鉄を傘下に持つ持株会社。不動産・レジャー事業も展開"
+      },
+      {
+        "name": "北大阪急行",
+        "name_en": "Kita-Osaka Kyuko Railway",
+        "positions": [
+          "総合職"
+        ],
+        "note": "千里中央〜大阪市内を結ぶ鉄道。2024年箕面延伸。少数採用"
+      },
+      {
+        "name": "阪神高速",
+        "name_en": "Hanshin Expressway",
+        "positions": [
+          "事務系",
+          "技術系（土木）",
+          "技術系（電気・機械・情報通信）"
+        ],
+        "note": "関西圏の高速道路の管理・運営。5部門体制"
+      },
+      {
+        "name": "大阪メトロ",
+        "name_en": "Osaka Metro",
+        "positions": [
+          "総合職（事務系・技術系）",
+          "専門職"
+        ],
+        "note": "大阪市の地下鉄・バス運営。MaaS・都市開発・デジタルマーケティング等幅広い事業"
+      },
+      {
+        "name": "JAL",
+        "name_en": "Japan Airlines",
+        "positions": [
+          "業務企画職（コーポレートコース）",
+          "業務企画職（オペレーションコース）",
+          "業務企画職（ビジネス・マーケティングコース）",
+          "業務企画職（エアラインエンジニアコース）",
+          "運航乗務員訓練生（自社養成パイロット）",
+          "客室乗務職"
+        ],
+        "note": "国内線・国際線を運航する航空会社。グループ全体で約1,600名採用予定"
+      },
+      {
+        "name": "ANA",
+        "name_en": "All Nippon Airways",
+        "positions": [
+          "グローバルスタッフ職（事務系）",
+          "グローバルスタッフ職（技術系）",
+          "客室乗務職",
+          "運航乗務職（自社養成パイロット）"
+        ],
+        "note": "国内最大の航空会社"
+      },
+      {
+        "name": "成田国際空港",
+        "name_en": "Narita International Airport Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "成田空港の運営・管理を行う企業"
+      },
+      {
+        "name": "NEXCO東日本",
+        "name_en": "NEXCO East Japan",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（土木）",
+          "技術系総合職（施設・電気）"
+        ],
+        "note": "東日本エリアの高速道路の管理・運営"
+      },
+      {
+        "name": "NEXCO中日本",
+        "name_en": "NEXCO Central Japan",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（土木）",
+          "技術系総合職（施設）"
+        ],
+        "note": "中日本エリアの高速道路の管理・運営"
+      },
+      {
+        "name": "NEXCO西日本",
+        "name_en": "NEXCO West Japan",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職（土木）",
+          "技術系総合職（施設・電気）"
+        ],
+        "note": "西日本エリアの高速道路の管理・運営"
+      },
+      {
+        "name": "日本郵船",
+        "name_en": "Nippon Yusen (NYK Line)",
+        "positions": [
+          "陸上職事務系",
+          "陸上職技術系",
+          "海上職"
+        ],
+        "note": "海運業界最大手。コンテナ・バルク・LNG船等を運航"
+      },
+      {
+        "name": "商船三井",
+        "name_en": "Mitsui O.S.K. Lines (MOL)",
+        "positions": [
+          "陸上職（全学部全学科）",
+          "陸上職（理工系）",
+          "海上職"
+        ],
+        "note": "海運大手3社の一角。LNG船・ドライバルクに強み"
+      },
+      {
+        "name": "川崎汽船",
+        "name_en": "Kawasaki Kisen Kaisha (K Line)",
+        "positions": [
+          "陸上職（事務系）",
+          "陸上職（技術系）",
+          "海上職"
+        ],
+        "note": "海運大手3社の一角。自動車船に強み"
+      },
+      {
+        "name": "飯野海運",
+        "name_en": "Iino Kaiun Kaisha",
+        "positions": [
+          "陸上職（営業・事務系）",
+          "海上職"
+        ],
+        "note": "中堅海運会社。海運事業と不動産事業を展開"
+      },
+      {
+        "name": "NSユナイテッド海運",
+        "name_en": "NS United Kaiun",
+        "positions": [
+          "陸上総合職",
+          "海上職"
+        ],
+        "note": "日本製鉄グループの海運会社。バルク輸送に強み"
+      },
+      {
+        "name": "NYKバルクプロジェクト",
+        "name_en": "NYK Bulk & Projects",
+        "positions": [
+          "陸上系総合職",
+          "海技職"
+        ],
+        "note": "日本郵船グループ。重量物・プロジェクト貨物の海上輸送"
+      },
+      {
+        "name": "三井海洋開発",
+        "name_en": "MODEC",
+        "positions": [
+          "技術系総合職（エンジニア）",
+          "事務系総合職"
+        ],
+        "note": "浮体式海洋石油・ガス生産設備（FPSO）の設計・建造・運営"
+      },
+      {
+        "name": "郵船ロジスティクス",
+        "name_en": "Yusen Logistics",
+        "positions": [
+          "総合職"
+        ],
+        "note": "日本郵船グループの総合物流会社。国際物流を展開"
+      },
+      {
+        "name": "ロジスティード",
+        "name_en": "Logisteed (formerly Hitachi Transport System)",
+        "positions": [
+          "総合職（事務系）",
+          "総合職（IT系）"
+        ],
+        "note": "旧日立物流。3PL（サードパーティロジスティクス）大手"
+      }
+    ]
+  },
+  {
+    "industry": "エネルギー",
+    "companies": [
+      {
+        "name": "ENEOS",
+        "name_en": "ENEOS Corporation",
+        "positions": [
+          "技術系（プロセスエンジニア）",
+          "技術系（メカニカルエンジニア）",
+          "技術系（セールスエンジニア）",
+          "技術系（IT企画職）",
+          "事務系"
+        ],
+        "note": "石油元売り最大手。技術系は職種別コース選考、事務系は人物重視の選考"
+      },
+      {
+        "name": "出光興産",
+        "name_en": "Idemitsu Kosan",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "石油元売り大手。技術系はプロダクションエンジニア・メンテナンスエンジニア等"
+      },
+      {
+        "name": "コスモエネルギー",
+        "name_en": "Cosmo Energy Holdings",
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "note": "石油元売り3番手。石油精製・販売・石油化学"
+      },
+      {
+        "name": "国際石油開発帝石（INPEX）",
+        "name_en": "INPEX Corporation",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "日本最大の石油・天然ガス開発会社。上流部門（探鉱・開発・生産）が主力"
+      },
+      {
+        "name": "石油資源開発（JAPEX）",
+        "name_en": "Japan Petroleum Exploration (JAPEX)",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "石油・天然ガスの探鉱・開発・生産。国内外で事業展開"
+      },
+      {
+        "name": "ENEOSグローブ",
+        "name_en": "ENEOS Globe",
+        "positions": [
+          "総合職（営業系）",
+          "総合職（管理系）"
+        ],
+        "note": "ENEOSグループのLPガス事業会社"
+      },
+      {
+        "name": "アストモスエネルギー",
+        "name_en": "Astomos Energy",
+        "positions": [
+          "総合職"
+        ],
+        "note": "出光興産・三菱商事系のLPガス元売会社"
+      },
+      {
+        "name": "ENEOSオーシャン",
+        "name_en": "ENEOS Ocean",
+        "positions": [
+          "海上職",
+          "陸上職"
+        ],
+        "note": "ENEOSグループの海上輸送会社。石油・LPG等のタンカー運航"
+      },
+      {
+        "name": "東京ガス",
+        "name_en": "Tokyo Gas",
+        "positions": [
+          "サービス&オペレーション領域",
+          "DX（ソフトウェアエンジニアリング）領域",
+          "ソリューションコンサルティング領域",
+          "エンジニアリング領域"
+        ],
+        "note": "都市ガス最大手。領域別の選考を実施"
+      },
+      {
+        "name": "大阪ガス",
+        "name_en": "Osaka Gas (Daigas Group)",
+        "positions": [
+          "ゼネラル/スペシャリストコース",
+          "プロフェッショナルコース"
+        ],
+        "note": "都市ガス大手。大阪ガスネットワークではエンジニアリング職・戦略スタッフ職を採用"
+      },
+      {
+        "name": "東邦ガス",
+        "name_en": "Toho Gas",
+        "positions": [
+          "総合職（事務系）",
+          "総合職（技術系）"
+        ],
+        "note": "中部エリアの都市ガス会社"
+      },
+      {
+        "name": "岩谷産業",
+        "name_en": "Iwatani Corporation",
+        "positions": [
+          "総合職"
+        ],
+        "note": "LPガス・水素エネルギーの大手商社。水素ステーション展開"
+      },
+      {
+        "name": "電源開発（J-POWER）",
+        "name_en": "Electric Power Development (J-POWER)",
+        "positions": [
+          "事務系（経営企画、経営管理、総務、法務、人事等）",
+          "技術系（発電所運転・保守、環境、土木、建築等）"
+        ],
+        "note": "卸電力会社。水力・火力・風力発電。海外事業も展開"
+      },
+      {
+        "name": "JERA",
+        "name_en": "JERA Co., Inc.",
+        "positions": [
+          "ビジネスコース",
+          "ビジネスコース（デジタルICT）",
+          "テクニカルエンジニアコース"
+        ],
+        "note": "東京電力と中部電力の火力発電・燃料事業統合会社。国内最大の発電事業者"
+      },
+      {
+        "name": "東京電力",
+        "name_en": "Tokyo Electric Power Company (TEPCO)",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "東京電力ホールディングス傘下。送配電・小売事業等"
+      },
+      {
+        "name": "関西電力",
+        "name_en": "Kansai Electric Power (KEPCO)",
+        "positions": [
+          "総合職（事務系）",
+          "総合職（技術コンサルティング営業）",
+          "総合職（技術コンサルティング海外PM）",
+          "総合職（新ビジネス創造コース）",
+          "技術職"
+        ],
+        "note": "関西エリアの電力会社。原子力発電比率が高い"
+      },
+      {
+        "name": "中部電力",
+        "name_en": "Chubu Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "中部エリアの電力会社。JERAとの協業"
+      },
+      {
+        "name": "九州電力",
+        "name_en": "Kyushu Electric Power",
+        "positions": [
+          "事務系",
+          "技術系（電気・土木・建築・機械）"
+        ],
+        "note": "九州エリアの電力会社。原子力・再生可能エネルギーに注力"
+      },
+      {
+        "name": "東北電力",
+        "name_en": "Tohoku Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "東北エリアの電力会社"
+      },
+      {
+        "name": "北海道電力",
+        "name_en": "Hokkaido Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "北海道エリアの電力会社"
+      },
+      {
+        "name": "北陸電力",
+        "name_en": "Hokuriku Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "北陸エリアの電力会社"
+      },
+      {
+        "name": "四国電力",
+        "name_en": "Shikoku Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "四国エリアの電力会社"
+      },
+      {
+        "name": "中国電力",
+        "name_en": "The Chugoku Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "中国エリアの電力会社"
+      },
+      {
+        "name": "沖縄電力",
+        "name_en": "Okinawa Electric Power",
+        "positions": [
+          "事務系",
+          "技術系"
+        ],
+        "note": "沖縄エリアの電力会社。離島への安定供給が特徴"
+      }
+    ]
+  }
+]

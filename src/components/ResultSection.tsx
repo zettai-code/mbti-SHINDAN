@@ -12,8 +12,10 @@ export function ResultSection({
   color,
 }: ResultSectionProps) {
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-5">
-      <h3 className={`text-base font-bold mb-3 flex items-center gap-2 ${color}`}>
+    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-5 border border-white/10">
+      <h3
+        className={`text-base font-bold mb-3 flex items-center gap-2 ${color}`}
+      >
         <span>{icon}</span>
         {title}
       </h3>
@@ -21,9 +23,9 @@ export function ResultSection({
         {items.map((item) => (
           <li
             key={item}
-            className="text-sm text-gray-700 flex items-start gap-2"
+            className="text-sm text-white/80 flex items-start gap-3"
           >
-            <span className="text-gray-300 mt-0.5">-</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-white/30 mt-1.5 shrink-0" />
             <span>{item}</span>
           </li>
         ))}

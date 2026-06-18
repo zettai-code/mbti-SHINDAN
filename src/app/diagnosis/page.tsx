@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from "react"
 import { useRouter } from "next/navigation"
+import { Header } from "@/components/Header"
 import { ProgressBar } from "@/components/ProgressBar"
 import { QuestionCard } from "@/components/QuestionCard"
 import type { Question } from "@/types"
@@ -24,13 +25,19 @@ export default function DiagnosisPage() {
       const newAnswers = { ...answers, [currentQuestion.id]: value }
       setAnswers(newAnswers)
 
-      if (isLast) return
+      if (isLast && answeredCount + 1 >= questions.length) {
+        setTimeout(() => {
+          const encoded = btoa(JSON.stringify(newAnswers))
+          router.push(`/result?d=${encodeURIComponent(encoded)}`)
+        }, 400)
+        return
+      }
 
       setTimeout(() => {
-        setCurrentIndex((prev) => prev + 1)
-      }, 200)
+        setCurrentIndex((prev) => Math.min(prev + 1, questions.length - 1))
+      }, 300)
     },
-    [answers, currentQuestion.id, isLast]
+    [answers, currentQuestion.id, isLast, answeredCount, router]
   )
 
   const handlePrev = useCallback(() => {
@@ -39,53 +46,39 @@ export default function DiagnosisPage() {
     }
   }, [isFirst])
 
-  const handleSubmit = useCallback(() => {
-    if (answeredCount < questions.length) return
-    const encoded = btoa(JSON.stringify(answers))
-    router.push(`/result?d=${encodeURIComponent(encoded)}`)
-  }, [answers, answeredCount, router])
-
   return (
-    <div className="max-w-lg mx-auto px-4 py-6">
-      <ProgressBar current={answeredCount} total={questions.length} />
+    <div className="min-h-screen bg-gradient-to-br from-[#5b4a8a] via-[#7c5e99] to-[#4a8a7a] flex flex-col">
+      <Header variant="dark" />
 
-      <div className="mt-6">
-        <QuestionCard
-          question={currentQuestion}
-          selectedValue={answers[currentQuestion.id]}
-          onSelect={handleSelect}
-        />
+      <div className="max-w-xl mx-auto w-full px-6 pt-4">
+        <ProgressBar current={answeredCount} total={questions.length} />
       </div>
 
-      <div className="flex justify-between mt-6">
-        <button
-          type="button"
-          onClick={handlePrev}
-          disabled={isFirst}
-          className="px-6 py-2 rounded-xl text-sm font-medium transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-gray-600 bg-white border border-gray-200 hover:bg-gray-50"
-        >
-          戻る
-        </button>
+      <div className="flex-1 flex flex-col items-center justify-center px-6 py-8">
+        <div className="w-full max-w-xl" key={currentQuestion.id}>
+          <QuestionCard
+            question={currentQuestion}
+            selectedValue={answers[currentQuestion.id]}
+            onSelect={handleSelect}
+          />
+        </div>
 
-        {isLast && answers[currentQuestion.id] !== undefined ? (
+        <div className="mt-8">
           <button
             type="button"
-            onClick={handleSubmit}
-            disabled={answeredCount < questions.length}
-            className="px-6 py-2 rounded-xl text-sm font-medium bg-indigo-600 text-white hover:bg-indigo-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
+            onClick={handlePrev}
+            disabled={isFirst}
+            className="text-sm text-white/40 hover:text-white/70 transition-colors disabled:opacity-0 disabled:cursor-default"
           >
-            結果を見る
+            ← 前の質問
           </button>
-        ) : (
-          <button
-            type="button"
-            onClick={() => setCurrentIndex((prev) => Math.min(prev + 1, questions.length - 1))}
-            disabled={answers[currentQuestion.id] === undefined}
-            className="px-6 py-2 rounded-xl text-sm font-medium transition-colors disabled:opacity-30 disabled:cursor-not-allowed text-indigo-600 bg-indigo-50 hover:bg-indigo-100"
-          >
-            次へ
-          </button>
-        )}
+        </div>
+      </div>
+
+      <div className="pb-8 text-center">
+        <p className="text-white/30 text-xs">
+          Q{currentQuestion.id} / {questions.length}
+        </p>
       </div>
     </div>
   )

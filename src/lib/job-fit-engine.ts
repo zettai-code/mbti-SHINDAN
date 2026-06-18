@@ -1,14 +1,19 @@
 import type { JobFitQuestion, JobProfile, JobResult, Background, UniversityRank } from "./job-fit-types"
 import { SCALE_OPTIONS } from "./job-fit-types"
 
+const ALL_PARAMS = [
+  "主体性","外向性","協調性","曖昧耐性","競争心","ストレス耐性","好奇心","誠実性",
+  "論理思考","数学力","言語化能力","プレゼン力","英語力","IT理解","交渉力","リーダーシップ",
+  "成長","影響力","お金","安定","承認","権限","社会貢献","海外",
+  "激務耐性","出張許容","チーム志向","海外志向",
+]
+
 /**
  * Initialize all parameter scores to 50
  */
-export function initScores(jobs: JobProfile[]): Record<string, number> {
+export function initScores(): Record<string, number> {
   const scores: Record<string, number> = {}
-  const allParams = new Set<string>()
-  jobs.forEach((j) => Object.keys(j.scores).forEach((p) => allParams.add(p)))
-  allParams.forEach((p) => { scores[p] = 50 })
+  ALL_PARAMS.forEach((p) => { scores[p] = 50 })
   return scores
 }
 
@@ -17,10 +22,9 @@ export function initScores(jobs: JobProfile[]): Record<string, number> {
  */
 export function computeUserScores(
   questions: JobFitQuestion[],
-  answers: Record<number, number>,  // questionId → scaleIndex
-  jobs: JobProfile[]
+  answers: Record<number, number>,
 ): Record<string, number> {
-  const scores = initScores(jobs)
+  const scores = initScores()
 
   questions.forEach((q) => {
     const si = answers[q.id]
@@ -33,6 +37,7 @@ export function computeUserScores(
 
   return scores
 }
+
 
 /**
  * Calculate match results for all jobs

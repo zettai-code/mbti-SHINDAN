@@ -32,3 +32,15 @@ export interface AxisScores {
   J: number
   P: number
 }
+
+export interface Company {
+  name: string
+  name_en: string
+  positions: string[]
+  note: string
+}
+
+export interface IndustryGroup {
+  industry: string
+  companies: Company[]
+}

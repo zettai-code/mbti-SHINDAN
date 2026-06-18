@@ -6,6 +6,8 @@ import Link from "next/link"
 import { calculateScores, determineMbtiType, getAxisResults } from "@/lib/diagnosis"
 import { AxisBar } from "@/components/AxisBar"
 import { ResultSection } from "@/components/ResultSection"
+import { CompanyCard } from "@/components/CompanyCard"
+import { getMatchedCompanies } from "@/lib/companies"
 import type { Question, MbtiTypeData } from "@/types"
 import questionsData from "@/data/questions.json"
 import typesData from "@/data/types.json"
@@ -46,6 +48,7 @@ function ResultContent() {
   const mbtiType = determineMbtiType(scores)
   const axisResults = getAxisResults(scores)
   const typeData = types[mbtiType]
+  const matchedCompanies = getMatchedCompanies(mbtiType)
 
   if (!typeData) {
     return (
@@ -126,6 +129,23 @@ function ResultContent() {
           color="text-yellow-600"
         />
       </div>
+
+      {matchedCompanies.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-base font-bold text-gray-900 mb-1 flex items-center gap-2">
+            <span>&#x1F3AF;</span>
+            あなたにおすすめの企業
+          </h2>
+          <p className="text-xs text-gray-500 mb-4">
+            {typeData.type}タイプに合う業界の企業をピックアップしました
+          </p>
+          <div className="space-y-4">
+            {matchedCompanies.map((industry) => (
+              <CompanyCard key={industry.industry} data={industry} />
+            ))}
+          </div>
+        </div>
+      )}
 
       <div className="flex flex-col gap-3">
         <Link

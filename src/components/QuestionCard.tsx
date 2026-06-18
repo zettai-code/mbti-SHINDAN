@@ -6,13 +6,23 @@ interface QuestionCardProps {
   readonly onSelect: (value: number) => void
 }
 
-const LABELS = [
-  "全く当てはまらない",
-  "あまり当てはまらない",
-  "どちらでもない",
-  "やや当てはまる",
-  "とても当てはまる",
+const SCALE_OPTIONS = [
+  { value: 1, size: "w-12 h-12 sm:w-14 sm:h-14" },
+  { value: 2, size: "w-10 h-10 sm:w-11 sm:h-11" },
+  { value: 3, size: "w-8 h-8 sm:w-9 sm:h-9" },
+  { value: 4, size: "w-10 h-10 sm:w-11 sm:h-11" },
+  { value: 5, size: "w-12 h-12 sm:w-14 sm:h-14" },
 ] as const
+
+function getButtonStyle(value: number, isSelected: boolean): string {
+  const base = "border-2 transition-all duration-200"
+  if (!isSelected) {
+    return `${base} bg-gray-50 border-gray-200 hover:border-gray-300 hover:bg-gray-100`
+  }
+  if (value <= 2) return `${base} bg-[#7c5e99] border-[#7c5e99] shadow-lg shadow-[#7c5e99]/20`
+  if (value === 3) return `${base} bg-gray-300 border-gray-300`
+  return `${base} bg-[#33a474] border-[#33a474] shadow-lg shadow-[#33a474]/20`
+}
 
 export function QuestionCard({
   question,
@@ -20,29 +30,34 @@ export function QuestionCard({
   onSelect,
 }: QuestionCardProps) {
   return (
-    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
-      <p className="text-base font-medium text-gray-800 mb-6 leading-relaxed">
-        Q{question.id}. {question.text}
+    <div className="animate-fade-in-scale">
+      <p className="text-xl sm:text-2xl font-bold text-gray-800 text-center mb-10 leading-relaxed">
+        {question.text}
       </p>
-      <div className="flex flex-col gap-2">
-        {LABELS.map((label, index) => {
-          const value = index + 1
-          const isSelected = selectedValue === value
-          return (
-            <button
-              key={value}
-              type="button"
-              onClick={() => onSelect(value)}
-              className={`w-full text-left px-4 py-3 rounded-xl text-sm transition-all duration-200 ${
-                isSelected
-                  ? "bg-indigo-500 text-white shadow-md"
-                  : "bg-gray-50 text-gray-700 hover:bg-indigo-50 hover:text-indigo-700"
-              }`}
-            >
-              {label}
-            </button>
-          )
-        })}
+
+      <div className="flex items-center justify-between gap-1 sm:gap-2 px-2">
+        <span className="text-xs sm:text-sm font-medium text-[#7c5e99] shrink-0 w-16 sm:w-20 text-center">
+          同意しない
+        </span>
+        <div className="flex items-center justify-center gap-2 sm:gap-3">
+          {SCALE_OPTIONS.map((option) => {
+            const isSelected = selectedValue === option.value
+            return (
+              <button
+                key={option.value}
+                type="button"
+                onClick={() => onSelect(option.value)}
+                className={`${option.size} rounded-full active:scale-90 ${getButtonStyle(
+                  option.value,
+                  isSelected
+                )}`}
+              />
+            )
+          })}
+        </div>
+        <span className="text-xs sm:text-sm font-medium text-[#33a474] shrink-0 w-16 sm:w-20 text-center">
+          同意する
+        </span>
       </div>
     </div>
   )

@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className={`${geistSans.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-gray-50 font-[family-name:var(--font-geist-sans)]">
+      <body className="min-h-full flex flex-col font-[family-name:var(--font-geist-sans)]">
         <Header />
         <main className="flex-1">{children}</main>
       </body>

@@ -1,0 +1,704 @@
+[
+  {
+    "company_or_industry": "三菱商事",
+    "data_type": "学歴フィルター",
+    "finding": "採用大学の約7-8割が早慶・旧帝大で構成。2024年度は慶應29人、早稲田17人、東大16人、京大8人、上智7人。MARCH以下からの採用は少数だが実績あり",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、ダイヤモンドオンライン採用大学ランキング2024、就活攻略論等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 40,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "少数あり。早慶旧帝大が全体の7-8割",
+      "notes": "採用人数は年間100-150名程度。2024年度は早稲田が1位(26名)というデータもあり"
+    }
+  },
+  {
+    "company_or_industry": "三井物産",
+    "data_type": "学歴フィルター",
+    "finding": "2024年度採用は慶應33人、東大21人、早稲田20人、京大9人、九大5人。男女比はほぼ1:1。採用人数126名",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、Renew Magazine、ダイヤモンドオンライン等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 50,
+      "female_ratio": 50,
+      "athlete_ratio": 35,
+      "returnee_ratio": 20,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "ほぼ不可。幅広い学歴からの採用実績ありとの声もあるが難関大中心",
+      "notes": "採用倍率は約50-100倍。男女比がほぼ1:1に近づいている"
+    }
+  },
+  {
+    "company_or_industry": "伊藤忠商事",
+    "data_type": "体育会比率",
+    "finding": "体育会系の社風が強く、ストイックな人が多い。2024年度入社の女性比率39%。男女比はおおよそ7:3から6:4に改善傾向",
+    "source_type": "口コミサイト",
+    "source_summary": "unistyle、Gakureki lab、note等で確認。OpenWorkの口コミでも体育会系文化に言及多数",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 61,
+      "female_ratio": 39,
+      "athlete_ratio": 45,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 10,
+      "march_acceptance": "少数あり。慶應28人、早稲田24人、阪大12人が上位",
+      "notes": "体育会系の社風が特に強いとされる商社。ストイックな文化"
+    }
+  },
+  {
+    "company_or_industry": "住友商事",
+    "data_type": "学歴フィルター",
+    "finding": "2024年度の新卒採用105名(男性61名、女性44名)。慶應が採用大学1位。男女比は71:29",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、talentsquare、Renew Magazine等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 71,
+      "female_ratio": 29,
+      "athlete_ratio": 35,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "少数あり。難関大中心だが公式には学歴不問",
+      "notes": "体育会系ばかりではないと人事担当が公式に回答。多様性を重視する姿勢"
+    }
+  },
+  {
+    "company_or_industry": "丸紅",
+    "data_type": "男女比",
+    "finding": "女性採用強化を進め、総合職の女性比率40-50%を目標。新卒採用の男女比がほぼ同数に近づく",
+    "source_type": "ニュース記事",
+    "source_summary": "ワンキャリア、ダイヤモンドオンライン等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 50,
+      "female_ratio": 50,
+      "athlete_ratio": 30,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "少数あり。慶應が採用大学1位",
+      "notes": "総合職全体の女性比率は約10%だが、若手では高い。女性採用に最も積極的な商社の一つ"
+    }
+  },
+  {
+    "company_or_industry": "総合商社",
+    "data_type": "体育会比率",
+    "finding": "内定者の体育会出身者が6割を超えるとの報告がある一方、どの企業も体育会が過半数を超えないとの調査結果もあり。帰国子女・長期留学経験者が半数を占める",
+    "source_type": "就活掲示板",
+    "source_summary": "外資就活ドットコム、unistyle、就活ノートの調査で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 40,
+      "returnee_ratio": 30,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "男性はほぼ不可、女性は少数あり",
+      "notes": "体育会の主将だけでなく普通の部員やマネージャーも含む。非体育会でも対策次第で内定可能"
+    }
+  },
+  {
+    "company_or_industry": "ゴールドマン・サックス",
+    "data_type": "学歴フィルター",
+    "finding": "東京大学、京都大学、慶應、早稲田が中心。学歴フィルターは存在しないとされるが採用実績は超高学歴中心。英語力と頭の回転が重要",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、外資就活ドットコム、talentsquare等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 65,
+      "female_ratio": 35,
+      "athlete_ratio": 20,
+      "returnee_ratio": 50,
+      "stem_grad_ratio": 30,
+      "march_acceptance": "ほぼ不可",
+      "notes": "新卒でも金融業界の基本知識が求められる。TOEIC900以上が標準"
+    }
+  },
+  {
+    "company_or_industry": "モルガン・スタンレー",
+    "data_type": "学歴フィルター",
+    "finding": "学部・学科不問だが実質的に東大早慶中心。三菱UFJモルガンスタンレー証券では慶應12名、早稲田10名、明治10名が上位",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、モルガンスタンレー公式、Reiwa Career等で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 65,
+      "female_ratio": 35,
+      "athlete_ratio": 15,
+      "returnee_ratio": 50,
+      "stem_grad_ratio": 25,
+      "march_acceptance": "MUFG MS証券ではMARCHからの採用あり(明治10名、法政7名等)",
+      "notes": "投資銀行、セールス&トレーディング、テクノロジー等の部門で募集"
+    }
+  },
+  {
+    "company_or_industry": "JPモルガン",
+    "data_type": "学歴フィルター",
+    "finding": "学歴フィルターは存在しないとされるが、採用大学の学歴は高め。東大、立命館、中央大等から採用実績あり",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 65,
+      "female_ratio": 35,
+      "athlete_ratio": 15,
+      "returnee_ratio": 45,
+      "stem_grad_ratio": 25,
+      "march_acceptance": "少数あり",
+      "notes": "外銀全体でTOEIC平均866点、中央値890点。950-975が最頻値帯"
+    }
+  },
+  {
+    "company_or_industry": "外資系投資銀行",
+    "data_type": "帰国子女",
+    "finding": "バックオフィス内定者の90%以上が帰国子女または海外経験者。TOEIC900以上が標準。フロントでも留学・帰国子女が多数派",
+    "source_type": "就活掲示板",
+    "source_summary": "外資就活ドットコムのデータ分析記事で確認。2024年卒データ含む",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 65,
+      "female_ratio": 35,
+      "athlete_ratio": 20,
+      "returnee_ratio": 60,
+      "stem_grad_ratio": 25,
+      "march_acceptance": "ほぼ不可",
+      "notes": "海外居住経験者のTOEICは951-990が最頻値。非海外経験者は851-900が最頻値"
+    }
+  },
+  {
+    "company_or_industry": "マッキンゼー",
+    "data_type": "学歴フィルター",
+    "finding": "2022年卒の新卒入社51名中、東大出身が40名(約80%)。採用人数は年間20-30名、多い時で50名。倍率500倍超",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、Abuild就活、ハイキャリ就活、CaseMatch等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 10,
+      "returnee_ratio": 40,
+      "stem_grad_ratio": 40,
+      "march_acceptance": "ほぼ不可。明治、富山大からの採用実績はあるが極めて少数",
+      "notes": "東大法学部・経済学部・工学部が多い。理系院生の採用が増加傾向"
+    }
+  },
+  {
+    "company_or_industry": "BCG",
+    "data_type": "学歴フィルター",
+    "finding": "東大が最多で残りの枠を京大と早慶が埋める構成。理系大学院生が多い傾向",
+    "source_type": "就活掲示板",
+    "source_summary": "Abuild就活、CaseMatch、FactLogic等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 10,
+      "returnee_ratio": 35,
+      "stem_grad_ratio": 45,
+      "march_acceptance": "ほぼ不可",
+      "notes": "2024年卒でも東大京大が圧倒的多数。ケース面接対策が必須"
+    }
+  },
+  {
+    "company_or_industry": "ベイン・アンド・カンパニー",
+    "data_type": "学歴フィルター",
+    "finding": "東大・京大・一橋・慶應・海外大学が中心。早慶より下の国内大学からの採用はほぼなし",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、Abuild就活で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 55,
+      "female_ratio": 45,
+      "athlete_ratio": 10,
+      "returnee_ratio": 40,
+      "stem_grad_ratio": 40,
+      "march_acceptance": "不可",
+      "notes": "MBB(マッキンゼー・BCG・ベイン)の中でも最も少人数採用"
+    }
+  },
+  {
+    "company_or_industry": "アクセンチュア",
+    "data_type": "学歴フィルター",
+    "finding": "採用人数年間約1000名と大規模。慶應86名、早稲田81名、東大57名が上位。倍率約30.7倍。MARCH以上が中心だが幅広い大学から採用",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、talentsquare、Renew Magazine等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 15,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 35,
+      "march_acceptance": "可。MARCH・関関同立からの採用多数。北海学園大等からも実績あり",
+      "notes": "ある程度の学歴からは幅広く採用。DX・AI関連でITスキル人材の需要増"
+    }
+  },
+  {
+    "company_or_industry": "デロイトトーマツコンサルティング",
+    "data_type": "学歴フィルター",
+    "finding": "一橋、早慶、東大が上位。就職偏差値66。学歴フィルターはそこまで厳しくないとの声あり",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、Renew Magazine、FactLogic等で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 10,
+      "returnee_ratio": 20,
+      "stem_grad_ratio": 35,
+      "march_acceptance": "可。地方旧帝大やMARCHからも採用あり",
+      "notes": "Big4の中ではDTCが最も就職偏差値が高い"
+    }
+  },
+  {
+    "company_or_industry": "PwCコンサルティング",
+    "data_type": "学歴フィルター",
+    "finding": "上位20校の採用人数合計242名で全体の70-80%を占める。採用人数は約300名程度。就職偏差値65",
+    "source_type": "就活掲示板",
+    "source_summary": "talentsquare、就活の教科書、Renew Magazine等で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 10,
+      "returnee_ratio": 20,
+      "stem_grad_ratio": 35,
+      "march_acceptance": "可。上位大学が中心だがMARCHからも採用あり",
+      "notes": "IT・デジタル領域での需要が高まっている"
+    }
+  },
+  {
+    "company_or_industry": "Big4コンサル(総合)",
+    "data_type": "学歴フィルター",
+    "finding": "東京一工早慶が内定者の大多数を占めるが、地方旧帝大・上智・ICU・神戸大等からも採用あり。学歴フィルターは絶対的ではなく地頭重視の傾向",
+    "source_type": "就活掲示板",
+    "source_summary": "CaseMatch、就活の教科書等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 10,
+      "returnee_ratio": 20,
+      "stem_grad_ratio": 35,
+      "march_acceptance": "可。ポテンシャル重視で地頭・ケース対応力が重要",
+      "notes": "DTC偏差値66、PwC65、KPMG63、EY63"
+    }
+  },
+  {
+    "company_or_industry": "Google",
+    "data_type": "学歴フィルター",
+    "finding": "学歴フィルターなし。Googleの自社分析で学歴と仕事のパフォーマンスに因果関係がないと判明。合格率0.2%。定量化可能な実績が重要",
+    "source_type": "ニュース記事",
+    "source_summary": "BUSINESS INSIDER、就活の教科書、外資就活ドットコム等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 5,
+      "returnee_ratio": 30,
+      "stem_grad_ratio": 60,
+      "march_acceptance": "可。学歴不問だが実績・スキル重視",
+      "notes": "東洋経済の入社困難企業ランキング6位(難易度64.0)。産近甲龍・日東駒専からも採用実績あり"
+    }
+  },
+  {
+    "company_or_industry": "外資IT(GAFA)",
+    "data_type": "学歴フィルター",
+    "finding": "書類選考で学歴による足切りはないとされる。文化適合性とスキルセットが重視される。ただし競争は極めて激しい",
+    "source_type": "就活掲示板",
+    "source_summary": "外資系テック企業転職ガイド、Abuild就活等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 5,
+      "returnee_ratio": 30,
+      "stem_grad_ratio": 55,
+      "march_acceptance": "可。学歴フィルターなし。実力・実績重視",
+      "notes": "Amazonはネイティブレベルの日本語が必須。英語力も求められる"
+    }
+  },
+  {
+    "company_or_industry": "電通",
+    "data_type": "男女比",
+    "finding": "2025年度新卒採用148名(男性71名、女性77名)。女性の採用数が男性を上回る傾向。慶應・早稲田・東大が上位",
+    "source_type": "就活掲示板",
+    "source_summary": "CaseMatch、就活の教科書、talentsquare等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 48,
+      "female_ratio": 52,
+      "athlete_ratio": 40,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 20,
+      "march_acceptance": "少数あり。難関大中心",
+      "notes": "内定者構成: 約4割が早慶体育会系主将級、2割が東大京大理系院生、2割が起業・特殊経験者、2割その他"
+    }
+  },
+  {
+    "company_or_industry": "博報堂",
+    "data_type": "男女比",
+    "finding": "2025年度新卒採用116名(男性55名、女性61名)。女性がやや多い。難関大中心だが個性重視",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、talentsquare、Reiwa Career等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 47,
+      "female_ratio": 53,
+      "athlete_ratio": 20,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "少数あり。難関大中心だが電通より多様性がある",
+      "notes": "電通と比べて体育会系のノリは少ない。個性的な人材を重視する社風"
+    }
+  },
+  {
+    "company_or_industry": "広告代理店(業界全体)",
+    "data_type": "体育会比率",
+    "finding": "内定者の約4割が早慶体育会系主将級、2割が東大京大理系院生の頭枠、2割が起業・特殊経験者、2割がその他",
+    "source_type": "就活掲示板",
+    "source_summary": "unistyleの電通・博報堂内定者インタビュー記事で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 48,
+      "female_ratio": 52,
+      "athlete_ratio": 35,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 20,
+      "march_acceptance": "少数あり",
+      "notes": "多様性採用を重視。化学反応が起きそうな個性をアピールすることが重要"
+    }
+  },
+  {
+    "company_or_industry": "キー局(テレビ局)",
+    "data_type": "学歴フィルター",
+    "finding": "各局とも公式には学歴フィルター不存在。ただし倍率は総合職500倍、アナウンス部1000-2000倍。実質的に東京六大学・難関国立大が中心",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、テレキャリア、Abuild就活等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 50,
+      "female_ratio": 50,
+      "athlete_ratio": 25,
+      "returnee_ratio": 10,
+      "stem_grad_ratio": 10,
+      "march_acceptance": "可。フジテレビはES に大学名記載欄なし。日テレは幅広い大学から採用",
+      "notes": "関東・関西圏以外の地方大学からのキー局就職はかなり困難との指摘あり"
+    }
+  },
+  {
+    "company_or_industry": "三井不動産",
+    "data_type": "学歴フィルター",
+    "finding": "2024年度新卒採用69名(男性34名、女性35名)。文系49名、理系20名。慶應・早稲田・東大が上位。学歴フィルター存在の可能性高い",
+    "source_type": "就活掲示板",
+    "source_summary": "talentsquare、就活の教科書、就活攻略論等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 49,
+      "female_ratio": 51,
+      "athlete_ratio": 30,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 29,
+      "march_acceptance": "少数あり。高崎経済大学(2名)からの採用実績もある",
+      "notes": "海外大学からも採用実績あり。卓越した成果があれば中堅大からも突破可能"
+    }
+  },
+  {
+    "company_or_industry": "三菱地所",
+    "data_type": "男女比",
+    "finding": "2024年度新卒採用69名(男性22名、女性21名)。2016-2023年の平均男女比は男性65%、女性35%だが、女性比率は年々増加(2016年25%→2023年34%)",
+    "source_type": "就活掲示板",
+    "source_summary": "talentsquare、就活の教科書、unistyle等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 52,
+      "female_ratio": 48,
+      "athlete_ratio": 30,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 25,
+      "march_acceptance": "少数あり。難関大中心だが高崎経済大等からの実績もある",
+      "notes": "慶應が採用大学1位。学歴フィルターの有無は見解が分かれる"
+    }
+  },
+  {
+    "company_or_industry": "三菱UFJ銀行",
+    "data_type": "学歴フィルター",
+    "finding": "2023年度新卒採用356名(男性252名、女性104名)。慶應が1位、東大3位(23人)、京大4位(19人)、阪大5位(18人)",
+    "source_type": "就活掲示板",
+    "source_summary": "talentsquare、就活の教科書、ダイヤモンドオンライン等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 71,
+      "female_ratio": 29,
+      "athlete_ratio": 25,
+      "returnee_ratio": 10,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "可。幅広い大学から採用",
+      "notes": "メガバンク共通で慶應・早稲田が強い。学歴フィルターは存在しないとされる"
+    }
+  },
+  {
+    "company_or_industry": "三井住友銀行",
+    "data_type": "学歴フィルター",
+    "finding": "早稲田が1位。阪大3位(28人)、東大・神戸大4位(各23人)。関西に強い傾向",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、ダイヤモンドオンライン、リセマム等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 50,
+      "female_ratio": 50,
+      "athlete_ratio": 25,
+      "returnee_ratio": 10,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "可。幅広い大学から採用",
+      "notes": "三井住友信託銀行は男性205名・女性204名とバランスが良い"
+    }
+  },
+  {
+    "company_or_industry": "みずほフィナンシャルグループ",
+    "data_type": "学歴フィルター",
+    "finding": "慶應が1位、明治3位(31人)、立教4位(28人)、中央5位(18人)。MARCHからの採用が他のメガバンクより多い",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、ダイヤモンドオンライン、リセマム等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 55,
+      "female_ratio": 45,
+      "athlete_ratio": 25,
+      "returnee_ratio": 8,
+      "stem_grad_ratio": 15,
+      "march_acceptance": "可。明治31人、立教28人、中央18人とMARCH層の採用が多い",
+      "notes": "メガバンクの中ではMARCH層に最も門戸が開かれている"
+    }
+  },
+  {
+    "company_or_industry": "東京海上日動",
+    "data_type": "学歴フィルター",
+    "finding": "慶應57人、早稲田39人、関西学院大24人が上位。早慶上智が全体の約3割。選考難易度4.5/5.0",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、Abuild就活、就活攻略論等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 55,
+      "female_ratio": 45,
+      "athlete_ratio": 35,
+      "returnee_ratio": 10,
+      "stem_grad_ratio": 10,
+      "march_acceptance": "可。関西学院大24人、関関同立からの採用も多い",
+      "notes": "体育会系はディーラー営業が多い傾向。早慶が約半数を占める"
+    }
+  },
+  {
+    "company_or_industry": "三井住友海上",
+    "data_type": "体育会比率",
+    "finding": "公平な人物本位の採用を標榜。体育会でのリーダーシップ経験をアピールする内定者が多い",
+    "source_type": "就活掲示板",
+    "source_summary": "Abuild就活、ダイヤモンドオンライン、就活会議等で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 55,
+      "female_ratio": 45,
+      "athlete_ratio": 30,
+      "returnee_ratio": 8,
+      "stem_grad_ratio": 10,
+      "march_acceptance": "可。幅広い大学から採用。学歴不問を公式に標榜",
+      "notes": "2027年に三井住友海上あいおい生命と合併予定"
+    }
+  },
+  {
+    "company_or_industry": "トヨタ自動車",
+    "data_type": "理系院生",
+    "finding": "名古屋大が1位。上位4校は理系定員の多い難関国立大。2024年度技術職394名、事務職112名",
+    "source_type": "ニュース記事",
+    "source_summary": "東洋経済オンライン、talentsquare、就活の教科書等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 75,
+      "female_ratio": 25,
+      "athlete_ratio": 15,
+      "returnee_ratio": 5,
+      "stem_grad_ratio": 78,
+      "march_acceptance": "技術系は難関国立理系中心。事務系はMARCHから可",
+      "notes": "技術職が全体の約78%。名古屋大との地理的近接性が採用に影響"
+    }
+  },
+  {
+    "company_or_industry": "ソニーグループ",
+    "data_type": "学歴フィルター",
+    "finding": "東大1位。上位10大学中7大学が難関国立大。MARCH以上の学歴フィルターありとされる",
+    "source_type": "就活掲示板",
+    "source_summary": "就活の教科書、Renew Magazine、東洋経済オンライン等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 70,
+      "female_ratio": 30,
+      "athlete_ratio": 10,
+      "returnee_ratio": 15,
+      "stem_grad_ratio": 65,
+      "march_acceptance": "明治大学までは可。日東駒専以下はほぼ不可",
+      "notes": "東大、京大、東工大、阪大、名大、筑波、東北大、慶應、早稲田、東京理科大が主要採用大学"
+    }
+  },
+  {
+    "company_or_industry": "キーエンス",
+    "data_type": "学歴フィルター",
+    "finding": "トップ2は早慶。ランキングの大半を私立大が占める。文系学部の定員が多い私立総合大学が多数ランクイン",
+    "source_type": "ニュース記事",
+    "source_summary": "東洋経済オンライン、就活の教科書等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 70,
+      "female_ratio": 30,
+      "athlete_ratio": 25,
+      "returnee_ratio": 5,
+      "stem_grad_ratio": 30,
+      "march_acceptance": "可。MARCH・関関同立からの採用多数",
+      "notes": "自社工場を持たないため文系の営業職採用が多い。早稲田、慶應、関西学院大等が上位"
+    }
+  },
+  {
+    "company_or_industry": "味の素",
+    "data_type": "学歴フィルター",
+    "finding": "2025年度新卒採用150名(男性97名、女性53名)。倍率約522倍。早稲田が採用1位、慶應、東大、明治が続く",
+    "source_type": "就活掲示板",
+    "source_summary": "talentsquare、就活の教科書、Renew Magazine等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 65,
+      "female_ratio": 35,
+      "athlete_ratio": 15,
+      "returnee_ratio": 5,
+      "stem_grad_ratio": 50,
+      "march_acceptance": "可。日本大学や東京家政大学等からも採用実績あり",
+      "notes": "学歴フィルターの有無は見解が分かれる。倍率522倍と超人気企業"
+    }
+  },
+  {
+    "company_or_industry": "P&G",
+    "data_type": "学歴フィルター",
+    "finding": "学歴フィルターが存在すると考えられる。日東駒専クラスからの採用実績なし",
+    "source_type": "就活掲示板",
+    "source_summary": "Abuild就活、U-inTern等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 50,
+      "female_ratio": 50,
+      "athlete_ratio": 15,
+      "returnee_ratio": 30,
+      "stem_grad_ratio": 30,
+      "march_acceptance": "MARCH上位まで可。日東駒専以下は不可",
+      "notes": "外資メーカーとして英語力も重視。マーケティング職が花形"
+    }
+  },
+  {
+    "company_or_industry": "地方銀行(業界全体)",
+    "data_type": "学歴フィルター",
+    "finding": "学歴フィルターはほぼなし。MARCHは余裕で通過。日東駒専や地方大学からも広く採用。ただし2024年以降は難易度上昇傾向",
+    "source_type": "就活掲示板",
+    "source_summary": "MY OPTION、就活の教科書、Yahoo知恵袋等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 55,
+      "female_ratio": 45,
+      "athlete_ratio": 20,
+      "returnee_ratio": 3,
+      "stem_grad_ratio": 10,
+      "march_acceptance": "可。学歴フィルターなし。地方大学からも幅広く採用",
+      "notes": "採用人数減少と基準厳格化で難易度は上昇傾向。一般職(女性中心)ではFラン大からも可"
+    }
+  },
+  {
+    "company_or_industry": "MARCH学歴フィルター(全般)",
+    "data_type": "学歴フィルター",
+    "finding": "MARCHレベルではほとんどの企業で学歴フィルターに引っかからない。ただし外資戦略コンサル・外銀・5大商社・大手マスコミ・財閥系デベロッパーでは東京一工早慶が激戦で実質的な学歴フィルターあり",
+    "source_type": "就活掲示板",
+    "source_summary": "就活攻略論、就活ハック、就活の教科書等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": null,
+      "female_ratio": null,
+      "athlete_ratio": null,
+      "returnee_ratio": null,
+      "stem_grad_ratio": null,
+      "march_acceptance": "大半の企業で書類通過は可能。超難関企業では実質的に足切り",
+      "notes": "GMARCH・関関同立あたりで線を引いて一律足切りする企業は少なくない"
+    }
+  },
+  {
+    "company_or_industry": "女性総合職採用(商社・金融)",
+    "data_type": "男女比",
+    "finding": "丸紅は総合職女性比率40-50%目標。日本銀行は2024年度の総合・特定職で女性42.1%。商社全体では総合職女性比率約10%だが若手では高い",
+    "source_type": "ニュース記事",
+    "source_summary": "unistyle、ワンキャリア、日本銀行公式、内閣府資料等で確認",
+    "confidence": "high",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 55,
+      "female_ratio": 45,
+      "athlete_ratio": null,
+      "returnee_ratio": null,
+      "stem_grad_ratio": null,
+      "march_acceptance": null,
+      "notes": "女性の採用・登用は進行中の課題。金融では女性役員候補の外部採用が課題として2024年に持ち越し"
+    }
+  },
+  {
+    "company_or_industry": "コンサル業界(理系院生)",
+    "data_type": "理系院生",
+    "finding": "理系院卒はコンサル業界で需要増。論理的思考力・データ分析力・仮説検証能力が評価される。2025年はIT・デジタル領域で採用活発化",
+    "source_type": "ニュース記事",
+    "source_summary": "KOTORA JOURNAL、東洋経済オンライン、マイナビキャリアリサーチ等で確認",
+    "confidence": "medium",
+    "year": "2024-2025",
+    "details": {
+      "male_ratio": 60,
+      "female_ratio": 40,
+      "athlete_ratio": 10,
+      "returnee_ratio": 20,
+      "stem_grad_ratio": 40,
+      "march_acceptance": "戦略系は不可。総合系は可",
+      "notes": "DXやAI導入支援プロジェクトの増加によりITスキル・データ分析能力を持つ理系人材の需要増"
+    }
+  }
+]

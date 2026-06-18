@@ -1,0 +1,3825 @@
+[
+  {
+    "company": "トヨタ自動車",
+    "position": "技術職",
+    "industry": "製造業（電機・精密・半導体）",
+    "description": "トヨタ生産方式（TPS）に基づく自動車の研究開発・設計・生産技術・品質管理を担当。CASE領域（Connected・Autonomous・Shared・Electric）の技術開発に注力。カイゼンの文化が根付き、現場主義・チームワークを重視する。",
+    "ideal_profile": {
+      "description": "現場で手を動かしながら改善を積み重ねられる人。チームの和を大切にしつつ、技術的な深さも追求できるバランス型。",
+      "concrete_examples": [
+        "ものづくりが好きで子供の頃からプラモデルや工作に熱中していた",
+        "チーム活動で裏方の改善提案をした経験がある",
+        "『なぜ』を5回繰り返す習慣がある",
+        "大学の研究で地道にデータを取り続けることが苦にならない",
+        "車やモビリティへの関心が高い"
+      ]
+    },
+    "personality_scores": {
+      "logic": 82,
+      "creativity": 65,
+      "empathy": 68,
+      "cooperativeness": 85,
+      "competitiveness": 60,
+      "initiative": 70,
+      "planning": 80,
+      "action_orientation": 75,
+      "stress_tolerance": 78,
+      "learning_speed": 72,
+      "intellectual_curiosity": 75,
+      "analytical_ability": 80,
+      "abstract_thinking": 65,
+      "communication": 70,
+      "presentation": 60,
+      "negotiation": 55,
+      "leadership": 65,
+      "patience": 82,
+      "flexibility": 60,
+      "discipline": 88
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ISTJ",
+        "reason": "トヨタの規律・品質重視の文化に最も適合"
+      },
+      {
+        "rank": 2,
+        "type": "ESTJ",
+        "reason": "組織的に目標達成する力がTPS運用に活きる"
+      },
+      {
+        "rank": 3,
+        "type": "INTJ",
+        "reason": "長期的な技術戦略の構想力"
+      },
+      {
+        "rank": 4,
+        "type": "ISTP",
+        "reason": "現場での問題解決力に優れる"
+      },
+      {
+        "rank": 5,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 88,
+      "extraversion": 50,
+      "agreeableness": 75,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 70,
+      "stability": 82,
+      "social_contribution": 70,
+      "income": 65,
+      "autonomy": 45,
+      "expertise": 78,
+      "teamwork": 88
+    },
+    "work_style": {
+      "suitable_environments": [
+        "チームで改善を重ねる文化",
+        "現場重視・現地現物",
+        "長期的に技術を深められる環境"
+      ],
+      "unsuitable_environments": [
+        "個人プレー重視",
+        "短期成果主義",
+        "ルールより自由を重視する環境"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "自動車メーカー技術職",
+        "製造業の品質管理",
+        "生産技術エンジニア"
+      ],
+      "unsuitable_careers": [
+        "スタートアップの0→1フェーズ",
+        "裁量の大きいコンサル",
+        "個人成果主義の営業"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系科目が得意で実験が好き",
+        "部活は団体スポーツ系が多い",
+        "コツコツ型の勉強スタイル"
+      ],
+      "university": [
+        "機械・電気・情報系の研究室",
+        "学会発表経験がある",
+        "チームでのプロジェクト経験"
+      ],
+      "part_time_job": [
+        "製造業のライン作業",
+        "塾講師で論理的に教える"
+      ],
+      "club_activities": [
+        "体育会系の団体競技",
+        "ものづくりサークル"
+      ],
+      "internship": [
+        "メーカーの工場見学・実習",
+        "自動車関連のインターン"
+      ]
+    },
+    "feature_tags": [
+      "#ものづくり好き",
+      "#チームワーク重視",
+      "#カイゼン精神",
+      "#現場主義",
+      "#品質へのこだわり",
+      "#規律正しい",
+      "#コツコツ型",
+      "#論理的思考",
+      "#データ分析",
+      "#長期視点",
+      "#安定志向",
+      "#技術の深堀り",
+      "#自動車好き",
+      "#TPS",
+      "#なぜなぜ分析",
+      "#チーム貢献",
+      "#忍耐力",
+      "#几帳面",
+      "#プロセス重視",
+      "#現地現物",
+      "#継続力",
+      "#責任感",
+      "#報連相",
+      "#標準化",
+      "#PDCAサイクル",
+      "#安全第一",
+      "#グローバル志向",
+      "#異文化理解",
+      "#モビリティ",
+      "#CASE技術"
+    ]
+  },
+  {
+    "company": "トヨタ自動車",
+    "position": "事務職",
+    "industry": "製造業（電機・精密・半導体）",
+    "description": "経営企画・財務・人事・調達・営業・マーケティングなどの事務系業務を担当。販売店との折衝やグローバルな事業戦略立案に携わる。トヨタの組織文化を理解しつつ、ビジネス面で貢献する。",
+    "ideal_profile": {
+      "description": "組織の調整役として信頼を得られる人。派手さより着実さを好む。",
+      "concrete_examples": [
+        "ゼミやサークルで裏方の運営を任されることが多い",
+        "数字を使って説得するのが得意",
+        "異なる立場の人の意見をまとめた経験がある",
+        "海外に興味がありTOEICスコアが高い",
+        "大企業の安定感に魅力を感じる"
+      ]
+    },
+    "personality_scores": {
+      "logic": 72,
+      "creativity": 58,
+      "empathy": 75,
+      "cooperativeness": 85,
+      "competitiveness": 55,
+      "initiative": 65,
+      "planning": 78,
+      "action_orientation": 68,
+      "stress_tolerance": 72,
+      "learning_speed": 70,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 70,
+      "abstract_thinking": 60,
+      "communication": 78,
+      "presentation": 68,
+      "negotiation": 70,
+      "leadership": 65,
+      "patience": 80,
+      "flexibility": 65,
+      "discipline": 85
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ESTJ",
+        "reason": "組織運営力とトヨタの階層的文化への適合"
+      },
+      {
+        "rank": 2,
+        "type": "ISTJ",
+        "reason": "着実に業務を遂行する力"
+      },
+      {
+        "rank": 3,
+        "type": "ESFJ",
+        "reason": "調整力とチームへの貢献"
+      },
+      {
+        "rank": 4,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "INTJ",
+        "reason": "INTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 50,
+      "conscientiousness": 85,
+      "extraversion": 60,
+      "agreeableness": 78,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 60,
+      "stability": 85,
+      "social_contribution": 60,
+      "income": 65,
+      "autonomy": 40,
+      "expertise": 55,
+      "teamwork": 85
+    },
+    "work_style": {
+      "suitable_environments": [
+        "大組織での調整業務",
+        "安定した長期雇用",
+        "チームでの業務推進"
+      ],
+      "unsuitable_environments": [
+        "成果主義のUp or Out",
+        "頻繁な転職が前提",
+        "個人裁量が極端に大きい"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "大手メーカー管理部門",
+        "商社の管理系",
+        "金融のバックオフィス"
+      ],
+      "unsuitable_careers": [
+        "スタートアップ創業",
+        "フリーランス",
+        "戦略コンサル"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "文系で社会科が得意",
+        "生徒会やクラス委員の経験",
+        "バランス型の成績"
+      ],
+      "university": [
+        "経済学部・商学部・法学部",
+        "ゼミで共同研究",
+        "留学経験あり"
+      ],
+      "part_time_job": [
+        "接客業で対人スキルを磨いた",
+        "事務系のアルバイト"
+      ],
+      "club_activities": [
+        "体育会マネージャー",
+        "学園祭実行委員"
+      ],
+      "internship": [
+        "メーカーの事務系インターン",
+        "金融機関のインターン"
+      ]
+    },
+    "feature_tags": [
+      "#調整力",
+      "#チームワーク",
+      "#安定志向",
+      "#組織人",
+      "#報連相",
+      "#数字に強い",
+      "#コミュニケーション力",
+      "#協調性",
+      "#几帳面",
+      "#責任感",
+      "#大企業志向",
+      "#グローバル",
+      "#語学力",
+      "#バランス型",
+      "#裏方気質",
+      "#堅実",
+      "#計画性",
+      "#フォロワーシップ",
+      "#忍耐力",
+      "#規律",
+      "#長期キャリア",
+      "#福利厚生重視",
+      "#ワークライフバランス",
+      "#トヨタブランド",
+      "#自動車産業",
+      "#製造業理解",
+      "#異文化対応",
+      "#プレゼン力",
+      "#交渉力",
+      "#マルチタスク"
+    ]
+  },
+  {
+    "company": "ソニーグループ",
+    "position": "技術系コース",
+    "industry": "製造業（電機・精密・半導体）",
+    "description": "ゲーム・音楽・映画・エレクトロニクス・半導体・金融と多角化したソニーグループでの技術開発。イメージセンサー、PlayStation、ウォークマンの伝統を受け継ぎつつ、AI・ロボティクス・メタバースなど最先端領域に挑戦する。個人の専門性と創造性が重視される。",
+    "ideal_profile": {
+      "description": "技術で人を感動させたいという情熱を持つ人。既存の枠にとらわれず新しい発想ができる。",
+      "concrete_examples": [
+        "小さい頃からガジェットや電子機器の分解が好き",
+        "自分でアプリやゲームを作った経験がある",
+        "最新テクノロジーのニュースを日常的にチェック",
+        "音楽・映画・ゲームなどエンタメへの関心が高い",
+        "大学の研究で独自のアプローチを試した"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 88,
+      "empathy": 60,
+      "cooperativeness": 65,
+      "competitiveness": 70,
+      "initiative": 82,
+      "planning": 65,
+      "action_orientation": 78,
+      "stress_tolerance": 72,
+      "learning_speed": 85,
+      "intellectual_curiosity": 92,
+      "analytical_ability": 82,
+      "abstract_thinking": 85,
+      "communication": 65,
+      "presentation": 70,
+      "negotiation": 55,
+      "leadership": 60,
+      "patience": 65,
+      "flexibility": 80,
+      "discipline": 60
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "INTP",
+        "reason": "ソニーの自由闊達な研究開発文化に最適合"
+      },
+      {
+        "rank": 2,
+        "type": "INTJ",
+        "reason": "長期ビジョンと技術戦略"
+      },
+      {
+        "rank": 3,
+        "type": "ENTP",
+        "reason": "新規アイデア創出力"
+      },
+      {
+        "rank": 4,
+        "type": "ENTJ",
+        "reason": "プロジェクトを推進する力"
+      },
+      {
+        "rank": 5,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ISTJ",
+        "reason": "ISTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 90,
+      "conscientiousness": 60,
+      "extraversion": 50,
+      "agreeableness": 55,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 85,
+      "stability": 50,
+      "social_contribution": 55,
+      "income": 70,
+      "autonomy": 88,
+      "expertise": 90,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": [
+        "個人の専門性が尊重される",
+        "新しい技術に挑戦できる",
+        "クリエイティブな文化"
+      ],
+      "unsuitable_environments": [
+        "マニュアル通りの業務",
+        "年功序列が強い",
+        "技術より営業が重視される"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "テックカンパニーのR&D",
+        "スタートアップCTO",
+        "研究機関の研究員"
+      ],
+      "unsuitable_careers": [
+        "ルーチンワーク中心の業務",
+        "営業職",
+        "厳格な階層組織"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "数学・物理が突出して得意",
+        "プログラミングを独学",
+        "科学オリンピック出場"
+      ],
+      "university": [
+        "情報系・電気電子系の研究",
+        "個人プロジェクトや作品制作",
+        "海外カンファレンス参加"
+      ],
+      "part_time_job": [
+        "プログラミングの受託",
+        "IT系スタートアップでの開発"
+      ],
+      "club_activities": [
+        "プログラミングサークル",
+        "ロボコン"
+      ],
+      "internship": [
+        "IT企業のエンジニアインターン",
+        "研究室でのインターン"
+      ]
+    },
+    "feature_tags": [
+      "#創造性",
+      "#技術オタク",
+      "#ガジェット好き",
+      "#自由闘達",
+      "#イノベーション",
+      "#専門性追求",
+      "#好奇心旺盛",
+      "#最先端技術",
+      "#エンタメ×テック",
+      "#自律型",
+      "#独創的",
+      "#プロトタイピング",
+      "#実験好き",
+      "#コーディング",
+      "#AI・機械学習",
+      "#半導体",
+      "#イメージセンサー",
+      "#ゲーム開発",
+      "#音響技術",
+      "#グローバル",
+      "#英語力",
+      "#論文執筆",
+      "#研究志向",
+      "#0→1",
+      "#感動体験",
+      "#PlayStation",
+      "#クリエイター気質",
+      "#多角化企業",
+      "#裁量権",
+      "#知的好奇心"
+    ]
+  },
+  {
+    "company": "キーエンス",
+    "position": "ビジネス職",
+    "industry": "製造業（電機・精密・半導体）",
+    "description": "センサー・計測機器・画像処理システム等の営業を担当。直販体制で顧客の工場・現場に入り込み、課題を発見し最適なソリューションを提案するコンサルティング営業。高い論理的思考力と行動量が求められる。平均年収2,000万円超。",
+    "ideal_profile": {
+      "description": "負けず嫌いで行動量が多く、論理的に顧客を説得できる人。高収入をモチベーションにできる。",
+      "concrete_examples": [
+        "部活で練習量を誰よりもこなした",
+        "アルバイトで売上トップを取った経験がある",
+        "数字で物事を考えるのが好き",
+        "競争に燃えるタイプ",
+        "早起きが苦にならない（朝7時出社）"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 60,
+      "empathy": 65,
+      "cooperativeness": 60,
+      "competitiveness": 95,
+      "initiative": 90,
+      "planning": 80,
+      "action_orientation": 95,
+      "stress_tolerance": 90,
+      "learning_speed": 85,
+      "intellectual_curiosity": 70,
+      "analytical_ability": 82,
+      "abstract_thinking": 65,
+      "communication": 88,
+      "presentation": 85,
+      "negotiation": 90,
+      "leadership": 70,
+      "patience": 65,
+      "flexibility": 60,
+      "discipline": 92
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ESTJ",
+        "reason": "組織的な目標達成力と規律がキーエンスの文化に最適合"
+      },
+      {
+        "rank": 2,
+        "type": "ENTJ",
+        "reason": "戦略的な営業力とリーダーシップ"
+      },
+      {
+        "rank": 3,
+        "type": "ESTP",
+        "reason": "現場での即断即決力"
+      },
+      {
+        "rank": 4,
+        "type": "ENTP",
+        "reason": "顧客課題の創造的な解決力"
+      },
+      {
+        "rank": 5,
+        "type": "ISTJ",
+        "reason": "ISTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "INTJ",
+        "reason": "INTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 92,
+      "extraversion": 85,
+      "agreeableness": 50,
+      "neuroticism": 30
+    },
+    "values": {
+      "growth": 80,
+      "stability": 60,
+      "social_contribution": 40,
+      "income": 95,
+      "autonomy": 55,
+      "expertise": 65,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": [
+        "成果主義で報酬に反映",
+        "ロジカルな営業手法",
+        "高い行動量が評価される"
+      ],
+      "unsuitable_environments": [
+        "のんびりした雰囲気",
+        "年功序列",
+        "成果が見えにくい仕事"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "BtoB営業のトップセールス",
+        "外資系企業の営業",
+        "起業家"
+      ],
+      "unsuitable_careers": [
+        "裏方のサポート業務",
+        "研究職",
+        "ゆったりした公務員"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "体育会系の部活でレギュラー",
+        "成績上位を維持",
+        "リーダー的ポジション"
+      ],
+      "university": [
+        "体育会or高い行動力を示す活動",
+        "論理的な思考を鍛えるゼミ",
+        "営業系のインターンで成果"
+      ],
+      "part_time_job": [
+        "営業・販売で成果を出した",
+        "飲食店のホール(接客力)"
+      ],
+      "club_activities": [
+        "体育会系で厳しい環境",
+        "主将・副将の経験"
+      ],
+      "internship": [
+        "キーエンスのインターン",
+        "BtoB営業のインターン"
+      ]
+    },
+    "feature_tags": [
+      "#負けず嫌い",
+      "#高収入志向",
+      "#行動量",
+      "#論理的営業",
+      "#成果主義",
+      "#コンサルティング営業",
+      "#BtoB",
+      "#センサー",
+      "#工場",
+      "#製造業知識",
+      "#早朝出社",
+      "#タフネス",
+      "#数字へのコミット",
+      "#PDCA",
+      "#競争環境",
+      "#直販",
+      "#課題解決",
+      "#プレゼン力",
+      "#交渉力",
+      "#目標達成",
+      "#ロジカルシンキング",
+      "#体育会系",
+      "#規律",
+      "#時間管理",
+      "#高い基準",
+      "#分析力",
+      "#仮説思考",
+      "#顧客志向",
+      "#ソリューション提案",
+      "#年収2000万"
+    ]
+  },
+  {
+    "company": "味の素",
+    "position": "R&D（研究開発）",
+    "industry": "食料品・飲料・嗜好品",
+    "description": "アミノ酸技術を核とした食品・バイオ・ファイン領域の研究開発。基礎研究から製品開発まで幅広く携わる。食と健康の科学的アプローチで社会課題の解決を目指す。グローバル型採用で海外赴任の可能性も高い。",
+    "ideal_profile": {
+      "description": "食への科学的関心と社会貢献意識を持つ研究者。チームでの共同研究を楽しめる人。",
+      "concrete_examples": [
+        "食品化学・生化学・有機化学の研究に没頭した",
+        "料理が好きで食への関心が高い",
+        "研究室でチームワークを大切にした",
+        "英語論文を読むのが日常",
+        "健康や栄養に関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 82,
+      "creativity": 75,
+      "empathy": 70,
+      "cooperativeness": 78,
+      "competitiveness": 55,
+      "initiative": 68,
+      "planning": 78,
+      "action_orientation": 65,
+      "stress_tolerance": 72,
+      "learning_speed": 78,
+      "intellectual_curiosity": 88,
+      "analytical_ability": 85,
+      "abstract_thinking": 80,
+      "communication": 68,
+      "presentation": 70,
+      "negotiation": 55,
+      "leadership": 58,
+      "patience": 82,
+      "flexibility": 68,
+      "discipline": 78
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "INTJ",
+        "reason": "長期的研究ビジョンと戦略的思考"
+      },
+      {
+        "rank": 2,
+        "type": "INTP",
+        "reason": "理論的探究心とアミノ酸サイエンス"
+      },
+      {
+        "rank": 3,
+        "type": "ISTJ",
+        "reason": "実験の正確性と再現性へのこだわり"
+      },
+      {
+        "rank": 4,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 75,
+      "conscientiousness": 80,
+      "extraversion": 45,
+      "agreeableness": 72,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 75,
+      "stability": 72,
+      "social_contribution": 82,
+      "income": 60,
+      "autonomy": 65,
+      "expertise": 88,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": [
+        "研究に集中できる環境",
+        "食と健康に貢献できる",
+        "グローバルな研究ネットワーク"
+      ],
+      "unsuitable_environments": [
+        "短期的な成果のみ求められる",
+        "研究以外の業務が多い",
+        "食に関心がない環境"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "食品メーカーR&D",
+        "大学・研究機関の研究者",
+        "バイオテック企業"
+      ],
+      "unsuitable_careers": [
+        "金融トレーディング",
+        "営業職",
+        "コンサルタント"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系で化学・生物が得意",
+        "料理部や科学部",
+        "食への関心"
+      ],
+      "university": [
+        "化学・生物系の研究室で修士以上",
+        "国際学会での発表経験",
+        "チームでの共同研究"
+      ],
+      "part_time_job": [
+        "飲食店で食への理解",
+        "家庭教師で教える力"
+      ],
+      "club_activities": [
+        "研究会・学術サークル",
+        "料理サークル"
+      ],
+      "internship": [
+        "食品メーカーの研究開発インターン",
+        "大学での研究プロジェクト"
+      ]
+    },
+    "feature_tags": [
+      "#食への情熱",
+      "#アミノ酸サイエンス",
+      "#研究志向",
+      "#化学・生化学",
+      "#チーム研究",
+      "#グローバル",
+      "#社会貢献",
+      "#健康科学",
+      "#論文執筆",
+      "#実験好き",
+      "#データ分析",
+      "#忍耐力",
+      "#専門性追求",
+      "#基礎研究",
+      "#製品開発",
+      "#知的好奇心",
+      "#食品安全",
+      "#品質管理",
+      "#栄養学",
+      "#バイオテクノロジー",
+      "#長期視点",
+      "#几帳面",
+      "#再現性",
+      "#科学的思考",
+      "#コツコツ型",
+      "#修士・博士",
+      "#海外赴任",
+      "#英語力",
+      "#異文化理解",
+      "#ASV経営"
+    ]
+  },
+  {
+    "company": "武田薬品工業",
+    "position": "研究技術職",
+    "industry": "医薬品",
+    "description": "グローバル製薬企業として、がん・消化器・神経科学・希少疾患領域の新薬研究開発を行う。創薬研究・薬理研究・合成化学・バイオロジクス等の専門分野で世界レベルの研究に携わる。博士号取得者も多い。",
+    "ideal_profile": {
+      "description": "患者さんの命を救いたいという使命感と、科学的探究心を兼ね備えた研究者。グローバルな環境で英語を使って仕事ができる。",
+      "concrete_examples": [
+        "薬学・生命科学の研究に情熱を持っている",
+        "患者さんのために働きたいという明確な動機がある",
+        "英語での論文読解・発表ができる",
+        "失敗を恐れず仮説検証を繰り返せる",
+        "博士課程で専門性を深めた"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 72,
+      "empathy": 78,
+      "cooperativeness": 72,
+      "competitiveness": 60,
+      "initiative": 70,
+      "planning": 80,
+      "action_orientation": 65,
+      "stress_tolerance": 75,
+      "learning_speed": 80,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 88,
+      "abstract_thinking": 85,
+      "communication": 65,
+      "presentation": 72,
+      "negotiation": 50,
+      "leadership": 55,
+      "patience": 85,
+      "flexibility": 65,
+      "discipline": 82
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "INTJ",
+        "reason": "長期的な創薬ビジョンと戦略的研究計画"
+      },
+      {
+        "rank": 2,
+        "type": "INTP",
+        "reason": "深い理論的探究と新規メカニズム発見"
+      },
+      {
+        "rank": 3,
+        "type": "ISTJ",
+        "reason": "GLP/GMP準拠の正確な実験遂行"
+      },
+      {
+        "rank": 4,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 85,
+      "extraversion": 40,
+      "agreeableness": 68,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 75,
+      "stability": 65,
+      "social_contribution": 90,
+      "income": 65,
+      "autonomy": 70,
+      "expertise": 92,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": [
+        "患者志向の研究文化",
+        "グローバルな研究チーム",
+        "長期的な研究に集中できる"
+      ],
+      "unsuitable_environments": [
+        "短期利益優先",
+        "研究の自由度が低い",
+        "英語を使わない環境"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "グローバル製薬の研究職",
+        "アカデミアの研究者",
+        "バイオベンチャーCSO"
+      ],
+      "unsuitable_careers": [
+        "MR(営業)",
+        "金融トレーダー",
+        "コンサルタント"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系で生物・化学が得意",
+        "医療や創薬への関心",
+        "英語学習に積極的"
+      ],
+      "university": [
+        "薬学・生命科学の博士課程",
+        "国際学会での発表",
+        "海外研究室への留学"
+      ],
+      "part_time_job": [
+        "家庭教師・塾講師",
+        "研究補助のRA"
+      ],
+      "club_activities": [
+        "学術系サークル",
+        "ボランティア活動"
+      ],
+      "internship": [
+        "製薬会社の研究インターン",
+        "大学の共同研究プロジェクト"
+      ]
+    },
+    "feature_tags": [
+      "#創薬研究",
+      "#患者志向",
+      "#グローバル",
+      "#英語力",
+      "#博士号",
+      "#生命科学",
+      "#薬理学",
+      "#有機合成",
+      "#バイオロジクス",
+      "#臨床開発",
+      "#GLP/GMP",
+      "#論文執筆",
+      "#学会発表",
+      "#仮説検証",
+      "#失敗耐性",
+      "#長期研究",
+      "#専門性",
+      "#知的好奇心",
+      "#データ分析",
+      "#統計解析",
+      "#チーム研究",
+      "#社会貢献",
+      "#使命感",
+      "#忍耐力",
+      "#几帳面",
+      "#再現性",
+      "#科学的思考",
+      "#希少疾患",
+      "#がん研究",
+      "#タケダイズム"
+    ]
+  },
+  {
+    "company": "アーキタイプ：電機・精密メーカー技術系総合職",
+    "position": "技術系総合職",
+    "industry": "製造業（電機・精密・半導体）",
+    "archetype_id": "mfg_elec_tech",
+    "applies_to": [
+      "本田技研工業",
+      "日産自動車",
+      "スバル",
+      "マツダ",
+      "三菱自動車",
+      "ダイハツ工業",
+      "豊田自動織機",
+      "デンソー",
+      "アイシン",
+      "ジェイテクト",
+      "トヨタ車体",
+      "ヤマハ発動機",
+      "日立製作所",
+      "パナソニック",
+      "三菱電機",
+      "富士通",
+      "NEC",
+      "東芝",
+      "シャープ",
+      "ファナック",
+      "安川電機",
+      "オムロン",
+      "村田製作所",
+      "京セラ",
+      "TDK",
+      "ニデック",
+      "ローム",
+      "ルネサスエレクトロニクス",
+      "キオクシア",
+      "東京エレクトロン",
+      "アドバンテスト",
+      "SCREENホールディングス",
+      "ディスコ",
+      "HOYA",
+      "オリンパス",
+      "テルモ",
+      "シスメックス",
+      "日本光電",
+      "ニコン",
+      "キヤノン",
+      "セイコーエプソン",
+      "リコー",
+      "コニカミノルタ",
+      "ブラザー工業",
+      "カシオ計算機",
+      "島津製作所",
+      "小松製作所",
+      "クボタ",
+      "三菱重工業",
+      "川崎重工業",
+      "IHI",
+      "DMG森精機",
+      "日立建機",
+      "住友重機械工業",
+      "荏原製作所",
+      "ダイキン工業",
+      "ダイフク",
+      "シマノ",
+      "マイクロンメモリジャパン"
+    ],
+    "description": "電機・精密・半導体メーカーでの研究開発・設計・生産技術・品質管理・SE等の技術業務。専門分野の知識を活かし、製品の企画から量産までの工程に携わる。",
+    "ideal_profile": {
+      "description": "技術的な専門性を深めつつ、チームでものづくりに取り組める人。",
+      "concrete_examples": [
+        "大学で理工系の研究に打ち込んだ",
+        "実験やシミュレーションが好き",
+        "製品の仕組みに興味がある",
+        "チームでの共同作業が得意",
+        "新しい技術トレンドを追いかける"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 70,
+      "empathy": 60,
+      "cooperativeness": 75,
+      "competitiveness": 55,
+      "initiative": 65,
+      "planning": 75,
+      "action_orientation": 70,
+      "stress_tolerance": 72,
+      "learning_speed": 75,
+      "intellectual_curiosity": 82,
+      "analytical_ability": 80,
+      "abstract_thinking": 75,
+      "communication": 62,
+      "presentation": 60,
+      "negotiation": 50,
+      "leadership": 55,
+      "patience": 78,
+      "flexibility": 65,
+      "discipline": 78
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ISTJ",
+        "reason": "製造業の品質・プロセス重視に最適合"
+      },
+      {
+        "rank": 2,
+        "type": "INTJ",
+        "reason": "技術戦略と長期的ビジョン"
+      },
+      {
+        "rank": 3,
+        "type": "ISTP",
+        "reason": "現場での実践的問題解決"
+      },
+      {
+        "rank": 4,
+        "type": "INTP",
+        "reason": "理論的な技術探究"
+      },
+      {
+        "rank": 5,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 65,
+      "conscientiousness": 80,
+      "extraversion": 45,
+      "agreeableness": 68,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 70,
+      "stability": 75,
+      "social_contribution": 60,
+      "income": 62,
+      "autonomy": 60,
+      "expertise": 82,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": [
+        "専門性を深められる",
+        "チームでのものづくり",
+        "安定した研究開発環境"
+      ],
+      "unsuitable_environments": [
+        "短期的な成果のみ重視",
+        "技術軽視の組織",
+        "個人プレー中心"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "メーカーのR&D",
+        "技術コンサルタント",
+        "特許エンジニア"
+      ],
+      "unsuitable_careers": [
+        "純粋な営業職",
+        "金融トレーダー",
+        "接客サービス業"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系科目が得意",
+        "実験・工作好き",
+        "理系の大学進学"
+      ],
+      "university": [
+        "理工系研究室で修士まで",
+        "学会発表経験",
+        "研究テーマへの没頭"
+      ],
+      "part_time_job": [
+        "塾講師",
+        "IT系アルバイト"
+      ],
+      "club_activities": [
+        "ロボコン・工学系サークル",
+        "理系の部活"
+      ],
+      "internship": [
+        "メーカーの技術系インターン",
+        "研究室でのインターン"
+      ]
+    },
+    "feature_tags": [
+      "#ものづくり",
+      "#技術志向",
+      "#研究開発",
+      "#品質管理",
+      "#生産技術",
+      "#設計",
+      "#論理的思考",
+      "#実験好き",
+      "#データ分析",
+      "#専門性",
+      "#チームワーク",
+      "#コツコツ型",
+      "#安定志向",
+      "#長期キャリア",
+      "#理系",
+      "#修士卒",
+      "#学会発表",
+      "#特許",
+      "#CAD",
+      "#シミュレーション",
+      "#プロセス改善",
+      "#PDCA",
+      "#品質保証",
+      "#ISO",
+      "#技術英語",
+      "#グローバル",
+      "#継続力",
+      "#几帳面",
+      "#忍耐力",
+      "#知的好奇心"
+    ]
+  },
+  {
+    "company": "アーキタイプ：電機・精密メーカー事務系総合職",
+    "position": "事務系総合職",
+    "industry": "製造業（電機・精密・半導体）",
+    "archetype_id": "mfg_elec_admin",
+    "applies_to": [
+      "本田技研工業",
+      "日産自動車",
+      "スバル",
+      "マツダ",
+      "三菱自動車",
+      "ダイハツ工業",
+      "豊田自動織機",
+      "デンソー",
+      "アイシン",
+      "ジェイテクト",
+      "トヨタ車体",
+      "ヤマハ発動機",
+      "日立製作所",
+      "パナソニック",
+      "三菱電機",
+      "富士通",
+      "NEC",
+      "東芝",
+      "シャープ",
+      "ファナック",
+      "安川電機",
+      "オムロン",
+      "村田製作所",
+      "京セラ",
+      "TDK",
+      "ニデック",
+      "ローム",
+      "ルネサスエレクトロニクス",
+      "キオクシア",
+      "東京エレクトロン",
+      "アドバンテスト",
+      "SCREENホールディングス",
+      "ディスコ",
+      "HOYA",
+      "オリンパス",
+      "テルモ",
+      "シスメックス",
+      "日本光電",
+      "ニコン",
+      "キヤノン",
+      "セイコーエプソン",
+      "リコー",
+      "コニカミノルタ",
+      "ブラザー工業",
+      "カシオ計算機",
+      "島津製作所",
+      "小松製作所",
+      "クボタ",
+      "三菱重工業",
+      "川崎重工業",
+      "IHI",
+      "DMG森精機",
+      "日立建機",
+      "住友重機械工業",
+      "荏原製作所",
+      "ダイキン工業",
+      "ダイフク",
+      "シマノ",
+      "マイクロンメモリジャパン"
+    ],
+    "description": "電機メーカーの営業・マーケティング・経営企画・人事・経理・法務・調達・知的財産等の事務系業務。技術を理解しつつビジネス面で組織を支える。",
+    "ideal_profile": {
+      "description": "技術に関心がありつつ、ビジネスの視点で価値を創出できる人。",
+      "concrete_examples": [
+        "文系だがテクノロジーに興味がある",
+        "ゼミで調整役を務めた",
+        "プレゼンが得意",
+        "海外志向がある",
+        "安定した大企業で長く働きたい"
+      ]
+    },
+    "personality_scores": {
+      "logic": 70,
+      "creativity": 60,
+      "empathy": 72,
+      "cooperativeness": 78,
+      "competitiveness": 55,
+      "initiative": 62,
+      "planning": 72,
+      "action_orientation": 65,
+      "stress_tolerance": 70,
+      "learning_speed": 68,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 68,
+      "abstract_thinking": 58,
+      "communication": 78,
+      "presentation": 72,
+      "negotiation": 68,
+      "leadership": 62,
+      "patience": 75,
+      "flexibility": 68,
+      "discipline": 78
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ESTJ",
+        "reason": "組織運営と着実な業務遂行"
+      },
+      {
+        "rank": 2,
+        "type": "ISTJ",
+        "reason": "正確さと責任感"
+      },
+      {
+        "rank": 3,
+        "type": "ESFJ",
+        "reason": "チームの調和と対人関係構築"
+      },
+      {
+        "rank": 4,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "INTJ",
+        "reason": "INTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 78,
+      "extraversion": 60,
+      "agreeableness": 72,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 62,
+      "stability": 78,
+      "social_contribution": 58,
+      "income": 62,
+      "autonomy": 48,
+      "expertise": 55,
+      "teamwork": 78
+    },
+    "work_style": {
+      "suitable_environments": [
+        "安定した大企業",
+        "チームでの業務",
+        "技術に触れられる環境"
+      ],
+      "unsuitable_environments": [
+        "ベンチャーの不安定さ",
+        "完全な個人プレー",
+        "技術と無縁の環境"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "メーカー管理部門",
+        "商社",
+        "金融バックオフィス"
+      ],
+      "unsuitable_careers": [
+        "フリーランス",
+        "スタートアップ創業",
+        "研究職"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "バランス型の成績",
+        "部活と勉強の両立",
+        "協調性がある"
+      ],
+      "university": [
+        "経済・商・法学部",
+        "ゼミでの共同研究",
+        "就活では大手メーカー志望"
+      ],
+      "part_time_job": [
+        "接客業",
+        "事務系アルバイト"
+      ],
+      "club_activities": [
+        "体育会系orサークルの幹部",
+        "学園祭実行委員"
+      ],
+      "internship": [
+        "メーカー事務系インターン",
+        "商社のインターン"
+      ]
+    },
+    "feature_tags": [
+      "#文系メーカー",
+      "#営業",
+      "#マーケティング",
+      "#経営企画",
+      "#調整力",
+      "#チームワーク",
+      "#安定志向",
+      "#大企業",
+      "#コミュニケーション",
+      "#プレゼン",
+      "#語学力",
+      "#グローバル",
+      "#協調性",
+      "#責任感",
+      "#計画性",
+      "#バランス型",
+      "#福利厚生",
+      "#長期キャリア",
+      "#技術理解",
+      "#ものづくり企業",
+      "#報連相",
+      "#交渉力",
+      "#知的財産",
+      "#法務",
+      "#経理",
+      "#人事",
+      "#調達",
+      "#管理部門",
+      "#ワークライフバランス",
+      "#堅実"
+    ]
+  },
+  {
+    "company": "アーキタイプ：素材・化学メーカー技術系総合職",
+    "position": "技術系総合職",
+    "industry": "製造業（素材・化学）",
+    "archetype_id": "mfg_chem_tech",
+    "applies_to": [
+      "三菱ケミカル",
+      "住友化学",
+      "信越化学工業",
+      "三井化学",
+      "旭化成",
+      "東レ",
+      "帝人",
+      "積水化学工業",
+      "日本製鉄",
+      "JFEスチール",
+      "神戸製鋼所",
+      "住友金属鉱山",
+      "住友電気工業",
+      "古河電気工業",
+      "三井金属鉱業",
+      "日本軽金属",
+      "大同特殊鋼",
+      "山陽特殊製鋼",
+      "プロテリアル",
+      "AGC",
+      "TOTO",
+      "日本ガイシ",
+      "レゾナック",
+      "日産化学",
+      "日東電工",
+      "日本触媒",
+      "東ソー",
+      "カネカ",
+      "クラレ",
+      "DIC",
+      "JSR",
+      "日本ゼオン",
+      "DOWAホールディングス",
+      "UBE",
+      "ADEKA",
+      "デンカ",
+      "三菱マテリアル",
+      "三菱ガス化学",
+      "大陽日酸",
+      "エア・ウォーター",
+      "栗田工業",
+      "GSユアサ",
+      "王子ホールディングス",
+      "住友林業",
+      "ブリヂストン",
+      "3Mジャパン",
+      "富士フイルム",
+      "日鉄鉱業",
+      "JX金属"
+    ],
+    "description": "化学・素材メーカーでの研究開発・生産技術・品質管理・プロセスエンジニアリング等。新素材の開発からプラントの運転管理まで幅広い技術業務を担当する。",
+    "ideal_profile": {
+      "description": "化学への深い関心と、スケールアップや量産化に興味がある人。",
+      "concrete_examples": [
+        "化学実験が好きで反応の仕組みに興味がある",
+        "大学院で化学系の研究を行った",
+        "プラントや工場の大規模設備に興味",
+        "安全管理の重要性を理解している",
+        "新素材で社会を変えたいという思いがある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 82,
+      "creativity": 68,
+      "empathy": 58,
+      "cooperativeness": 72,
+      "competitiveness": 50,
+      "initiative": 62,
+      "planning": 78,
+      "action_orientation": 65,
+      "stress_tolerance": 75,
+      "learning_speed": 72,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 85,
+      "abstract_thinking": 78,
+      "communication": 58,
+      "presentation": 58,
+      "negotiation": 48,
+      "leadership": 52,
+      "patience": 85,
+      "flexibility": 58,
+      "discipline": 82
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ISTJ",
+        "reason": "化学プラントの安全・品質管理に最適合"
+      },
+      {
+        "rank": 2,
+        "type": "INTJ",
+        "reason": "新素材の長期研究戦略"
+      },
+      {
+        "rank": 3,
+        "type": "ISTP",
+        "reason": "現場でのトラブルシューティング"
+      },
+      {
+        "rank": 4,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 62,
+      "conscientiousness": 85,
+      "extraversion": 40,
+      "agreeableness": 65,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 65,
+      "stability": 80,
+      "social_contribution": 65,
+      "income": 60,
+      "autonomy": 55,
+      "expertise": 85,
+      "teamwork": 68
+    },
+    "work_style": {
+      "suitable_environments": [
+        "研究に集中できる",
+        "安全管理が徹底",
+        "長期的な研究テーマ"
+      ],
+      "unsuitable_environments": [
+        "短期成果主義",
+        "安全軽視",
+        "研究費が不足"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "素材メーカーR&D",
+        "化学プラントエンジニア",
+        "特許技術者"
+      ],
+      "unsuitable_careers": [
+        "営業職",
+        "コンサルタント",
+        "接客業"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "化学が得意",
+        "実験レポートを丁寧に書く",
+        "理系進学"
+      ],
+      "university": [
+        "化学系の修士以上",
+        "実験・分析の経験",
+        "安全講習の受講"
+      ],
+      "part_time_job": [
+        "塾講師",
+        "研究補助"
+      ],
+      "club_activities": [
+        "化学系サークル",
+        "学術系"
+      ],
+      "internship": [
+        "化学メーカーの研究インターン",
+        "工場見学"
+      ]
+    },
+    "feature_tags": [
+      "#化学",
+      "#素材",
+      "#研究開発",
+      "#生産技術",
+      "#プラント",
+      "#安全管理",
+      "#品質管理",
+      "#実験",
+      "#分析",
+      "#スケールアップ",
+      "#新素材",
+      "#ポリマー",
+      "#触媒",
+      "#有機合成",
+      "#無機化学",
+      "#プロセスエンジニアリング",
+      "#GMP",
+      "#環境対応",
+      "#コツコツ型",
+      "#忍耐力",
+      "#几帳面",
+      "#再現性",
+      "#データ分析",
+      "#修士卒",
+      "#学会発表",
+      "#知的好奇心",
+      "#長期視点",
+      "#安定志向",
+      "#チームワーク",
+      "#専門性"
+    ]
+  },
+  {
+    "company": "アーキタイプ：素材・化学メーカー事務系総合職",
+    "position": "事務系総合職",
+    "industry": "製造業（素材・化学）",
+    "archetype_id": "mfg_chem_admin",
+    "applies_to": [
+      "三菱ケミカル",
+      "住友化学",
+      "信越化学工業",
+      "三井化学",
+      "旭化成",
+      "東レ",
+      "帝人",
+      "積水化学工業",
+      "日本製鉄",
+      "JFEスチール",
+      "神戸製鋼所",
+      "住友金属鉱山",
+      "住友電気工業",
+      "古河電気工業",
+      "三井金属鉱業",
+      "日本軽金属",
+      "大同特殊鋼",
+      "山陽特殊製鋼",
+      "プロテリアル",
+      "AGC",
+      "TOTO",
+      "日本ガイシ",
+      "レゾナック",
+      "日産化学",
+      "日東電工",
+      "日本触媒",
+      "東ソー",
+      "カネカ",
+      "クラレ",
+      "DIC",
+      "JSR",
+      "日本ゼオン",
+      "DOWAホールディングス",
+      "UBE",
+      "ADEKA",
+      "デンカ",
+      "三菱マテリアル",
+      "三菱ガス化学",
+      "大陽日酸",
+      "エア・ウォーター",
+      "栗田工業",
+      "GSユアサ",
+      "王子ホールディングス",
+      "住友林業",
+      "ブリヂストン",
+      "3Mジャパン",
+      "富士フイルム",
+      "日鉄鉱業",
+      "JX金属"
+    ],
+    "description": "化学・素材メーカーの営業・マーケティング・経営企画・管理部門等を担当。BtoB営業が中心で、顧客の製造プロセスを理解した提案営業が求められる。",
+    "ideal_profile": {
+      "description": "素材や化学に興味がありつつ、ビジネス面で活躍したい文系人材。",
+      "concrete_examples": [
+        "文系だが理系の内容にも抵抗がない",
+        "地道な営業活動ができる",
+        "顧客との長期的な関係構築が得意",
+        "安定志向だが成長も求める",
+        "ニッチな分野で専門性を高めたい"
+      ]
+    },
+    "personality_scores": {
+      "logic": 68,
+      "creativity": 55,
+      "empathy": 72,
+      "cooperativeness": 75,
+      "competitiveness": 52,
+      "initiative": 60,
+      "planning": 72,
+      "action_orientation": 65,
+      "stress_tolerance": 70,
+      "learning_speed": 68,
+      "intellectual_curiosity": 62,
+      "analytical_ability": 65,
+      "abstract_thinking": 55,
+      "communication": 75,
+      "presentation": 68,
+      "negotiation": 72,
+      "leadership": 58,
+      "patience": 78,
+      "flexibility": 65,
+      "discipline": 75
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ESTJ",
+        "reason": "BtoB営業の計画的遂行と組織力"
+      },
+      {
+        "rank": 2,
+        "type": "ISTJ",
+        "reason": "正確な見積・納期管理"
+      },
+      {
+        "rank": 3,
+        "type": "ESFJ",
+        "reason": "顧客との信頼関係構築"
+      },
+      {
+        "rank": 4,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "INTJ",
+        "reason": "INTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 50,
+      "conscientiousness": 78,
+      "extraversion": 58,
+      "agreeableness": 72,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 58,
+      "stability": 80,
+      "social_contribution": 55,
+      "income": 58,
+      "autonomy": 45,
+      "expertise": 55,
+      "teamwork": 75
+    },
+    "work_style": {
+      "suitable_environments": [
+        "安定した大企業",
+        "長期的な顧客関係",
+        "技術に触れられる"
+      ],
+      "unsuitable_environments": [
+        "激しい競争環境",
+        "短期成果主義",
+        "技術と無縁"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "BtoB営業",
+        "メーカー管理部門",
+        "商社"
+      ],
+      "unsuitable_careers": [
+        "スタートアップ",
+        "投資銀行",
+        "クリエイティブ職"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "バランス型",
+        "真面目な性格",
+        "協調性"
+      ],
+      "university": [
+        "経済・商学部",
+        "ゼミでの共同研究",
+        "企業研究を丁寧に行う"
+      ],
+      "part_time_job": [
+        "接客業",
+        "営業系"
+      ],
+      "club_activities": [
+        "体育会orサークル幹部",
+        "地道な活動"
+      ],
+      "internship": [
+        "メーカー事務系",
+        "商社インターン"
+      ]
+    },
+    "feature_tags": [
+      "#BtoB営業",
+      "#素材ビジネス",
+      "#化学業界",
+      "#顧客関係構築",
+      "#安定志向",
+      "#大企業",
+      "#コミュニケーション",
+      "#調整力",
+      "#チームワーク",
+      "#堅実",
+      "#長期キャリア",
+      "#技術理解",
+      "#提案営業",
+      "#見積管理",
+      "#納期管理",
+      "#交渉力",
+      "#報連相",
+      "#協調性",
+      "#責任感",
+      "#計画性",
+      "#福利厚生",
+      "#ワークライフバランス",
+      "#グローバル",
+      "#貿易実務",
+      "#管理部門",
+      "#経理",
+      "#人事",
+      "#法務",
+      "#調達",
+      "#物流"
+    ]
+  },
+  {
+    "company": "アーキタイプ：自動車メーカー技術系総合職",
+    "position": "技術系総合職",
+    "industry": "製造業（電機・精密・半導体）",
+    "archetype_id": "mfg_auto_tech",
+    "applies_to": [
+      "本田技研工業",
+      "日産自動車",
+      "スバル",
+      "マツダ",
+      "三菱自動車",
+      "ダイハツ工業",
+      "豊田自動織機",
+      "デンソー",
+      "アイシン",
+      "ジェイテクト",
+      "トヨタ車体",
+      "ヤマハ発動機"
+    ],
+    "description": "自動車・自動車部品メーカーでの研究開発・設計・生産技術・品質管理等。EV・自動運転・コネクテッド等のCASE技術革新に対応する技術開発が求められる。",
+    "ideal_profile": {
+      "description": "自動車・モビリティへの情熱があり、チームでのものづくりに取り組める技術者。",
+      "concrete_examples": [
+        "車やバイクが好き",
+        "機械いじりが趣味",
+        "大学で機械・電気系を専攻",
+        "チームでのプロジェクト経験",
+        "安全性への意識が高い"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 65,
+      "empathy": 62,
+      "cooperativeness": 80,
+      "competitiveness": 58,
+      "initiative": 68,
+      "planning": 78,
+      "action_orientation": 72,
+      "stress_tolerance": 75,
+      "learning_speed": 72,
+      "intellectual_curiosity": 75,
+      "analytical_ability": 78,
+      "abstract_thinking": 65,
+      "communication": 65,
+      "presentation": 58,
+      "negotiation": 52,
+      "leadership": 60,
+      "patience": 80,
+      "flexibility": 62,
+      "discipline": 85
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ISTJ",
+        "reason": "品質・安全重視の自動車文化に最適合"
+      },
+      {
+        "rank": 2,
+        "type": "ESTJ",
+        "reason": "生産ラインの組織的管理"
+      },
+      {
+        "rank": 3,
+        "type": "INTJ",
+        "reason": "次世代モビリティの技術戦略"
+      },
+      {
+        "rank": 4,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 58,
+      "conscientiousness": 85,
+      "extraversion": 48,
+      "agreeableness": 72,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 68,
+      "stability": 80,
+      "social_contribution": 68,
+      "income": 62,
+      "autonomy": 48,
+      "expertise": 78,
+      "teamwork": 82
+    },
+    "work_style": {
+      "suitable_environments": [
+        "チームでのものづくり",
+        "安全第一の文化",
+        "長期的な技術開発"
+      ],
+      "unsuitable_environments": [
+        "個人プレー",
+        "安全軽視",
+        "短期成果主義"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "自動車メーカー技術職",
+        "部品メーカーエンジニア",
+        "モビリティスタートアップ"
+      ],
+      "unsuitable_careers": [
+        "金融トレーダー",
+        "コンサルタント",
+        "接客業"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系で物理・数学が得意",
+        "車・バイクへの関心",
+        "ものづくり経験"
+      ],
+      "university": [
+        "機械・電気・情報系",
+        "研究室でのチーム研究",
+        "自動車関連の卒論"
+      ],
+      "part_time_job": [
+        "工場系",
+        "ガソリンスタンド"
+      ],
+      "club_activities": [
+        "自動車部",
+        "ロボコン"
+      ],
+      "internship": [
+        "自動車メーカーインターン",
+        "部品メーカーインターン"
+      ]
+    },
+    "feature_tags": [
+      "#自動車",
+      "#モビリティ",
+      "#CASE",
+      "#EV",
+      "#自動運転",
+      "#ものづくり",
+      "#品質管理",
+      "#安全第一",
+      "#チームワーク",
+      "#生産技術",
+      "#設計",
+      "#CAD",
+      "#シミュレーション",
+      "#テスト",
+      "#機械工学",
+      "#電気電子",
+      "#制御",
+      "#組込みソフト",
+      "#コツコツ型",
+      "#忍耐力",
+      "#規律",
+      "#改善",
+      "#PDCA",
+      "#現場主義",
+      "#安定志向",
+      "#長期キャリア",
+      "#グローバル",
+      "#サプライチェーン",
+      "#量産化",
+      "#信頼性"
+    ]
+  },
+  {
+    "company": "アーキタイプ：食品メーカー技術系総合職",
+    "position": "技術系総合職",
+    "industry": "食料品・飲料・嗜好品",
+    "archetype_id": "mfg_food_tech",
+    "applies_to": [
+      "不二製油グループ",
+      "サントリーホールディングス",
+      "キリンホールディングス",
+      "アサヒグループホールディングス",
+      "日清食品",
+      "日清製粉グループ",
+      "明治",
+      "キッコーマン",
+      "ネスレ日本",
+      "JT（日本たばこ産業）",
+      "カゴメ",
+      "サッポロビール",
+      "ニッスイ",
+      "日本ハム",
+      "森永製菓",
+      "森永乳業",
+      "カルビー",
+      "江崎グリコ",
+      "ハウス食品",
+      "ロッテ",
+      "ヤクルト本社",
+      "ミツカン",
+      "雪印メグミルク",
+      "キユーピー",
+      "マルハニチロ",
+      "アサヒ飲料"
+    ],
+    "description": "食品・飲料メーカーでの研究開発・生産技術・品質管理等。新商品の開発から工場の生産ライン管理まで、食の安全と美味しさを追求する技術業務。",
+    "ideal_profile": {
+      "description": "食への情熱があり、科学的アプローチで美味しさや安全を追求できる人。",
+      "concrete_examples": [
+        "食べることが大好き",
+        "食品化学や栄養学に興味",
+        "衛生管理への意識が高い",
+        "五感を使った官能評価ができる",
+        "消費者目線で商品を考えられる"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 72,
+      "empathy": 68,
+      "cooperativeness": 75,
+      "competitiveness": 50,
+      "initiative": 62,
+      "planning": 75,
+      "action_orientation": 65,
+      "stress_tolerance": 70,
+      "learning_speed": 72,
+      "intellectual_curiosity": 78,
+      "analytical_ability": 78,
+      "abstract_thinking": 68,
+      "communication": 65,
+      "presentation": 62,
+      "negotiation": 50,
+      "leadership": 55,
+      "patience": 78,
+      "flexibility": 68,
+      "discipline": 78
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ISTJ",
+        "reason": "食品安全・品質管理の徹底"
+      },
+      {
+        "rank": 2,
+        "type": "ISFJ",
+        "reason": "消費者への思いやりと丁寧な仕事"
+      },
+      {
+        "rank": 3,
+        "type": "INTJ",
+        "reason": "長期的な商品開発戦略"
+      },
+      {
+        "rank": 4,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 65,
+      "conscientiousness": 80,
+      "extraversion": 45,
+      "agreeableness": 72,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 62,
+      "stability": 78,
+      "social_contribution": 72,
+      "income": 55,
+      "autonomy": 52,
+      "expertise": 78,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": [
+        "食に関われる環境",
+        "品質重視の文化",
+        "消費者の声が聞ける"
+      ],
+      "unsuitable_environments": [
+        "食と無関係",
+        "安全管理が甘い",
+        "短期利益優先"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "食品メーカーR&D",
+        "品質管理",
+        "食品コンサルタント"
+      ],
+      "unsuitable_careers": [
+        "金融",
+        "IT系",
+        "建設業"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系で化学・生物",
+        "料理が好き",
+        "食への関心"
+      ],
+      "university": [
+        "食品科学・農学・栄養学",
+        "食品分析の実験",
+        "商品開発コンペ参加"
+      ],
+      "part_time_job": [
+        "飲食店",
+        "食品工場"
+      ],
+      "club_activities": [
+        "料理サークル",
+        "農業系サークル"
+      ],
+      "internship": [
+        "食品メーカーの研究インターン",
+        "工場見学"
+      ]
+    },
+    "feature_tags": [
+      "#食への情熱",
+      "#食品科学",
+      "#品質管理",
+      "#HACCP",
+      "#衛生管理",
+      "#商品開発",
+      "#官能評価",
+      "#研究開発",
+      "#生産技術",
+      "#栄養学",
+      "#食品安全",
+      "#消費者志向",
+      "#五感",
+      "#美味しさ追求",
+      "#コツコツ型",
+      "#チームワーク",
+      "#安定志向",
+      "#農学",
+      "#化学分析",
+      "#微生物",
+      "#保存技術",
+      "#パッケージ",
+      "#マーケティング連携",
+      "#工場管理",
+      "#環境対応",
+      "#SDGs",
+      "#フードロス",
+      "#健康志向",
+      "#アレルギー対応",
+      "#グローバル"
+    ]
+  },
+  {
+    "company": "アーキタイプ：食品メーカー事務系総合職",
+    "position": "事務系総合職",
+    "industry": "食料品・飲料・嗜好品",
+    "archetype_id": "mfg_food_admin",
+    "applies_to": [
+      "不二製油グループ",
+      "サントリーホールディングス",
+      "キリンホールディングス",
+      "アサヒグループホールディングス",
+      "日清食品",
+      "日清製粉グループ",
+      "明治",
+      "キッコーマン",
+      "ネスレ日本",
+      "JT（日本たばこ産業）",
+      "カゴメ",
+      "サッポロビール",
+      "ニッスイ",
+      "日本ハム",
+      "森永製菓",
+      "森永乳業",
+      "カルビー",
+      "江崎グリコ",
+      "ハウス食品",
+      "ロッテ",
+      "ヤクルト本社",
+      "ミツカン",
+      "雪印メグミルク",
+      "キユーピー",
+      "マルハニチロ",
+      "アサヒ飲料"
+    ],
+    "description": "食品メーカーの営業・マーケティング・経営企画・管理部門等。スーパーやコンビニへのルート営業、新商品のマーケティング戦略立案など消費者に近い業務が多い。",
+    "ideal_profile": {
+      "description": "食が好きで消費者目線のマーケティングに興味がある人。",
+      "concrete_examples": [
+        "新商品のチェックが習慣",
+        "SNSでトレンドを追う",
+        "人と話すのが好き",
+        "地道な営業活動ができる",
+        "食の文化や歴史に関心"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 68,
+      "empathy": 78,
+      "cooperativeness": 78,
+      "competitiveness": 55,
+      "initiative": 65,
+      "planning": 70,
+      "action_orientation": 70,
+      "stress_tolerance": 68,
+      "learning_speed": 68,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 62,
+      "abstract_thinking": 55,
+      "communication": 82,
+      "presentation": 72,
+      "negotiation": 72,
+      "leadership": 60,
+      "patience": 72,
+      "flexibility": 72,
+      "discipline": 72
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ESFJ",
+        "reason": "消費者・取引先との関係構築力"
+      },
+      {
+        "rank": 2,
+        "type": "ESTJ",
+        "reason": "営業の計画的遂行"
+      },
+      {
+        "rank": 3,
+        "type": "ENFJ",
+        "reason": "チームをまとめるマーケティングリーダー"
+      },
+      {
+        "rank": 4,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ISTJ",
+        "reason": "ISTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INTJ",
+        "reason": "INTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 62,
+      "conscientiousness": 72,
+      "extraversion": 72,
+      "agreeableness": 75,
+      "neuroticism": 42
+    },
+    "values": {
+      "growth": 60,
+      "stability": 75,
+      "social_contribution": 65,
+      "income": 55,
+      "autonomy": 48,
+      "expertise": 50,
+      "teamwork": 78
+    },
+    "work_style": {
+      "suitable_environments": [
+        "消費者に近い仕事",
+        "チームでの企画",
+        "食に関われる"
+      ],
+      "unsuitable_environments": [
+        "BtoB only",
+        "技術のみ",
+        "食と無関係"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "食品メーカー営業",
+        "マーケティング",
+        "小売バイヤー"
+      ],
+      "unsuitable_careers": [
+        "研究職",
+        "金融トレーダー",
+        "ITエンジニア"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "文系で社会が得意",
+        "コミュニケーション力",
+        "食への関心"
+      ],
+      "university": [
+        "経済・商・社会学部",
+        "マーケティングゼミ",
+        "食品企業の研究"
+      ],
+      "part_time_job": [
+        "飲食店ホール",
+        "スーパー・コンビニ"
+      ],
+      "club_activities": [
+        "サークル幹部",
+        "イベント企画"
+      ],
+      "internship": [
+        "食品メーカー営業インターン",
+        "マーケティングインターン"
+      ]
+    },
+    "feature_tags": [
+      "#食好き",
+      "#消費者マーケティング",
+      "#営業",
+      "#ルート営業",
+      "#BtoC",
+      "#新商品企画",
+      "#トレンド感度",
+      "#コミュニケーション",
+      "#チームワーク",
+      "#安定志向",
+      "#大企業",
+      "#ブランド",
+      "#SNSマーケ",
+      "#棚割り",
+      "#売場提案",
+      "#プレゼン",
+      "#交渉力",
+      "#調整力",
+      "#協調性",
+      "#食文化",
+      "#健康志向",
+      "#グローバル",
+      "#海外展開",
+      "#広告",
+      "#販促",
+      "#イベント企画",
+      "#管理部門",
+      "#経理",
+      "#人事",
+      "#物流"
+    ]
+  },
+  {
+    "company": "アーキタイプ：医薬品メーカー MR職",
+    "position": "MR職",
+    "industry": "医薬品",
+    "archetype_id": "pharma_mr",
+    "applies_to": [
+      "第一三共",
+      "アステラス製薬",
+      "中外製薬",
+      "エーザイ",
+      "塩野義製薬",
+      "大塚製薬",
+      "小野薬品工業",
+      "協和キリン",
+      "住友ファーマ",
+      "田辺三菱製薬",
+      "大鵬薬品工業",
+      "日本新薬",
+      "参天製薬",
+      "小林製薬",
+      "久光製薬",
+      "ロート製薬",
+      "大正製薬",
+      "アッヴィ",
+      "ジョンソン・エンド・ジョンソン"
+    ],
+    "description": "医師・薬剤師に対して自社医薬品の情報提供・収集を行うMR（Medical Representative）。担当エリアの医療機関を訪問し、最新の臨床データに基づく情報提供と副作用報告の収集を行う。",
+    "ideal_profile": {
+      "description": "医療に貢献したいという使命感があり、対人コミュニケーションが得意な人。",
+      "concrete_examples": [
+        "人の役に立つ仕事がしたい",
+        "医療への関心がある",
+        "初対面の人と打ち解けるのが得意",
+        "勉強を続けることが苦にならない",
+        "車の運転が好き（地方担当もある）"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 50,
+      "empathy": 82,
+      "cooperativeness": 72,
+      "competitiveness": 70,
+      "initiative": 75,
+      "planning": 72,
+      "action_orientation": 80,
+      "stress_tolerance": 75,
+      "learning_speed": 75,
+      "intellectual_curiosity": 68,
+      "analytical_ability": 62,
+      "abstract_thinking": 55,
+      "communication": 88,
+      "presentation": 82,
+      "negotiation": 72,
+      "leadership": 58,
+      "patience": 72,
+      "flexibility": 72,
+      "discipline": 75
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ESFJ",
+        "reason": "医師との信頼関係構築力"
+      },
+      {
+        "rank": 2,
+        "type": "ENFJ",
+        "reason": "患者への使命感とプレゼン力"
+      },
+      {
+        "rank": 3,
+        "type": "ESTJ",
+        "reason": "計画的なエリア営業"
+      },
+      {
+        "rank": 4,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ISTJ",
+        "reason": "ISTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INTJ",
+        "reason": "INTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 75,
+      "extraversion": 80,
+      "agreeableness": 72,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 65,
+      "stability": 68,
+      "social_contribution": 85,
+      "income": 68,
+      "autonomy": 60,
+      "expertise": 62,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": [
+        "医療に貢献できる",
+        "自律的に動ける",
+        "学び続けられる"
+      ],
+      "unsuitable_environments": [
+        "デスクワークのみ",
+        "人と話さない",
+        "医療と無関係"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "MR",
+        "医療機器営業",
+        "CRO営業"
+      ],
+      "unsuitable_careers": [
+        "研究職",
+        "ITエンジニア",
+        "経理"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "コミュニケーション力が高い",
+        "部活で人間関係を築いた",
+        "医療への関心"
+      ],
+      "university": [
+        "薬学・理系・文系問わず",
+        "MR認定試験対策",
+        "営業系のゼミ・サークル"
+      ],
+      "part_time_job": [
+        "接客業で対人スキル",
+        "ドラッグストア"
+      ],
+      "club_activities": [
+        "体育会系",
+        "人と関わる活動"
+      ],
+      "internship": [
+        "製薬会社MRインターン",
+        "営業インターン"
+      ]
+    },
+    "feature_tags": [
+      "#MR",
+      "#医療貢献",
+      "#対人営業",
+      "#プレゼン力",
+      "#医師対応",
+      "#信頼関係構築",
+      "#エリア営業",
+      "#車移動",
+      "#臨床データ",
+      "#副作用報告",
+      "#コンプライアンス",
+      "#学習継続",
+      "#使命感",
+      "#社会貢献",
+      "#コミュニケーション",
+      "#行動力",
+      "#自律性",
+      "#製薬業界",
+      "#ヘルスケア",
+      "#MR認定",
+      "#チーム医療",
+      "#患者志向",
+      "#地域医療",
+      "#KOL対応",
+      "#学会参加",
+      "#競争環境",
+      "#目標達成",
+      "#体力",
+      "#忍耐力",
+      "#適応力"
+    ]
+  },
+  {
+    "company": "アーキタイプ：医薬品メーカー研究職",
+    "position": "研究職",
+    "industry": "医薬品",
+    "archetype_id": "pharma_research",
+    "applies_to": [
+      "第一三共",
+      "アステラス製薬",
+      "中外製薬",
+      "エーザイ",
+      "塩野義製薬",
+      "大塚製薬",
+      "小野薬品工業",
+      "協和キリン",
+      "住友ファーマ",
+      "田辺三菱製薬",
+      "大鵬薬品工業",
+      "日本新薬",
+      "参天製薬",
+      "小林製薬",
+      "久光製薬",
+      "ロート製薬",
+      "大正製薬",
+      "アッヴィ",
+      "ジョンソン・エンド・ジョンソン"
+    ],
+    "description": "新薬の創薬研究・薬理研究・合成研究・製剤研究等。疾患メカニズムの解明から候補化合物の探索・最適化まで、基礎研究から前臨床段階の研究を担当する。",
+    "ideal_profile": {
+      "description": "科学への深い探究心と、患者さんの命を救いたいという使命感を持つ研究者。",
+      "concrete_examples": [
+        "大学院で生命科学・薬学の研究に没頭",
+        "論文を読むのが日常",
+        "実験の失敗から学ぶ姿勢",
+        "長期的な研究に耐えられる忍耐力",
+        "英語での学会発表経験"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 72,
+      "empathy": 72,
+      "cooperativeness": 68,
+      "competitiveness": 55,
+      "initiative": 65,
+      "planning": 78,
+      "action_orientation": 60,
+      "stress_tolerance": 72,
+      "learning_speed": 80,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 88,
+      "abstract_thinking": 85,
+      "communication": 58,
+      "presentation": 68,
+      "negotiation": 45,
+      "leadership": 50,
+      "patience": 88,
+      "flexibility": 62,
+      "discipline": 82
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "INTJ",
+        "reason": "長期的な創薬戦略と研究計画力"
+      },
+      {
+        "rank": 2,
+        "type": "INTP",
+        "reason": "深い理論的探究と新規メカニズム発見"
+      },
+      {
+        "rank": 3,
+        "type": "ISTJ",
+        "reason": "正確な実験遂行とデータ管理"
+      },
+      {
+        "rank": 4,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESTJ",
+        "reason": "ESTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 75,
+      "conscientiousness": 85,
+      "extraversion": 38,
+      "agreeableness": 65,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 72,
+      "stability": 68,
+      "social_contribution": 88,
+      "income": 60,
+      "autonomy": 68,
+      "expertise": 92,
+      "teamwork": 62
+    },
+    "work_style": {
+      "suitable_environments": [
+        "研究に集中できる",
+        "患者志向の文化",
+        "最先端の設備"
+      ],
+      "unsuitable_environments": [
+        "短期成果主義",
+        "研究費不足",
+        "営業中心の文化"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "製薬R&D",
+        "アカデミア研究者",
+        "バイオベンチャー"
+      ],
+      "unsuitable_careers": [
+        "MR営業",
+        "金融",
+        "コンサル"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系で生物・化学が得意",
+        "医療への関心",
+        "英語学習"
+      ],
+      "university": [
+        "薬学・生命科学の修士以上",
+        "国際学会発表",
+        "共同研究経験"
+      ],
+      "part_time_job": [
+        "研究補助RA",
+        "家庭教師"
+      ],
+      "club_activities": [
+        "学術系サークル",
+        "ボランティア"
+      ],
+      "internship": [
+        "製薬研究インターン",
+        "大学の共同研究"
+      ]
+    },
+    "feature_tags": [
+      "#創薬",
+      "#研究職",
+      "#生命科学",
+      "#薬理学",
+      "#有機合成",
+      "#製剤研究",
+      "#患者志向",
+      "#使命感",
+      "#知的好奇心",
+      "#論文",
+      "#学会",
+      "#実験",
+      "#データ分析",
+      "#統計",
+      "#修士博士",
+      "#英語力",
+      "#GLP",
+      "#コンプライアンス",
+      "#忍耐力",
+      "#几帳面",
+      "#再現性",
+      "#仮説検証",
+      "#長期研究",
+      "#チーム研究",
+      "#専門性",
+      "#バイオ",
+      "#抗体医薬",
+      "#低分子",
+      "#スクリーニング",
+      "#前臨床"
+    ]
+  },
+  {
+    "company": "アーキタイプ：医薬品メーカー開発職",
+    "position": "開発職",
+    "industry": "医薬品",
+    "archetype_id": "pharma_dev",
+    "applies_to": [
+      "第一三共",
+      "アステラス製薬",
+      "中外製薬",
+      "エーザイ",
+      "塩野義製薬",
+      "大塚製薬",
+      "小野薬品工業",
+      "協和キリン",
+      "住友ファーマ",
+      "田辺三菱製薬",
+      "大鵬薬品工業",
+      "日本新薬",
+      "参天製薬",
+      "小林製薬",
+      "久光製薬",
+      "ロート製薬",
+      "大正製薬",
+      "アッヴィ",
+      "ジョンソン・エンド・ジョンソン"
+    ],
+    "description": "臨床試験（治験）の企画・立案・モニタリング・データ解析を担当。Phase I〜IIIの治験を通じて新薬の有効性・安全性を検証し、承認申請に導く。CRA（臨床開発モニター）としてのキャリアからスタートすることが多い。",
+    "ideal_profile": {
+      "description": "科学的知識とプロジェクトマネジメント力を兼ね備え、多職種と連携できる人。",
+      "concrete_examples": [
+        "プロジェクト管理が得意",
+        "医療統計に興味がある",
+        "多くの関係者と調整した経験",
+        "英語でのコミュニケーション力",
+        "規制やルールを遵守する几帳面さ"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 55,
+      "empathy": 70,
+      "cooperativeness": 78,
+      "competitiveness": 52,
+      "initiative": 68,
+      "planning": 85,
+      "action_orientation": 68,
+      "stress_tolerance": 75,
+      "learning_speed": 75,
+      "intellectual_curiosity": 72,
+      "analytical_ability": 78,
+      "abstract_thinking": 68,
+      "communication": 75,
+      "presentation": 70,
+      "negotiation": 65,
+      "leadership": 65,
+      "patience": 78,
+      "flexibility": 68,
+      "discipline": 88
+    },
+    "mbti_ranking": [
+      {
+        "rank": 1,
+        "type": "ISTJ",
+        "reason": "GCP準拠の正確な治験遂行"
+      },
+      {
+        "rank": 2,
+        "type": "INTJ",
+        "reason": "長期的な開発戦略"
+      },
+      {
+        "rank": 3,
+        "type": "ESTJ",
+        "reason": "プロジェクト管理力"
+      },
+      {
+        "rank": 4,
+        "type": "ENTJ",
+        "reason": "ENTJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 5,
+        "type": "ISFJ",
+        "reason": "ISFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 6,
+        "type": "INFJ",
+        "reason": "INFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 7,
+        "type": "ISTP",
+        "reason": "ISTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 8,
+        "type": "INTP",
+        "reason": "INTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 9,
+        "type": "ESFJ",
+        "reason": "ESFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 10,
+        "type": "ENFJ",
+        "reason": "ENFJタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 11,
+        "type": "ESTP",
+        "reason": "ESTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 12,
+        "type": "ENTP",
+        "reason": "ENTPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 13,
+        "type": "ISFP",
+        "reason": "ISFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 14,
+        "type": "INFP",
+        "reason": "INFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 15,
+        "type": "ESFP",
+        "reason": "ESFPタイプの特性がこの職種に活かせる"
+      },
+      {
+        "rank": 16,
+        "type": "ENFP",
+        "reason": "ENFPタイプの特性がこの職種に活かせる"
+      }
+    ],
+    "big_five": {
+      "openness": 58,
+      "conscientiousness": 90,
+      "extraversion": 52,
+      "agreeableness": 70,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 68,
+      "stability": 72,
+      "social_contribution": 82,
+      "income": 62,
+      "autonomy": 55,
+      "expertise": 78,
+      "teamwork": 75
+    },
+    "work_style": {
+      "suitable_environments": [
+        "規制遵守の文化",
+        "多職種連携",
+        "グローバルプロジェクト"
+      ],
+      "unsuitable_environments": [
+        "ルールが曖昧",
+        "個人プレー",
+        "スピード重視でコンプラ軽視"
+      ]
+    },
+    "career_aptitude": {
+      "suitable_careers": [
+        "臨床開発",
+        "薬事",
+        "CRO"
+      ],
+      "unsuitable_careers": [
+        "研究職（基礎）",
+        "営業",
+        "スタートアップ"
+      ]
+    },
+    "student_features": {
+      "high_school": [
+        "理系で几帳面",
+        "ルールを守る",
+        "英語学習"
+      ],
+      "university": [
+        "薬学・医学・生命科学",
+        "統計学の知識",
+        "プロジェクト型の授業"
+      ],
+      "part_time_job": [
+        "事務系",
+        "塾講師"
+      ],
+      "club_activities": [
+        "組織運営系",
+        "学術系"
+      ],
+      "internship": [
+        "製薬開発インターン",
+        "CROインターン"
+      ]
+    },
+    "feature_tags": [
+      "#臨床開発",
+      "#治験",
+      "#CRA",
+      "#GCP",
+      "#プロジェクト管理",
+      "#統計解析",
+      "#規制対応",
+      "#承認申請",
+      "#多職種連携",
+      "#患者志向",
+      "#コンプライアンス",
+      "#几帳面",
+      "#計画性",
+      "#英語力",
+      "#グローバル",
+      "#モニタリング",
+      "#データマネジメント",
+      "#薬事",
+      "#PMDA",
+      "#FDA",
+      "#安全性情報",
+      "#有害事象",
+      "#プロトコル",
+      "#IRB",
+      "#インフォームドコンセント",
+      "#医療統計",
+      "#SAS",
+      "#チームワーク",
+      "#責任感",
+      "#長期プロジェクト"
+    ]
+  }
+]

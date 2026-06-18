@@ -1,0 +1,2308 @@
+[
+  {
+    "company": "三菱商事",
+    "industry": "総合商社",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 67,
+      "new_grad_female_pct": 33,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 }
+      },
+      "source": "有価証券報告書2024/採用サイト/ダイヤモンド",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 20,
+      "stem_grad_pct": 30,
+      "study_abroad_pct": 30,
+      "source": "推定/OpenWork/就活メディア",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 160,
+      "by_position": {
+        "総合職": 160
+      }
+    }
+  },
+  {
+    "company": "三井物産",
+    "industry": "総合商社",
+    "gender_data": {
+      "overall_male_pct": 68,
+      "overall_female_pct": 32,
+      "new_grad_male_pct": 57,
+      "new_grad_female_pct": 43,
+      "by_position": {
+        "総合職": { "male": 57, "female": 43 }
+      },
+      "source": "採用実績データ2024",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 20,
+      "stem_grad_pct": 30,
+      "study_abroad_pct": 30,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 126,
+      "by_position": {
+        "総合職": 126
+      }
+    }
+  },
+  {
+    "company": "伊藤忠商事",
+    "industry": "総合商社",
+    "gender_data": {
+      "overall_male_pct": 72,
+      "overall_female_pct": 28,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "有価証券報告書2024/採用サイト",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 35,
+      "returnee_pct": 15,
+      "stem_grad_pct": 25,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 160,
+      "by_position": {
+        "総合職": 160
+      }
+    }
+  },
+  {
+    "company": "住友商事",
+    "industry": "総合商社",
+    "gender_data": {
+      "overall_male_pct": 68,
+      "overall_female_pct": 32,
+      "new_grad_male_pct": 58,
+      "new_grad_female_pct": 42,
+      "by_position": {
+        "総合職": { "male": 58, "female": 42 }
+      },
+      "source": "採用実績データ2024",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 18,
+      "stem_grad_pct": 30,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 105,
+      "by_position": {
+        "総合職": 105
+      }
+    }
+  },
+  {
+    "company": "丸紅",
+    "industry": "総合商社",
+    "gender_data": {
+      "overall_male_pct": 68,
+      "overall_female_pct": 32,
+      "new_grad_male_pct": 50,
+      "new_grad_female_pct": 50,
+      "by_position": {
+        "総合職": { "male": 50, "female": 50 }
+      },
+      "source": "採用実績データ2024/マイナビ",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 18,
+      "stem_grad_pct": 28,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 77,
+      "by_position": {
+        "総合職": 77
+      }
+    }
+  },
+  {
+    "company": "三菱UFJ銀行",
+    "industry": "メガバンク",
+    "gender_data": {
+      "overall_male_pct": 44,
+      "overall_female_pct": 56,
+      "new_grad_male_pct": 71,
+      "new_grad_female_pct": 29,
+      "by_position": {
+        "総合職": { "male": 75, "female": 25 },
+        "エリア職": { "male": 15, "female": 85 }
+      },
+      "source": "採用実績データ2023/KOTORA JOURNAL",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 10,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 400,
+      "by_position": {
+        "総合職": 250,
+        "エリア職": 150
+      }
+    }
+  },
+  {
+    "company": "三井住友銀行",
+    "industry": "メガバンク",
+    "gender_data": {
+      "overall_male_pct": 44,
+      "overall_female_pct": 56,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 },
+        "エリア職": { "male": 15, "female": 85 }
+      },
+      "source": "採用実績データ2024",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 10,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 508,
+      "by_position": {
+        "総合職": 329,
+        "エリア職": 179
+      }
+    }
+  },
+  {
+    "company": "みずほフィナンシャルグループ",
+    "industry": "メガバンク",
+    "gender_data": {
+      "overall_male_pct": 44,
+      "overall_female_pct": 56,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 },
+        "エリア職": { "male": 15, "female": 85 }
+      },
+      "source": "KOTORA JOURNAL/推定",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 10,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 400,
+      "by_position": {
+        "総合職": 250,
+        "エリア職": 150
+      }
+    }
+  },
+  {
+    "company": "ゴールドマン・サックス",
+    "industry": "外資金融",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "推定/外資就活ドットコム",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 30,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 40,
+      "source": "推定/外資就活ドットコム",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 50,
+      "by_position": {
+        "総合職": 50
+      }
+    }
+  },
+  {
+    "company": "モルガン・スタンレー",
+    "industry": "外資金融",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "外資就活ドットコム/推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 30,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 40,
+      "source": "推定/外資就活ドットコム",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 130,
+      "by_position": {
+        "総合職": 130
+      }
+    }
+  },
+  {
+    "company": "JPモルガン",
+    "industry": "外資金融",
+    "gender_data": {
+      "overall_male_pct": 67,
+      "overall_female_pct": 33,
+      "new_grad_male_pct": 67,
+      "new_grad_female_pct": 33,
+      "by_position": {
+        "総合職": { "male": 67, "female": 33 }
+      },
+      "source": "外資就活ドットコム(内定者男女比2:1)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 35,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 40,
+      "source": "推定/外資就活ドットコム",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 30,
+      "by_position": {
+        "総合職": 30
+      }
+    }
+  },
+  {
+    "company": "バンク・オブ・アメリカ",
+    "industry": "外資金融",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 30,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 35,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 30,
+      "by_position": {
+        "総合職": 30
+      }
+    }
+  },
+  {
+    "company": "UBS",
+    "industry": "外資金融",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 30,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 35,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 25,
+      "by_position": {
+        "総合職": 25
+      }
+    }
+  },
+  {
+    "company": "マッキンゼー",
+    "industry": "戦略コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 }
+      },
+      "source": "推定/FactLogic",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 30,
+      "stem_grad_pct": 50,
+      "study_abroad_pct": 40,
+      "source": "推定/外資就活ドットコム",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 20,
+      "by_position": {
+        "総合職": 20
+      }
+    }
+  },
+  {
+    "company": "BCG",
+    "industry": "戦略コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 }
+      },
+      "source": "推定/FactLogic",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 25,
+      "stem_grad_pct": 50,
+      "study_abroad_pct": 35,
+      "source": "推定/外資就活ドットコム",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 30,
+      "by_position": {
+        "総合職": 30
+      }
+    }
+  },
+  {
+    "company": "ベイン・アンド・カンパニー",
+    "industry": "戦略コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 }
+      },
+      "source": "推定/FactLogic",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 25,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 35,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 15,
+      "by_position": {
+        "総合職": 15
+      }
+    }
+  },
+  {
+    "company": "A.T.カーニー",
+    "industry": "戦略コンサル",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 25,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 30,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 15,
+      "by_position": {
+        "総合職": 15
+      }
+    }
+  },
+  {
+    "company": "ローランド・ベルガー",
+    "industry": "戦略コンサル",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 25,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 30,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 10,
+      "by_position": {
+        "総合職": 10
+      }
+    }
+  },
+  {
+    "company": "アクセンチュア",
+    "industry": "総合コンサル",
+    "gender_data": {
+      "overall_male_pct": 51,
+      "overall_female_pct": 49,
+      "new_grad_male_pct": 51,
+      "new_grad_female_pct": 49,
+      "by_position": {
+        "総合職": { "male": 51, "female": 49 }
+      },
+      "source": "アクセンチュア公式HP(目標50:50)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 20,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 1000,
+      "by_position": {
+        "総合職": 1000
+      }
+    }
+  },
+  {
+    "company": "デロイト トーマツ コンサルティング",
+    "industry": "総合コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "採用実績データ2024(男性256名/女性136名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 20,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 392,
+      "by_position": {
+        "総合職": 392
+      }
+    }
+  },
+  {
+    "company": "PwCコンサルティング",
+    "industry": "総合コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 63,
+      "new_grad_female_pct": 37,
+      "by_position": {
+        "総合職": { "male": 63, "female": 37 }
+      },
+      "source": "推定/採用大学ランキング",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 12,
+      "returnee_pct": 20,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 300,
+      "by_position": {
+        "総合職": 300
+      }
+    }
+  },
+  {
+    "company": "EYストラテジー・アンド・コンサルティング",
+    "industry": "総合コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 63,
+      "new_grad_female_pct": 37,
+      "by_position": {
+        "総合職": { "male": 63, "female": 37 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 12,
+      "returnee_pct": 20,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 25,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 250,
+      "by_position": {
+        "総合職": 250
+      }
+    }
+  },
+  {
+    "company": "KPMGコンサルティング",
+    "industry": "総合コンサル",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 63,
+      "new_grad_female_pct": 37,
+      "by_position": {
+        "総合職": { "male": 63, "female": 37 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 12,
+      "returnee_pct": 18,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 22,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 200,
+      "by_position": {
+        "総合職": 200
+      }
+    }
+  },
+  {
+    "company": "Google",
+    "industry": "外資IT",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 70,
+      "new_grad_female_pct": 30,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 }
+      },
+      "source": "推定/グローバルDiversityレポート",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 25,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 30,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 50,
+      "by_position": {
+        "総合職": 50
+      }
+    }
+  },
+  {
+    "company": "Amazon",
+    "industry": "外資IT",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 65,
+      "new_grad_female_pct": 35,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 }
+      },
+      "source": "推定/グローバルDiversityレポート",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 20,
+      "stem_grad_pct": 65,
+      "study_abroad_pct": 25,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 100,
+      "by_position": {
+        "総合職": 100
+      }
+    }
+  },
+  {
+    "company": "Microsoft",
+    "industry": "外資IT",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 68,
+      "new_grad_female_pct": 32,
+      "by_position": {
+        "総合職": { "male": 68, "female": 32 }
+      },
+      "source": "推定/グローバルDiversityレポート",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 20,
+      "stem_grad_pct": 70,
+      "study_abroad_pct": 25,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 60,
+      "by_position": {
+        "総合職": 60
+      }
+    }
+  },
+  {
+    "company": "Apple",
+    "industry": "外資IT",
+    "gender_data": {
+      "overall_male_pct": 68,
+      "overall_female_pct": 32,
+      "new_grad_male_pct": 68,
+      "new_grad_female_pct": 32,
+      "by_position": {
+        "総合職": { "male": 68, "female": 32 }
+      },
+      "source": "推定/グローバルDiversityレポート",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 20,
+      "stem_grad_pct": 70,
+      "study_abroad_pct": 25,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 30,
+      "by_position": {
+        "総合職": 30
+      }
+    }
+  },
+  {
+    "company": "Meta",
+    "industry": "外資IT",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 70,
+      "new_grad_female_pct": 30,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 }
+      },
+      "source": "推定/グローバルDiversityレポート",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 20,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 25,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 20,
+      "by_position": {
+        "総合職": 20
+      }
+    }
+  },
+  {
+    "company": "東京海上日動",
+    "industry": "損保",
+    "gender_data": {
+      "overall_male_pct": 40,
+      "overall_female_pct": 60,
+      "new_grad_male_pct": 40,
+      "new_grad_female_pct": 60,
+      "by_position": {
+        "グローバルコース": { "male": 83, "female": 17 },
+        "エリアコース": { "male": 12, "female": 88 }
+      },
+      "source": "採用サイト/就活メディア(グローバル5:1/エリア1:8)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 35,
+      "returnee_pct": 15,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 20,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 500,
+      "by_position": {
+        "グローバルコース": 150,
+        "エリアコース": 350
+      }
+    }
+  },
+  {
+    "company": "三井住友海上",
+    "industry": "損保",
+    "gender_data": {
+      "overall_male_pct": 40,
+      "overall_female_pct": 60,
+      "new_grad_male_pct": 40,
+      "new_grad_female_pct": 60,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 },
+        "地域職": { "male": 10, "female": 90 }
+      },
+      "source": "採用メディア/マイナビ",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 10,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 300,
+      "by_position": {
+        "総合職": 100,
+        "地域職": 200
+      }
+    }
+  },
+  {
+    "company": "損保ジャパン",
+    "industry": "損保",
+    "gender_data": {
+      "overall_male_pct": 40,
+      "overall_female_pct": 60,
+      "new_grad_male_pct": 40,
+      "new_grad_female_pct": 60,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 },
+        "地域職": { "male": 10, "female": 90 }
+      },
+      "source": "損保ジャパン採用サイト/推定",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 10,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 300,
+      "by_position": {
+        "総合職": 100,
+        "地域職": 200
+      }
+    }
+  },
+  {
+    "company": "日本生命",
+    "industry": "生保",
+    "gender_data": {
+      "overall_male_pct": 20,
+      "overall_female_pct": 80,
+      "new_grad_male_pct": 33,
+      "new_grad_female_pct": 67,
+      "by_position": {
+        "総合職": { "male": 65, "female": 35 },
+        "営業職": { "male": 0, "female": 100 }
+      },
+      "source": "日本生命公式(内勤男女比1:2/営業ほぼ100%女性)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 8,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 10,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 800,
+      "by_position": {
+        "総合職": 200,
+        "営業職": 600
+      }
+    }
+  },
+  {
+    "company": "第一生命",
+    "industry": "生保",
+    "gender_data": {
+      "overall_male_pct": 25,
+      "overall_female_pct": 75,
+      "new_grad_male_pct": 35,
+      "new_grad_female_pct": 65,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 },
+        "営業職": { "male": 5, "female": 95 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 8,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 10,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 600,
+      "by_position": {
+        "総合職": 150,
+        "営業職": 450
+      }
+    }
+  },
+  {
+    "company": "住友生命",
+    "industry": "生保",
+    "gender_data": {
+      "overall_male_pct": 20,
+      "overall_female_pct": 80,
+      "new_grad_male_pct": 30,
+      "new_grad_female_pct": 70,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 },
+        "営業職": { "male": 5, "female": 95 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 5,
+      "stem_grad_pct": 12,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 500,
+      "by_position": {
+        "総合職": 120,
+        "営業職": 380
+      }
+    }
+  },
+  {
+    "company": "明治安田生命",
+    "industry": "生保",
+    "gender_data": {
+      "overall_male_pct": 20,
+      "overall_female_pct": 80,
+      "new_grad_male_pct": 30,
+      "new_grad_female_pct": 70,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 },
+        "営業職": { "male": 5, "female": 95 }
+      },
+      "source": "明治安田採用サイト/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 5,
+      "stem_grad_pct": 12,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 800,
+      "by_position": {
+        "総合職": 200,
+        "営業職": 600
+      }
+    }
+  },
+  {
+    "company": "三井不動産",
+    "industry": "デベロッパー",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "総合職": { "male": 55, "female": 45 }
+      },
+      "source": "採用実績データ2024(文系49名/理系20名)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 20,
+      "stem_grad_pct": 30,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 69,
+      "by_position": {
+        "総合職": 69
+      }
+    }
+  },
+  {
+    "company": "三菱地所",
+    "industry": "デベロッパー",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 51,
+      "new_grad_female_pct": 49,
+      "by_position": {
+        "総合職": { "male": 51, "female": 49 }
+      },
+      "source": "採用実績データ2024(男性22名/女性21名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 20,
+      "stem_grad_pct": 30,
+      "study_abroad_pct": 25,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 43,
+      "by_position": {
+        "総合職": 43
+      }
+    }
+  },
+  {
+    "company": "住友不動産",
+    "industry": "デベロッパー",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 15,
+      "stem_grad_pct": 25,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 80,
+      "by_position": {
+        "総合職": 80
+      }
+    }
+  },
+  {
+    "company": "東急不動産",
+    "industry": "デベロッパー",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "総合職": { "male": 60, "female": 40 }
+      },
+      "source": "採用メディア(女性比率約40%)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 15,
+      "stem_grad_pct": 25,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 40,
+      "by_position": {
+        "総合職": 40
+      }
+    }
+  },
+  {
+    "company": "野村不動産",
+    "industry": "デベロッパー",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 58,
+      "new_grad_female_pct": 42,
+      "by_position": {
+        "総合職": { "male": 58, "female": 42 }
+      },
+      "source": "採用実績データ2025(男性47名/女性34名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 15,
+      "stem_grad_pct": 25,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 81,
+      "by_position": {
+        "総合職": 81
+      }
+    }
+  },
+  {
+    "company": "鹿島建設",
+    "industry": "ゼネコン",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 78,
+      "new_grad_female_pct": 22,
+      "by_position": {
+        "総合職": { "male": 78, "female": 22 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 300,
+      "by_position": {
+        "総合職": 300
+      }
+    }
+  },
+  {
+    "company": "大林組",
+    "industry": "ゼネコン",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 80,
+      "new_grad_female_pct": 20,
+      "by_position": {
+        "総合職": { "male": 80, "female": 20 }
+      },
+      "source": "採用メディア(技術職女性約20%)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 300,
+      "by_position": {
+        "総合職": 300
+      }
+    }
+  },
+  {
+    "company": "大成建設",
+    "industry": "ゼネコン",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 80,
+      "new_grad_female_pct": 20,
+      "by_position": {
+        "総合職": { "male": 80, "female": 20 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 280,
+      "by_position": {
+        "総合職": 280
+      }
+    }
+  },
+  {
+    "company": "清水建設",
+    "industry": "ゼネコン",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 80,
+      "new_grad_female_pct": 20,
+      "by_position": {
+        "総合職": { "male": 80, "female": 20 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 280,
+      "by_position": {
+        "総合職": 280
+      }
+    }
+  },
+  {
+    "company": "竹中工務店",
+    "industry": "ゼネコン",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 80,
+      "new_grad_female_pct": 20,
+      "by_position": {
+        "総合職": { "male": 80, "female": 20 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 30,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 250,
+      "by_position": {
+        "総合職": 250
+      }
+    }
+  },
+  {
+    "company": "日本テレビ",
+    "industry": "キー局",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "総合職": { "male": 55, "female": 45 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 15,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 30,
+      "by_position": {
+        "総合職": 30
+      }
+    }
+  },
+  {
+    "company": "TBS",
+    "industry": "キー局",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "総合職": { "male": 55, "female": 45 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 15,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 25,
+      "by_position": {
+        "総合職": 25
+      }
+    }
+  },
+  {
+    "company": "フジテレビ",
+    "industry": "キー局",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "総合職": { "male": 55, "female": 45 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 15,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 25,
+      "by_position": {
+        "総合職": 25
+      }
+    }
+  },
+  {
+    "company": "テレビ朝日",
+    "industry": "キー局",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 50,
+      "new_grad_female_pct": 50,
+      "by_position": {
+        "総合職": { "male": 50, "female": 50 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 15,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 25,
+      "by_position": {
+        "総合職": 25
+      }
+    }
+  },
+  {
+    "company": "テレビ東京",
+    "industry": "キー局",
+    "gender_data": {
+      "overall_male_pct": 55,
+      "overall_female_pct": 45,
+      "new_grad_male_pct": 50,
+      "new_grad_female_pct": 50,
+      "by_position": {
+        "総合職": { "male": 50, "female": 50 }
+      },
+      "source": "テレビ東京採用サイト(男女比ほぼ同じ)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 15,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 20,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 20,
+      "by_position": {
+        "総合職": 20
+      }
+    }
+  },
+  {
+    "company": "朝日新聞",
+    "industry": "新聞",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "記者職": { "male": 60, "female": 40 },
+        "ビジネス職": { "male": 50, "female": 50 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 10,
+      "stem_grad_pct": 15,
+      "study_abroad_pct": 15,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 50,
+      "by_position": {
+        "記者職": 30,
+        "ビジネス職": 20
+      }
+    }
+  },
+  {
+    "company": "読売新聞",
+    "industry": "新聞",
+    "gender_data": {
+      "overall_male_pct": 72,
+      "overall_female_pct": 28,
+      "new_grad_male_pct": 58,
+      "new_grad_female_pct": 42,
+      "by_position": {
+        "記者職": { "male": 62, "female": 38 },
+        "ビジネス職": { "male": 50, "female": 50 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 8,
+      "stem_grad_pct": 12,
+      "study_abroad_pct": 12,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 60,
+      "by_position": {
+        "記者職": 35,
+        "ビジネス職": 25
+      }
+    }
+  },
+  {
+    "company": "毎日新聞",
+    "industry": "新聞",
+    "gender_data": {
+      "overall_male_pct": 72,
+      "overall_female_pct": 28,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "記者職": { "male": 58, "female": 42 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 8,
+      "stem_grad_pct": 10,
+      "study_abroad_pct": 12,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 30,
+      "by_position": {
+        "記者職": 20,
+        "ビジネス職": 10
+      }
+    }
+  },
+  {
+    "company": "日本経済新聞",
+    "industry": "新聞",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "記者職": { "male": 58, "female": 42 },
+        "デジタル職": { "male": 55, "female": 45 }
+      },
+      "source": "日経採用サイト/推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 12,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 15,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 50,
+      "by_position": {
+        "記者職": 30,
+        "デジタル職": 20
+      }
+    }
+  },
+  {
+    "company": "産経新聞",
+    "industry": "新聞",
+    "gender_data": {
+      "overall_male_pct": 75,
+      "overall_female_pct": 25,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "記者職": { "male": 65, "female": 35 }
+      },
+      "source": "推定",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 5,
+      "stem_grad_pct": 10,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 20,
+      "by_position": {
+        "記者職": 15,
+        "ビジネス職": 5
+      }
+    }
+  },
+  {
+    "company": "電通",
+    "industry": "広告",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 48,
+      "new_grad_female_pct": 52,
+      "by_position": {
+        "総合職": { "male": 48, "female": 52 }
+      },
+      "source": "採用実績データ2025(男性71名/女性77名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 15,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 20,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 148,
+      "by_position": {
+        "総合職": 148
+      }
+    }
+  },
+  {
+    "company": "博報堂",
+    "industry": "広告",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "総合職": { "male": 55, "female": 45 }
+      },
+      "source": "就活メディア(全体男女比7:3)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 15,
+      "stem_grad_pct": 20,
+      "study_abroad_pct": 20,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 130,
+      "by_position": {
+        "総合職": 130
+      }
+    }
+  },
+  {
+    "company": "サイバーエージェント",
+    "industry": "広告",
+    "gender_data": {
+      "overall_male_pct": 60,
+      "overall_female_pct": 40,
+      "new_grad_male_pct": 60,
+      "new_grad_female_pct": 40,
+      "by_position": {
+        "ビジネス職": { "male": 55, "female": 45 },
+        "エンジニア職": { "male": 80, "female": 20 }
+      },
+      "source": "推定/採用サイト",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 10,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 12,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 200,
+      "by_position": {
+        "ビジネス職": 120,
+        "エンジニア職": 80
+      }
+    }
+  },
+  {
+    "company": "トヨタ自動車",
+    "industry": "メーカー(自動車)",
+    "gender_data": {
+      "overall_male_pct": 85,
+      "overall_female_pct": 15,
+      "new_grad_male_pct": 78,
+      "new_grad_female_pct": 22,
+      "by_position": {
+        "技術職": { "male": 82, "female": 18 },
+        "事務職": { "male": 60, "female": 40 }
+      },
+      "source": "トヨタ採用サイト(技術394名/事務112名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 8,
+      "stem_grad_pct": 78,
+      "study_abroad_pct": 10,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 506,
+      "by_position": {
+        "技術職": 394,
+        "事務職": 112
+      }
+    }
+  },
+  {
+    "company": "ソニーグループ",
+    "industry": "メーカー(電機)",
+    "gender_data": {
+      "overall_male_pct": 75,
+      "overall_female_pct": 25,
+      "new_grad_male_pct": 70,
+      "new_grad_female_pct": 30,
+      "by_position": {
+        "総合職": { "male": 70, "female": 30 }
+      },
+      "source": "推定/Renew Magazine",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 15,
+      "stem_grad_pct": 70,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 301,
+      "by_position": {
+        "総合職": 301
+      }
+    }
+  },
+  {
+    "company": "キーエンス",
+    "industry": "メーカー(電機)",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 75,
+      "new_grad_female_pct": 25,
+      "by_position": {
+        "総合職": { "male": 75, "female": 25 }
+      },
+      "source": "推定/Renew Magazine",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 35,
+      "returnee_pct": 8,
+      "stem_grad_pct": 50,
+      "study_abroad_pct": 10,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 370,
+      "by_position": {
+        "総合職": 370
+      }
+    }
+  },
+  {
+    "company": "日立製作所",
+    "industry": "メーカー(電機)",
+    "gender_data": {
+      "overall_male_pct": 80,
+      "overall_female_pct": 20,
+      "new_grad_male_pct": 75,
+      "new_grad_female_pct": 25,
+      "by_position": {
+        "総合職": { "male": 75, "female": 25 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 8,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 10,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 600,
+      "by_position": {
+        "総合職": 600
+      }
+    }
+  },
+  {
+    "company": "パナソニック",
+    "industry": "メーカー(電機)",
+    "gender_data": {
+      "overall_male_pct": 78,
+      "overall_female_pct": 22,
+      "new_grad_male_pct": 72,
+      "new_grad_female_pct": 28,
+      "by_position": {
+        "総合職": { "male": 72, "female": 28 }
+      },
+      "source": "推定/Renew Magazine",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 8,
+      "stem_grad_pct": 70,
+      "study_abroad_pct": 10,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 1400,
+      "by_position": {
+        "総合職": 1400
+      }
+    }
+  },
+  {
+    "company": "三菱電機",
+    "industry": "メーカー(電機)",
+    "gender_data": {
+      "overall_male_pct": 82,
+      "overall_female_pct": 18,
+      "new_grad_male_pct": 78,
+      "new_grad_female_pct": 22,
+      "by_position": {
+        "技術系": { "male": 82, "female": 18 },
+        "事務系": { "male": 60, "female": 40 }
+      },
+      "source": "三菱電機採用サイト/採用計画2025",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 1050,
+      "by_position": {
+        "技術系": 650,
+        "事務系": 150,
+        "技能系": 250
+      }
+    }
+  },
+  {
+    "company": "富士通",
+    "industry": "メーカー(IT/電機)",
+    "gender_data": {
+      "overall_male_pct": 78,
+      "overall_female_pct": 22,
+      "new_grad_male_pct": 72,
+      "new_grad_female_pct": 28,
+      "by_position": {
+        "総合職": { "male": 72, "female": 28 }
+      },
+      "source": "推定/HRzine",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 12,
+      "returnee_pct": 8,
+      "stem_grad_pct": 70,
+      "study_abroad_pct": 10,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 800,
+      "by_position": {
+        "総合職": 800
+      }
+    }
+  },
+  {
+    "company": "NEC",
+    "industry": "メーカー(IT/電機)",
+    "gender_data": {
+      "overall_male_pct": 78,
+      "overall_female_pct": 22,
+      "new_grad_male_pct": 72,
+      "new_grad_female_pct": 28,
+      "by_position": {
+        "総合職": { "male": 72, "female": 28 }
+      },
+      "source": "NEC採用サイト",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 12,
+      "returnee_pct": 8,
+      "stem_grad_pct": 68,
+      "study_abroad_pct": 10,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 800,
+      "by_position": {
+        "総合職": 800
+      }
+    }
+  },
+  {
+    "company": "東京エレクトロン",
+    "industry": "メーカー(半導体製造装置)",
+    "gender_data": {
+      "overall_male_pct": 82,
+      "overall_female_pct": 18,
+      "new_grad_male_pct": 80,
+      "new_grad_female_pct": 20,
+      "by_position": {
+        "総合職": { "male": 80, "female": 20 }
+      },
+      "source": "採用実績データ2024(男性369名/女性94名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 5,
+      "stem_grad_pct": 85,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 463,
+      "by_position": {
+        "総合職": 463
+      }
+    }
+  },
+  {
+    "company": "ファナック",
+    "industry": "メーカー(FA/ロボット)",
+    "gender_data": {
+      "overall_male_pct": 85,
+      "overall_female_pct": 15,
+      "new_grad_male_pct": 82,
+      "new_grad_female_pct": 18,
+      "by_position": {
+        "総合職": { "male": 82, "female": 18 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 5,
+      "stem_grad_pct": 85,
+      "study_abroad_pct": 5,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 111,
+      "by_position": {
+        "総合職": 111
+      }
+    }
+  },
+  {
+    "company": "味の素",
+    "industry": "メーカー(食品)",
+    "gender_data": {
+      "overall_male_pct": 68,
+      "overall_female_pct": 32,
+      "new_grad_male_pct": 58,
+      "new_grad_female_pct": 42,
+      "by_position": {
+        "営業": { "male": 55, "female": 45 },
+        "研究開発": { "male": 60, "female": 40 },
+        "生産": { "male": 70, "female": 30 }
+      },
+      "source": "味の素採用サイト2025(営業49名/研究56名/生産32名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 10,
+      "stem_grad_pct": 60,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 150,
+      "by_position": {
+        "営業": 49,
+        "研究開発": 56,
+        "生産": 32,
+        "その他": 13
+      }
+    }
+  },
+  {
+    "company": "サントリー",
+    "industry": "メーカー(飲料)",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "総合職": { "male": 55, "female": 45 }
+      },
+      "source": "就活メディア(男性がやや多い程度)",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 12,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 15,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 115,
+      "by_position": {
+        "総合職": 115
+      }
+    }
+  },
+  {
+    "company": "キリン",
+    "industry": "メーカー(飲料)",
+    "gender_data": {
+      "overall_male_pct": 70,
+      "overall_female_pct": 30,
+      "new_grad_male_pct": 56,
+      "new_grad_female_pct": 44,
+      "by_position": {
+        "総合職": { "male": 56, "female": 44 }
+      },
+      "source": "就活メディア(過去3年平均 男14:女11)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 20,
+      "returnee_pct": 10,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 12,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 100,
+      "by_position": {
+        "総合職": 100
+      }
+    }
+  },
+  {
+    "company": "武田薬品工業",
+    "industry": "メーカー(製薬)",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "MR職": { "male": 60, "female": 40 },
+        "研究職": { "male": 55, "female": 45 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 15,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 15,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 100,
+      "by_position": {
+        "総合職": 100
+      }
+    }
+  },
+  {
+    "company": "第一三共",
+    "industry": "メーカー(製薬)",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 55,
+      "new_grad_female_pct": 45,
+      "by_position": {
+        "MR職": { "male": 60, "female": 40 },
+        "研究職": { "male": 55, "female": 45 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "low"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 12,
+      "stem_grad_pct": 80,
+      "study_abroad_pct": 12,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 80,
+      "by_position": {
+        "総合職": 80
+      }
+    }
+  },
+  {
+    "company": "花王",
+    "industry": "メーカー(日用品/化学)",
+    "gender_data": {
+      "overall_male_pct": 65,
+      "overall_female_pct": 35,
+      "new_grad_male_pct": 50,
+      "new_grad_female_pct": 50,
+      "by_position": {
+        "総合職": { "male": 50, "female": 50 }
+      },
+      "source": "採用実績データ2024(男性72名/女性71名)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 12,
+      "returnee_pct": 10,
+      "stem_grad_pct": 65,
+      "study_abroad_pct": 12,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 143,
+      "by_position": {
+        "総合職": 143
+      }
+    }
+  },
+  {
+    "company": "資生堂",
+    "industry": "メーカー(化粧品)",
+    "gender_data": {
+      "overall_male_pct": 30,
+      "overall_female_pct": 70,
+      "new_grad_male_pct": 35,
+      "new_grad_female_pct": 65,
+      "by_position": {
+        "総合職": { "male": 40, "female": 60 }
+      },
+      "source": "推定/就活メディア",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 10,
+      "returnee_pct": 15,
+      "stem_grad_pct": 45,
+      "study_abroad_pct": 18,
+      "source": "推定/OpenWork",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 46,
+      "by_position": {
+        "総合職": 46
+      }
+    }
+  },
+  {
+    "company": "P&G",
+    "industry": "メーカー(日用品/外資)",
+    "gender_data": {
+      "overall_male_pct": 50,
+      "overall_female_pct": 50,
+      "new_grad_male_pct": 50,
+      "new_grad_female_pct": 50,
+      "by_position": {
+        "総合職": { "male": 50, "female": 50 }
+      },
+      "source": "P&G公式HP(男女平等採用明記)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 25,
+      "stem_grad_pct": 40,
+      "study_abroad_pct": 30,
+      "source": "推定/外資就活ドットコム",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 61,
+      "by_position": {
+        "総合職": 61
+      }
+    }
+  },
+  {
+    "company": "日本製鉄",
+    "industry": "メーカー(鉄鋼)",
+    "gender_data": {
+      "overall_male_pct": 88,
+      "overall_female_pct": 12,
+      "new_grad_male_pct": 82,
+      "new_grad_female_pct": 18,
+      "by_position": {
+        "技術系": { "male": 85, "female": 15 },
+        "事務系": { "male": 60, "female": 40 }
+      },
+      "source": "推定/unistyle",
+      "confidence": "medium"
+    },
+    "background_data": {
+      "athlete_pct": 25,
+      "returnee_pct": 5,
+      "stem_grad_pct": 75,
+      "study_abroad_pct": 8,
+      "source": "推定",
+      "confidence": "low"
+    },
+    "hiring_volume": {
+      "total": 300,
+      "by_position": {
+        "技術系": 220,
+        "事務系": 80
+      }
+    }
+  },
+  {
+    "company": "旭化成",
+    "industry": "メーカー(化学)",
+    "gender_data": {
+      "overall_male_pct": 75,
+      "overall_female_pct": 25,
+      "new_grad_male_pct": 71,
+      "new_grad_female_pct": 29,
+      "by_position": {
+        "総合職": { "male": 71, "female": 29 }
+      },
+      "source": "採用メディア(男女比5:2)",
+      "confidence": "high"
+    },
+    "background_data": {
+      "athlete_pct": 15,
+      "returnee_pct": 8,
+      "stem_grad_pct": 70,
+      "study_abroad_pct": 10,
+      "source": "推定",
+      "confidence": "medium"
+    },
+    "hiring_volume": {
+      "total": 178,
+      "by_position": {
+        "総合職": 178
+      }
+    }
+  }
+]

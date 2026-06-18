@@ -1,0 +1,4251 @@
+[
+  {
+    "company": "キー局テレビ（番組制作）アーキタイプ",
+    "position": "総合職（番組制作・ディレクター）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "TV_PRODUCTION_KEY",
+    "applies_to": ["日本テレビ放送網", "テレビ朝日", "TBSテレビ", "フジテレビジョン", "テレビ東京"],
+    "description": "バラエティ・ドラマ・情報番組等の企画立案から取材・撮影・編集・放送までを統括するディレクター職。出演者・スタッフのキャスティング、ロケハン、台本作成、スタジオ収録の演出、編集作業を行う。深夜や休日の不規則勤務が常態化し、複数番組を掛け持ちすることも多い。視聴率という明確な数値目標に晒されながらも、自分のアイデアが数百万人に届く醍醐味がある。",
+    "ideal_profile": {
+      "description": "好奇心旺盛で『面白い』を言語化・映像化できる人。体力と精神力があり、不規則な生活リズムに耐えられる。人を巻き込む力と、現場で即断即決できる判断力を持つ。トレンドへの感度が高く、自分なりの視点で世の中を切り取れる。",
+      "concrete_examples": [
+        "学園祭やイベントで企画・演出の中心を担い、観客動員を前年比150%にした経験がある",
+        "映像制作サークルで自主映画を撮り、コンテストに応募した経験がある",
+        "飲み会や旅行の幹事を率先して引き受け、参加者全員を楽しませる工夫を凝らすタイプ",
+        "SNSでバズるコンテンツを分析し、なぜ面白いのかを構造的に説明できる",
+        "深夜2時まで作業しても翌朝ケロッとしている体力がある",
+        "初対面の人にも臆せず話しかけ、面白い話を引き出せる取材力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 55,
+      "creativity": 95,
+      "empathy": 70,
+      "cooperativeness": 65,
+      "competitiveness": 85,
+      "initiative": 90,
+      "planning": 50,
+      "action_orientation": 95,
+      "stress_tolerance": 90,
+      "learning_speed": 80,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 60,
+      "abstract_thinking": 75,
+      "communication": 90,
+      "presentation": 85,
+      "negotiation": 75,
+      "leadership": 85,
+      "patience": 40,
+      "flexibility": 90,
+      "discipline": 45
+    },
+    "mbti_ranking": ["ENTP", "ENFP", "ESTP", "ESFP", "ENTJ", "ENFJ", "ISTP", "INFP", "INTP", "ISFP", "ESTJ", "ESFJ", "INTJ", "INFJ", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 92,
+      "conscientiousness": 45,
+      "extraversion": 88,
+      "agreeableness": 50,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 80,
+      "stability": 25,
+      "social_contribution": 55,
+      "income": 70,
+      "autonomy": 75,
+      "expertise": 70,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["裁量が大きく自分のアイデアを形にできる環境", "変化が激しくルーティンが少ない現場", "チームで一つの作品を作り上げるプロジェクト型", "成果が数字（視聴率）で明確に見える環境"],
+      "unsuitable_environments": ["定型業務の繰り返しが中心の職場", "9時-17時の規則正しい勤務体系", "個人作業が中心で人との関わりが少ない環境", "意思決定に何段階もの承認が必要な組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["映像ディレクター", "プロデューサー", "イベントプランナー", "広告クリエイティブ", "コンテンツマーケター"],
+      "unsuitable_careers": ["経理・財務", "品質管理", "ルートセールス", "監査法人職員"]
+    },
+    "student_features": {
+      "high_school": ["文化祭の実行委員長やステージ企画担当", "放送部や映像制作部に所属", "目立ちたがりで学校行事の中心人物"],
+      "university": ["映像制作サークルやお笑いサークルで活動", "テレビ局のADアルバイトやインターン経験", "ゼミの発表でプレゼンが群を抜いて上手い", "海外旅行やバックパッカーで多様な経験を積んでいる"],
+      "part_time_job": ["イベントスタッフや結婚式場での企画運営", "飲食店でムードメーカー的存在"],
+      "club_activities": ["放送部・映画研究会・お笑いサークル", "学園祭実行委員会で企画統括"],
+      "internship": ["テレビ局の番組制作アシスタント", "映像制作会社での短期インターン"]
+    },
+    "feature_tags": ["#企画力", "#映像センス", "#トレンド感度", "#体力勝負", "#不規則勤務OK", "#視聴率プレッシャー", "#チームワーク", "#現場主義", "#即断即決", "#好奇心旺盛", "#人を巻き込む力", "#取材力", "#演出力", "#マルチタスク", "#プレッシャー耐性", "#エンタメ愛", "#話題のアンテナ", "#クリエイティブ", "#リーダーシップ", "#行動力", "#柔軟性", "#コミュニケーション力", "#深夜労働", "#ストーリーテリング", "#ビジュアル思考", "#情報収集力", "#交渉力", "#現場対応力", "#チャレンジ精神", "#表現力"]
+  },
+  {
+    "company": "キー局テレビ（報道・記者）アーキタイプ",
+    "position": "総合職（報道）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "TV_NEWS_KEY",
+    "applies_to": ["日本テレビ放送網", "テレビ朝日", "TBSテレビ", "フジテレビジョン", "テレビ東京"],
+    "description": "事件・事故・政治・経済・国際情勢などのニュースを取材し、映像と原稿で伝える報道記者・ニュースディレクター職。記者会見への出席、関係者への直接取材、現場中継のリポート、ニュース番組の構成・編集を行う。突発的な事件への即応が求められ、災害時や選挙時は長時間拘束される。社会的影響力が大きく、報道の正確性と速報性の両立が問われる。",
+    "ideal_profile": {
+      "description": "社会問題への強い関心と正義感を持ち、事実を正確に伝えることに使命感を感じる人。粘り強い取材力と、初対面の人から情報を引き出すコミュニケーション力が必要。締切プレッシャーの中でも冷静に判断できる精神力を持つ。",
+      "concrete_examples": [
+        "新聞を毎日複数紙読み比べ、報道の角度の違いを分析する習慣がある",
+        "大学でジャーナリズムやメディア論を専攻し、卒論でルポルタージュを書いた",
+        "学生記者として大学新聞やWebメディアで記事を執筆した経験がある",
+        "ボランティア活動を通じて社会課題の現場を自分の目で見た経験がある",
+        "政治家や企業の記者会見をYouTubeで見て、質問の仕方を研究したことがある",
+        "災害被災地でのボランティア経験から、現場の空気を伝える重要性を実感している"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 65,
+      "empathy": 65,
+      "cooperativeness": 55,
+      "competitiveness": 80,
+      "initiative": 90,
+      "planning": 55,
+      "action_orientation": 90,
+      "stress_tolerance": 85,
+      "learning_speed": 85,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 80,
+      "abstract_thinking": 70,
+      "communication": 85,
+      "presentation": 80,
+      "negotiation": 75,
+      "leadership": 65,
+      "patience": 50,
+      "flexibility": 80,
+      "discipline": 60
+    },
+    "mbti_ranking": ["ENTP", "ENTJ", "ENFP", "ESTP", "INTJ", "INTP", "ENFJ", "INFP", "ESTJ", "ISTP", "ESFP", "INFJ", "ESFJ", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 88,
+      "conscientiousness": 55,
+      "extraversion": 80,
+      "agreeableness": 40,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 75,
+      "stability": 30,
+      "social_contribution": 85,
+      "income": 60,
+      "autonomy": 80,
+      "expertise": 75,
+      "teamwork": 50
+    },
+    "work_style": {
+      "suitable_environments": ["速報性が求められるスピード感のある職場", "社会的意義の大きい仕事に携われる環境", "自分の足で情報を取りに行く現場主義の文化", "若手にも大きな案件を任せる実力主義"],
+      "unsuitable_environments": ["デスクワーク中心で外出が少ない環境", "変化が少なくルーティン業務が中心", "上意下達で自分の意見を言いにくい組織", "成果が見えにくい裏方的な業務"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["報道記者", "ジャーナリスト", "政策アナリスト", "ドキュメンタリー制作", "ノンフィクション作家"],
+      "unsuitable_careers": ["ルーティン事務", "経理", "倉庫管理", "定型営業"]
+    },
+    "student_features": {
+      "high_school": ["新聞部やディベート部に所属", "時事問題に詳しく、社会科の成績が良い", "学校行事で司会や放送を担当"],
+      "university": ["ジャーナリズム系ゼミや政治学・社会学を専攻", "学生新聞やWebメディアで記事を執筆", "模擬国連やディベート大会に出場", "留学経験があり国際的な視野を持つ"],
+      "part_time_job": ["出版社やメディア企業でのアルバイト", "塾講師など説明力が鍛えられるアルバイト"],
+      "club_activities": ["新聞部・放送部・ディベート部", "模擬国連サークル"],
+      "internship": ["テレビ局報道部での取材同行インターン", "新聞社での記者体験プログラム"]
+    },
+    "feature_tags": ["#報道魂", "#取材力", "#速報対応", "#社会正義", "#事実追求", "#ジャーナリズム", "#プレッシャー耐性", "#行動力", "#粘り強さ", "#情報収集", "#文章力", "#現場主義", "#突発対応", "#知的好奇心", "#問題意識", "#批判的思考", "#コミュニケーション力", "#使命感", "#時事問題", "#フットワーク", "#観察力", "#中立性", "#スピード感", "#危機管理", "#公共性", "#社会貢献", "#政治経済", "#国際感覚", "#根性", "#深掘り力"]
+  },
+  {
+    "company": "キー局テレビ（営業・セールス）アーキタイプ",
+    "position": "総合職（営業・セールス・マーケティング）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "TV_SALES_KEY",
+    "applies_to": ["日本テレビ放送網", "テレビ朝日", "TBSテレビ", "フジテレビジョン", "テレビ東京"],
+    "description": "広告主（スポンサー企業）や広告代理店に対してテレビCM枠の販売、番組タイアップ企画の提案、イベント協賛の営業を行う。スポンサーのマーケティング課題を理解した上で、自局の番組やコンテンツを活用したソリューションを提案する。番組の視聴率データや視聴者属性データを活用した提案力が求められ、広告代理店との折衝も多い。華やかなイメージとは裏腹に泥臭い営業活動も多く、接待や会食も業務の一部。",
+    "ideal_profile": {
+      "description": "社交的で人間関係構築力が高く、クライアントの課題をヒアリングして最適な提案ができる人。数字への意識が高く、売上目標達成へのコミットメントがある。テレビや広告への興味と、ビジネス的な思考力の両方を兼ね備える。",
+      "concrete_examples": [
+        "大学でマーケティングや広告論を学び、実際のCM分析レポートを書いた経験がある",
+        "営業系アルバイトで目標を常に達成し、トップセールスの経験がある",
+        "サークルや部活でスポンサー獲得の渉外活動を行った経験がある",
+        "初対面の人とすぐに打ち解け、信頼関係を築けるコミュニケーション力がある",
+        "データを読み解いて提案書に落とし込むプレゼンテーション力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 60,
+      "empathy": 75,
+      "cooperativeness": 75,
+      "competitiveness": 80,
+      "initiative": 80,
+      "planning": 65,
+      "action_orientation": 80,
+      "stress_tolerance": 75,
+      "learning_speed": 70,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 65,
+      "abstract_thinking": 50,
+      "communication": 90,
+      "presentation": 85,
+      "negotiation": 85,
+      "leadership": 65,
+      "patience": 60,
+      "flexibility": 75,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENFJ", "ENTJ", "ESFJ", "ESTP", "ENFP", "ESTJ", "ENTP", "ESFP", "ISFJ", "INFJ", "ISTJ", "ISTP", "INTJ", "INFP", "INTP", "ISFP"],
+    "big_five": {
+      "openness": 65,
+      "conscientiousness": 65,
+      "extraversion": 88,
+      "agreeableness": 68,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 70,
+      "stability": 55,
+      "social_contribution": 40,
+      "income": 80,
+      "autonomy": 55,
+      "expertise": 50,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["人との関わりが多く対外折衝が中心の職場", "営業成績が明確に評価される実力主義", "華やかな業界で大手クライアントと仕事ができる環境", "提案型の営業でクリエイティビティも発揮できる"],
+      "unsuitable_environments": ["一人でコツコツ作業する環境", "数字目標がなく成果が曖昧な職場", "技術的な専門知識だけが評価される環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["広告営業", "メディアセールス", "マーケティング", "法人営業", "事業開発"],
+      "unsuitable_careers": ["研究開発", "プログラミング", "監査", "図書館司書"]
+    },
+    "student_features": {
+      "high_school": ["体育祭や文化祭の渉外・協賛企業交渉を担当", "部活のキャプテンや副部長で対外折衝経験", "コミュニケーション力が高く友人が多い"],
+      "university": ["広告研究会やマーケティングサークルに所属", "学園祭のスポンサー獲得営業を経験", "ビジネスコンテストで企業提案型のプレゼンを経験"],
+      "part_time_job": ["不動産営業や通信回線の訪問販売", "アパレル販売員でトップセールス経験"],
+      "club_activities": ["広告研究会・マーケティングサークル", "体育会系部活のマネージャーやOB渉外担当"],
+      "internship": ["広告代理店でのメディアプランニング体験", "メーカーのマーケティング部門インターン"]
+    },
+    "feature_tags": ["#営業力", "#対人折衝", "#提案力", "#プレゼンテーション", "#数字意識", "#クライアントファースト", "#関係構築", "#社交性", "#目標達成", "#広告ビジネス", "#メディア知識", "#マーケティング視点", "#接待力", "#信頼構築", "#ビジネスセンス", "#コミュニケーション", "#交渉力", "#外向的", "#チームプレー", "#フットワーク", "#柔軟性", "#業界人脈", "#企画提案", "#データ活用", "#市場分析", "#華やかさ", "#根回し力", "#段取り力", "#結果主義", "#ホスピタリティ"]
+  },
+  {
+    "company": "キー局テレビ（コーポレート）アーキタイプ",
+    "position": "総合職（コーポレート・管理部門）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "TV_CORPORATE_KEY",
+    "applies_to": ["日本テレビ放送網", "テレビ朝日", "TBSテレビ", "フジテレビジョン", "テレビ東京"],
+    "description": "テレビ局の経営を支える管理部門（人事・経理・財務・法務・総務・広報・IR等）の業務を担う。番組制作の権利処理、出演者との契約管理、放送倫理・コンプライアンスの管理、経営企画・中期経営計画の策定など、テレビ局特有の法務・企画業務も含まれる。制作現場ほどの不規則さはないが、テレビ局という特殊な組織の管理業務ゆえに独特の知識が求められる。",
+    "ideal_profile": {
+      "description": "正確性と論理性を備え、縁の下の力持ちとして組織を支えることにやりがいを感じる人。テレビ業界への関心がありつつも、管理・企画面から貢献したいという明確な意思を持つ。ステークホルダーとの調整力と、法的・会計的な基礎知識への学習意欲がある。",
+      "concrete_examples": [
+        "大学で法学や会計学を専攻し、資格取得にも積極的",
+        "サークルの会計や総務担当として組織運営を支えた経験がある",
+        "学園祭実行委員会で予算管理や許認可申請の実務を担った",
+        "テレビ業界が好きだが、裏方からの貢献にやりがいを感じるタイプ",
+        "細かい数字のチェックや書類作成を正確にこなせる几帳面さがある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 40,
+      "empathy": 60,
+      "cooperativeness": 75,
+      "competitiveness": 45,
+      "initiative": 55,
+      "planning": 85,
+      "action_orientation": 55,
+      "stress_tolerance": 65,
+      "learning_speed": 70,
+      "intellectual_curiosity": 60,
+      "analytical_ability": 75,
+      "abstract_thinking": 55,
+      "communication": 70,
+      "presentation": 60,
+      "negotiation": 65,
+      "leadership": 50,
+      "patience": 80,
+      "flexibility": 55,
+      "discipline": 85
+    },
+    "mbti_ranking": ["ISTJ", "ESTJ", "INTJ", "ISFJ", "ENTJ", "INFJ", "ESFJ", "ENFJ", "INTP", "ISTP", "ENTP", "ENFP", "ESTP", "ISFP", "ESFP", "INFP"],
+    "big_five": {
+      "openness": 50,
+      "conscientiousness": 85,
+      "extraversion": 50,
+      "agreeableness": 65,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 55,
+      "stability": 80,
+      "social_contribution": 45,
+      "income": 70,
+      "autonomy": 40,
+      "expertise": 65,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["正確性と計画性が評価される管理部門", "メディア業界の裏側を支えるやりがいのある職場", "法務・会計等の専門性を活かせる環境", "比較的規則的な勤務体系"],
+      "unsuitable_environments": ["常に新しいアイデアを求められるクリエイティブ職場", "不規則な勤務や突発対応が日常的な現場", "個人の成果が数字で厳しく評価される営業職"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["経営企画", "法務・コンプライアンス", "人事", "経理・財務", "IR・広報"],
+      "unsuitable_careers": ["番組制作ディレクター", "取材記者", "フリーランスクリエイター", "外資系営業"]
+    },
+    "student_features": {
+      "high_school": ["生徒会の会計や書記を担当", "真面目でルールを守る優等生タイプ", "文系科目全般に安定した成績"],
+      "university": ["法学部・経済学部・商学部で会計や法律を学ぶ", "ゼミの運営幹事や会計担当", "簿記やTOEIC等の資格取得に積極的"],
+      "part_time_job": ["事務系アルバイトやデータ入力", "塾講師で正確に教える力を磨いた"],
+      "club_activities": ["ゼミ幹事・サークル会計", "学生自治会の運営スタッフ"],
+      "internship": ["事業会社の管理部門インターン", "テレビ局のコーポレート部門での職場体験"]
+    },
+    "feature_tags": ["#管理部門", "#正確性", "#几帳面", "#法務知識", "#会計知識", "#計画性", "#組織運営", "#調整力", "#コンプライアンス", "#経営企画", "#人事", "#経理", "#IR", "#安定志向", "#縁の下の力持ち", "#ルール遵守", "#書類作成力", "#数字管理", "#リスク管理", "#チームサポート", "#責任感", "#堅実", "#裏方", "#専門性構築", "#業界知識", "#契約管理", "#知財", "#予算管理", "#ステークホルダー調整", "#着実"]
+  },
+  {
+    "company": "準キー局テレビ（番組制作）アーキタイプ",
+    "position": "総合職（番組制作）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "TV_PRODUCTION_LOCAL",
+    "applies_to": ["朝日放送テレビ", "関西テレビ放送", "讀賣テレビ放送", "毎日放送", "テレビ大阪", "東海テレビ放送", "中京テレビ放送", "CBCテレビ", "名古屋テレビ放送（メ〜テレ）"],
+    "description": "在阪・在名キー局における番組制作職。キー局と比較して少人数体制のため、企画からカメラ・編集・出演交渉まで一人で担当する範囲が広い。地域密着型の情報番組やローカル番組の制作が多く、地域の文化・経済・社会への深い理解が求められる。キー局制作の全国ネット番組にも参加する機会があり、地元愛とテレビ制作への情熱の両立が必要。",
+    "ideal_profile": {
+      "description": "キー局制作職と同等のクリエイティビティと行動力に加え、地域への愛着とコミュニティに根差した取材力を持つ人。少人数体制でマルチに動ける柔軟性と、地方ならではの独自企画を生み出す発想力が重要。",
+      "concrete_examples": [
+        "地元の祭りや商店街を題材にした映像作品を自主制作した経験がある",
+        "地方在住で地元メディアへの就職を強く志望し、地域活性化に関心が高い",
+        "ワンオペで取材・撮影・編集をこなした映像制作経験がある",
+        "地域のコミュニティ活動やボランティアに積極的に参加している",
+        "キー局志望だが準キー局の裁量の大きさに魅力を感じている"
+      ]
+    },
+    "personality_scores": {
+      "logic": 55,
+      "creativity": 90,
+      "empathy": 75,
+      "cooperativeness": 70,
+      "competitiveness": 75,
+      "initiative": 90,
+      "planning": 55,
+      "action_orientation": 90,
+      "stress_tolerance": 85,
+      "learning_speed": 80,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 55,
+      "abstract_thinking": 70,
+      "communication": 85,
+      "presentation": 80,
+      "negotiation": 70,
+      "leadership": 75,
+      "patience": 50,
+      "flexibility": 90,
+      "discipline": 50
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "ESFP", "ESTP", "ENFJ", "ENTJ", "INFP", "ISTP", "ISFP", "INTP", "ESTJ", "ESFJ", "INTJ", "INFJ", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 88,
+      "conscientiousness": 50,
+      "extraversion": 82,
+      "agreeableness": 58,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 75,
+      "stability": 40,
+      "social_contribution": 65,
+      "income": 55,
+      "autonomy": 80,
+      "expertise": 70,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["少人数で裁量が大きい制作現場", "地域密着で人との距離が近い職場", "マルチタスクでスキルが幅広く身につく環境"],
+      "unsuitable_environments": ["大組織で役割が細分化された環境", "地域との関わりが薄い全国一律の業務", "デスクワーク中心で外に出ない仕事"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["地方局ディレクター", "映像クリエイター", "地域メディアプロデューサー", "コンテンツ制作"],
+      "unsuitable_careers": ["大手企業の定型事務", "金融機関のバックオフィス", "工場のライン管理"]
+    },
+    "student_features": {
+      "high_school": ["地元愛が強く地域の行事に積極参加", "映像制作や放送部で活動", "学校行事の企画・運営に携わった"],
+      "university": ["映像制作サークルで自主制作", "地域メディアや地元テレビ局でアルバイト", "地方創生やまちづくりに関心を持つゼミに所属"],
+      "part_time_job": ["地元のイベント運営スタッフ", "地域密着型の飲食店やサービス業"],
+      "club_activities": ["放送部・映像制作サークル", "地域ボランティア団体"],
+      "internship": ["在阪・在名テレビ局でのインターン", "地域メディアでの取材体験"]
+    },
+    "feature_tags": ["#地域密着", "#マルチスキル", "#少数精鋭", "#裁量大", "#地元愛", "#映像制作", "#取材力", "#企画力", "#柔軟性", "#行動力", "#コミュニティ", "#地方創生", "#ワンオペ対応", "#クリエイティブ", "#体力勝負", "#不規則勤務", "#チャレンジ精神", "#人間関係力", "#現場主義", "#独自企画", "#情報発信", "#好奇心", "#フットワーク", "#演出力", "#トレンド感度", "#地域文化理解", "#粘り強さ", "#コミュニケーション", "#ストーリーテリング", "#表現力"]
+  },
+  {
+    "company": "NHK（番組制作ディレクター）",
+    "position": "番組制作（ディレクター）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "NHK_DIRECTOR",
+    "applies_to": ["NHK（日本放送協会）"],
+    "description": "NHKのドキュメンタリー、教育番組、報道番組、エンターテインメント番組等の企画・取材・構成・演出を担うディレクター職。民放と異なり視聴率に過度に左右されず、社会的意義や教育的価値を重視した番組制作が可能。長期取材のドキュメンタリーや大型特番の制作機会があり、ジャーナリスティックな視点とクリエイティブな表現力の両方が求められる。全国転勤あり。",
+    "ideal_profile": {
+      "description": "社会課題や文化・教育への深い関心を持ち、視聴率よりも番組の質や社会的意義を重視する人。長期間にわたる粘り強い取材と、複雑なテーマをわかりやすく映像化する構成力を持つ。公共放送としての使命感と、クリエイターとしての表現欲の両立が必要。",
+      "concrete_examples": [
+        "NHKのドキュメンタリーやETV特集を日常的に視聴し、構成を分析している",
+        "卒論やゼミで社会問題を深く掘り下げたフィールドワーク経験がある",
+        "映像作品を制作し、自主上映会やコンテストで発表した経験がある",
+        "海外経験があり、異文化の視点から日本を捉え直した経験がある",
+        "特定の社会テーマ（環境・医療・教育・貧困等）に強い問題意識と専門知識がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 70,
+      "creativity": 90,
+      "empathy": 80,
+      "cooperativeness": 65,
+      "competitiveness": 60,
+      "initiative": 85,
+      "planning": 65,
+      "action_orientation": 80,
+      "stress_tolerance": 80,
+      "learning_speed": 80,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 80,
+      "abstract_thinking": 85,
+      "communication": 80,
+      "presentation": 75,
+      "negotiation": 65,
+      "leadership": 70,
+      "patience": 70,
+      "flexibility": 75,
+      "discipline": 60
+    },
+    "mbti_ranking": ["INFP", "ENFP", "INTP", "ENTP", "INTJ", "INFJ", "ENTJ", "ENFJ", "ISTP", "ISFP", "ESTP", "ESFP", "ISTJ", "ESTJ", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 95,
+      "conscientiousness": 60,
+      "extraversion": 65,
+      "agreeableness": 60,
+      "neuroticism": 42
+    },
+    "values": {
+      "growth": 80,
+      "stability": 50,
+      "social_contribution": 90,
+      "income": 55,
+      "autonomy": 75,
+      "expertise": 80,
+      "teamwork": 60
+    },
+    "work_style": {
+      "suitable_environments": ["社会的意義のある長期プロジェクト", "質を重視した丁寧なものづくり文化", "知的好奇心を刺激する多様なテーマ", "全国転勤で多様な地域の現場を経験できる"],
+      "unsuitable_environments": ["視聴率だけで評価される商業主義的環境", "短期間で大量のコンテンツを量産する職場", "マニュアル通りの定型業務"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ドキュメンタリー監督", "ジャーナリスト", "教育コンテンツ開発", "文化プロデューサー", "ノンフィクション作家"],
+      "unsuitable_careers": ["コスト削減中心の管理業務", "ルーチン的なデータ入力", "短期利益重視の営業"]
+    },
+    "student_features": {
+      "high_school": ["読書量が多く、社会問題に関心が高い", "文化祭でドキュメンタリー映像を制作した", "放送部で学校紹介番組を企画制作"],
+      "university": ["社会学・文化人類学・ジャーナリズム系を専攻", "フィールドワーク型の研究を行い、現場で人に話を聞くのが好き", "自主映画やドキュメンタリーの制作経験", "海外留学や海外ボランティアの経験"],
+      "part_time_job": ["NPO・NGOでのインターンやボランティア", "出版社やメディアでのアシスタント"],
+      "club_activities": ["映画研究会・ドキュメンタリー制作サークル", "社会問題を扱う勉強会やNPO活動"],
+      "internship": ["NHKの番組制作体験プログラム", "ドキュメンタリー制作会社でのインターン"]
+    },
+    "feature_tags": ["#公共放送", "#ドキュメンタリー", "#社会的意義", "#教育番組", "#深掘り取材", "#長期プロジェクト", "#知的好奇心", "#映像表現", "#ジャーナリズム", "#文化教養", "#クリエイティブ", "#社会課題", "#公共性", "#質重視", "#全国転勤", "#フィールドワーク", "#構成力", "#表現力", "#多様性理解", "#グローバル視点", "#粘り強さ", "#使命感", "#内省的", "#観察力", "#ストーリーテリング", "#リサーチ力", "#異文化理解", "#批判的思考", "#専門性", "#人間理解"]
+  },
+  {
+    "company": "NHK（記者）",
+    "position": "記者",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "NHK_REPORTER",
+    "applies_to": ["NHK（日本放送協会）"],
+    "description": "NHKの報道記者として、政治・経済・社会・国際・科学・文化など各分野のニュース取材を行う。地方局への配属からスタートし、警察・司法・行政等の担当記者として日々の取材活動を行う。公共放送として中立・公正な報道が求められ、民放以上に正確性と取材の深さが重視される。災害報道における迅速かつ正確な情報発信は国民の生命に直結する責任の重い仕事。",
+    "ideal_profile": {
+      "description": "公共放送の記者として中立公正な報道への強い使命感を持つ人。取材対象に深く入り込む粘り強さと、感情に流されず事実を正確に伝える冷静さを兼ね備える。全国転勤を厭わず、どの地域でも取材力を発揮できる適応力がある。",
+      "concrete_examples": [
+        "NHKの報道番組を日常的に視聴し、民放との報道姿勢の違いを分析している",
+        "大学で政治学・法学・経済学を専攻し、社会の仕組みへの理解が深い",
+        "学生時代にフリーペーパーやWebメディアで継続的に記事を書いた経験がある",
+        "地方での生活経験があり、地域社会への理解と関心が高い",
+        "語学力があり、海外ニュースの原文を読んで分析する力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 60,
+      "empathy": 60,
+      "cooperativeness": 55,
+      "competitiveness": 70,
+      "initiative": 90,
+      "planning": 60,
+      "action_orientation": 85,
+      "stress_tolerance": 85,
+      "learning_speed": 85,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 85,
+      "abstract_thinking": 70,
+      "communication": 80,
+      "presentation": 75,
+      "negotiation": 70,
+      "leadership": 60,
+      "patience": 60,
+      "flexibility": 75,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENTJ", "ENTP", "INTJ", "INTP", "ENFP", "ESTJ", "INFP", "ENFJ", "ESTP", "ISTP", "INFJ", "ISTJ", "ESFJ", "ESFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 85,
+      "conscientiousness": 65,
+      "extraversion": 72,
+      "agreeableness": 42,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 75,
+      "stability": 45,
+      "social_contribution": 90,
+      "income": 55,
+      "autonomy": 70,
+      "expertise": 80,
+      "teamwork": 50
+    },
+    "work_style": {
+      "suitable_environments": ["正確性と公共性が最優先される報道機関", "全国各地の現場で取材できる環境", "専門性を深められる記者クラブ制度"],
+      "unsuitable_environments": ["エンタメ色が強い軽い雰囲気の職場", "個人的な意見や主張を前面に出す媒体", "デスクワーク中心で取材の機会が少ない"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["報道記者", "政策リサーチャー", "国際ジャーナリスト", "シンクタンク研究員"],
+      "unsuitable_careers": ["エンタメ系クリエイター", "販売営業", "ルーティン事務", "接客サービス"]
+    },
+    "student_features": {
+      "high_school": ["新聞を複数紙読む習慣がある", "ディベート部や弁論大会に出場", "社会科の成績が突出している"],
+      "university": ["政治学・法学・経済学・国際関係学を専攻", "学生記者やフリーライターの経験", "留学経験や語学力が高い"],
+      "part_time_job": ["新聞配達やメディア関連のアルバイト", "塾講師で論理的説明力を磨いた"],
+      "club_activities": ["新聞部・放送部・弁論部", "模擬国連・時事問題研究会"],
+      "internship": ["NHKの記者体験プログラム", "通信社・新聞社での取材同行"]
+    },
+    "feature_tags": ["#公共放送記者", "#中立公正", "#正確性", "#取材力", "#社会的使命", "#全国転勤", "#粘り強さ", "#事実追求", "#速報対応", "#災害報道", "#政治経済", "#国際情勢", "#冷静沈着", "#分析力", "#文章力", "#批判的思考", "#専門性", "#公共性", "#知的好奇心", "#フットワーク", "#語学力", "#深掘り", "#問題意識", "#根性", "#情報収集力", "#リサーチ力", "#ジャーナリズム精神", "#地方勤務", "#責任感", "#使命感"]
+  },
+  {
+    "company": "NHK（経営管理・営業）",
+    "position": "経営管理・営業",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "NHK_CORPORATE",
+    "applies_to": ["NHK（日本放送協会）"],
+    "description": "NHKの受信料制度に基づく営業（契約・収納）、経営企画、財務経理、人事、広報、国際放送、放送技術の管理部門を担当する。民放のスポンサー営業とは異なり、受信料の契約促進・視聴者対応が中心。公共放送の運営を支える管理・事務職として、放送法や受信料制度への理解が必要。全国転勤あり。",
+    "ideal_profile": {
+      "description": "公共放送の意義を理解し、組織運営の裏方として貢献する使命感がある人。受信料制度への理解と説明力、視聴者対応のホスピタリティ、管理部門としての正確性と計画性を兼ね備える。",
+      "concrete_examples": [
+        "NHKの公共放送としての役割に共感し、制度設計に関心がある",
+        "大学で公共政策や行政学を学んだ経験がある",
+        "サークルや団体の運営を通じて組織管理の経験を積んだ",
+        "対面での丁寧な説明が得意で、クレーム対応にも動じない",
+        "全国転勤をポジティブに捉えられる柔軟性がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 35,
+      "empathy": 70,
+      "cooperativeness": 75,
+      "competitiveness": 40,
+      "initiative": 55,
+      "planning": 80,
+      "action_orientation": 55,
+      "stress_tolerance": 70,
+      "learning_speed": 65,
+      "intellectual_curiosity": 55,
+      "analytical_ability": 70,
+      "abstract_thinking": 50,
+      "communication": 75,
+      "presentation": 60,
+      "negotiation": 65,
+      "leadership": 50,
+      "patience": 80,
+      "flexibility": 60,
+      "discipline": 80
+    },
+    "mbti_ranking": ["ISTJ", "ISFJ", "ESTJ", "ESFJ", "INTJ", "INFJ", "ENTJ", "ENFJ", "ISTP", "INTP", "ENTP", "ENFP", "ESTP", "ESFP", "ISFP", "INFP"],
+    "big_five": {
+      "openness": 45,
+      "conscientiousness": 82,
+      "extraversion": 55,
+      "agreeableness": 68,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 50,
+      "stability": 80,
+      "social_contribution": 70,
+      "income": 55,
+      "autonomy": 35,
+      "expertise": 55,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["公共性の高い安定した組織", "管理・事務の正確性が評価される職場", "全国に拠点がありジョブローテーションがある"],
+      "unsuitable_environments": ["成果主義で個人の売上が厳しく問われる環境", "クリエイティブ性が求められる制作現場", "変化が激しくスピード重視のベンチャー"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["公共機関の管理職", "行政事務", "団体職員", "経営企画"],
+      "unsuitable_careers": ["ベンチャー起業家", "クリエイティブディレクター", "フリーランス", "投資銀行"]
+    },
+    "student_features": {
+      "high_school": ["生徒会役員や委員会活動に真面目に取り組んだ", "安定した成績で教師からの信頼が厚い", "規律正しい生活を送っていた"],
+      "university": ["法学部・経済学部・公共政策系を専攻", "真面目にゼミ活動と資格取得に取り組んだ", "公務員試験の勉強を並行していた"],
+      "part_time_job": ["事務系アルバイトやコールセンター", "接客業で丁寧な対応力を磨いた"],
+      "club_activities": ["ゼミの運営幹事", "ボランティアサークル"],
+      "internship": ["公共機関や団体職員のインターン", "NHKの管理部門見学"]
+    },
+    "feature_tags": ["#公共放送", "#受信料", "#管理部門", "#安定志向", "#正確性", "#計画性", "#組織運営", "#全国転勤", "#公共性", "#視聴者対応", "#ホスピタリティ", "#制度理解", "#事務能力", "#調整力", "#責任感", "#堅実", "#規律", "#チームワーク", "#コンプライアンス", "#対人対応力", "#忍耐力", "#説明力", "#クレーム対応", "#安定組織", "#社会貢献", "#公務員的", "#ルール遵守", "#丁寧さ", "#真面目", "#縁の下の力持ち"]
+  },
+  {
+    "company": "WOWOW",
+    "position": "総合職",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "WOWOW_GENERAL",
+    "applies_to": ["WOWOW"],
+    "description": "有料衛星放送WOWOWにおける編成・番組制作、営業・マーケティング、デジタル事業、コーポレート部門の業務。地上波と異なりスポンサーモデルではなく加入者課金モデルのため、良質なコンテンツによる加入者獲得・維持が事業の根幹。映画・ドラマ・スポーツ・音楽ライブ等のプレミアムコンテンツの調達・制作・編成を行う。コンテンツへの深い愛情とビジネス感覚の両立が求められる。",
+    "ideal_profile": {
+      "description": "映画・ドラマ・スポーツ・音楽などコンテンツへの深い愛情と知識を持ちながら、サブスクリプションビジネスとしての顧客獲得・維持の視点も兼ね備える人。",
+      "concrete_examples": [
+        "年間100本以上の映画を鑑賞し、ジャンル横断的な知識がある",
+        "WOWOWオリジナルドラマを視聴し、地上波との違いを語れる",
+        "サブスクリプションサービスのビジネスモデルに関心がある",
+        "海外映画祭やスポーツ中継の配信権ビジネスに興味がある",
+        "マーケティングやCRM（顧客関係管理）の知識がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 80,
+      "empathy": 65,
+      "cooperativeness": 70,
+      "competitiveness": 60,
+      "initiative": 70,
+      "planning": 70,
+      "action_orientation": 70,
+      "stress_tolerance": 65,
+      "learning_speed": 75,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 70,
+      "abstract_thinking": 65,
+      "communication": 75,
+      "presentation": 70,
+      "negotiation": 65,
+      "leadership": 60,
+      "patience": 65,
+      "flexibility": 70,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "INFP", "ENTJ", "ENFJ", "INTP", "INTJ", "INFJ", "ESTP", "ESFP", "ESTJ", "ISTP", "ESFJ", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 85,
+      "conscientiousness": 60,
+      "extraversion": 65,
+      "agreeableness": 60,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 70,
+      "stability": 55,
+      "social_contribution": 50,
+      "income": 60,
+      "autonomy": 65,
+      "expertise": 75,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["コンテンツの質を追求できるプレミアム志向の組織", "加入者データを活用したマーケティング重視の環境", "映画・音楽・スポーツの知識が武器になる職場"],
+      "unsuitable_environments": ["視聴率だけが全ての評価基準の環境", "コンテンツの質より量を重視する文化", "IT・テクノロジーへの関心がなくても務まる職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["コンテンツプロデューサー", "マーケティング", "配信プラットフォーム運営", "映画配給"],
+      "unsuitable_careers": ["ルーティン事務", "製造ライン管理", "定型営業"]
+    },
+    "student_features": {
+      "high_school": ["映画部や音楽部に所属しコンテンツ消費量が多い", "文化系の趣味に没頭するタイプ", "英語が得意で海外コンテンツに親しむ"],
+      "university": ["映画研究やメディア論を学ぶ", "映画祭のボランティアやイベント運営", "マーケティングやデータ分析に関心"],
+      "part_time_job": ["映画館・レンタルビデオ店・ライブハウスでのアルバイト", "配信サービスのカスタマーサポート"],
+      "club_activities": ["映画研究会・音楽サークル", "マーケティング研究会"],
+      "internship": ["映画配給会社やエンタメ企業でのインターン", "デジタルマーケティング系インターン"]
+    },
+    "feature_tags": ["#有料放送", "#サブスクリプション", "#プレミアムコンテンツ", "#映画愛", "#スポーツ中継", "#音楽ライブ", "#編成力", "#コンテンツ調達", "#顧客獲得", "#CRM", "#マーケティング", "#デジタル", "#海外コンテンツ", "#配信ビジネス", "#クリエイティブ", "#企画力", "#ビジネスセンス", "#データ活用", "#知的好奇心", "#エンタメ知識", "#バランス型", "#プロデュース力", "#交渉力", "#著作権", "#国際取引", "#品質重視", "#ブランディング", "#顧客理解", "#コンテンツ愛", "#チームワーク"]
+  },
+  {
+    "company": "スカパーJSAT（メディア事業）",
+    "position": "総合職（メディア事業）",
+    "industry": "マスコミ／広告（テレビ）",
+    "archetype_id": "SKYPERFECT_MEDIA",
+    "applies_to": ["スカパーJSAT"],
+    "description": "多チャンネル有料放送プラットフォーム「スカパー!」のメディア事業に携わる。チャンネル編成、コンテンツ調達・制作、加入者獲得マーケティング、販売パートナーとの営業活動、配信プラットフォームの企画運営を行う。ニッチなスポーツ中継や専門チャンネルの運営により、コアなファン層への訴求力が鍵。",
+    "ideal_profile": {
+      "description": "多チャンネルビジネスへの理解があり、ニッチなコンテンツの価値を見出してファンに届ける力がある人。プラットフォームビジネスとコンテンツビジネスの両方の視点を持つ。",
+      "concrete_examples": [
+        "特定ジャンル（スポーツ・音楽・映画等）に深い知識とファンコミュニティへの理解がある",
+        "サブスクリプションモデルのビジネスに関心がある",
+        "マーケティングやプロモーション企画の経験がある",
+        "衛星放送やストリーミング技術に興味がある",
+        "ニッチ市場でのファンエンゲージメントに関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 65,
+      "empathy": 60,
+      "cooperativeness": 70,
+      "competitiveness": 55,
+      "initiative": 65,
+      "planning": 70,
+      "action_orientation": 65,
+      "stress_tolerance": 60,
+      "learning_speed": 70,
+      "intellectual_curiosity": 75,
+      "analytical_ability": 65,
+      "abstract_thinking": 55,
+      "communication": 70,
+      "presentation": 65,
+      "negotiation": 65,
+      "leadership": 55,
+      "patience": 65,
+      "flexibility": 65,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "ENTJ", "ENFJ", "INFP", "INTP", "INTJ", "ESTJ", "ESTP", "ESFJ", "ESFP", "INFJ", "ISTP", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 72,
+      "conscientiousness": 62,
+      "extraversion": 65,
+      "agreeableness": 62,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 65,
+      "stability": 60,
+      "social_contribution": 45,
+      "income": 55,
+      "autonomy": 55,
+      "expertise": 65,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["コンテンツビジネスとテクノロジーが融合する環境", "ニッチ市場での専門性が活きる職場", "プラットフォーム運営の企画力が求められる環境"],
+      "unsuitable_environments": ["大衆向けマスメディアの画一的な文化", "完全な技術職でビジネス視点が不要な環境", "変化を嫌う保守的な組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["プラットフォームビジネス企画", "コンテンツマーケティング", "サブスク事業開発"],
+      "unsuitable_careers": ["大量生産型の製造管理", "飛び込み営業", "純粋な技術研究"]
+    },
+    "student_features": {
+      "high_school": ["特定のジャンルに対するオタク的な知識を持つ", "IT機器やメディアに関心が高い", "文化系・理系のハイブリッド"],
+      "university": ["メディア論やビジネスモデルを学んだ", "ファンコミュニティの運営経験", "デジタルマーケティングに関心"],
+      "part_time_job": ["イベント運営やWebメディア運営", "映像レンタル・配信サービス関連"],
+      "club_activities": ["特定ジャンルの研究会やファンサークル", "IT系サークル"],
+      "internship": ["メディア企業やプラットフォーム企業でのインターン", "マーケティング系インターン"]
+    },
+    "feature_tags": ["#多チャンネル", "#プラットフォーム", "#サブスクリプション", "#コンテンツ調達", "#ニッチ市場", "#ファンエンゲージメント", "#マーケティング", "#衛星放送", "#配信", "#企画力", "#コンテンツ愛", "#ビジネスモデル", "#テクノロジー", "#パートナー営業", "#データ活用", "#顧客獲得", "#専門チャンネル", "#スポーツ中継", "#バランス型", "#調整力", "#プロモーション", "#CRM", "#編成", "#事業開発", "#柔軟性", "#チームワーク", "#交渉力", "#市場分析", "#トレンド把握", "#ブランド管理"]
+  },
+  {
+    "company": "全国紙（記者職）アーキタイプ",
+    "position": "記者職",
+    "industry": "マスコミ／広告（新聞）",
+    "archetype_id": "NEWSPAPER_REPORTER_NATIONAL",
+    "applies_to": ["朝日新聞社", "読売新聞社", "毎日新聞社", "産経新聞社"],
+    "description": "全国紙の記者として、政治・経済・社会・国際・文化・スポーツなどあらゆる分野の取材・執筆を行う。入社後は地方支局に配属され、警察取材（サツ回り）からキャリアをスタートし、事件・事故の現場取材を通じて記者の基礎を叩き込まれる。その後、本社の政治部・経済部・社会部等の専門部署に異動し、専門記者として深い知識と人脈を築く。締切に追われる日々の中で、正確かつ読者に伝わる文章を書き続ける力が求められる。",
+    "ideal_profile": {
+      "description": "文章力と取材力を兼ね備え、社会の矛盾や不正を明らかにすることに使命感を持つ人。体力と精神力があり、地方支局での単身赴任や深夜の急な呼び出しにも対応できるタフさが必要。知的好奇心が旺盛で、どんなテーマでも短期間で専門知識を身につけられる学習力がある。",
+      "concrete_examples": [
+        "大学で毎日3000字以上の文章を書く習慣があり、論文やレポートの評価が高い",
+        "学生新聞や学生メディアで定期的に記事を執筆・掲載した実績がある",
+        "地方での一人暮らしや長期フィールドワークに抵抗がない",
+        "初対面の人に臆さず話しかけ、取材対象の懐に入り込める社交性がある",
+        "社会問題への関心が強く、特定のテーマで調査報道をしたい明確なビジョンがある",
+        "夜討ち朝駆け（取材対象を自宅前で待ち伏せて話を聞く）の泥臭さを厭わない覚悟がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 65,
+      "empathy": 60,
+      "cooperativeness": 45,
+      "competitiveness": 80,
+      "initiative": 95,
+      "planning": 50,
+      "action_orientation": 90,
+      "stress_tolerance": 85,
+      "learning_speed": 90,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 85,
+      "abstract_thinking": 70,
+      "communication": 80,
+      "presentation": 65,
+      "negotiation": 70,
+      "leadership": 55,
+      "patience": 55,
+      "flexibility": 75,
+      "discipline": 60
+    },
+    "mbti_ranking": ["ENTP", "ENTJ", "INTJ", "INTP", "ENFP", "ESTP", "INFP", "ESTJ", "ENFJ", "ISTP", "INFJ", "ESFP", "ISTJ", "ESFJ", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 90,
+      "conscientiousness": 58,
+      "extraversion": 75,
+      "agreeableness": 38,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 75,
+      "stability": 35,
+      "social_contribution": 85,
+      "income": 50,
+      "autonomy": 80,
+      "expertise": 80,
+      "teamwork": 40
+    },
+    "work_style": {
+      "suitable_environments": ["自分の足で取材し記事にする個人裁量の大きい職場", "社会的影響力のある媒体で書ける環境", "専門分野を深掘りできるキャリアパス", "知的好奇心を常に刺激される多様なテーマ"],
+      "unsuitable_environments": ["デスクワーク中心で外出が少ない環境", "チームで合議制の意思決定を行う組織", "定型的なルーティン業務の繰り返し", "短い文章やSNS発信だけが求められる職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["新聞記者", "ジャーナリスト", "ルポライター", "政策研究員", "ノンフィクション作家"],
+      "unsuitable_careers": ["定型事務", "接客サービス", "ルート営業", "工場管理"]
+    },
+    "student_features": {
+      "high_school": ["新聞部・放送部・弁論部で活動", "作文コンクールで入賞経験", "時事問題に詳しく政治経済の成績が良い"],
+      "university": ["政治学・法学・社会学・ジャーナリズムを専攻", "学生新聞やフリーペーパーで記事を執筆", "ゼミで調査型のフィールドワークを実施", "留学経験があり国際ニュースへの感度が高い"],
+      "part_time_job": ["出版社やメディア企業でのアルバイト", "塾講師で文章力と説明力を鍛えた"],
+      "club_activities": ["新聞部・文芸部・弁論部", "模擬国連やディベートサークル"],
+      "internship": ["新聞社の記者体験プログラム", "通信社での取材同行インターン"]
+    },
+    "feature_tags": ["#文章力", "#取材力", "#ジャーナリズム", "#社会正義", "#夜討ち朝駆け", "#地方支局", "#全国転勤", "#サツ回り", "#締切プレッシャー", "#知的好奇心", "#調査報道", "#事実追求", "#粘り強さ", "#行動力", "#体力勝負", "#速報対応", "#批判的思考", "#独立心", "#使命感", "#観察力", "#根性", "#情報収集力", "#分析力", "#公共性", "#深掘り", "#リサーチ力", "#問題意識", "#フットワーク", "#政治経済", "#競争心"]
+  },
+  {
+    "company": "日本経済新聞社（記者職）",
+    "position": "記者職",
+    "industry": "マスコミ／広告（新聞）",
+    "archetype_id": "NIKKEI_REPORTER",
+    "applies_to": ["日本経済新聞社"],
+    "description": "経済専門紙として、企業取材・マーケット分析・産業動向・政策分析など経済ニュースに特化した取材・執筆を行う。企業の決算発表、M&A、新事業戦略、政府の経済政策、国際経済動向など、ビジネスパーソンに必要な情報をいち早く正確に報じる。一般紙記者よりも経済・金融リテラシーが高く求められ、財務諸表の読解やマクロ経済の分析力が必須。日経電子版のデジタル領域にも注力。",
+    "ideal_profile": {
+      "description": "経済・ビジネスへの強い知的好奇心と、企業や市場の動きを分析して記事にする能力を持つ人。一般紙の記者よりも数字への感度が高く、決算書やマクロ経済データを読みこなせる力がある。経営者や金融関係者への取材力も重要。",
+      "concrete_examples": [
+        "日経新聞を毎日読み、企業分析や産業動向のレポートを自主的に書いている",
+        "大学で経済学・経営学・会計学を専攻し、企業分析やケーススタディに取り組んだ",
+        "株式投資やファイナンスに関心があり、決算書を読む習慣がある",
+        "ビジネスコンテストに参加し、市場分析と事業計画のプレゼンを行った",
+        "経営者インタビューや企業取材の記事を学生メディアで書いた経験がある",
+        "TOEICスコアが高く、英語の経済ニュースを原文で読める"
+      ]
+    },
+    "personality_scores": {
+      "logic": 90,
+      "creativity": 55,
+      "empathy": 50,
+      "cooperativeness": 45,
+      "competitiveness": 80,
+      "initiative": 85,
+      "planning": 60,
+      "action_orientation": 85,
+      "stress_tolerance": 80,
+      "learning_speed": 90,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 95,
+      "abstract_thinking": 75,
+      "communication": 75,
+      "presentation": 65,
+      "negotiation": 70,
+      "leadership": 55,
+      "patience": 55,
+      "flexibility": 65,
+      "discipline": 65
+    },
+    "mbti_ranking": ["INTJ", "ENTJ", "INTP", "ENTP", "ESTJ", "ISTJ", "ENFP", "INFP", "ESTP", "ISTP", "ENFJ", "INFJ", "ESFJ", "ESFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 82,
+      "conscientiousness": 65,
+      "extraversion": 68,
+      "agreeableness": 35,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 80,
+      "stability": 40,
+      "social_contribution": 65,
+      "income": 65,
+      "autonomy": 80,
+      "expertise": 90,
+      "teamwork": 35
+    },
+    "work_style": {
+      "suitable_environments": ["経済・ビジネスの最前線の情報に触れられる環境", "分析力と専門知識が評価される実力主義", "デジタルと紙面の両方で発信できるメディア"],
+      "unsuitable_environments": ["数字やデータを扱わない文化系の職場", "感性や情緒が重視されるクリエイティブ系", "ゆっくり時間をかけて仕事をする環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["経済記者", "金融アナリスト", "コンサルタント", "シンクタンク研究員", "企業の経営企画"],
+      "unsuitable_careers": ["アート系クリエイター", "介護・福祉", "単純事務", "販売員"]
+    },
+    "student_features": {
+      "high_school": ["数学と社会（政治経済）の成績が良い", "株式投資シミュレーションに興味を持った", "日経新聞を読み始めた"],
+      "university": ["経済学部・商学部・経営学部で企業分析を学ぶ", "ビジネスコンテストで入賞", "簿記・FP・証券アナリスト等の資格取得", "ゼミで上場企業の財務分析を行った"],
+      "part_time_job": ["金融機関や会計事務所でのアルバイト", "ビジネスメディアでのライティング"],
+      "club_activities": ["投資研究会・ビジネスサークル", "経済討論会・ディベート"],
+      "internship": ["日経新聞のインターンシップ", "金融機関やコンサルティングファームのインターン"]
+    },
+    "feature_tags": ["#経済専門紙", "#企業取材", "#決算分析", "#マーケット", "#金融リテラシー", "#経営者インタビュー", "#分析力", "#データ重視", "#ビジネス感度", "#速報", "#日経電子版", "#デジタル", "#専門性", "#知的好奇心", "#経済記者", "#マクロ経済", "#産業動向", "#M&A", "#政策分析", "#国際経済", "#英語力", "#取材力", "#文章力", "#競争心", "#行動力", "#論理的思考", "#数字への強さ", "#フットワーク", "#実力主義", "#スクープ志向"]
+  },
+  {
+    "company": "新聞社（業務職・ビジネス職）アーキタイプ",
+    "position": "業務職（営業・事業・コーポレート）",
+    "industry": "マスコミ／広告（新聞）",
+    "archetype_id": "NEWSPAPER_BUSINESS",
+    "applies_to": ["朝日新聞社", "読売新聞社", "毎日新聞社", "日本経済新聞社", "産経新聞社", "中日新聞社", "西日本新聞社", "北海道新聞社", "河北新報社", "中国新聞社", "新潟日報社", "静岡新聞社", "信濃毎日新聞社", "京都新聞社", "神戸新聞社", "山陽新聞社"],
+    "description": "新聞社の営業・広告・販売・イベント事業・デジタル事業・管理部門を担う。広告営業では企業や広告代理店への広告枠販売、販売部門では新聞販売店との連携・部数管理、事業部門では展覧会・シンポジウム等のイベント企画・運営を行う。新聞業界のビジネスモデル変革期にあり、デジタルサブスクリプションへの移行やイベント事業の拡大など、新規事業開発の役割も増加。記者職とは異なり、ビジネス視点で新聞社の経営を支える。",
+    "ideal_profile": {
+      "description": "新聞・メディアへの愛着を持ちながらも、ビジネスパーソンとしての営業力・企画力・管理能力を発揮できる人。メディアビジネスの変革期に新たな収益モデルを考えられる発想力と、既存の販売ネットワークを維持する堅実さの両立が求められる。",
+      "concrete_examples": [
+        "新聞社のイベントに足を運び、メディアの社会的役割をビジネス面から支えたい意志がある",
+        "広告やマーケティングに関心があり、メディアの収益構造を分析した経験がある",
+        "学園祭でスポンサー獲得やイベント運営を成功させた経験がある",
+        "DXやサブスクリプションモデルに関心があり、メディアのデジタル化を推進したい",
+        "対外的な折衝力があり、多様なステークホルダーとの調整が得意"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 55,
+      "empathy": 65,
+      "cooperativeness": 75,
+      "competitiveness": 60,
+      "initiative": 65,
+      "planning": 75,
+      "action_orientation": 70,
+      "stress_tolerance": 65,
+      "learning_speed": 65,
+      "intellectual_curiosity": 60,
+      "analytical_ability": 60,
+      "abstract_thinking": 45,
+      "communication": 80,
+      "presentation": 70,
+      "negotiation": 75,
+      "leadership": 55,
+      "patience": 70,
+      "flexibility": 65,
+      "discipline": 70
+    },
+    "mbti_ranking": ["ENFJ", "ESTJ", "ENTJ", "ESFJ", "ENFP", "ENTP", "ESTP", "ISFJ", "ISTJ", "INTJ", "INFJ", "ESFP", "ISTP", "INTP", "INFP", "ISFP"],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 70,
+      "extraversion": 72,
+      "agreeableness": 65,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 55,
+      "stability": 65,
+      "social_contribution": 55,
+      "income": 55,
+      "autonomy": 45,
+      "expertise": 50,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["メディア業界の裏方からビジネスを支える職場", "対外折衝が多く人脈が活きる環境", "イベント企画など形に残る仕事ができる場", "安定した大企業の管理部門"],
+      "unsuitable_environments": ["記事執筆やクリエイティブが主な業務", "成果主義が極端に厳しい外資系", "技術開発中心で対人業務が少ない環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["メディア営業", "イベントプロデューサー", "広告営業", "マーケティング", "事業開発"],
+      "unsuitable_careers": ["記者", "プログラマー", "研究者", "クリエイティブディレクター"]
+    },
+    "student_features": {
+      "high_school": ["学校行事の運営やPR活動に積極的", "社交的で幅広い友人関係を築くタイプ", "安定感のある成績で文系科目が得意"],
+      "university": ["経済学部・商学部・社会学部を専攻", "学園祭やイベントの運営経験が豊富", "広告研究会やマーケティングサークルに所属"],
+      "part_time_job": ["営業系や接客系のアルバイトで対人スキルを磨いた", "イベント運営スタッフの経験"],
+      "club_activities": ["広告研究会・イベント企画サークル", "体育会系部活のマネージャー・渉外担当"],
+      "internship": ["新聞社の営業・事業部門インターン", "広告代理店やイベント会社でのインターン"]
+    },
+    "feature_tags": ["#メディアビジネス", "#広告営業", "#イベント企画", "#販売管理", "#デジタル化", "#サブスクリプション", "#対外折衝", "#営業力", "#企画力", "#ステークホルダー管理", "#調整力", "#新規事業", "#コミュニケーション", "#安定志向", "#メディア愛", "#ビジネスモデル", "#マーケティング", "#社交性", "#チームワーク", "#プレゼンテーション", "#交渉力", "#管理能力", "#堅実", "#業界変革", "#パートナーシップ", "#実務能力", "#DX推進", "#収益構造", "#バランス型", "#責任感"]
+  },
+  {
+    "company": "ブロック紙・地方紙（記者職）アーキタイプ",
+    "position": "記者職",
+    "industry": "マスコミ／広告（新聞）",
+    "archetype_id": "NEWSPAPER_REPORTER_LOCAL",
+    "applies_to": ["中日新聞社", "西日本新聞社", "北海道新聞社", "河北新報社", "中国新聞社", "新潟日報社", "静岡新聞社", "信濃毎日新聞社", "京都新聞社", "神戸新聞社", "山陽新聞社"],
+    "description": "地域に密着した取材活動を行うブロック紙・地方紙の記者。地方政治・行政、地域経済、事件・事故、スポーツ、文化・生活など地元に根差したテーマを取材する。全国紙とは異なり転勤範囲が限定的で、地域への深い理解と愛着が求められる。地方議会や地域企業への継続的な取材を通じて、権力の監視と地域課題の可視化という公共的役割を果たす。少人数体制のため記者一人当たりの守備範囲が広い。",
+    "ideal_profile": {
+      "description": "地元への愛着と地域社会への貢献意識が強く、全国紙にはない地域密着の報道に価値を見出す人。少人数チームでマルチに動ける柔軟性と、地域住民との信頼関係を築くコミュニケーション力がある。",
+      "concrete_examples": [
+        "地元の歴史や文化に詳しく、地域の課題を自分ごととして考えられる",
+        "地方での就職を積極的に選択し、地域に根差したキャリアを望んでいる",
+        "地域ボランティアやまちづくり活動に参加した経験がある",
+        "一人で企画・取材・撮影・執筆を完結できるマルチスキルがある",
+        "全国紙よりも読者との距離が近い地方紙の報道スタイルに共感する"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 60,
+      "empathy": 70,
+      "cooperativeness": 60,
+      "competitiveness": 65,
+      "initiative": 85,
+      "planning": 55,
+      "action_orientation": 85,
+      "stress_tolerance": 75,
+      "learning_speed": 80,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 75,
+      "abstract_thinking": 60,
+      "communication": 80,
+      "presentation": 60,
+      "negotiation": 65,
+      "leadership": 55,
+      "patience": 65,
+      "flexibility": 80,
+      "discipline": 60
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "INFP", "ESTP", "ENFJ", "ENTJ", "INTP", "ISTP", "ESFP", "INTJ", "INFJ", "ESTJ", "ESFJ", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 58,
+      "extraversion": 72,
+      "agreeableness": 55,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 60,
+      "stability": 50,
+      "social_contribution": 85,
+      "income": 40,
+      "autonomy": 70,
+      "expertise": 65,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["地域密着型の取材が中心の職場", "少人数で裁量が大きい環境", "地域住民との信頼関係が仕事の基盤になる場"],
+      "unsuitable_environments": ["全国転勤が頻繁な大組織", "地域との関わりが薄い東京中心の職場", "大人数のチームで役割が細分化された環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["地方紙記者", "地域メディアライター", "地方公務員", "NPO・NGO職員", "地域コーディネーター"],
+      "unsuitable_careers": ["外資系金融", "東京本社の大企業管理職", "グローバル営業"]
+    },
+    "student_features": {
+      "high_school": ["地元の歴史や文化に関心が高い", "学校新聞や地域紙への投稿経験", "地域のボランティア活動に参加"],
+      "university": ["地域社会学・地方自治論・まちづくりを学ぶ", "フィールドワーク型の研究で地域に入り込んだ", "地元メディアでアルバイトやインターン"],
+      "part_time_job": ["地域の商店や飲食店でのアルバイト", "地域イベントの運営スタッフ"],
+      "club_activities": ["新聞部・文芸部", "地域ボランティアサークル"],
+      "internship": ["地方紙・ブロック紙の記者体験", "地方自治体や地域NPOでのインターン"]
+    },
+    "feature_tags": ["#地域密着", "#地方紙", "#ブロック紙", "#地元愛", "#取材力", "#文章力", "#地方政治", "#地域経済", "#権力監視", "#少数精鋭", "#マルチスキル", "#フットワーク", "#住民との信頼", "#公共性", "#社会貢献", "#地域課題", "#まちづくり", "#コミュニティ", "#転勤少なめ", "#粘り強さ", "#行動力", "#知的好奇心", "#柔軟性", "#現場主義", "#コミュニケーション", "#独立心", "#地方創生", "#人間理解", "#根性", "#使命感"]
+  },
+  {
+    "company": "通信社（記者職）アーキタイプ",
+    "position": "記者職",
+    "industry": "マスコミ／広告（通信社）",
+    "archetype_id": "WIRE_SERVICE_REPORTER",
+    "applies_to": ["共同通信社", "時事通信社"],
+    "description": "全国の新聞社・放送局・Webメディアに配信するためのニュース記事・写真・映像を取材・制作する。一次情報の供給源として、速報性と正確性が最も厳しく求められる。新聞社の記者と異なり、自社の紙面ではなく配信先メディアへの素材提供が主な役割。国内政治・経済・社会はもちろん、海外特派員として世界各地で取材する機会も多い。",
+    "ideal_profile": {
+      "description": "速報の最前線で正確な情報を発信することに使命感を持つ人。新聞記者以上に速報性へのこだわりが強く、数分の差で勝負する緊張感に耐えられるタフさがある。英語力を含む国際的な取材力も重要。",
+      "concrete_examples": [
+        "ニュース速報の第一報を書くことにやりがいを感じるタイプ",
+        "新聞社ではなく通信社を志望する理由を明確に語れる",
+        "語学力が高く、海外特派員として世界のニュースを報じたい志望がある",
+        "瞬時に要点をまとめて簡潔な文章を書く力がある",
+        "どんな場所でもすぐに取材を始められる行動力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 50,
+      "empathy": 50,
+      "cooperativeness": 45,
+      "competitiveness": 85,
+      "initiative": 95,
+      "planning": 45,
+      "action_orientation": 95,
+      "stress_tolerance": 90,
+      "learning_speed": 90,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 85,
+      "abstract_thinking": 65,
+      "communication": 75,
+      "presentation": 55,
+      "negotiation": 65,
+      "leadership": 50,
+      "patience": 40,
+      "flexibility": 80,
+      "discipline": 55
+    },
+    "mbti_ranking": ["ENTP", "ENTJ", "ESTP", "INTJ", "INTP", "ESTJ", "ENFP", "ISTP", "INFP", "ENFJ", "ESFP", "INFJ", "ISTJ", "ESFJ", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 82,
+      "conscientiousness": 55,
+      "extraversion": 70,
+      "agreeableness": 32,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 70,
+      "stability": 30,
+      "social_contribution": 80,
+      "income": 50,
+      "autonomy": 85,
+      "expertise": 80,
+      "teamwork": 35
+    },
+    "work_style": {
+      "suitable_environments": ["速報の最前線で緊張感のある環境", "世界中で取材できる国際的な組織", "記者個人の取材力が直接評価される"],
+      "unsuitable_environments": ["ゆっくり時間をかけて丁寧に仕事をする環境", "自社ブランドの発信が中心のメディア", "デスクワーク中心の管理業務"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["通信社記者", "国際ジャーナリスト", "フリーランス記者", "外交官", "国際機関職員"],
+      "unsuitable_careers": ["管理事務", "ルーティン業務", "カウンセラー", "ゆったりした教育職"]
+    },
+    "student_features": {
+      "high_school": ["英語の成績がトップクラス", "時事問題に詳しく国際ニュースに関心", "スピードと正確性を両立できるタイプ"],
+      "university": ["国際関係学・政治学・ジャーナリズムを専攻", "海外留学経験がありネイティブに近い英語力", "学生メディアで速報記事を書いた経験"],
+      "part_time_job": ["通訳・翻訳のアルバイト", "メディア関連のアシスタント"],
+      "club_activities": ["国際交流サークル・模擬国連", "新聞部・放送部"],
+      "internship": ["通信社の記者体験プログラム", "海外メディアでのインターン"]
+    },
+    "feature_tags": ["#速報", "#一次情報", "#通信社", "#配信メディア", "#正確性", "#スピード勝負", "#国際取材", "#海外特派員", "#語学力", "#英語力", "#取材力", "#簡潔な文章", "#緊張感", "#行動力", "#タフネス", "#競争心", "#独立心", "#フットワーク", "#事実追求", "#中立公正", "#ジャーナリズム", "#現場主義", "#全国転勤", "#粘り強さ", "#瞬発力", "#情報収集力", "#批判的思考", "#使命感", "#プレッシャー耐性", "#世界視野"]
+  },
+  {
+    "company": "出版社（編集職・漫画/エンタメ系）アーキタイプ",
+    "position": "編集職（コミック・エンターテインメント）",
+    "industry": "マスコミ／広告（出版）",
+    "archetype_id": "PUBLISHER_EDITOR_MANGA",
+    "applies_to": ["集英社", "講談社", "小学館", "KADOKAWA", "白泉社"],
+    "description": "漫画家やライトノベル作家と二人三脚で作品を作り上げる編集者。作家の発掘・育成、ストーリーや構成のアドバイス、連載会議での企画提案、原稿のチェック・修正依頼、表紙デザインの方向性決定、単行本の販促企画などを担当する。作家の才能を最大限に引き出しながら、読者の支持を得る作品に仕上げるプロデュース力が核心。週刊誌の場合は毎週の締切サイクルが過酷。",
+    "ideal_profile": {
+      "description": "漫画・小説への深い愛情と知識を持ちながら、作家のクリエイティビティを尊重しつつビジネス視点で作品を導けるプロデューサー気質の人。読者の嗜好を分析する力と、作家に対して的確なフィードバックを行うコミュニケーション力の両立が必要。",
+      "concrete_examples": [
+        "年間数百冊の漫画を読み、ストーリー構成やキャラクター造形を分析的に語れる",
+        "自分でも創作活動（漫画・小説・同人誌）を行った経験がある",
+        "クリエイターの意図を理解した上で改善提案ができる",
+        "SNSやレビューサイトで読者の反応を分析し、ヒットの要因を考察できる",
+        "プレゼンやコンペで企画書を作成し、他者を説得した経験がある",
+        "締切管理と作家のモチベーション維持を両立できるマネジメント力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 60,
+      "creativity": 90,
+      "empathy": 80,
+      "cooperativeness": 65,
+      "competitiveness": 75,
+      "initiative": 80,
+      "planning": 60,
+      "action_orientation": 75,
+      "stress_tolerance": 80,
+      "learning_speed": 80,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 70,
+      "abstract_thinking": 80,
+      "communication": 85,
+      "presentation": 75,
+      "negotiation": 70,
+      "leadership": 70,
+      "patience": 65,
+      "flexibility": 80,
+      "discipline": 55
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "INFP", "ENFJ", "ENTJ", "INTP", "INFJ", "INTJ", "ESFP", "ESTP", "ISFP", "ESTJ", "ESFJ", "ISTP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 92,
+      "conscientiousness": 55,
+      "extraversion": 70,
+      "agreeableness": 58,
+      "neuroticism": 42
+    },
+    "values": {
+      "growth": 75,
+      "stability": 40,
+      "social_contribution": 50,
+      "income": 55,
+      "autonomy": 65,
+      "expertise": 80,
+      "teamwork": 60
+    },
+    "work_style": {
+      "suitable_environments": ["クリエイターと協働して作品を生み出す環境", "ヒット作を生み出す達成感が味わえる職場", "エンタメへの情熱が評価される文化"],
+      "unsuitable_environments": ["クリエイティブ要素がない定型業務中心の職場", "数字だけで全て評価される環境", "個人作業が中心で他者との協働がない"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["漫画編集者", "コンテンツプロデューサー", "ゲームプランナー", "映像プロデューサー", "クリエイティブディレクター"],
+      "unsuitable_careers": ["経理・会計", "製造ラインの品質管理", "ルート営業", "法務専門職"]
+    },
+    "student_features": {
+      "high_school": ["漫画や小説を大量に読む活字・コンテンツ好き", "自分でも漫画や小説を創作した経験がある", "文化祭で冊子やフリーペーパーを制作"],
+      "university": ["文学部・社会学部等で物語論やメディア論を学ぶ", "漫画研究会や文芸サークルで創作・批評活動", "コミケ等の同人イベントに参加した経験", "出版社のアルバイトやインターンを経験"],
+      "part_time_job": ["書店員・漫画喫茶スタッフ", "出版社や編集プロダクションでのアルバイト"],
+      "club_activities": ["漫画研究会・文芸部・創作サークル", "学園祭のフリーペーパー制作"],
+      "internship": ["出版社の編集部インターン", "漫画アプリ運営企業でのインターン"]
+    },
+    "feature_tags": ["#漫画編集", "#コンテンツプロデュース", "#作家育成", "#ストーリー分析", "#キャラクター造形", "#読者理解", "#週刊連載", "#締切管理", "#企画力", "#プレゼン力", "#クリエイティブ", "#エンタメ愛", "#知的好奇心", "#コミュニケーション", "#マネジメント", "#トレンド感度", "#SNS分析", "#同人文化", "#表現力", "#共感力", "#柔軟性", "#粘り強さ", "#ビジネス感覚", "#ヒットメーカー", "#作品愛", "#批評眼", "#読書量", "#文化教養", "#情熱", "#プロデューサー気質"]
+  },
+  {
+    "company": "出版社（編集職・文芸/報道/学術系）アーキタイプ",
+    "position": "編集職（文芸・報道・学術）",
+    "industry": "マスコミ／広告（出版）",
+    "archetype_id": "PUBLISHER_EDITOR_LITERARY",
+    "applies_to": ["新潮社", "文藝春秋", "講談社", "小学館", "KADOKAWA"],
+    "description": "文芸小説・ノンフィクション・週刊誌記事・学術書等の編集を担当する。作家への執筆依頼、原稿の校正・校閲、装丁・レイアウトの方向性決定、書籍の販促計画立案などを行う。週刊誌編集者の場合は、スクープ記事の取材・裏取り・法的リスクの確認など、ジャーナリスティックな能力も求められる。文芸編集者は作家との深い信頼関係の中で、作品の質を高める伴走者としての役割を担う。",
+    "ideal_profile": {
+      "description": "幅広い読書量と教養に裏打ちされた批評眼を持ち、作家やライターの才能を見抜いて育てる力がある人。文章の質に対するこだわりが強く、一字一句にまで気を配る繊細さを持つ。週刊誌の場合は取材記者としての行動力も必要。",
+      "concrete_examples": [
+        "年間100冊以上の書籍を読み、ジャンルを横断した教養がある",
+        "卒業論文で1万字以上の論考を書き上げ、高評価を得た",
+        "作家やクリエイターとの長期的な信頼関係を築くことに喜びを感じる",
+        "文章の推敲に何時間もかけられる粘り強さと繊細さがある",
+        "校正・校閲のスキルがあり、誤字脱字を見逃さない注意力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 80,
+      "empathy": 75,
+      "cooperativeness": 60,
+      "competitiveness": 65,
+      "initiative": 70,
+      "planning": 65,
+      "action_orientation": 65,
+      "stress_tolerance": 70,
+      "learning_speed": 80,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 80,
+      "abstract_thinking": 85,
+      "communication": 75,
+      "presentation": 60,
+      "negotiation": 60,
+      "leadership": 55,
+      "patience": 75,
+      "flexibility": 65,
+      "discipline": 65
+    },
+    "mbti_ranking": ["INFP", "INFJ", "INTP", "ENFP", "INTJ", "ENTP", "ENFJ", "ENTJ", "ISFP", "ISTP", "ESFP", "ESTJ", "ESTP", "ESFJ", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 95,
+      "conscientiousness": 65,
+      "extraversion": 55,
+      "agreeableness": 55,
+      "neuroticism": 48
+    },
+    "values": {
+      "growth": 70,
+      "stability": 45,
+      "social_contribution": 65,
+      "income": 45,
+      "autonomy": 70,
+      "expertise": 85,
+      "teamwork": 50
+    },
+    "work_style": {
+      "suitable_environments": ["知的刺激に満ちた文学・言論の世界", "作家との深い協働関係がある職場", "質の高い文章と教養が評価される文化"],
+      "unsuitable_environments": ["スピード重視でクオリティが二の次の環境", "数値目標だけが評価基準の職場", "読書や教養が仕事に活かせない環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["文芸編集者", "ノンフィクション編集者", "校閲者", "文芸翻訳者", "文化ジャーナリスト"],
+      "unsuitable_careers": ["テレアポ営業", "工場管理", "IT運用保守", "ルーティン事務"]
+    },
+    "student_features": {
+      "high_school": ["読書量が圧倒的に多い文学少年/少女", "作文や小論文で賞を取った経験", "現代文の成績が突出"],
+      "university": ["文学部・人文学部で文学・哲学・歴史を専攻", "読書会や文芸同人誌の活動", "卒論で文学作品や社会テーマの深い分析を行った"],
+      "part_time_job": ["書店員や出版社でのアルバイト", "ライター・校正のアルバイト"],
+      "club_activities": ["文芸部・読書会・批評サークル", "哲学カフェや人文系勉強会"],
+      "internship": ["出版社の編集部インターン", "文芸誌や書評メディアでのインターン"]
+    },
+    "feature_tags": ["#文芸編集", "#教養", "#読書量", "#批評眼", "#文章力", "#校正力", "#作家育成", "#知的好奇心", "#繊細さ", "#推敲力", "#装丁", "#出版文化", "#ノンフィクション", "#ジャーナリズム", "#言論", "#人文学", "#内省的", "#忍耐力", "#深い思考", "#クオリティ重視", "#信頼関係", "#伴走者", "#表現力", "#抽象思考", "#文学愛", "#学術", "#歴史知識", "#哲学的思考", "#創造性", "#探究心"]
+  },
+  {
+    "company": "ビジネス出版社（記者・編集職）アーキタイプ",
+    "position": "記者・編集職",
+    "industry": "マスコミ／広告（出版）",
+    "archetype_id": "PUBLISHER_BUSINESS_EDITOR",
+    "applies_to": ["東洋経済新報社", "ダイヤモンド社", "日経BP", "プレジデント社"],
+    "description": "ビジネス誌・経済誌の記者・編集者として、企業取材・業界分析・経営者インタビュー・特集企画の立案と執筆を行う。新聞記者とは異なり、速報よりも分析の深さと読者への示唆が重視される。「東洋経済オンライン」「ダイヤモンド・オンライン」等のWebメディア運営も増えており、PV（ページビュー）を意識した記事制作スキルも必要。ビジネスパーソンに有用な情報を提供する使命感が核。",
+    "ideal_profile": {
+      "description": "ビジネスや経済への深い関心と分析力を持ち、複雑なテーマを読者にわかりやすく伝える文章力がある人。新聞記者ほどの速報性は求められないが、独自の視点で深い分析記事を書く企画力が重要。",
+      "concrete_examples": [
+        "ビジネス書を月5冊以上読み、書評をブログ等で発信した経験がある",
+        "東洋経済オンラインやダイヤモンド・オンラインの記事を日常的に読み、面白い特集の構成を分析している",
+        "企業分析やケーススタディに取り組んだゼミ経験がある",
+        "ブログやnote等で経済テーマの長文記事を執筆した経験がある",
+        "Webマーケティングやコンテンツマーケティングに関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 70,
+      "empathy": 55,
+      "cooperativeness": 50,
+      "competitiveness": 70,
+      "initiative": 75,
+      "planning": 70,
+      "action_orientation": 75,
+      "stress_tolerance": 70,
+      "learning_speed": 85,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 90,
+      "abstract_thinking": 75,
+      "communication": 70,
+      "presentation": 65,
+      "negotiation": 60,
+      "leadership": 50,
+      "patience": 65,
+      "flexibility": 65,
+      "discipline": 65
+    },
+    "mbti_ranking": ["INTJ", "INTP", "ENTJ", "ENTP", "INFP", "INFJ", "ENFP", "ISTJ", "ESTJ", "ENFJ", "ISTP", "ESTP", "ESFJ", "ISFP", "ESFP", "ISFJ"],
+    "big_five": {
+      "openness": 85,
+      "conscientiousness": 65,
+      "extraversion": 58,
+      "agreeableness": 42,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 80,
+      "stability": 45,
+      "social_contribution": 60,
+      "income": 55,
+      "autonomy": 80,
+      "expertise": 90,
+      "teamwork": 40
+    },
+    "work_style": {
+      "suitable_environments": ["深い分析記事を書く時間が確保される環境", "ビジネス知識と取材力の両方が活かせる職場", "WebとPrint両方で発信できるメディア"],
+      "unsuitable_environments": ["速報だけが求められる環境", "分析の深さよりPVだけが全てのメディア", "ビジネス知識が活かせない領域"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ビジネスジャーナリスト", "経済アナリスト", "コンサルタント", "シンクタンク研究員", "ビジネス書著者"],
+      "unsuitable_careers": ["接客サービス", "ルーティン事務", "営業（飛び込み型）", "製造現場"]
+    },
+    "student_features": {
+      "high_school": ["経済や社会の仕組みへの関心が高い", "読書量が多く文章力がある", "数学と国語の両方が得意"],
+      "university": ["経済学・経営学・商学を専攻", "企業分析レポートやケーススタディに注力", "ブログやnoteで経済テーマの発信"],
+      "part_time_job": ["ビジネスメディアのライター", "調査会社やシンクタンクでのリサーチ"],
+      "club_activities": ["ビジネスサークル・投資研究会", "文芸部やメディア系サークル"],
+      "internship": ["ビジネス系出版社の編集部インターン", "経済メディアでの記者体験"]
+    },
+    "feature_tags": ["#ビジネスジャーナリズム", "#企業分析", "#経済誌", "#深掘り分析", "#特集企画", "#経営者インタビュー", "#Webメディア", "#PV意識", "#文章力", "#分析力", "#知的好奇心", "#ビジネス書", "#ケーススタディ", "#独自視点", "#論理的思考", "#データ分析", "#業界研究", "#取材力", "#コンテンツ制作", "#専門性", "#読者目線", "#教養", "#マクロ経済", "#ミクロ経済", "#マーケティング", "#テクノロジー", "#イノベーション", "#リサーチ力", "#探究心", "#実力主義"]
+  },
+  {
+    "company": "出版社（営業・宣伝職）アーキタイプ",
+    "position": "営業・宣伝職",
+    "industry": "マスコミ／広告（出版）",
+    "archetype_id": "PUBLISHER_SALES",
+    "applies_to": ["集英社", "講談社", "小学館", "KADOKAWA", "新潮社", "文藝春秋", "マガジンハウス", "扶桑社", "朝日新聞出版", "NHK出版", "白泉社"],
+    "description": "書店への自社書籍・雑誌の営業、販促企画の立案・実行、書店フェアの企画、広告宣伝の企画運営を行う。取次会社（トーハン・日販等）との部数交渉、書店の棚確保の営業活動、POP制作やSNSを活用した販促活動など、本を読者に届けるための全プロセスに関わる。編集職に比べてビジネス色が強く、売上データの分析やマーケティング戦略の立案が求められる。",
+    "ideal_profile": {
+      "description": "本や出版物への愛情を持ちながら、ビジネスパーソンとして売上を意識した営業活動ができる人。書店員との信頼関係構築力と、データに基づく販促企画の立案力の両立が必要。",
+      "concrete_examples": [
+        "書店でのアルバイト経験があり、書店の仕組みや棚の重要性を理解している",
+        "SNSでの書籍紹介やブックレビューの発信経験があり、本の魅力を伝える力がある",
+        "マーケティングやプロモーションの企画を立案し、実行した経験がある",
+        "POSデータや売上ランキングを分析して販売戦略を考えることに興味がある",
+        "初対面の人ともすぐに打ち解けられる社交性がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 60,
+      "creativity": 60,
+      "empathy": 70,
+      "cooperativeness": 75,
+      "competitiveness": 65,
+      "initiative": 70,
+      "planning": 70,
+      "action_orientation": 75,
+      "stress_tolerance": 65,
+      "learning_speed": 65,
+      "intellectual_curiosity": 70,
+      "analytical_ability": 60,
+      "abstract_thinking": 45,
+      "communication": 85,
+      "presentation": 75,
+      "negotiation": 75,
+      "leadership": 55,
+      "patience": 70,
+      "flexibility": 70,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENFJ", "ESFJ", "ENFP", "ENTJ", "ESTJ", "ESTP", "ENTP", "ESFP", "ISFJ", "INFJ", "ISTJ", "INFP", "INTJ", "ISTP", "INTP", "ISFP"],
+    "big_five": {
+      "openness": 65,
+      "conscientiousness": 65,
+      "extraversion": 78,
+      "agreeableness": 68,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 60,
+      "stability": 55,
+      "social_contribution": 50,
+      "income": 55,
+      "autonomy": 45,
+      "expertise": 55,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["出版物への愛情が仕事に直結する職場", "書店やパートナーとの対面営業が中心", "マーケティング的な企画提案ができる環境"],
+      "unsuitable_environments": ["コンテンツ制作が主で営業活動がない環境", "人との関わりが少ないデスクワーク中心", "出版に全く関係のない商材の営業"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["出版営業", "マーケティング", "書店バイヤー", "PR・広報", "イベントプランナー"],
+      "unsuitable_careers": ["プログラマー", "研究者", "工場管理", "法務専門職"]
+    },
+    "student_features": {
+      "high_school": ["読書好きで書店に通う習慣がある", "学校行事のPR活動に積極的", "社交的で友人が多い"],
+      "university": ["マーケティングや広告論を学ぶ", "書店でのアルバイト経験", "SNSでの書籍紹介や読書ブログを運営"],
+      "part_time_job": ["書店員", "イベントスタッフや販促系アルバイト"],
+      "club_activities": ["読書サークル・ビブリオバトル", "広告研究会・マーケティングサークル"],
+      "internship": ["出版社の営業部門インターン", "広告代理店やPR会社でのインターン"]
+    },
+    "feature_tags": ["#出版営業", "#書店営業", "#販促企画", "#POP制作", "#SNSマーケティング", "#取次交渉", "#部数管理", "#売上分析", "#マーケティング", "#読書好き", "#書店文化", "#コミュニケーション", "#信頼関係構築", "#プロモーション", "#データ分析", "#企画力", "#営業力", "#社交性", "#チームワーク", "#柔軟性", "#本への愛情", "#フットワーク", "#プレゼン力", "#交渉力", "#ビジネスセンス", "#トレンド把握", "#対外折衝", "#パートナーシップ", "#市場分析", "#結果主義"]
+  },
+  {
+    "company": "医学系出版社（編集職）アーキタイプ",
+    "position": "編集職",
+    "industry": "マスコミ／広告（出版）",
+    "archetype_id": "PUBLISHER_MEDICAL_EDITOR",
+    "applies_to": ["医学書院", "医歯薬出版"],
+    "description": "医学・看護学・歯学・薬学等の専門書・教科書・学術雑誌の編集を担当する。医療従事者や研究者との協働で、最新のエビデンスに基づく教科書や診療ガイドラインの編集、学術論文の査読支援、学会レポートの制作を行う。正確性が極めて重要で、一つの誤りが医療現場に影響を与えうる責任の重さがある。医学知識への学習意欲と、専門家と対等に議論できるコミュニケーション力が求められる。",
+    "ideal_profile": {
+      "description": "医学・科学への知的好奇心が高く、専門性の高いコンテンツを正確に編集する能力を持つ人。医療従事者や研究者との丁寧なコミュニケーションができ、専門用語を正確に扱える几帳面さがある。",
+      "concrete_examples": [
+        "理系学部や医療系学部で科学的な思考法を身につけた",
+        "校正・校閲作業を丁寧にこなせる正確性と忍耐力がある",
+        "医療や科学に関する記事・論文を読むことが好き",
+        "専門家との打ち合わせで的確な質問ができるコミュニケーション力がある",
+        "エビデンスベースの情報発信の重要性を理解している"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 40,
+      "empathy": 60,
+      "cooperativeness": 70,
+      "competitiveness": 35,
+      "initiative": 50,
+      "planning": 80,
+      "action_orientation": 50,
+      "stress_tolerance": 65,
+      "learning_speed": 80,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 85,
+      "abstract_thinking": 70,
+      "communication": 70,
+      "presentation": 55,
+      "negotiation": 50,
+      "leadership": 40,
+      "patience": 90,
+      "flexibility": 50,
+      "discipline": 85
+    },
+    "mbti_ranking": ["ISTJ", "INTJ", "INTP", "INFJ", "ESTJ", "ENTJ", "ISFJ", "ENTP", "ENFJ", "ISTP", "ENFP", "INFP", "ESFJ", "ESTP", "ISFP", "ESFP"],
+    "big_five": {
+      "openness": 72,
+      "conscientiousness": 88,
+      "extraversion": 42,
+      "agreeableness": 62,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 65,
+      "stability": 75,
+      "social_contribution": 80,
+      "income": 45,
+      "autonomy": 50,
+      "expertise": 90,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["正確性と専門性が最優先される環境", "医療従事者の知識向上に貢献できる職場", "落ち着いたペースで丁寧な仕事ができる"],
+      "unsuitable_environments": ["スピード重視でクオリティが二の次の環境", "エンタメ色が強いカジュアルな職場", "専門知識が不要なジェネラルな業務"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["医学系出版編集者", "学術編集者", "メディカルライター", "学会事務局", "医療情報専門職"],
+      "unsuitable_careers": ["バラエティ番組制作", "テレアポ営業", "接客サービス", "フリーランスクリエイター"]
+    },
+    "student_features": {
+      "high_school": ["理数科目が得意で細かい作業を丁寧にこなす", "医療や科学に関する読書が好き", "几帳面で正確さを大切にするタイプ"],
+      "university": ["理学部・薬学部・看護学部等の医療系、又は文系で科学ジャーナリズムを学ぶ", "卒論で学術的なリサーチと論文執筆を経験", "校正・校閲のアルバイト経験"],
+      "part_time_job": ["出版社や学術系企業でのアルバイト", "データ入力や文献整理の事務作業"],
+      "club_activities": ["科学部・医療系ボランティア", "読書会・文芸部"],
+      "internship": ["医学系出版社でのインターン", "学術データベース企業でのインターン"]
+    },
+    "feature_tags": ["#医学出版", "#学術編集", "#正確性", "#専門知識", "#エビデンス", "#校正力", "#教科書", "#診療ガイドライン", "#医療従事者支援", "#几帳面", "#忍耐力", "#知的好奇心", "#科学リテラシー", "#専門用語", "#学術論文", "#品質管理", "#安定志向", "#社会貢献", "#丁寧さ", "#責任感", "#研究者支援", "#コミュニケーション", "#学習意欲", "#堅実", "#計画性", "#データ重視", "#論理的思考", "#裏方", "#集中力", "#信頼性"]
+  },
+  {
+    "company": "電通",
+    "position": "総合職",
+    "industry": "マスコミ／広告（広告代理店）",
+    "archetype_id": "DENTSU_GENERAL",
+    "applies_to": ["電通"],
+    "description": "国内最大手広告代理店の総合職として、ビジネスプロデュース（営業）、ストラテジー（戦略プランニング）、クリエイティブ（コピー・CM制作）、メディア＆コンテンツ（メディアプランニング・バイイング）、グローバルビジネス、DX等の領域に配属される。クライアント企業の課題を広告・コミュニケーション戦略で解決する。圧倒的な営業力と体力、競争心が求められ、『鬼十則』に象徴されるアグレッシブな社風。大手クライアントとの大型案件が多く、社会的インパクトの大きいキャンペーンに関われる。",
+    "ideal_profile": {
+      "description": "圧倒的な行動力と競争心を持ち、クライアントの期待を超える提案を出し続けられるタフな人。体力・精神力ともに強靭で、長時間労働やプレッシャーの中でもパフォーマンスを発揮できる。社交性が高く、クライアントやクリエイターを含む多様なステークホルダーを巻き込むリーダーシップがある。博報堂と比較して個人の突破力・営業力がより重視される。",
+      "concrete_examples": [
+        "体育会系の部活で主将を務め、チームを結果に導いた経験がある",
+        "ビジネスコンテストやアイデアコンテストで優勝経験がある",
+        "飲み会やイベントの幹事を率先して引き受け、人を楽しませるのが得意",
+        "インターンやアルバイトでクライアントへの提案営業を経験し、成果を出した",
+        "CMやキャンペーンを見て、その戦略的意図を分析できる広告リテラシーがある",
+        "徹夜で企画書を仕上げても翌日のプレゼンでフルパワーを出せるタフさがある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 80,
+      "empathy": 60,
+      "cooperativeness": 60,
+      "competitiveness": 95,
+      "initiative": 95,
+      "planning": 55,
+      "action_orientation": 95,
+      "stress_tolerance": 90,
+      "learning_speed": 80,
+      "intellectual_curiosity": 75,
+      "analytical_ability": 65,
+      "abstract_thinking": 65,
+      "communication": 90,
+      "presentation": 90,
+      "negotiation": 85,
+      "leadership": 85,
+      "patience": 35,
+      "flexibility": 80,
+      "discipline": 55
+    },
+    "mbti_ranking": ["ENTJ", "ENTP", "ESTP", "ENFJ", "ESTJ", "ENFP", "ESFP", "ESFJ", "INTJ", "INTP", "ISTP", "INFJ", "INFP", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 55,
+      "extraversion": 92,
+      "agreeableness": 42,
+      "neuroticism": 30
+    },
+    "values": {
+      "growth": 85,
+      "stability": 30,
+      "social_contribution": 45,
+      "income": 85,
+      "autonomy": 65,
+      "expertise": 60,
+      "teamwork": 60
+    },
+    "work_style": {
+      "suitable_environments": ["大型案件で社会的インパクトの大きい仕事ができる環境", "個人の突破力と営業力が評価される実力主義", "多様なクリエイターやクライアントと協働する刺激的な職場", "競争心を燃やせるライバルが多い組織"],
+      "unsuitable_environments": ["ゆったりした穏やかなペースの職場", "個人の裁量が少なくマニュアル通りの業務", "対人関係が少ないデスクワーク中心", "安定重視で挑戦を嫌う保守的組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["広告営業", "クリエイティブディレクター", "事業プロデューサー", "マーケティングコンサルタント", "起業家"],
+      "unsuitable_careers": ["経理・監査", "研究者", "図書館司書", "品質管理"]
+    },
+    "student_features": {
+      "high_school": ["体育祭・文化祭のリーダー的存在", "部活動で全国大会出場", "目立つことが好きで人前に出るのが得意"],
+      "university": ["体育会系部活の主将・副将", "広告研究会やイベントサークルで大規模企画を実行", "ビジネスコンテストで入賞", "海外留学で異文化環境でのリーダーシップを発揮"],
+      "part_time_job": ["イベント企画・営業系アルバイトでトップ成績", "飲食店やバーで接客力を磨いた"],
+      "club_activities": ["体育会系部活のキャプテン", "広告研究会・イベントサークル幹部"],
+      "internship": ["電通のインターンシップ参加", "広告代理店やマーケティング企業でのインターン"]
+    },
+    "feature_tags": ["#電通", "#営業力", "#突破力", "#タフネス", "#競争心", "#大型案件", "#社会的インパクト", "#プレゼン力", "#クライアントワーク", "#体育会系", "#リーダーシップ", "#行動力", "#巻き込み力", "#クリエイティブ", "#マーケティング", "#ブランディング", "#メディア", "#DX", "#グローバル", "#高年収", "#ハードワーク", "#人脈力", "#社交性", "#企画力", "#戦略思考", "#実力主義", "#提案力", "#プレッシャー耐性", "#アグレッシブ", "#鬼十則"]
+  },
+  {
+    "company": "博報堂",
+    "position": "総合職",
+    "industry": "マスコミ／広告（広告代理店）",
+    "archetype_id": "HAKUHODO_GENERAL",
+    "applies_to": ["博報堂"],
+    "description": "業界2位の総合広告代理店の総合職として、営業・ストラテジー・クリエイティブ・メディア・データサイエンス等の領域に配属される。電通と比較して『生活者発想』を軸にしたプランニングが特徴で、消費者インサイトの深い理解に基づいた戦略提案を行う。社風は電通よりも穏やかで、チームワークと個人の多様性を尊重する文化。クリエイティブ志向が強く、広告の社会的・文化的価値を重視する傾向がある。",
+    "ideal_profile": {
+      "description": "生活者の視点に立った深い洞察力と、それをクリエイティブな提案に昇華する能力を持つ人。電通ほどのゴリゴリの営業力よりも、独自の視点と感性を持つ個性的なタイプが多い。チームで知恵を出し合う文化に馴染める協調性と、自分なりの『答え』を持つ主体性の両立が重要。",
+      "concrete_examples": [
+        "広告を見るとき、表面的な表現だけでなく背景にある消費者インサイトを考える習慣がある",
+        "哲学・社会学・心理学など人間の行動原理に関心が深い",
+        "チームでブレインストーミングをして新しいアイデアを生み出すのが好き",
+        "自分なりの美意識や世界観を持ち、それを言語化できる",
+        "アートや映画、音楽など幅広いカルチャーへの造詣が深い",
+        "一人で黙々と考える時間と、チームで議論する時間の両方を大切にする"
+      ]
+    },
+    "personality_scores": {
+      "logic": 70,
+      "creativity": 90,
+      "empathy": 75,
+      "cooperativeness": 72,
+      "competitiveness": 75,
+      "initiative": 82,
+      "planning": 60,
+      "action_orientation": 80,
+      "stress_tolerance": 78,
+      "learning_speed": 82,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 75,
+      "abstract_thinking": 85,
+      "communication": 85,
+      "presentation": 85,
+      "negotiation": 72,
+      "leadership": 70,
+      "patience": 50,
+      "flexibility": 82,
+      "discipline": 50
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "INFP", "ENTJ", "ENFJ", "INTP", "INTJ", "INFJ", "ESTP", "ESFP", "ESTJ", "ISTP", "ISFP", "ESFJ", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 90,
+      "conscientiousness": 52,
+      "extraversion": 78,
+      "agreeableness": 58,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 82,
+      "stability": 35,
+      "social_contribution": 58,
+      "income": 75,
+      "autonomy": 75,
+      "expertise": 70,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["生活者インサイトを深く掘り下げるリサーチ文化", "多様な個性を尊重するチームワーク重視の組織", "クリエイティブの質を重視する文化", "知的好奇心を刺激する多様なプロジェクト"],
+      "unsuitable_environments": ["個人の営業成績だけが全てのゴリゴリの組織", "マニュアル通りの定型業務", "感性やクリエイティビティが評価されない環境", "体育会系のノリが支配的な職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ストラテジックプランナー", "クリエイティブディレクター", "ブランドコンサルタント", "マーケティングリサーチャー", "クリエイティブプロデューサー"],
+      "unsuitable_careers": ["ルート営業", "経理事務", "品質管理", "製造管理"]
+    },
+    "student_features": {
+      "high_school": ["文化祭で独創的な企画を立案・実行した", "美術・音楽・演劇など芸術活動に積極的", "独自の趣味や関心を深く追求するタイプ"],
+      "university": ["社会学・心理学・哲学・文学・美術を専攻", "広告研究会やアート系サークルで創作活動", "独自の視点でゼミの発表を行い高評価", "海外のカルチャーや思想に触れる留学経験"],
+      "part_time_job": ["クリエイティブ系のアルバイト（デザイン・映像・ライティング）", "カフェやギャラリーなど感性が活きる場所での接客"],
+      "club_activities": ["広告研究会・アート系サークル", "哲学カフェ・文化批評系の勉強会"],
+      "internship": ["博報堂のインターンシップ参加", "ブランドコンサルやデザインファームでのインターン"]
+    },
+    "feature_tags": ["#博報堂", "#生活者発想", "#消費者インサイト", "#クリエイティブ", "#チームワーク", "#多様性", "#知的好奇心", "#感性", "#プランニング", "#ブランディング", "#マーケティング", "#リサーチ", "#カルチャー", "#独自視点", "#抽象思考", "#企画力", "#プレゼン力", "#コミュニケーション", "#戦略思考", "#美意識", "#個性重視", "#人間理解", "#アート感覚", "#柔軟性", "#行動力", "#提案力", "#穏やかな社風", "#協調性", "#深い思考", "#表現力"]
+  },
+  {
+    "company": "中堅広告代理店（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "マスコミ／広告（広告代理店）",
+    "archetype_id": "AD_AGENCY_MID",
+    "applies_to": ["ADK（アサツーディ・ケイ）", "読売広告社", "大広", "ジェイアール東日本企画（jeki）", "東急エージェンシー", "電通東日本", "電通西日本"],
+    "description": "業界3位以下の総合広告代理店での営業・プランニング・クリエイティブ・メディア等の業務。電通・博報堂と比較して規模は小さいが、一人当たりの裁量が大きく若手からプロジェクトリーダーを任されやすい。各社の強み（ADKはアニメ・コンテンツ、jekiは交通広告、東急AGは東急グループの街づくり連動型広告等）を活かした独自の提案力が求められる。",
+    "ideal_profile": {
+      "description": "広告への情熱がありながら、大手にはない裁量の大きさと専門性に魅力を感じる人。電通・博報堂を目指しつつも、自分の成長スピードを重視する実力志向のタイプが活躍する。",
+      "concrete_examples": [
+        "広告業界を志望しているが、大手よりも裁量の大きさを重視する",
+        "特定の領域（アニメ、交通広告、地域連動型広告等）に強い関心がある",
+        "少人数チームでマルチに活躍したい志向がある",
+        "若手のうちから大きな責任を持って仕事をしたい",
+        "自分のアイデアや企画を直接クライアントに提案する機会を求める"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 78,
+      "empathy": 65,
+      "cooperativeness": 68,
+      "competitiveness": 75,
+      "initiative": 82,
+      "planning": 60,
+      "action_orientation": 82,
+      "stress_tolerance": 75,
+      "learning_speed": 78,
+      "intellectual_curiosity": 78,
+      "analytical_ability": 65,
+      "abstract_thinking": 65,
+      "communication": 82,
+      "presentation": 80,
+      "negotiation": 75,
+      "leadership": 70,
+      "patience": 50,
+      "flexibility": 78,
+      "discipline": 55
+    },
+    "mbti_ranking": ["ENTP", "ENFP", "ENTJ", "ESTP", "ENFJ", "ESTJ", "ESFP", "INTP", "INTJ", "INFP", "ESFJ", "ISTP", "INFJ", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 55,
+      "extraversion": 80,
+      "agreeableness": 55,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 80,
+      "stability": 40,
+      "social_contribution": 45,
+      "income": 65,
+      "autonomy": 70,
+      "expertise": 65,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["若手に裁量が大きく成長が早い環境", "特定領域の専門性を活かせる職場", "少人数でマルチに活躍できるチーム"],
+      "unsuitable_environments": ["大組織で役割が細分化された環境", "下積みが長く裁量が少ない職場", "決まったルーティンの繰り返し"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["広告プランナー", "マーケティング", "プロモーション企画", "クリエイティブ", "メディアプランナー"],
+      "unsuitable_careers": ["研究開発", "経理事務", "品質検査", "定型営業"]
+    },
+    "student_features": {
+      "high_school": ["学校行事で企画力を発揮した", "コミュニケーション力が高い", "特定の趣味に深くのめり込むタイプ"],
+      "university": ["広告研究会やマーケティングサークルに所属", "ビジネスコンテストやアイデアコンテストに参加", "特定領域（アニメ・鉄道・街づくり等）への深い知識"],
+      "part_time_job": ["イベント運営・営業系アルバイト", "クリエイティブ系のフリーランス活動"],
+      "club_activities": ["広告研究会", "特定ジャンルのサークル（アニメ・鉄道等）"],
+      "internship": ["広告代理店のインターンシップ", "マーケティング企業でのインターン"]
+    },
+    "feature_tags": ["#中堅広告代理店", "#裁量大", "#若手活躍", "#マルチスキル", "#専門領域", "#営業力", "#企画力", "#クリエイティブ", "#マーケティング", "#メディア", "#プランニング", "#プレゼン力", "#コミュニケーション", "#行動力", "#成長重視", "#提案力", "#交渉力", "#チームワーク", "#柔軟性", "#少数精鋭", "#特化型", "#アニメ広告", "#交通広告", "#地域広告", "#プロモーション", "#競争心", "#実力主義", "#フットワーク", "#ビジネスセンス", "#挑戦心"]
+  },
+  {
+    "company": "デジタル広告代理店アーキタイプ",
+    "position": "総合職（デジタルマーケティング）",
+    "industry": "マスコミ／広告（広告代理店）",
+    "archetype_id": "DIGITAL_AD_AGENCY",
+    "applies_to": ["セプテーニ", "電通デジタル"],
+    "description": "デジタル広告に特化した代理店で、SNS広告・リスティング広告・ディスプレイ広告の運用、データ分析に基づくROI最適化、クリエイティブ制作、DXコンサルティングを行う。従来のマス広告代理店と異なり、数値データに基づくPDCAサイクルの高速回転が業務の中心。Google Analytics・Meta広告マネージャー等のツールを日常的に使い、広告効果を定量的に改善し続ける。若手の裁量が大きく、入社1-2年目から大型クライアントのデジタル広告運用を任される。",
+    "ideal_profile": {
+      "description": "データ分析力とクリエイティブ感覚の両方を持ち、デジタルマーケティングの最前線で高速PDCAを回せる人。従来型の広告業界よりもテクノロジーへの関心が高く、数字で成果を証明することにやりがいを感じる。",
+      "concrete_examples": [
+        "SNSの運用やWebマーケティングを実際に経験し、PV・CVの改善に取り組んだことがある",
+        "Google AnalyticsやMeta広告マネージャーを触ったことがある",
+        "ExcelやPythonでデータ分析を行った経験がある",
+        "A/Bテストやファネル分析の概念を理解し、実践的に活用できる",
+        "デジタル広告のトレンド（TikTok広告・AI活用等）に常にアンテナを張っている"
+      ]
+    },
+    "personality_scores": {
+      "logic": 78,
+      "creativity": 72,
+      "empathy": 55,
+      "cooperativeness": 60,
+      "competitiveness": 75,
+      "initiative": 80,
+      "planning": 65,
+      "action_orientation": 85,
+      "stress_tolerance": 75,
+      "learning_speed": 88,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 82,
+      "abstract_thinking": 60,
+      "communication": 72,
+      "presentation": 72,
+      "negotiation": 65,
+      "leadership": 60,
+      "patience": 45,
+      "flexibility": 80,
+      "discipline": 60
+    },
+    "mbti_ranking": ["ENTP", "ENTJ", "INTP", "INTJ", "ESTP", "ENFP", "ESTJ", "ISTP", "ENFJ", "ESFP", "INFP", "INFJ", "ESFJ", "ISTJ", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 80,
+      "conscientiousness": 60,
+      "extraversion": 72,
+      "agreeableness": 48,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 88,
+      "stability": 30,
+      "social_contribution": 35,
+      "income": 72,
+      "autonomy": 72,
+      "expertise": 78,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["データドリブンで成果が数字で明確に見える環境", "デジタルマーケティングの最新技術に触れ続けられる職場", "高速PDCAを回し続けるスピード感のある組織", "若手に大きな裁量が与えられる環境"],
+      "unsuitable_environments": ["感性だけで判断する従来型の広告文化", "変化が遅くテクノロジーへの関心が薄い組織", "長期的な関係構築が主で数字が見えにくい仕事"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["デジタルマーケター", "データアナリスト", "グロースハッカー", "Webマーケティングコンサルタント", "SaaS企業のマーケティング"],
+      "unsuitable_careers": ["伝統的なマス広告営業", "学術研究", "公務員", "製造現場"]
+    },
+    "student_features": {
+      "high_school": ["パソコンやスマホを使いこなすデジタルネイティブ", "数学と情報が得意", "自分でブログやSNSアカウントを運用した経験"],
+      "university": ["マーケティング・情報系を専攻", "自分でECサイトやSNSアカウントを運用し収益化した経験", "ビジネスコンテストでデジタルマーケティング提案"],
+      "part_time_job": ["Webマーケティングや広告運用のアルバイト", "EC事業やSNS運用代行"],
+      "club_activities": ["マーケティングサークル・IT系サークル", "起業サークル"],
+      "internship": ["デジタル広告代理店でのインターン", "スタートアップでのマーケティング実務"]
+    },
+    "feature_tags": ["#デジタル広告", "#SNS広告", "#リスティング広告", "#データ分析", "#PDCA", "#ROI最適化", "#A/Bテスト", "#Google Analytics", "#テクノロジー", "#グロースハック", "#若手裁量大", "#スピード感", "#数値改善", "#クリエイティブ", "#DX", "#高速改善", "#トレンド感度", "#マーケティング", "#学習速度", "#行動力", "#実力主義", "#ベンチャー気質", "#競争心", "#論理的思考", "#柔軟性", "#イノベーション", "#AI活用", "#SNSトレンド", "#デジタルネイティブ", "#成果主義"]
+  },
+  {
+    "company": "映画会社（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "マスコミ／広告（映画・音楽）",
+    "archetype_id": "FILM_COMPANY_GENERAL",
+    "applies_to": ["東宝", "東映", "松竹"],
+    "description": "映画の企画・制作・配給・宣伝、演劇事業、不動産事業などを手掛ける映画会社の総合職。映画のプロデュース（原作の権利取得、脚本開発、キャスティング、予算管理、制作進行）、配給・宣伝（上映館への営業、宣伝プランの策定、メディアプロモーション）、劇場運営、不動産管理など多岐にわたる業務に携わる。エンタメへの深い愛情とビジネス感覚の両立が求められ、プロデューサーとして映画を「ヒット」させるための総合力が試される。",
+    "ideal_profile": {
+      "description": "映画・演劇・エンターテインメントへの深い愛情と知識を持ちながら、興行収入やビジネス面での成功も追求できるプロデューサー気質の人。クリエイターの才能を活かしつつ、予算・スケジュール・マーケティングのマネジメントができる。",
+      "concrete_examples": [
+        "年間100本以上の映画を鑑賞し、ジャンル横断的な知識がある",
+        "映画祭や舞台のボランティアスタッフとして運営に関わった経験がある",
+        "自主映画を企画・制作し、資金調達からプロモーションまで経験した",
+        "映画の興行収入やマーケティング戦略に関心があり、ヒットの要因を分析している",
+        "多様なステークホルダー（監督・俳優・配給会社・劇場等）との調整経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 60,
+      "creativity": 80,
+      "empathy": 70,
+      "cooperativeness": 68,
+      "competitiveness": 70,
+      "initiative": 78,
+      "planning": 70,
+      "action_orientation": 75,
+      "stress_tolerance": 72,
+      "learning_speed": 75,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 65,
+      "abstract_thinking": 72,
+      "communication": 80,
+      "presentation": 75,
+      "negotiation": 75,
+      "leadership": 72,
+      "patience": 60,
+      "flexibility": 75,
+      "discipline": 58
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "ENTJ", "ENFJ", "INFP", "ESTP", "INTP", "INTJ", "ESFP", "INFJ", "ESTJ", "ISTP", "ESFJ", "ISFP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 88,
+      "conscientiousness": 58,
+      "extraversion": 72,
+      "agreeableness": 55,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 72,
+      "stability": 45,
+      "social_contribution": 55,
+      "income": 58,
+      "autonomy": 65,
+      "expertise": 72,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["映画・エンターテインメントの最前線で働ける職場", "プロデューサーとして大きな裁量を持てる環境", "クリエイターと協働して作品を生み出す文化"],
+      "unsuitable_environments": ["エンタメと全く関係のない業界", "数字だけが全ての評価基準", "定型業務の繰り返しが中心"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["映画プロデューサー", "配給宣伝", "イベントプロデューサー", "コンテンツビジネス", "エンタメ企業経営"],
+      "unsuitable_careers": ["工場管理", "定型事務", "純粋な研究職", "IT運用保守"]
+    },
+    "student_features": {
+      "high_school": ["映画部や演劇部に所属し作品制作に携わった", "文化祭で映画上映会やステージ公演を企画", "エンタメ全般への造詣が深い"],
+      "university": ["映画研究会や演劇サークルで制作・運営経験", "映画祭のボランティアやインターンに参加", "自主映画の制作やプロデュース経験"],
+      "part_time_job": ["映画館・劇場でのアルバイト", "イベント運営スタッフ"],
+      "club_activities": ["映画研究会・演劇サークル", "映画祭運営ボランティア"],
+      "internship": ["映画会社や映像制作会社でのインターン", "イベント企画会社でのインターン"]
+    },
+    "feature_tags": ["#映画", "#プロデュース", "#配給宣伝", "#興行", "#演劇", "#エンターテインメント", "#コンテンツビジネス", "#クリエイター協働", "#企画力", "#マーケティング", "#予算管理", "#スケジュール管理", "#交渉力", "#ステークホルダー調整", "#映画愛", "#文化教養", "#知的好奇心", "#プレゼン力", "#リーダーシップ", "#柔軟性", "#行動力", "#ビジネス感覚", "#不動産", "#劇場運営", "#コミュニケーション", "#トレンド感度", "#人脈力", "#プロデューサー気質", "#エンタメ業界", "#表現力"]
+  },
+  {
+    "company": "音楽・エンタメ企業（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "マスコミ／広告（映画・音楽）",
+    "archetype_id": "MUSIC_ENTERTAINMENT_GENERAL",
+    "applies_to": ["エイベックス", "キングレコード", "ポニーキャニオン", "ソニー・ミュージックエンタテインメント"],
+    "description": "音楽レーベルやエンタメ企業の総合職として、A&R（アーティスト発掘・育成・楽曲制作統括）、アーティストマネジメント、マーケティング・宣伝、デジタル配信、ライブ・イベント企画・運営、アニメ・ゲーム制作関連業務を担当。アーティストの魅力を最大化し、音楽やコンテンツを通じてファンとの接点を創出する。サブスクリプション配信やSNSマーケティングの重要性が急増し、デジタルスキルも求められる。",
+    "ideal_profile": {
+      "description": "音楽やエンターテインメントへの深い愛情と業界知識を持ち、アーティストやクリエイターの才能をビジネスとして花開かせるプロデュース力がある人。トレンドへの感度が高く、ファンコミュニティの力学を理解し、デジタルを活用した新しいビジネスモデルを考えられる。",
+      "concrete_examples": [
+        "毎月新曲を100曲以上チェックし、ジャンル横断的な音楽知識がある",
+        "音楽イベントの企画・運営に携わった経験がある",
+        "SNSでアーティストのプロモーションや音楽レビューを発信した経験がある",
+        "楽曲制作や作詞・作曲・DTMの経験がある",
+        "音楽ストリーミングサービスのビジネスモデルや収益構造を分析したことがある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 55,
+      "creativity": 85,
+      "empathy": 75,
+      "cooperativeness": 68,
+      "competitiveness": 70,
+      "initiative": 80,
+      "planning": 60,
+      "action_orientation": 80,
+      "stress_tolerance": 72,
+      "learning_speed": 78,
+      "intellectual_curiosity": 85,
+      "analytical_ability": 58,
+      "abstract_thinking": 70,
+      "communication": 82,
+      "presentation": 78,
+      "negotiation": 72,
+      "leadership": 68,
+      "patience": 55,
+      "flexibility": 80,
+      "discipline": 48
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "ESFP", "ESTP", "ENFJ", "ENTJ", "INFP", "ISFP", "INTP", "INTJ", "INFJ", "ESTJ", "ESFJ", "ISTP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 90,
+      "conscientiousness": 48,
+      "extraversion": 80,
+      "agreeableness": 55,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 72,
+      "stability": 30,
+      "social_contribution": 45,
+      "income": 55,
+      "autonomy": 68,
+      "expertise": 72,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["音楽・エンタメの最前線で働ける環境", "アーティストと直接関わるクリエイティブな職場", "トレンドの変化が早くスピード感のある組織"],
+      "unsuitable_environments": ["音楽やエンタメに全く関わらない業界", "変化が少なく安定重視の保守的な組織", "定型的なデスクワークが中心の職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["A&Rディレクター", "アーティストマネージャー", "音楽プロデューサー", "ライブイベント企画", "デジタルマーケター"],
+      "unsuitable_careers": ["経理事務", "製造管理", "公務員", "品質検査"]
+    },
+    "student_features": {
+      "high_school": ["バンド活動やDJ・DTMなど音楽活動に没頭", "学園祭のライブイベントを企画・運営", "音楽への情熱が人一倍強い"],
+      "university": ["音楽サークルやイベントサークルで活動", "クラブイベントやライブハウスでの企画・運営経験", "音楽レーベルや芸能事務所でのアルバイト"],
+      "part_time_job": ["ライブハウス・クラブ・音楽フェスのスタッフ", "芸能事務所やレコード会社でのアシスタント"],
+      "club_activities": ["軽音楽部・音楽サークル・DJサークル", "イベント企画サークル"],
+      "internship": ["音楽レーベルやエンタメ企業でのインターン", "ライブイベント制作会社でのインターン"]
+    },
+    "feature_tags": ["#音楽業界", "#A&R", "#アーティスト育成", "#マネジメント", "#ライブイベント", "#音楽プロデュース", "#デジタル配信", "#サブスクリプション", "#SNSマーケティング", "#ファンエンゲージメント", "#トレンド感度", "#クリエイティブ", "#エンタメ愛", "#音楽知識", "#企画力", "#行動力", "#柔軟性", "#コミュニケーション", "#プロデュース力", "#交渉力", "#アニメ", "#ゲーム", "#コンテンツビジネス", "#マーケティング", "#プレゼン力", "#競争心", "#情熱", "#デジタルスキル", "#フットワーク", "#表現力"]
+  },
+  {
+    "company": "ゲーム会社（プランナー）アーキタイプ",
+    "position": "ゲームプランナー・ゲームデザイナー",
+    "industry": "マスコミ／広告（ゲーム）",
+    "archetype_id": "GAME_PLANNER",
+    "applies_to": ["バンダイナムコエンターテインメント", "スクウェア・エニックス", "コナミデジタルエンタテインメント", "カプコン", "コーエーテクモホールディングス"],
+    "description": "ゲームの企画・設計を担当する職種。ゲームのコンセプト立案、世界観・キャラクター設定、ゲームシステム設計、レベルデザイン、シナリオ構成、UIデザインの仕様策定、パラメータ調整（ゲームバランス）、テストプレイによる品質確認を行う。プログラマーやデザイナーとの密接な連携が必要で、自分のアイデアを仕様書として論理的に文書化し、チームに伝える力が求められる。ユーザーの『面白い』を設計する、ゲーム開発の司令塔的役割。",
+    "ideal_profile": {
+      "description": "ゲームを愛し、『なぜ面白いのか』を分析的に説明できる人。プレイヤーとしての感性とデザイナーとしての論理性を兼ね備え、チームをまとめるコミュニケーション力がある。自分のアイデアを仕様書に落とし込み、プログラマーやアーティストに正確に伝える文書化能力が必須。",
+      "concrete_examples": [
+        "年間50本以上のゲームをプレイし、ジャンル横断的に面白さの構造を分析できる",
+        "自分でゲーム企画書を書いたことがある（RPGのシステム設計、アクションのレベルデザイン等）",
+        "UnityやUnreal Engineでプロトタイプを制作した経験がある",
+        "ゲームレビューやプレイ動画でユーザー体験を言語化する力がある",
+        "チーム制作でプランナー/ディレクターとしてメンバーをまとめた経験がある",
+        "ボードゲームやTRPGを自作し、テストプレイでバランス調整した経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 78,
+      "creativity": 90,
+      "empathy": 68,
+      "cooperativeness": 70,
+      "competitiveness": 65,
+      "initiative": 75,
+      "planning": 75,
+      "action_orientation": 70,
+      "stress_tolerance": 70,
+      "learning_speed": 82,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 82,
+      "abstract_thinking": 85,
+      "communication": 75,
+      "presentation": 72,
+      "negotiation": 58,
+      "leadership": 68,
+      "patience": 65,
+      "flexibility": 75,
+      "discipline": 60
+    },
+    "mbti_ranking": ["ENTP", "INTP", "ENFP", "INTJ", "ENTJ", "INFP", "INFJ", "ENFJ", "ISTP", "ESTP", "ISFP", "ESFP", "ESTJ", "ISTJ", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 92,
+      "conscientiousness": 60,
+      "extraversion": 60,
+      "agreeableness": 55,
+      "neuroticism": 42
+    },
+    "values": {
+      "growth": 78,
+      "stability": 40,
+      "social_contribution": 40,
+      "income": 55,
+      "autonomy": 70,
+      "expertise": 82,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["自分のアイデアがゲームとして形になる環境", "チームで一つの作品を作り上げるプロジェクト型", "論理的思考とクリエイティビティの両方が求められる職場"],
+      "unsuitable_environments": ["ゲームに全く関わらない業界", "個人作業が中心で他者との協働がない", "感性だけで論理的な設計が不要な環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ゲームプランナー", "ゲームディレクター", "レベルデザイナー", "プロダクトマネージャー", "UXデザイナー"],
+      "unsuitable_careers": ["ルート営業", "経理事務", "製造ライン管理", "法務"]
+    },
+    "student_features": {
+      "high_school": ["ゲームを大量にプレイし、面白さの要因を分析する癖がある", "自分でゲーム企画書やRPGのシナリオを書いた", "プログラミングやデザインに触れ始めた"],
+      "university": ["ゲーム制作サークルでプランナーとして活動", "Unityで自作ゲームを制作・公開した経験", "ゲームデザイン論やインタラクションデザインを学んだ"],
+      "part_time_job": ["ゲームのデバッグテスター", "ゲームショップや家電量販店のゲームコーナー"],
+      "club_activities": ["ゲーム制作サークル", "ボードゲーム・TRPG研究会"],
+      "internship": ["ゲーム会社のプランナー職インターン", "ゲームジャムへの参加"]
+    },
+    "feature_tags": ["#ゲームプランナー", "#ゲームデザイン", "#レベルデザイン", "#企画力", "#仕様書作成", "#ゲームバランス", "#ユーザー体験", "#UX設計", "#論理的思考", "#クリエイティブ", "#チームワーク", "#コミュニケーション", "#分析力", "#抽象思考", "#ゲーム愛", "#プロトタイプ", "#Unity", "#世界観設計", "#キャラクター設計", "#シナリオ", "#プロジェクト管理", "#ディレクション", "#テストプレイ", "#知的好奇心", "#柔軟性", "#文書化能力", "#プレゼン力", "#パラメータ調整", "#インタラクション", "#ゲーム開発"]
+  },
+  {
+    "company": "ゲーム会社（プログラマー・エンジニア）アーキタイプ",
+    "position": "ゲームエンジニア・プログラマー",
+    "industry": "マスコミ／広告（ゲーム）",
+    "archetype_id": "GAME_ENGINEER",
+    "applies_to": ["バンダイナムコエンターテインメント", "スクウェア・エニックス", "コナミデジタルエンタテインメント", "カプコン", "コーエーテクモホールディングス"],
+    "description": "ゲームの技術的な実装を担当するエンジニア職。C++やC#を用いたゲームプログラミング、ゲームエンジン（Unreal Engine, Unity等）の活用・カスタマイズ、物理演算・AI・ネットワーク・グラフィックス等の専門領域の実装、パフォーマンス最適化、デバッグを行う。プランナーの仕様を技術的に実現可能な形に落とし込み、プレイヤーが違和感なく楽しめるゲーム体験を技術面から支える。大規模タイトルでは数十人規模のエンジニアチームで開発する。",
+    "ideal_profile": {
+      "description": "プログラミングスキルとゲームへの情熱を兼ね備え、技術的な課題解決に喜びを感じる人。ゲームならではの複雑な技術要件（リアルタイム処理、3Dレンダリング、物理演算等）に対応できる高い技術力と、チームで協働するコミュニケーション力が必要。",
+      "concrete_examples": [
+        "C++やC#でゲームを自作した経験がある",
+        "Unreal EngineやUnityで3Dゲームの開発経験がある",
+        "競技プログラミングやハッカソンに参加した経験がある",
+        "コンピュータグラフィックスや物理シミュレーションに興味がある",
+        "GitHubで自作ゲームやライブラリを公開している",
+        "ゲームのフレームレートやメモリ使用量の最適化に取り組んだことがある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 92,
+      "creativity": 68,
+      "empathy": 45,
+      "cooperativeness": 60,
+      "competitiveness": 60,
+      "initiative": 65,
+      "planning": 70,
+      "action_orientation": 70,
+      "stress_tolerance": 70,
+      "learning_speed": 88,
+      "intellectual_curiosity": 90,
+      "analytical_ability": 92,
+      "abstract_thinking": 88,
+      "communication": 58,
+      "presentation": 48,
+      "negotiation": 40,
+      "leadership": 45,
+      "patience": 75,
+      "flexibility": 60,
+      "discipline": 70
+    },
+    "mbti_ranking": ["INTP", "INTJ", "ISTP", "ENTP", "ENTJ", "INFP", "ISTJ", "INFJ", "ESTP", "ENFP", "ESTJ", "ISFP", "ESFP", "ENFJ", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 80,
+      "conscientiousness": 68,
+      "extraversion": 38,
+      "agreeableness": 48,
+      "neuroticism": 42
+    },
+    "values": {
+      "growth": 80,
+      "stability": 48,
+      "social_contribution": 30,
+      "income": 60,
+      "autonomy": 72,
+      "expertise": 92,
+      "teamwork": 52
+    },
+    "work_style": {
+      "suitable_environments": ["最先端のゲーム技術に触れ続けられる環境", "技術的チャレンジが豊富な大型プロジェクト", "エンジニアの技術力が正当に評価される文化"],
+      "unsuitable_environments": ["プログラミングに関わらない営業や管理業務", "技術レベルの低い環境", "スピード重視で品質が軽視される職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ゲームプログラマー", "テクニカルディレクター", "グラフィックスエンジニア", "ゲームエンジン開発者", "XR/VRエンジニア"],
+      "unsuitable_careers": ["営業", "接客サービス", "事務職", "マネジメント専業"]
+    },
+    "student_features": {
+      "high_school": ["数学・物理・情報が得意", "独学でプログラミングを始めた", "ゲームのMOD制作やツール開発に取り組んだ"],
+      "university": ["情報工学・計算機科学・数学を専攻", "ゲーム制作サークルでプログラマーとして活動", "AtCoderやCodeforces等の競技プログラミングに参加"],
+      "part_time_job": ["プログラミングのアルバイト", "ゲームのデバッグ・QAテスター"],
+      "club_activities": ["プログラミングサークル・ゲーム制作サークル", "ロボコン・プロコン"],
+      "internship": ["ゲーム会社のエンジニアインターン", "ゲームジャムでのプログラマー参加"]
+    },
+    "feature_tags": ["#ゲームプログラマー", "#C++", "#C#", "#Unreal Engine", "#Unity", "#ゲームエンジン", "#物理演算", "#3Dグラフィックス", "#AI実装", "#ネットワーク", "#パフォーマンス最適化", "#デバッグ", "#技術力", "#論理的思考", "#問題解決", "#アルゴリズム", "#数学力", "#コンピュータサイエンス", "#知的好奇心", "#集中力", "#忍耐力", "#チーム開発", "#Git", "#コードレビュー", "#リアルタイム処理", "#ゲーム愛", "#専門性", "#学習意欲", "#抽象思考", "#技術探求"]
+  },
+  {
+    "company": "ゲーム会社（デザイナー・アーティスト）アーキタイプ",
+    "position": "ビジュアルアーティスト・デザイナー",
+    "industry": "マスコミ／広告（ゲーム）",
+    "archetype_id": "GAME_DESIGNER_ART",
+    "applies_to": ["バンダイナムコエンターテインメント", "スクウェア・エニックス", "コナミデジタルエンタテインメント", "カプコン", "コーエーテクモホールディングス"],
+    "description": "ゲームのビジュアル面を担当するアーティスト・デザイナー職。キャラクターデザイン、背景美術、3DCGモデリング・テクスチャリング、モーション制作、UIデザイン、エフェクト制作などを行う。2Dイラストレーションの画力から3DCGツール（Maya, 3ds Max, ZBrush等）の操作スキル、テクニカルアーティストとしてのシェーダー知識まで幅広い技術が求められる。採用では必ずポートフォリオ（作品集）の提出が必須。",
+    "ideal_profile": {
+      "description": "卓越した画力やCGスキルを持ち、ゲームの世界観を視覚的に表現する情熱がある人。技術的なツール操作力と芸術的センスの両方を持ち、プランナーやプログラマーとの協働の中で自分のビジュアル表現を最適化できる柔軟性がある。",
+      "concrete_examples": [
+        "デッサンや人体構造の基礎がしっかりしており、ポートフォリオの質が高い",
+        "Maya・ZBrush・Photoshop等のツールを使いこなして3DCG作品を制作した経験がある",
+        "pixivやArtStation等で作品を公開し、一定の評価を得ている",
+        "ゲームの世界観に合わせたキャラクターデザインや背景制作ができる",
+        "テクニカルアートの知識がありシェーダーやリギングにも対応できる"
+      ]
+    },
+    "personality_scores": {
+      "logic": 55,
+      "creativity": 95,
+      "empathy": 55,
+      "cooperativeness": 58,
+      "competitiveness": 55,
+      "initiative": 60,
+      "planning": 60,
+      "action_orientation": 65,
+      "stress_tolerance": 65,
+      "learning_speed": 78,
+      "intellectual_curiosity": 82,
+      "analytical_ability": 60,
+      "abstract_thinking": 80,
+      "communication": 55,
+      "presentation": 55,
+      "negotiation": 40,
+      "leadership": 38,
+      "patience": 82,
+      "flexibility": 70,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ISFP", "INFP", "ISTP", "INTP", "ENFP", "INTJ", "INFJ", "ISFJ", "ENTP", "ESFP", "ESTP", "ENTJ", "ENFJ", "ESTJ", "ESFJ", "ISTJ"],
+    "big_five": {
+      "openness": 95,
+      "conscientiousness": 60,
+      "extraversion": 38,
+      "agreeableness": 52,
+      "neuroticism": 48
+    },
+    "values": {
+      "growth": 72,
+      "stability": 42,
+      "social_contribution": 30,
+      "income": 48,
+      "autonomy": 72,
+      "expertise": 92,
+      "teamwork": 50
+    },
+    "work_style": {
+      "suitable_environments": ["ビジュアル表現の質が最優先される環境", "ゲームの世界観を視覚的に構築する創造的な職場", "技術とアートの両方を追求できる環境"],
+      "unsuitable_environments": ["ビジュアル制作に関わらない業務", "テンプレ通りの定型デザイン", "アート性よりもスピードだけが求められる環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ゲームアーティスト", "キャラクターデザイナー", "3DCGモデラー", "コンセプトアーティスト", "テクニカルアーティスト"],
+      "unsuitable_careers": ["営業", "経理", "法務", "テレアポ"]
+    },
+    "student_features": {
+      "high_school": ["美術の成績がトップクラス", "自主的にイラストや3DCG制作に取り組んだ", "pixivやSNSで作品を公開し評価を受けた"],
+      "university": ["美術大学・デザイン学部・CG専門学校で学んだ", "ゲーム制作サークルでデザイナーとして活動", "ポートフォリオを定期的に更新し作品の質を追求"],
+      "part_time_job": ["イラストレーションのフリーランス受注", "デザイン事務所でのアルバイト"],
+      "club_activities": ["美術部・CG制作サークル・ゲーム制作サークル", "イラストレーションコンテスト入賞"],
+      "internship": ["ゲーム会社のアーティスト職インターン", "3DCGスタジオでのインターン"]
+    },
+    "feature_tags": ["#ゲームアート", "#キャラクターデザイン", "#3DCG", "#2Dイラスト", "#Maya", "#ZBrush", "#Photoshop", "#モデリング", "#テクスチャリング", "#モーション", "#UI/UXデザイン", "#エフェクト", "#ポートフォリオ", "#画力", "#美術センス", "#テクニカルアート", "#シェーダー", "#世界観構築", "#クリエイティブ", "#集中力", "#忍耐力", "#ゲーム愛", "#ビジュアル思考", "#表現力", "#芸術性", "#職人気質", "#繊細さ", "#こだわり", "#専門性", "#観察力"]
+  },
+  {
+    "company": "任天堂（制作企画系）",
+    "position": "制作企画系",
+    "industry": "マスコミ／広告（ゲーム）",
+    "archetype_id": "NINTENDO_CREATIVE",
+    "applies_to": ["任天堂"],
+    "description": "任天堂のゲーム制作企画職として、マリオ・ゼルダ・ポケモン等の世界的IPのゲームデザイン・企画・ディレクションに携わる。任天堂独自の『遊び心ファースト』の哲学に基づき、技術ではなく『面白さ』の本質から企画を立ち上げる。ハードウェアとソフトウェアの一体開発という他社にない環境で、全く新しい遊び体験を生み出す。少数精鋭の京都本社で、宮本茂に代表される職人的なモノづくり文化の中で働く。",
+    "ideal_profile": {
+      "description": "『面白い』とは何かを本質的に考え、前例にとらわれない新しい遊び体験を創造できる人。任天堂の哲学（驚き・発見・直感的な楽しさ）を深く理解し、ユーザー目線での体験設計ができる。京都で腰を据えてモノづくりに取り組む姿勢も重要。",
+      "concrete_examples": [
+        "任天堂のゲームを幼少期からプレイし、その設計思想を深く理解している",
+        "既存の枠組みにとらわれない独自のゲーム体験を企画・実装した経験がある",
+        "日常生活の中から遊びのアイデアを着想する観察力がある",
+        "プロトタイプを素早く作り、テストプレイを繰り返して面白さを検証できる",
+        "テクノロジーありきではなく、体験ありきの発想ができる"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 95,
+      "empathy": 72,
+      "cooperativeness": 72,
+      "competitiveness": 50,
+      "initiative": 72,
+      "planning": 68,
+      "action_orientation": 72,
+      "stress_tolerance": 68,
+      "learning_speed": 82,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 78,
+      "abstract_thinking": 90,
+      "communication": 68,
+      "presentation": 68,
+      "negotiation": 50,
+      "leadership": 58,
+      "patience": 78,
+      "flexibility": 82,
+      "discipline": 68
+    },
+    "mbti_ranking": ["INTP", "ENTP", "INFP", "INTJ", "ENFP", "INFJ", "ENTJ", "ISTP", "ENFJ", "ISFP", "ESTP", "ESFP", "ESTJ", "ISTJ", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 95,
+      "conscientiousness": 65,
+      "extraversion": 50,
+      "agreeableness": 60,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 78,
+      "stability": 55,
+      "social_contribution": 55,
+      "income": 55,
+      "autonomy": 72,
+      "expertise": 88,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["遊びの本質を追求するモノづくり文化", "ハードとソフトの一体開発環境", "少数精鋭で質を重視する組織", "京都で腰を据えた長期的なキャリア構築"],
+      "unsuitable_environments": ["スピードと量だけが求められる環境", "技術的なスペックが全ての評価基準", "営業やマーケティングが中心の業務"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ゲームデザイナー", "プロダクトデザイナー", "UXリサーチャー", "インタラクションデザイナー", "クリエイティブディレクター"],
+      "unsuitable_careers": ["金融営業", "会計事務", "物流管理", "テレマーケティング"]
+    },
+    "student_features": {
+      "high_school": ["任天堂のゲームに親しみ、遊びの仕組みを考えることが好き", "独自の発明やモノづくりに取り組んだ経験がある", "理系と文系の両方に関心がある"],
+      "university": ["情報系・デザイン系を専攻しつつゲーム制作サークルで活動", "独自のゲームプロトタイプを制作し、ユーザーテストを繰り返した", "ゲームデザイン論や認知科学に関心"],
+      "part_time_job": ["ゲーム関連のアルバイト", "子ども向けワークショップの企画・運営"],
+      "club_activities": ["ゲーム制作サークル", "モノづくり系サークル（ロボット・電子工作等）"],
+      "internship": ["任天堂のインターンシップ", "ゲーム開発のハッカソン参加"]
+    },
+    "feature_tags": ["#任天堂", "#遊び心", "#面白さの本質", "#ゲームデザイン", "#ユーザー体験", "#プロトタイピング", "#モノづくり", "#京都", "#少数精鋭", "#品質重視", "#ハードソフト一体", "#IP", "#マリオ", "#ゼルダ", "#イノベーション", "#直感的デザイン", "#観察力", "#クリエイティブ", "#知的好奇心", "#抽象思考", "#忍耐力", "#柔軟性", "#体験設計", "#インタラクション", "#前例なき発想", "#職人気質", "#チームワーク", "#ユニバーサルデザイン", "#全年齢", "#探究心"]
+  },
+  {
+    "company": "ゲーム会社（ビジネス・営業職）アーキタイプ",
+    "position": "総合職（営業・マーケティング・コーポレート）",
+    "industry": "マスコミ／広告（ゲーム）",
+    "archetype_id": "GAME_BUSINESS",
+    "applies_to": ["バンダイナムコエンターテインメント", "コナミデジタルエンタテインメント", "カプコン", "セガサミーホールディングス", "コーエーテクモホールディングス", "任天堂"],
+    "description": "ゲーム会社のビジネスサイドとして、販売営業（小売店・流通への営業）、マーケティング（プロモーション戦略・広告出稿・PR）、ライセンスビジネス（IP活用のグッズ・映像化等）、経営企画、財務、人事などを担当。ゲームタイトルの販売戦略立案、トレーラー制作のディレクション、メディアリレーション、eスポーツ事業の推進など、ゲームコンテンツをビジネスとして最大化する役割を担う。",
+    "ideal_profile": {
+      "description": "ゲーム・エンタメへの愛情を持ちながら、ビジネスパーソンとしてマーケティングや営業の実力を発揮できる人。ゲームの世界観を理解した上で、市場分析やプロモーション戦略を策定できるバランス型の人材。",
+      "concrete_examples": [
+        "ゲーム業界の市場動向やビジネスモデルを分析した経験がある",
+        "マーケティングやプロモーションの企画・実行経験がある",
+        "ゲームのプロモーション動画やイベントの効果を分析する視点がある",
+        "eスポーツやゲーム実況のビジネス面に関心がある",
+        "営業職やビジネス開発の経験があり、対外折衝力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 58,
+      "empathy": 62,
+      "cooperativeness": 72,
+      "competitiveness": 68,
+      "initiative": 72,
+      "planning": 72,
+      "action_orientation": 72,
+      "stress_tolerance": 65,
+      "learning_speed": 68,
+      "intellectual_curiosity": 72,
+      "analytical_ability": 65,
+      "abstract_thinking": 50,
+      "communication": 80,
+      "presentation": 75,
+      "negotiation": 72,
+      "leadership": 60,
+      "patience": 62,
+      "flexibility": 68,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENFJ", "ENTJ", "ENFP", "ESTJ", "ENTP", "ESFJ", "ESTP", "ESFP", "INTJ", "INFJ", "ISTJ", "INTP", "INFP", "ISTP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 68,
+      "conscientiousness": 65,
+      "extraversion": 75,
+      "agreeableness": 60,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 65,
+      "stability": 55,
+      "social_contribution": 35,
+      "income": 65,
+      "autonomy": 50,
+      "expertise": 55,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["ゲーム・エンタメの知識が武器になるビジネス環境", "マーケティングと営業の両方に携われる職場", "IP活用やライセンスビジネスに関われる環境"],
+      "unsuitable_environments": ["ゲームに全く関わらない商材の営業", "クリエイティブ制作だけが求められる環境", "技術開発中心の職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ゲーム業界の営業・マーケティング", "IPビジネス", "エンタメ企業の事業開発", "eスポーツ事業"],
+      "unsuitable_careers": ["技術系エンジニア", "研究者", "医療職", "公務員"]
+    },
+    "student_features": {
+      "high_school": ["ゲーム好きだが営業やビジネスにも関心がある", "学校行事の広報や企画で活躍", "社交的で友人が多い"],
+      "university": ["経営学・マーケティングを学びながらゲームサークルに所属", "ビジネスコンテストでゲーム関連の企画を提案", "ゲームイベントの運営経験"],
+      "part_time_job": ["ゲームショップの販売員", "イベント運営スタッフ"],
+      "club_activities": ["ゲームサークル・マーケティングサークル", "イベント企画サークル"],
+      "internship": ["ゲーム会社のビジネス職インターン", "マーケティング企業でのインターン"]
+    },
+    "feature_tags": ["#ゲーム営業", "#マーケティング", "#IPビジネス", "#ライセンス", "#プロモーション", "#eスポーツ", "#販売戦略", "#市場分析", "#コミュニケーション", "#対外折衝", "#プレゼン力", "#交渉力", "#営業力", "#ゲーム愛", "#ビジネスセンス", "#チームワーク", "#企画力", "#データ分析", "#メディアリレーション", "#イベント", "#トレーラー制作", "#広報", "#PR", "#小売営業", "#流通", "#経営企画", "#バランス型", "#社交性", "#計画性", "#実行力"]
+  },
+  {
+    "company": "リクルート",
+    "position": "ビジネスグロースコース",
+    "industry": "サービス業",
+    "archetype_id": "RECRUIT_BUSINESS",
+    "applies_to": ["リクルート"],
+    "description": "リクルートのビジネスグロースコースとして、マーケター・顧客接点（営業）・事業企画・コーポレートスタッフのいずれかに配属される。『じゃらん』『SUUMO』『リクナビ』等のメディアサービスの成長を担い、データドリブンなマーケティング、クライアント企業への提案営業、新規事業の企画開発を行う。圧倒的な当事者意識と『自分で考え、自分で動く』カルチャーが特徴。若手に大きな裁量が与えられ、3年で一人前のビジネスパーソンに育てる育成方針がある。",
+    "ideal_profile": {
+      "description": "圧倒的な当事者意識と自走力を持ち、与えられた仕事をこなすだけでなく自ら課題を見つけて解決策を実行できる人。論理的思考力とコミュニケーション力を兼ね備え、成長への強い意欲がある。起業家精神（アントレプレナーシップ）が評価される。",
+      "concrete_examples": [
+        "学生時代に自分で事業やプロジェクトを立ち上げた経験がある",
+        "インターンで営業やマーケティングの実務を経験し、数字目標を達成した",
+        "『なぜ？』を繰り返して課題の本質を掘り下げる思考習慣がある",
+        "将来の起業や独立を視野に入れてキャリアを考えている",
+        "データを使って仮説を立て、検証するアプローチが得意",
+        "自分の成長のためにストレッチな目標を設定し、実行するタイプ"
+      ]
+    },
+    "personality_scores": {
+      "logic": 78,
+      "creativity": 72,
+      "empathy": 62,
+      "cooperativeness": 60,
+      "competitiveness": 85,
+      "initiative": 95,
+      "planning": 65,
+      "action_orientation": 92,
+      "stress_tolerance": 82,
+      "learning_speed": 88,
+      "intellectual_curiosity": 82,
+      "analytical_ability": 78,
+      "abstract_thinking": 68,
+      "communication": 82,
+      "presentation": 80,
+      "negotiation": 75,
+      "leadership": 78,
+      "patience": 40,
+      "flexibility": 78,
+      "discipline": 55
+    },
+    "mbti_ranking": ["ENTJ", "ENTP", "ESTP", "ENFJ", "ESTJ", "ENFP", "INTJ", "INTP", "ESFP", "ESFJ", "ISTP", "INFJ", "INFP", "ISTJ", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 60,
+      "extraversion": 82,
+      "agreeableness": 45,
+      "neuroticism": 30
+    },
+    "values": {
+      "growth": 95,
+      "stability": 20,
+      "social_contribution": 45,
+      "income": 72,
+      "autonomy": 85,
+      "expertise": 62,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["若手に大きな裁量が与えられるフラットな組織", "成長志向が強く自走力が評価される文化", "起業家精神が奨励される環境", "データドリブンな意思決定文化"],
+      "unsuitable_environments": ["年功序列で上の指示通りに動く組織", "変化を嫌う保守的な大企業", "個人の成長より組織の安定を重視する文化"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["事業企画", "マーケター", "起業家", "コンサルタント", "新規事業開発"],
+      "unsuitable_careers": ["ルーティン事務", "公務員", "品質管理", "倉庫管理"]
+    },
+    "student_features": {
+      "high_school": ["生徒会長や部活のキャプテンとして組織を率いた", "自分でイベントやプロジェクトを企画・実行した", "目標達成への執着心が強い"],
+      "university": ["起業サークルやビジネスコンテストで活躍", "長期インターンで営業やマーケティングの実務経験", "自分で事業を立ち上げた経験", "ゼミでケーススタディや事業提案に注力"],
+      "part_time_job": ["ベンチャー企業での長期インターン", "営業系アルバイトでトップ成績"],
+      "club_activities": ["起業サークル・ビジネスサークル", "体育会系部活で成果を出した経験"],
+      "internship": ["リクルートのインターンシップ", "ベンチャー企業での長期就業型インターン"]
+    },
+    "feature_tags": ["#リクルート", "#当事者意識", "#自走力", "#起業家精神", "#成長志向", "#若手裁量大", "#データドリブン", "#マーケティング", "#営業", "#事業企画", "#新規事業", "#PDCA", "#論理的思考", "#行動力", "#競争心", "#リーダーシップ", "#プレゼン力", "#コミュニケーション", "#提案力", "#仮説思考", "#実力主義", "#アントレプレナー", "#卒業後起業", "#フラット組織", "#スピード感", "#目標達成", "#分析力", "#チャレンジ精神", "#ストレッチ目標", "#個人裁量"]
+  },
+  {
+    "company": "ファーストリテイリング",
+    "position": "グローバルリーダー候補",
+    "industry": "サービス業",
+    "archetype_id": "FASTRETAILING_GL",
+    "applies_to": ["ファーストリテイリング"],
+    "description": "ユニクロ・ジーユー等のグローバルSPAブランドを展開するファーストリテイリングのグローバルリーダー候補として入社。全員が店舗配属からスタートし、店長として店舗経営（売上・利益・スタッフマネジメント・顧客体験・在庫管理）を一通り経験した後、MD（マーチャンダイジング）、マーケティング、生産管理、海外事業等へキャリアを広げる。経営者目線で考え行動することが全社員に求められ、柳井正CEO直結の厳しい成果主義が特徴。",
+    "ideal_profile": {
+      "description": "経営者マインドを持ち、店舗という『小さな経営体』を率いるリーダーシップと数字への厳しさがある人。グローバルに活躍する意欲が高く、多様な国籍・バックグラウンドのスタッフをまとめるマネジメント力がある。泥臭い現場仕事と経営戦略的思考の両方を楽しめるタフさが必要。",
+      "concrete_examples": [
+        "接客のアルバイトで店舗の売上改善に貢献した経験がある",
+        "チームのリーダーとしてメンバーの育成に取り組んだ経験がある",
+        "グローバルに働きたいという明確な志望動機と語学力がある",
+        "PL（損益計算書）を理解し、売上とコストの関係を把握できる",
+        "泥臭い現場仕事も戦略的な思考も両方楽しめるタイプ",
+        "ユニクロの服づくりやビジネスモデルに共感している"
+      ]
+    },
+    "personality_scores": {
+      "logic": 72,
+      "creativity": 55,
+      "empathy": 65,
+      "cooperativeness": 65,
+      "competitiveness": 85,
+      "initiative": 88,
+      "planning": 72,
+      "action_orientation": 90,
+      "stress_tolerance": 88,
+      "learning_speed": 78,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 70,
+      "abstract_thinking": 55,
+      "communication": 80,
+      "presentation": 70,
+      "negotiation": 68,
+      "leadership": 90,
+      "patience": 50,
+      "flexibility": 72,
+      "discipline": 80
+    },
+    "mbti_ranking": ["ENTJ", "ESTJ", "ESTP", "ENFJ", "ENTP", "ESFJ", "ESFP", "ENFP", "INTJ", "ISTJ", "ISTP", "INTP", "INFJ", "INFP", "ISFJ", "ISFP"],
+    "big_five": {
+      "openness": 58,
+      "conscientiousness": 78,
+      "extraversion": 82,
+      "agreeableness": 48,
+      "neuroticism": 28
+    },
+    "values": {
+      "growth": 88,
+      "stability": 30,
+      "social_contribution": 45,
+      "income": 78,
+      "autonomy": 65,
+      "expertise": 55,
+      "teamwork": 65
+    },
+    "work_style": {
+      "suitable_environments": ["店舗経営からグローバル経営へのキャリアパスがある環境", "成果主義で実力が正当に評価される組織", "グローバルに活躍できる機会がある企業"],
+      "unsuitable_environments": ["年功序列でゆっくり昇進する組織", "現場から離れたデスクワーク中心の職場", "変化を嫌う保守的な文化"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["小売業の経営幹部", "マーチャンダイザー", "海外事業責任者", "店舗コンサルタント", "起業家"],
+      "unsuitable_careers": ["研究者", "プログラマー", "芸術家", "公務員"]
+    },
+    "student_features": {
+      "high_school": ["部活のキャプテンやリーダー的存在", "目標に向かってストイックに努力するタイプ", "アルバイトを始めて働くことへの関心が高い"],
+      "university": ["留学経験や国際交流が豊富", "ユニクロでのアルバイト経験があり、店舗経営に興味", "体育会系部活で厳しい環境に身を置いた"],
+      "part_time_job": ["ユニクロ・GUでのアルバイト（強く推奨）", "接客販売で数字を意識した働き方を経験"],
+      "club_activities": ["体育会系部活のキャプテン・主将", "国際交流サークル"],
+      "internship": ["ファーストリテイリングのインターンシップ", "リテール企業でのマーケティングインターン"]
+    },
+    "feature_tags": ["#ファーストリテイリング", "#ユニクロ", "#グローバルリーダー", "#店舗経営", "#経営者マインド", "#成果主義", "#リーダーシップ", "#スタッフマネジメント", "#MD", "#グローバル", "#現場主義", "#数字意識", "#行動力", "#タフネス", "#競争心", "#語学力", "#PL管理", "#在庫管理", "#顧客体験", "#SPA", "#海外事業", "#店長", "#人材育成", "#ストイック", "#実力主義", "#アパレル", "#マーケティング", "#サプライチェーン", "#規律", "#経営戦略"]
+  },
+  {
+    "company": "オリエンタルランド",
+    "position": "総合職",
+    "industry": "サービス業",
+    "archetype_id": "OLC_GENERAL",
+    "applies_to": ["オリエンタルランド"],
+    "description": "東京ディズニーリゾートを運営するオリエンタルランドの総合職。入社後はテーマパーク部門に配属され、アトラクション運営、ショー・パレード企画、飲食・物販の販売管理、マーケティング、ゲストサービスなど、パーク運営の全領域をジョブローテーションで経験する。ゲスト（来場者）に最高の体験を提供するホスピタリティと、年間3000万人規模の来場者を安全に運営するオペレーション管理力の両方が求められる。",
+    "ideal_profile": {
+      "description": "ディズニーの世界観とホスピタリティに深い共感を持ち、ゲストに感動体験を提供することに喜びを感じる人。華やかなイメージの裏にある緻密なオペレーション管理や、キャスト（従業員）のマネジメントにも対応できる実務力がある。",
+      "concrete_examples": [
+        "東京ディズニーリゾートの年間パスポートを持ち、パーク運営のディテールに詳しい",
+        "接客業のアルバイトでお客様満足度向上に注力した経験がある",
+        "チームメンバーのモチベーションを上げるマネジメント経験がある",
+        "安全管理やリスク管理への意識が高い",
+        "大規模イベントの運営に携わった経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 62,
+      "creativity": 65,
+      "empathy": 88,
+      "cooperativeness": 85,
+      "competitiveness": 48,
+      "initiative": 68,
+      "planning": 78,
+      "action_orientation": 72,
+      "stress_tolerance": 72,
+      "learning_speed": 70,
+      "intellectual_curiosity": 62,
+      "analytical_ability": 60,
+      "abstract_thinking": 50,
+      "communication": 85,
+      "presentation": 68,
+      "negotiation": 58,
+      "leadership": 72,
+      "patience": 82,
+      "flexibility": 72,
+      "discipline": 78
+    },
+    "mbti_ranking": ["ESFJ", "ENFJ", "ISFJ", "ESTJ", "ENFP", "ESFP", "ENTJ", "INFJ", "ISTJ", "ENTP", "ESTP", "INFP", "INTJ", "INTP", "ISTP", "ISFP"],
+    "big_five": {
+      "openness": 62,
+      "conscientiousness": 78,
+      "extraversion": 72,
+      "agreeableness": 82,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 58,
+      "stability": 65,
+      "social_contribution": 60,
+      "income": 55,
+      "autonomy": 40,
+      "expertise": 52,
+      "teamwork": 88
+    },
+    "work_style": {
+      "suitable_environments": ["ゲストの感動体験を追求するホスピタリティ重視の文化", "大規模オペレーションの管理と改善に携われる環境", "チームワークを大切にする組織"],
+      "unsuitable_environments": ["個人プレーが中心の競争的環境", "ホスピタリティが不要な裏方業務のみ", "短期成果のみで評価される職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["テーマパーク運営", "ホスピタリティ業界管理職", "イベントプロデューサー", "サービス業の品質管理"],
+      "unsuitable_careers": ["投資銀行", "プログラマー", "研究者", "外資系コンサル"]
+    },
+    "student_features": {
+      "high_school": ["ディズニーが大好きで何度もパークに通った", "学校行事のおもてなし・接客で評価された", "チームワークを大切にするタイプ"],
+      "university": ["ホスピタリティ・観光学を学んだ", "ディズニーリゾートでキャストのアルバイト経験", "大規模イベントの運営に携わった"],
+      "part_time_job": ["ディズニーリゾートのキャスト", "高級ホテルやレストランでの接客"],
+      "club_activities": ["ボランティアサークル・イベント企画サークル", "ダンスサークルやパフォーマンス系"],
+      "internship": ["オリエンタルランドのインターンシップ", "ホテル・旅行業界のインターン"]
+    },
+    "feature_tags": ["#ディズニー", "#テーマパーク", "#ホスピタリティ", "#ゲスト体験", "#感動創出", "#オペレーション管理", "#安全管理", "#キャストマネジメント", "#チームワーク", "#ジョブローテーション", "#おもてなし", "#共感力", "#忍耐力", "#計画性", "#規律", "#マーケティング", "#イベント企画", "#飲食管理", "#物販", "#大規模運営", "#ブランド管理", "#顧客満足", "#コミュニケーション", "#リーダーシップ", "#サービス精神", "#エンターテインメント", "#体験設計", "#パーク運営", "#安定志向", "#協調性"]
+  },
+  {
+    "company": "USJ",
+    "position": "マーケティング職",
+    "industry": "サービス業",
+    "archetype_id": "USJ_MARKETING",
+    "applies_to": ["ユー・エス・ジェイ（USJ）"],
+    "description": "ユニバーサル・スタジオ・ジャパンのマーケティング職として、入社初年度からプロジェクトリーダーとして活躍する。パークのブランディング戦略、集客のためのコミュニケーション戦略、新アトラクションやイベントのコンテンツ企画制作、チケット販売戦略の立案など、パーク全体のマーケティングを担う。森岡毅氏が築いたデータドリブンなマーケティング文化が根付いており、消費者インサイトの深い理解とデータ分析力が求められる。",
+    "ideal_profile": {
+      "description": "マーケティング戦略の立案から実行まで一気通貫で担えるプロデューサー型の人材。消費者インサイトを捉えたコミュニケーション戦略の構築力と、データに基づく意思決定能力の両方が求められる。1年目から大きな責任を持つため、プレッシャー耐性と自走力が必須。",
+      "concrete_examples": [
+        "マーケティング論を体系的に学び、4PやSTPの実践的な理解がある",
+        "データ分析に基づいてマーケティング施策を立案・実行した経験がある",
+        "消費者の心理や行動を深く観察し、インサイトを言語化できる",
+        "入社1年目から責任ある仕事を任される環境を求めている",
+        "USJのV字回復の戦略を分析し、森岡毅氏の著書を読んでいる"
+      ]
+    },
+    "personality_scores": {
+      "logic": 82,
+      "creativity": 78,
+      "empathy": 68,
+      "cooperativeness": 60,
+      "competitiveness": 82,
+      "initiative": 88,
+      "planning": 75,
+      "action_orientation": 85,
+      "stress_tolerance": 82,
+      "learning_speed": 85,
+      "intellectual_curiosity": 82,
+      "analytical_ability": 85,
+      "abstract_thinking": 72,
+      "communication": 78,
+      "presentation": 82,
+      "negotiation": 68,
+      "leadership": 78,
+      "patience": 45,
+      "flexibility": 72,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENTJ", "ENTP", "INTJ", "ENFJ", "ESTJ", "INTP", "ENFP", "ESTP", "ESFJ", "INFJ", "ISTJ", "ESFP", "ISTP", "INFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 68,
+      "extraversion": 75,
+      "agreeableness": 45,
+      "neuroticism": 32
+    },
+    "values": {
+      "growth": 90,
+      "stability": 30,
+      "social_contribution": 40,
+      "income": 72,
+      "autonomy": 78,
+      "expertise": 78,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["データドリブンなマーケティング文化", "1年目から大きな裁量が与えられる環境", "消費者インサイトを重視する組織"],
+      "unsuitable_environments": ["下積みが長い年功序列の組織", "感覚的な意思決定が中心の文化", "マーケティングの裁量が少ない環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["マーケター", "ブランドマネージャー", "コンサルタント", "事業企画", "CMO"],
+      "unsuitable_careers": ["定型事務", "経理", "製造管理", "公務員"]
+    },
+    "student_features": {
+      "high_school": ["分析的な思考と行動力を兼ね備えるタイプ", "学校行事のプロモーション企画に関わった", "リーダーシップが強い"],
+      "university": ["マーケティングを専攻しケーススタディに注力", "森岡毅氏の著書を読んでマーケティング戦略を分析", "データ分析ツールを使いこなせる"],
+      "part_time_job": ["マーケティング系インターン", "USJでのアルバイト経験"],
+      "club_activities": ["マーケティングサークル・ビジネスサークル", "起業サークル"],
+      "internship": ["USJのインターンシップ", "消費財メーカーのマーケティングインターン"]
+    },
+    "feature_tags": ["#USJ", "#マーケティング", "#データドリブン", "#消費者インサイト", "#ブランディング", "#集客戦略", "#コンテンツ企画", "#プロジェクトリーダー", "#1年目から即戦力", "#分析力", "#戦略思考", "#プレゼン力", "#実行力", "#行動力", "#競争心", "#成長志向", "#論理的思考", "#プロデュース力", "#マーケティング戦略", "#STP", "#4P", "#CRM", "#森岡毅", "#V字回復", "#エンターテインメント", "#テーマパーク", "#リーダーシップ", "#自走力", "#プレッシャー耐性", "#仮説検証"]
+  },
+  {
+    "company": "P&Gジャパン（マーケティング）",
+    "position": "マーケティング",
+    "industry": "日用品・化粧品",
+    "archetype_id": "PG_MARKETING",
+    "applies_to": ["P&Gジャパン"],
+    "description": "世界最大の日用消費財メーカーP&Gのブランドマネージャー候補として、特定ブランド（アリエール、パンパース、SK-II等）のマーケティング戦略全体を統括する。消費者リサーチに基づくブランド戦略立案、新製品開発の指揮、広告・メディアプランの策定、販促施策の企画、P&L管理（売上・利益責任）まで幅広い業務を1年目から担当。グローバル本社との英語での日常的なコミュニケーションが必須。職種別採用で入社後の職種変更は原則なし。極めて体系的なマーケティングトレーニングで知られ、OBOGがCMO（最高マーケティング責任者）として各社で活躍する『マーケティング道場』。",
+    "ideal_profile": {
+      "description": "論理的思考力と消費者への深い共感力を兼ね備え、データに基づいて戦略を立案しつつクリエイティブな施策を実行できる人。英語力（ビジネスレベル）は必須。博報堂的な感性よりも電通的な実行力に近いが、それ以上にフレームワーク思考とP&L責任への意識が重要。ユニリーバと比較して競争的・成果主義的な環境で、Up or Outの文化が強い。",
+      "concrete_examples": [
+        "ビジネスレベルの英語力があり、留学やグローバル環境での就業経験がある",
+        "マーケティングのフレームワーク（STP、4P、ブランドエクイティ等）を体系的に学んだ",
+        "消費者インタビューや市場調査を自ら実施した経験がある",
+        "P&Lを理解し、売上とコストの関係から施策の優先順位を判断できる",
+        "リーダーシップを発揮してチームを率いたプロジェクト経験がある",
+        "P&GのOBOGが活躍する理由を分析し、自分もそのキャリアを目指している"
+      ]
+    },
+    "personality_scores": {
+      "logic": 88,
+      "creativity": 72,
+      "empathy": 65,
+      "cooperativeness": 58,
+      "competitiveness": 90,
+      "initiative": 88,
+      "planning": 78,
+      "action_orientation": 85,
+      "stress_tolerance": 85,
+      "learning_speed": 90,
+      "intellectual_curiosity": 78,
+      "analytical_ability": 88,
+      "abstract_thinking": 72,
+      "communication": 82,
+      "presentation": 85,
+      "negotiation": 72,
+      "leadership": 85,
+      "patience": 42,
+      "flexibility": 65,
+      "discipline": 72
+    },
+    "mbti_ranking": ["ENTJ", "INTJ", "ENTP", "ESTJ", "ENFJ", "INTP", "ESTP", "ENFP", "ISTJ", "ESFJ", "ISTP", "INFJ", "ESFP", "INFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 72,
+      "conscientiousness": 78,
+      "extraversion": 78,
+      "agreeableness": 40,
+      "neuroticism": 28
+    },
+    "values": {
+      "growth": 92,
+      "stability": 28,
+      "social_contribution": 38,
+      "income": 82,
+      "autonomy": 72,
+      "expertise": 82,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["体系的なマーケティングトレーニングが充実した環境", "ブランドのP&L責任を1年目から持てる組織", "グローバルに活躍できる英語環境"],
+      "unsuitable_environments": ["年功序列で裁量が増えない環境", "感覚的な意思決定が中心のカルチャー", "日本語のみの閉じた組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ブランドマネージャー", "CMO", "マーケティングコンサルタント", "事業戦略", "起業家"],
+      "unsuitable_careers": ["ルーティン事務", "公務員", "研究開発（基礎研究）", "接客サービス"]
+    },
+    "student_features": {
+      "high_school": ["英語が得意で海外への関心が高い", "リーダーシップが強く学校行事を主導", "論理的思考力が高い"],
+      "university": ["海外留学経験（1年以上推奨）", "マーケティング・経営学を専攻", "ビジネスコンテストで入賞", "P&GのCEOチャレンジやインターンに参加"],
+      "part_time_job": ["外資系企業での長期インターン", "マーケティング関連のアルバイト"],
+      "club_activities": ["国際交流サークル・ビジネスサークル", "留学生団体の運営"],
+      "internship": ["P&GのCEOチャレンジ", "外資消費財メーカーのインターン"]
+    },
+    "feature_tags": ["#P&G", "#ブランドマネジメント", "#マーケティング道場", "#フレームワーク思考", "#P&L責任", "#消費者インサイト", "#グローバル", "#英語必須", "#Up or Out", "#競争的", "#成果主義", "#リーダーシップ", "#論理的思考", "#データドリブン", "#FMCG", "#ブランドエクイティ", "#STP", "#4P", "#広告戦略", "#新製品開発", "#分析力", "#プレゼン力", "#戦略思考", "#実行力", "#高年収", "#キャリア加速", "#OBOGネットワーク", "#体系的育成", "#CMO輩出", "#外資系"]
+  },
+  {
+    "company": "ユニリーバ・ジャパン（マーケティング）",
+    "position": "マーケティング",
+    "industry": "日用品・化粧品",
+    "archetype_id": "UNILEVER_MARKETING",
+    "applies_to": ["ユニリーバ・ジャパン"],
+    "description": "グローバル消費財メーカー・ユニリーバのブランドマーケティングを担当。ダヴ、ラックス、リプトン等のブランド戦略立案・実行、消費者リサーチ、広告クリエイティブの方向性決定、デジタルマーケティング、販促企画を行う。P&Gと同様に職種別採用でブランドマネージャー候補として入社するが、社風はP&Gよりも穏やかでチームワーク重視。サステナビリティ（環境・社会貢献）をビジネスの中核に据えている点が特徴で、ユニリーバ・サステナブル・リビング・プランに基づくパーパスドリブンなマーケティングが求められる。",
+    "ideal_profile": {
+      "description": "マーケティングの専門性とサステナビリティへの共感を兼ね備え、ビジネスの成長と社会課題の解決を両立させる意欲がある人。P&Gほどの競争的カルチャーではなく、チームワークと個人の多様性を尊重する環境で、自分らしさを発揮しながら成長したいタイプに合う。",
+      "concrete_examples": [
+        "サステナビリティやSDGsに関心が高く、ビジネスを通じた社会課題解決を志す",
+        "マーケティングの基礎知識があり、ブランド戦略を語れる",
+        "英語力があり、グローバルチームとの協働経験がある",
+        "チームワークを大切にし、多様なバックグラウンドの人と協働できる",
+        "P&Gの競争的な文化よりも、穏やかな環境で深く考えるスタイルが合う"
+      ]
+    },
+    "personality_scores": {
+      "logic": 80,
+      "creativity": 75,
+      "empathy": 75,
+      "cooperativeness": 72,
+      "competitiveness": 68,
+      "initiative": 78,
+      "planning": 72,
+      "action_orientation": 78,
+      "stress_tolerance": 72,
+      "learning_speed": 82,
+      "intellectual_curiosity": 80,
+      "analytical_ability": 80,
+      "abstract_thinking": 72,
+      "communication": 78,
+      "presentation": 78,
+      "negotiation": 65,
+      "leadership": 72,
+      "patience": 58,
+      "flexibility": 72,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENFJ", "ENTJ", "ENFP", "INFJ", "ENTP", "INTJ", "INTP", "INFP", "ESTJ", "ESFJ", "ESTP", "ISFJ", "ESFP", "ISTP", "ISTJ", "ISFP"],
+    "big_five": {
+      "openness": 78,
+      "conscientiousness": 68,
+      "extraversion": 70,
+      "agreeableness": 62,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 80,
+      "stability": 38,
+      "social_contribution": 78,
+      "income": 68,
+      "autonomy": 65,
+      "expertise": 75,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": ["パーパスドリブンなマーケティング文化", "チームワークと多様性を重視する組織", "サステナビリティをビジネスの中核に据えた環境"],
+      "unsuitable_environments": ["利益だけが全ての評価基準の環境", "Up or Outの厳しい競争文化", "社会貢献に全く関心がない組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ブランドマネージャー", "サステナビリティ推進", "マーケティング", "CSR/ESG", "ソーシャルビジネス"],
+      "unsuitable_careers": ["金融トレーダー", "テレアポ営業", "製造ライン管理", "税務"]
+    },
+    "student_features": {
+      "high_school": ["環境問題やSDGsに関心が高い", "英語が得意で海外文化に親しむ", "協調性が高くチームで活動するのが好き"],
+      "university": ["マーケティングとサステナビリティの両方を学んだ", "留学経験があり多文化環境に慣れている", "NPOやソーシャルビジネスに関わった経験"],
+      "part_time_job": ["NPO・NGOでのボランティア/インターン", "外資系企業でのアルバイト"],
+      "club_activities": ["国際協力サークル・環境サークル", "マーケティングサークル"],
+      "internship": ["ユニリーバのインターンシップ", "サステナブルブランドのインターン"]
+    },
+    "feature_tags": ["#ユニリーバ", "#パーパスドリブン", "#サステナビリティ", "#SDGs", "#ブランドマーケティング", "#チームワーク重視", "#多様性", "#穏やかな社風", "#グローバル", "#英語", "#消費者インサイト", "#FMCG", "#ブランド戦略", "#社会貢献", "#ESG", "#ダヴ", "#ラックス", "#マーケティング", "#データ分析", "#クリエイティブ", "#共感力", "#協調性", "#論理的思考", "#プレゼン力", "#リーダーシップ", "#外資系", "#柔軟性", "#文化理解", "#人間中心", "#成長志向"]
+  },
+  {
+    "company": "日用品・化粧品メーカー（マーケティング）アーキタイプ",
+    "position": "マーケティング職",
+    "industry": "日用品・化粧品",
+    "archetype_id": "FMCG_MARKETING_JP",
+    "applies_to": ["花王", "資生堂", "日本ロレアル", "ユニ・チャーム", "ライオン", "コーセー（KOSE）", "マンダム", "ミルボン", "アース製薬"],
+    "description": "日用消費財・化粧品メーカーのマーケティング職として、自社ブランドのマーケティング戦略立案・実行を担当する。消費者リサーチ、ブランドポジショニング、新製品開発の企画、広告・プロモーション企画、デジタルマーケティング、販促施策の立案を行う。P&Gやユニリーバと比較して日系メーカーはより穏やかな社風で、長期的な視点でのブランド育成が重視される。化粧品メーカーでは美意識や感性の高さも求められる。",
+    "ideal_profile": {
+      "description": "消費者の生活に寄り添った商品開発とブランディングに情熱を持つ人。外資系ほどの激しい競争環境ではないが、マーケティングの専門知識とデータ分析力は必要。化粧品メーカーの場合は美意識やトレンド感度も重要。",
+      "concrete_examples": [
+        "日用品や化粧品の消費者として、商品選択の理由を分析的に語れる",
+        "マーケティングの基礎（STP、4P等）を大学で学んだ",
+        "SNSでの商品口コミやトレンド分析に関心がある",
+        "新商品の企画書を書いたりプレゼンした経験がある",
+        "美容やライフスタイルへの関心が高い（特に化粧品メーカーの場合）"
+      ]
+    },
+    "personality_scores": {
+      "logic": 72,
+      "creativity": 72,
+      "empathy": 72,
+      "cooperativeness": 72,
+      "competitiveness": 60,
+      "initiative": 68,
+      "planning": 72,
+      "action_orientation": 70,
+      "stress_tolerance": 65,
+      "learning_speed": 72,
+      "intellectual_curiosity": 75,
+      "analytical_ability": 72,
+      "abstract_thinking": 62,
+      "communication": 75,
+      "presentation": 72,
+      "negotiation": 62,
+      "leadership": 60,
+      "patience": 65,
+      "flexibility": 68,
+      "discipline": 68
+    },
+    "mbti_ranking": ["ENFJ", "ENFP", "ENTJ", "ENTP", "INFJ", "INTJ", "ESFJ", "ESTJ", "INFP", "INTP", "ESTP", "ESFP", "ISFJ", "ISTJ", "ISTP", "ISFP"],
+    "big_five": {
+      "openness": 72,
+      "conscientiousness": 68,
+      "extraversion": 68,
+      "agreeableness": 65,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 68,
+      "stability": 58,
+      "social_contribution": 55,
+      "income": 58,
+      "autonomy": 55,
+      "expertise": 72,
+      "teamwork": 68
+    },
+    "work_style": {
+      "suitable_environments": ["ブランド育成を長期的に行える安定した組織", "消費者理解を深めるリサーチ文化", "クリエイティブとデータの両面からマーケティングに取り組める環境"],
+      "unsuitable_environments": ["短期利益だけが評価される環境", "消費者の声を軽視する組織", "マーケティングの専門性を活かせない業務"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ブランドマーケター", "商品企画", "消費者リサーチャー", "広告プランナー", "PR"],
+      "unsuitable_careers": ["金融トレーダー", "プログラマー", "土木技術者", "物流管理"]
+    },
+    "student_features": {
+      "high_school": ["ファッションや美容に関心が高い", "マーケティングやビジネスに興味を持ち始めた", "文化祭のPR活動に積極的"],
+      "university": ["マーケティング・経営学を専攻", "化粧品や日用品ブランドの分析レポートを作成", "インスタグラムやTikTokでのトレンド分析"],
+      "part_time_job": ["化粧品カウンターやドラッグストアの販売員", "マーケティング系インターン"],
+      "club_activities": ["マーケティングサークル・美容研究会", "広告研究会"],
+      "internship": ["消費財メーカーのマーケティングインターン", "化粧品メーカーのブランド体験インターン"]
+    },
+    "feature_tags": ["#日用品マーケティング", "#化粧品", "#ブランドマネジメント", "#消費者リサーチ", "#商品企画", "#新製品開発", "#広告", "#デジタルマーケティング", "#SNSマーケティング", "#トレンド感度", "#美意識", "#データ分析", "#STP", "#4P", "#ブランドポジショニング", "#穏やかな社風", "#長期育成", "#日系メーカー", "#チームワーク", "#消費者理解", "#プレゼン力", "#企画力", "#協調性", "#安定", "#クリエイティブ", "#ライフスタイル", "#FMCG", "#美容", "#販促", "#マーケティング戦略"]
+  },
+  {
+    "company": "通信キャリア（事務系）アーキタイプ",
+    "position": "事務系総合職",
+    "industry": "通信サービス",
+    "archetype_id": "TELECOM_BUSINESS",
+    "applies_to": ["NTT東日本（東日本電信電話）", "NTT西日本（西日本電信電話）", "NTTドコモ", "KDDI", "ソフトバンク", "NTTコミュニケーションズ（ドコモビジネス）"],
+    "description": "通信キャリアの事務系総合職として、法人営業（通信回線・クラウド・IoTソリューションの提案）、コンシューマーマーケティング（料金プラン・端末・サービスの企画）、事業企画（新規事業開発・M&A）、コーポレート（経営企画・財務・人事・法務）を担当する。社会インフラとしての通信事業の安定性と、5G・AI・IoT等の先端技術を活用した新規事業開発のダイナミズムの両方がある。日系大企業としての安定したキャリアパスが特徴。",
+    "ideal_profile": {
+      "description": "社会インフラを支える使命感とテクノロジーへの関心を兼ね備え、大企業のスケールメリットを活かしたビジネス推進力がある人。安定した環境で着実にキャリアを積みながら、新技術を活用した事業開発にも挑戦できるバランス型の人材。",
+      "concrete_examples": [
+        "通信技術やICTに関心があり、5G・IoT・AI等のトレンドを追っている",
+        "法人営業やコンサルティング的な提案活動に興味がある",
+        "安定した大企業で社会インフラを支える仕事にやりがいを感じる",
+        "チームで大きなプロジェクトを推進した経験がある",
+        "テクノロジーとビジネスの両方に関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 68,
+      "creativity": 52,
+      "empathy": 62,
+      "cooperativeness": 72,
+      "competitiveness": 55,
+      "initiative": 62,
+      "planning": 72,
+      "action_orientation": 65,
+      "stress_tolerance": 65,
+      "learning_speed": 68,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 65,
+      "abstract_thinking": 52,
+      "communication": 75,
+      "presentation": 68,
+      "negotiation": 68,
+      "leadership": 60,
+      "patience": 70,
+      "flexibility": 60,
+      "discipline": 72
+    },
+    "mbti_ranking": ["ESTJ", "ENTJ", "ENFJ", "ESFJ", "ENTP", "ISTJ", "ENFP", "INTJ", "ESTP", "ISFJ", "INTP", "INFJ", "ESFP", "ISTP", "INFP", "ISFP"],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 72,
+      "extraversion": 68,
+      "agreeableness": 62,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 58,
+      "stability": 78,
+      "social_contribution": 62,
+      "income": 65,
+      "autonomy": 42,
+      "expertise": 55,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": ["社会インフラを支える安定した大企業", "テクノロジーとビジネスが融合する環境", "ジョブローテーションで幅広い経験が積める組織"],
+      "unsuitable_environments": ["ベンチャー的な不安定な環境", "個人プレーが中心の職場", "テクノロジーに全く関わらない業界"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["通信キャリアの法人営業", "ICTコンサルタント", "事業企画", "経営企画", "マーケティング"],
+      "unsuitable_careers": ["フリーランス", "アート系クリエイター", "研究者（基礎研究）", "起業家"]
+    },
+    "student_features": {
+      "high_school": ["安定した成績で文理バランスの取れた優等生", "部活動や学校行事に真面目に取り組んだ", "ITやスマートフォンに関心が高い"],
+      "university": ["経済学・商学・情報系を専攻", "大企業への就職を志望し、安定したキャリアを重視", "ゼミやサークルでリーダー的な役割を担った"],
+      "part_time_job": ["携帯ショップや量販店での販売", "IT関連のアルバイト"],
+      "club_activities": ["ゼミ幹事・サークルの幹部", "体育会系部活のマネージャー"],
+      "internship": ["通信キャリアのインターンシップ", "IT企業やSIerでのインターン"]
+    },
+    "feature_tags": ["#通信キャリア", "#社会インフラ", "#安定", "#大企業", "#法人営業", "#ICT", "#5G", "#IoT", "#AI", "#DX", "#マーケティング", "#事業企画", "#ジョブローテーション", "#チームワーク", "#コミュニケーション", "#計画性", "#調整力", "#テクノロジー", "#NTT", "#KDDI", "#ソフトバンク", "#安定志向", "#キャリアパス", "#規律", "#堅実", "#社会貢献", "#プレゼン力", "#交渉力", "#協調性", "#責任感"]
+  },
+  {
+    "company": "通信キャリア（技術系）アーキタイプ",
+    "position": "技術系総合職",
+    "industry": "通信サービス",
+    "archetype_id": "TELECOM_TECH",
+    "applies_to": ["NTT東日本（東日本電信電話）", "NTT西日本（西日本電信電話）", "NTTドコモ", "KDDI", "ソフトバンク", "NTTコミュニケーションズ（ドコモビジネス）"],
+    "description": "通信キャリアの技術系総合職として、ネットワークインフラの設計・構築・運用、5G基地局の展開、クラウドサービスの開発、AIやデータサイエンスの研究開発、セキュリティ対策、システムエンジニアリングを担当。日本全国の通信インフラを支える社会的責任が大きく、障害発生時には深夜対応もある。研究所での先端技術研究から現場でのネットワーク構築まで幅広い技術領域に携われる。",
+    "ideal_profile": {
+      "description": "通信技術やICTインフラに関心が高く、社会基盤を技術で支えることにやりがいを感じる人。大規模なネットワークの設計・運用に携わりたい技術志向と、安定したキャリアパスの両方を求めるタイプ。",
+      "concrete_examples": [
+        "情報工学・電気電子工学を専攻し、ネットワーク技術に関心がある",
+        "自宅のネットワーク構築やサーバー運用を趣味で行った経験がある",
+        "基本情報技術者やネットワークスペシャリストの資格を取得済み",
+        "社会インフラを支える仕事に使命感を持っている",
+        "研究開発と実装の両方に興味がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 82,
+      "creativity": 48,
+      "empathy": 50,
+      "cooperativeness": 65,
+      "competitiveness": 48,
+      "initiative": 58,
+      "planning": 78,
+      "action_orientation": 62,
+      "stress_tolerance": 72,
+      "learning_speed": 78,
+      "intellectual_curiosity": 78,
+      "analytical_ability": 82,
+      "abstract_thinking": 68,
+      "communication": 60,
+      "presentation": 52,
+      "negotiation": 45,
+      "leadership": 48,
+      "patience": 78,
+      "flexibility": 55,
+      "discipline": 78
+    },
+    "mbti_ranking": ["ISTJ", "INTJ", "INTP", "ESTJ", "ISTP", "ENTJ", "ENTP", "INFJ", "ISFJ", "ENFJ", "ENFP", "ESTP", "INFP", "ESFJ", "ISFP", "ESFP"],
+    "big_five": {
+      "openness": 62,
+      "conscientiousness": 78,
+      "extraversion": 45,
+      "agreeableness": 55,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 62,
+      "stability": 82,
+      "social_contribution": 72,
+      "income": 62,
+      "autonomy": 50,
+      "expertise": 78,
+      "teamwork": 62
+    },
+    "work_style": {
+      "suitable_environments": ["大規模インフラの技術設計に携われる環境", "研究開発と実装の両方に関われる組織", "安定した大企業で技術キャリアを築ける"],
+      "unsuitable_environments": ["営業やマーケティングが中心の業務", "ベンチャー的な不安定な環境", "技術に関わらないデスクワーク"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ネットワークエンジニア", "インフラエンジニア", "研究開発", "セキュリティエンジニア", "データサイエンティスト"],
+      "unsuitable_careers": ["営業", "広報", "クリエイティブ系", "接客サービス"]
+    },
+    "student_features": {
+      "high_school": ["数学・物理・情報が得意", "パソコンやネットワークの仕組みに関心が高い", "理系科目が突出"],
+      "university": ["情報工学・電気電子工学・通信工学を専攻", "ネットワークやサーバーの実験・研究に取り組んだ", "基本情報技術者等の資格を取得"],
+      "part_time_job": ["ITヘルプデスクやPCセットアップ", "プログラミングのアルバイト"],
+      "club_activities": ["情報系サークル・ロボコン", "プログラミングサークル"],
+      "internship": ["通信キャリアの技術系インターン", "IT企業でのエンジニアインターン"]
+    },
+    "feature_tags": ["#通信技術", "#ネットワークエンジニア", "#インフラ", "#5G", "#クラウド", "#AI", "#データサイエンス", "#セキュリティ", "#社会インフラ", "#安定", "#大企業", "#研究開発", "#システム設計", "#障害対応", "#大規模運用", "#技術力", "#論理的思考", "#専門性", "#忍耐力", "#計画性", "#正確性", "#規律", "#チームワーク", "#責任感", "#社会貢献", "#安定志向", "#資格取得", "#情報工学", "#電気電子", "#堅実"]
+  },
+  {
+    "company": "大学職員（事務系専任職員）アーキタイプ",
+    "position": "事務系専任職員",
+    "industry": "大学／教育／研究機関（大学職員）",
+    "archetype_id": "UNIVERSITY_STAFF",
+    "applies_to": ["早稲田大学", "慶應義塾大学", "明治大学", "青山学院大学", "立教大学", "中央大学", "法政大学", "関西大学", "関西学院大学", "同志社大学", "立命館大学"],
+    "description": "私立大学の事務系専任職員として、教務（カリキュラム編成・成績管理・学生対応）、学生支援（奨学金・課外活動・キャリア支援）、研究支援（科研費申請・産学連携）、国際交流（留学プログラム・海外大学との提携）、広報（入試広報・ブランディング）、総務・財務・人事などの大学運営全般を担う。教職員や学生、保護者、地域社会など多様なステークホルダーとの調整が求められる。一般企業とは異なり、教育・研究の理念を尊重しながら組織運営を支える独特の職種。安定した待遇と福利厚生が魅力だが、大学改革の推進役としての企画力も期待される。",
+    "ideal_profile": {
+      "description": "教育への関心と組織運営の実務力を兼ね備え、大学という教育研究機関の使命に共感できる人。民間企業のようなスピード感は求められないが、多様なステークホルダーとの合意形成能力と、教職員をサポートする縁の下の力持ち的な姿勢が重要。安定志向でありながら大学改革への意欲も持つバランス型。",
+      "concrete_examples": [
+        "自分の大学生活を通じて、大学の教育環境をより良くしたいという思いがある",
+        "学生支援やキャリア支援に関わったゼミTAやチューターの経験がある",
+        "留学生のサポートや国際交流イベントの企画に携わった経験がある",
+        "裏方として組織を支えることにやりがいを感じるタイプ",
+        "教育政策や大学改革に関するニュースに関心がある",
+        "合意形成に時間がかかる環境でも忍耐強く調整できる"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 42,
+      "empathy": 78,
+      "cooperativeness": 82,
+      "competitiveness": 28,
+      "initiative": 48,
+      "planning": 72,
+      "action_orientation": 48,
+      "stress_tolerance": 62,
+      "learning_speed": 62,
+      "intellectual_curiosity": 65,
+      "analytical_ability": 58,
+      "abstract_thinking": 52,
+      "communication": 72,
+      "presentation": 55,
+      "negotiation": 55,
+      "leadership": 42,
+      "patience": 88,
+      "flexibility": 62,
+      "discipline": 78
+    },
+    "mbti_ranking": ["ISFJ", "ISTJ", "ESFJ", "ESTJ", "INFJ", "ENFJ", "ISFP", "INTJ", "INFP", "ENFP", "INTP", "ENTJ", "ENTP", "ISTP", "ESTP", "ESFP"],
+    "big_five": {
+      "openness": 52,
+      "conscientiousness": 78,
+      "extraversion": 48,
+      "agreeableness": 78,
+      "neuroticism": 42
+    },
+    "values": {
+      "growth": 42,
+      "stability": 92,
+      "social_contribution": 78,
+      "income": 55,
+      "autonomy": 35,
+      "expertise": 52,
+      "teamwork": 78
+    },
+    "work_style": {
+      "suitable_environments": ["教育理念を大切にする安定した組織", "多様なステークホルダーとの合意形成が求められる環境", "長期的な視点で組織改善に取り組める職場", "ワークライフバランスが良い環境"],
+      "unsuitable_environments": ["短期的な利益を追求する営利企業", "個人の営業成績が厳しく問われる環境", "変化のスピードが極めて速いベンチャー", "教育に全く関わらない業界"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["大学職員", "教育行政", "公務員", "NPO職員", "学校事務"],
+      "unsuitable_careers": ["投資銀行", "外資コンサル", "ベンチャー起業家", "フリーランス"]
+    },
+    "student_features": {
+      "high_school": ["真面目で成績が安定している", "先生や友人から信頼される存在", "学校行事の裏方仕事を丁寧にこなした"],
+      "university": ["大学の事務局でアルバイトやTA経験がある", "学生支援や留学支援のボランティア", "ゼミ運営の幹事として教授と学生の橋渡し役を担った", "公務員試験の勉強を並行していた"],
+      "part_time_job": ["大学事務局や図書館でのアルバイト", "塾講師や家庭教師"],
+      "club_activities": ["ボランティアサークル・国際交流サークル", "ゼミの運営幹事"],
+      "internship": ["大学職員のインターンシップ", "教育系NPOでのインターン"]
+    },
+    "feature_tags": ["#大学職員", "#教育支援", "#安定志向", "#ワークライフバランス", "#縁の下の力持ち", "#合意形成", "#ステークホルダー調整", "#教務", "#学生支援", "#研究支援", "#国際交流", "#広報", "#大学改革", "#事務能力", "#忍耐力", "#計画性", "#正確性", "#共感力", "#協調性", "#チームワーク", "#丁寧さ", "#責任感", "#教育理念", "#公共性", "#社会貢献", "#福利厚生", "#ジョブローテーション", "#調整力", "#規律", "#堅実"]
+  },
+  {
+    "company": "公益法人・官公庁（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "官公庁／公共団体／公益法人",
+    "archetype_id": "PUBLIC_ORG_GENERAL",
+    "applies_to": ["国際協力機構（JICA）", "日本貿易振興機構（JETRO）", "東京商工会議所", "日本郵便", "日本音楽著作権協会（JASRAC）", "全国農業協同組合連合会（JA全農）", "都市再生機構（UR都市機構）"],
+    "description": "独立行政法人・公益法人・特殊法人等の総合職として、各機関の使命に基づく公共的な業務を担当する。JICAでは途上国への技術協力・資金協力、JETROでは貿易振興・対日投資促進、商工会議所では中小企業支援、UR都市機構では都市再生・住宅管理など、各組織のミッションに沿った専門的な業務を行う。営利企業とは異なり、社会貢献・公共の利益を追求する姿勢が求められる。安定した待遇と、社会的意義のある仕事の両立が魅力。",
+    "ideal_profile": {
+      "description": "社会課題の解決や公共の利益に貢献することに使命感を持つ人。営利企業の競争環境よりも、社会インフラや政策の実行を通じて社会に貢献する働き方を好む。各機関の専門領域（国際協力・貿易・都市計画等）への関心と知識がある。",
+      "concrete_examples": [
+        "国際協力や社会課題解決に関するボランティアやNPO活動の経験がある",
+        "公共政策・国際関係・都市計画等の専門分野を大学で学んだ",
+        "安定した待遇と社会貢献の両立を重視する価値観がある",
+        "合意形成やステークホルダー調整の経験がある",
+        "特定の機関のミッションに強く共感している"
+      ]
+    },
+    "personality_scores": {
+      "logic": 68,
+      "creativity": 45,
+      "empathy": 72,
+      "cooperativeness": 78,
+      "competitiveness": 32,
+      "initiative": 55,
+      "planning": 72,
+      "action_orientation": 55,
+      "stress_tolerance": 62,
+      "learning_speed": 65,
+      "intellectual_curiosity": 68,
+      "analytical_ability": 65,
+      "abstract_thinking": 58,
+      "communication": 72,
+      "presentation": 60,
+      "negotiation": 60,
+      "leadership": 50,
+      "patience": 80,
+      "flexibility": 58,
+      "discipline": 78
+    },
+    "mbti_ranking": ["ISTJ", "ISFJ", "ESTJ", "ESFJ", "INFJ", "ENFJ", "INTJ", "ENTJ", "INFP", "ENFP", "INTP", "ENTP", "ISTP", "ESTP", "ISFP", "ESFP"],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 78,
+      "extraversion": 52,
+      "agreeableness": 72,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 48,
+      "stability": 85,
+      "social_contribution": 88,
+      "income": 50,
+      "autonomy": 38,
+      "expertise": 58,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": ["社会的使命が明確な公共機関", "安定した待遇と福利厚生", "長期的な視点で社会貢献できる環境"],
+      "unsuitable_environments": ["短期利益を追求する営利企業", "個人の営業成績が厳しく問われる環境", "変化が激しくスピード重視のベンチャー"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["公益法人職員", "公務員", "国際機関職員", "NPO/NGO", "シンクタンク"],
+      "unsuitable_careers": ["投資銀行", "外資系営業", "ベンチャー起業家", "フリーランス"]
+    },
+    "student_features": {
+      "high_school": ["真面目で安定志向", "社会問題や国際問題に関心がある", "ボランティア活動に積極的"],
+      "university": ["法学部・政治学・国際関係学・公共政策を専攻", "NPOやボランティアの活動", "公務員試験の勉強を並行"],
+      "part_time_job": ["公共機関やNPOでのアルバイト", "事務系のアルバイト"],
+      "club_activities": ["国際協力サークル・ボランティアサークル", "模擬国連"],
+      "internship": ["JICA・JETROなどの機関のインターン", "省庁や自治体のインターン"]
+    },
+    "feature_tags": ["#公益法人", "#官公庁", "#社会貢献", "#公共性", "#安定", "#独立行政法人", "#国際協力", "#貿易振興", "#中小企業支援", "#都市計画", "#社会インフラ", "#使命感", "#忍耐力", "#計画性", "#正確性", "#協調性", "#チームワーク", "#合意形成", "#ステークホルダー調整", "#責任感", "#堅実", "#規律", "#公務員的", "#福利厚生", "#長期視点", "#政策実行", "#社会課題", "#丁寧さ", "#安定志向", "#組織運営"]
+  },
+  {
+    "company": "JRA",
+    "position": "事務職",
+    "industry": "官公庁／公共団体／公益法人",
+    "archetype_id": "JRA_OFFICE",
+    "applies_to": ["日本中央競馬会（JRA）"],
+    "description": "日本中央競馬会の事務職として、競馬開催の企画・運営、馬主・調教師等の関係者対応、施設管理、マーケティング・PR、財務経理、人事総務などを担当する。競馬という独自のスポーツ・エンターテインメントを支える特殊な組織で、競馬法に基づく国庫納付金を通じて社会に貢献する。競馬への理解と関心が重要で、競馬場やトレーニングセンターでの勤務もある。",
+    "ideal_profile": {
+      "description": "競馬というスポーツ・文化への関心があり、独自の組織で安定したキャリアを築きたい人。公共的な組織で正確な事務処理能力を発揮しながら、競馬ファンの拡大やイベント企画にも創意工夫を発揮できる。",
+      "concrete_examples": [
+        "競馬に関心があり、競馬場に足を運んだ経験がある",
+        "スポーツビジネスやイベント運営に興味がある",
+        "正確な事務処理能力と対人対応力がある",
+        "公共的な組織で安定した勤務を希望する",
+        "動物やスポーツに関心が高い"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 45,
+      "empathy": 62,
+      "cooperativeness": 72,
+      "competitiveness": 35,
+      "initiative": 52,
+      "planning": 72,
+      "action_orientation": 55,
+      "stress_tolerance": 62,
+      "learning_speed": 60,
+      "intellectual_curiosity": 58,
+      "analytical_ability": 58,
+      "abstract_thinking": 45,
+      "communication": 68,
+      "presentation": 55,
+      "negotiation": 55,
+      "leadership": 45,
+      "patience": 78,
+      "flexibility": 55,
+      "discipline": 78
+    },
+    "mbti_ranking": ["ISTJ", "ISFJ", "ESTJ", "ESFJ", "INFJ", "ENFJ", "INTJ", "ENTJ", "ISTP", "INTP", "ENFP", "ENTP", "ESTP", "INFP", "ISFP", "ESFP"],
+    "big_five": {
+      "openness": 48,
+      "conscientiousness": 78,
+      "extraversion": 50,
+      "agreeableness": 68,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 42,
+      "stability": 88,
+      "social_contribution": 55,
+      "income": 62,
+      "autonomy": 35,
+      "expertise": 52,
+      "teamwork": 68
+    },
+    "work_style": {
+      "suitable_environments": ["競馬という独自のスポーツ文化に関わる職場", "安定した公共的組織", "イベント企画と事務管理の両方に携われる環境"],
+      "unsuitable_environments": ["激しい営業競争のある環境", "テクノロジー中心の職場", "変化が非常に速いベンチャー"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["JRA職員", "スポーツ団体職員", "公益法人職員", "イベント運営"],
+      "unsuitable_careers": ["外資系金融", "ITエンジニア", "フリーランス", "起業家"]
+    },
+    "student_features": {
+      "high_school": ["馬術部やスポーツに関心が高い", "真面目で安定した成績", "動物好き"],
+      "university": ["スポーツビジネスやイベント運営を学んだ", "競馬に関する研究やレポートを書いた", "公務員試験の勉強を並行"],
+      "part_time_job": ["競馬場や動物関連施設でのアルバイト", "イベントスタッフ"],
+      "club_activities": ["馬術部・動物愛護サークル", "スポーツ系サークル"],
+      "internship": ["JRAのインターンシップ", "スポーツ団体でのインターン"]
+    },
+    "feature_tags": ["#JRA", "#競馬", "#スポーツビジネス", "#イベント運営", "#公共組織", "#安定", "#事務職", "#正確性", "#計画性", "#忍耐力", "#動物関連", "#馬術", "#施設管理", "#マーケティング", "#PR", "#ファン拡大", "#関係者対応", "#国庫納付", "#社会貢献", "#堅実", "#規律", "#協調性", "#チームワーク", "#丁寧さ", "#責任感", "#文化振興", "#スポーツ振興", "#安定志向", "#公益法人", "#ユニーク業界"]
+  },
+  {
+    "company": "倉庫・物流（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "その他（倉庫・物流）",
+    "archetype_id": "WAREHOUSE_LOGISTICS",
+    "applies_to": ["三菱倉庫", "三井倉庫ホールディングス", "住友倉庫"],
+    "description": "財閥系倉庫会社の総合職として、国際物流（輸出入業務・通関・フォワーディング）、倉庫事業（在庫管理・物流センター運営）、不動産事業（オフィスビル・倉庫施設の開発・運営）、営業（法人向け物流ソリューションの提案）を担当する。グローバルサプライチェーンの一翼を担い、貿易実務や国際物流の専門知識が身につく。財閥系ならではの安定した経営基盤と穏やかな社風が特徴。",
+    "ideal_profile": {
+      "description": "国際貿易や物流の仕組みに関心があり、グローバルなサプライチェーンを支えるインフラビジネスにやりがいを感じる人。安定した財閥系企業で堅実にキャリアを積みたい志向と、貿易実務の専門性を身につけたい意欲がある。",
+      "concrete_examples": [
+        "貿易実務や国際物流に関心があり、通関士の資格取得を目指している",
+        "海外との取引やグローバルビジネスに興味がある",
+        "安定した財閥系企業で長期的にキャリアを築きたい",
+        "不動産事業にも関心がある",
+        "正確な事務処理能力と対外折衝力がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 68,
+      "creativity": 40,
+      "empathy": 58,
+      "cooperativeness": 72,
+      "competitiveness": 45,
+      "initiative": 55,
+      "planning": 75,
+      "action_orientation": 58,
+      "stress_tolerance": 62,
+      "learning_speed": 65,
+      "intellectual_curiosity": 58,
+      "analytical_ability": 65,
+      "abstract_thinking": 48,
+      "communication": 68,
+      "presentation": 58,
+      "negotiation": 62,
+      "leadership": 48,
+      "patience": 75,
+      "flexibility": 55,
+      "discipline": 78
+    },
+    "mbti_ranking": ["ISTJ", "ESTJ", "ISFJ", "ESFJ", "INTJ", "ENTJ", "INFJ", "ENFJ", "ISTP", "INTP", "ENTP", "ENFP", "ESTP", "ESFP", "INFP", "ISFP"],
+    "big_five": {
+      "openness": 48,
+      "conscientiousness": 78,
+      "extraversion": 55,
+      "agreeableness": 65,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 50,
+      "stability": 85,
+      "social_contribution": 48,
+      "income": 62,
+      "autonomy": 38,
+      "expertise": 65,
+      "teamwork": 68
+    },
+    "work_style": {
+      "suitable_environments": ["安定した財閥系企業", "グローバルな物流ビジネスに関われる環境", "専門性を身につけられる職場"],
+      "unsuitable_environments": ["変化が激しいベンチャー", "クリエイティブが中心の職場", "個人プレーが重視される環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["国際物流", "通関士", "貿易事務", "不動産管理", "サプライチェーン管理"],
+      "unsuitable_careers": ["クリエイティブ系", "ベンチャー起業家", "フリーランス", "芸能"]
+    },
+    "student_features": {
+      "high_school": ["安定した成績で真面目なタイプ", "英語が得意で国際的な仕事に興味", "地理や社会に関心が高い"],
+      "university": ["経済学・商学・国際関係学を専攻", "貿易実務や国際物流を学んだ", "通関士試験の勉強に取り組んだ"],
+      "part_time_job": ["事務系アルバイト", "物流倉庫でのアルバイト"],
+      "club_activities": ["国際交流サークル", "ゼミの幹事"],
+      "internship": ["倉庫会社や物流企業のインターン", "商社のインターン"]
+    },
+    "feature_tags": ["#倉庫業", "#国際物流", "#貿易実務", "#通関", "#フォワーディング", "#サプライチェーン", "#不動産", "#財閥系", "#安定", "#堅実", "#正確性", "#計画性", "#グローバル", "#英語力", "#専門性", "#チームワーク", "#協調性", "#忍耐力", "#責任感", "#規律", "#穏やかな社風", "#長期キャリア", "#法人営業", "#物流センター", "#在庫管理", "#貿易事務", "#安定志向", "#事務能力", "#対外折衝", "#インフラ"]
+  },
+  {
+    "company": "外資系IT企業（エンジニア）アーキタイプ",
+    "position": "ソフトウェアエンジニア",
+    "industry": "IT / ITサービス（外資系）",
+    "archetype_id": "FOREIGN_IT_ENGINEER",
+    "applies_to": ["Google（グーグル）", "マイクロソフト（日本マイクロソフト）", "アマゾンジャパン", "Apple（アップルジャパン）", "メタ", "アドビ", "ブルームバーグ"],
+    "description": "GAFAM等の外資系テック企業でソフトウェアエンジニアとして働く。大規模分散システムの設計・開発、機械学習・AIモデルの実装、クラウドインフラの構築、モバイルアプリケーション開発など、世界トップクラスの技術環境で最先端のプロダクト開発に携わる。コーディングインタビュー（アルゴリズム・データ構造）を突破する高い技術力が採用の前提で、入社後もパフォーマンスレビューによるUp or Out文化がある。英語でのコミュニケーション力も必須。年収は日系企業の2-3倍以上が一般的。",
+    "ideal_profile": {
+      "description": "世界最高レベルの技術環境でソフトウェアエンジニアリングを追求したい人。アルゴリズムとデータ構造の深い理解、大規模システムの設計能力、英語でのコミュニケーション力を兼ね備える。自律的に学習し続け、技術的な議論をリードできる人材。",
+      "concrete_examples": [
+        "AtCoderやLeetCodeで上位ランクを達成している",
+        "GitHubで複数のOSSプロジェクトにコントリビュートしている",
+        "英語での技術的なディスカッションができる",
+        "大規模システムの設計経験やインフラ構築の経験がある",
+        "コンピュータサイエンスの修士号を持っている（推奨）",
+        "Google Code JamやICPCなどの競技プログラミング大会に出場した経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 95,
+      "creativity": 72,
+      "empathy": 42,
+      "cooperativeness": 55,
+      "competitiveness": 72,
+      "initiative": 78,
+      "planning": 65,
+      "action_orientation": 72,
+      "stress_tolerance": 72,
+      "learning_speed": 95,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 95,
+      "abstract_thinking": 92,
+      "communication": 62,
+      "presentation": 55,
+      "negotiation": 45,
+      "leadership": 55,
+      "patience": 65,
+      "flexibility": 72,
+      "discipline": 65
+    },
+    "mbti_ranking": ["INTP", "INTJ", "ENTP", "ENTJ", "ISTP", "INFP", "INFJ", "ENFP", "ISTJ", "ESTP", "ESTJ", "ENFJ", "ISFP", "ESFP", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 88,
+      "conscientiousness": 62,
+      "extraversion": 42,
+      "agreeableness": 42,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 88,
+      "stability": 40,
+      "social_contribution": 42,
+      "income": 85,
+      "autonomy": 82,
+      "expertise": 95,
+      "teamwork": 50
+    },
+    "work_style": {
+      "suitable_environments": ["世界最高レベルの技術環境", "自律性が高く裁量の大きい職場", "技術力が正当に評価され高報酬が得られる環境", "グローバルなチームで英語で協働する"],
+      "unsuitable_environments": ["技術レベルが低い環境", "管理業務やドキュメント作業が中心", "日本語のみの閉じた組織", "年功序列で技術力が評価されない"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ソフトウェアエンジニア", "機械学習エンジニア", "SRE", "テックリード", "CTO"],
+      "unsuitable_careers": ["営業", "事務", "接客", "マネジメント専業"]
+    },
+    "student_features": {
+      "high_school": ["数学・情報が突出して得意", "独学でプログラミングを始めた", "情報オリンピックに出場"],
+      "university": ["情報工学・計算機科学の修士課程", "AtCoder・Codeforces等で上位ランク", "OSSへのコントリビュート経験", "海外大学との共同研究や留学"],
+      "part_time_job": ["ソフトウェア開発のアルバイト・フリーランス", "スタートアップでのエンジニアインターン"],
+      "club_activities": ["プログラミングサークル・競技プログラミング", "ハッカソン参加"],
+      "internship": ["GAFAM等のサマーインターン", "スタートアップでのエンジニアインターン"]
+    },
+    "feature_tags": ["#GAFAM", "#外資系IT", "#ソフトウェアエンジニア", "#アルゴリズム", "#データ構造", "#大規模システム", "#機械学習", "#AI", "#クラウド", "#英語必須", "#高年収", "#Up or Out", "#コーディングインタビュー", "#技術力", "#論理的思考", "#知的好奇心", "#学習速度", "#自律性", "#OSS", "#競技プログラミング", "#CS修士", "#LeetCode", "#グローバル", "#最先端技術", "#パフォーマンス評価", "#裁量大", "#リモートワーク", "#抽象思考", "#問題解決", "#イノベーション"]
+  },
+  {
+    "company": "外資系IT企業（ビジネス・セールス）アーキタイプ",
+    "position": "ビジネス職（セールス・マーケティング等）",
+    "industry": "IT / ITサービス（外資系）",
+    "archetype_id": "FOREIGN_IT_BUSINESS",
+    "applies_to": ["Google（グーグル）", "マイクロソフト（日本マイクロソフト）", "アマゾンジャパン", "アマゾン ウェブ サービス ジャパン", "シスコシステムズ", "セールスフォース・ジャパン", "SAPジャパン", "日本オラクル", "日本HP", "デル・テクノロジーズ", "日本ヒューレット・パッカード", "トレンドマイクロ"],
+    "description": "外資系IT企業のビジネス職として、法人営業（エンタープライズセールス）、ソリューションエンジニア（技術営業）、マーケティング、カスタマーサクセスを担当する。大手企業や官公庁に対して自社のIT製品・クラウドサービス・ソリューションの提案・販売を行い、クライアントのDXを支援する。英語でのグローバル本社とのコミュニケーションが日常的にあり、成果主義（OTE: On Target Earnings）による高い報酬体系が特徴。",
+    "ideal_profile": {
+      "description": "IT業界への関心と法人営業の適性を兼ね備え、テクノロジーを活用した課題解決提案ができる人。英語力とプレゼンテーション力が必須で、数字目標へのコミットメントと高い達成意欲がある。",
+      "concrete_examples": [
+        "IT製品やクラウドサービスに関心があり、テクノロジートレンドを追っている",
+        "法人向けのプレゼンテーションやデモンストレーションの経験がある",
+        "英語でのコミュニケーション能力がビジネスレベル以上",
+        "売上目標の達成にこだわる成果主義の環境を好む",
+        "顧客の課題をヒアリングしてソリューションを提案する営業スタイルに関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 72,
+      "creativity": 58,
+      "empathy": 62,
+      "cooperativeness": 58,
+      "competitiveness": 85,
+      "initiative": 85,
+      "planning": 68,
+      "action_orientation": 85,
+      "stress_tolerance": 78,
+      "learning_speed": 80,
+      "intellectual_curiosity": 72,
+      "analytical_ability": 68,
+      "abstract_thinking": 55,
+      "communication": 88,
+      "presentation": 88,
+      "negotiation": 82,
+      "leadership": 72,
+      "patience": 45,
+      "flexibility": 72,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENTJ", "ENTP", "ESTP", "ESTJ", "ENFJ", "ENFP", "INTJ", "ESFJ", "ESFP", "INTP", "ISTP", "ISTJ", "INFJ", "INFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 68,
+      "conscientiousness": 65,
+      "extraversion": 85,
+      "agreeableness": 45,
+      "neuroticism": 30
+    },
+    "values": {
+      "growth": 82,
+      "stability": 32,
+      "social_contribution": 35,
+      "income": 90,
+      "autonomy": 72,
+      "expertise": 62,
+      "teamwork": 52
+    },
+    "work_style": {
+      "suitable_environments": ["成果主義で実力が高報酬に直結する環境", "テクノロジーの最前線で法人営業ができる職場", "英語でグローバルチームと協働する環境"],
+      "unsuitable_environments": ["年功序列で報酬が固定的な組織", "テクノロジーに関わらない営業", "日本語のみの閉じた職場環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["IT法人営業", "ソリューションセールス", "カスタマーサクセス", "セールスマネージャー", "事業開発"],
+      "unsuitable_careers": ["研究者", "クリエイター", "公務員", "事務職"]
+    },
+    "student_features": {
+      "high_school": ["英語が得意で海外に関心が高い", "コミュニケーション力が高くリーダー的存在", "ITやテクノロジーに興味"],
+      "university": ["留学経験があり英語力が高い", "IT企業やコンサルでの営業系インターン", "ビジネスコンテストやピッチ大会に参加"],
+      "part_time_job": ["営業系アルバイトで高い成績", "IT企業でのインターン"],
+      "club_activities": ["国際交流サークル・ビジネスサークル", "英語ディベート部"],
+      "internship": ["外資系IT企業のセールスインターン", "コンサルやSaaS企業でのインターン"]
+    },
+    "feature_tags": ["#外資系IT", "#法人営業", "#エンタープライズセールス", "#ソリューション提案", "#テクノロジー", "#英語必須", "#成果主義", "#高年収", "#OTE", "#プレゼン力", "#交渉力", "#DX", "#クラウド", "#SaaS", "#グローバル", "#行動力", "#競争心", "#リーダーシップ", "#コミュニケーション", "#達成意欲", "#顧客課題解決", "#デモンストレーション", "#カスタマーサクセス", "#数字意識", "#スピード感", "#フットワーク", "#実力主義", "#キャリア加速", "#マーケティング", "#IT知識"]
+  },
+  {
+    "company": "日系IT企業（エンジニア）アーキタイプ",
+    "position": "エンジニア職",
+    "industry": "IT / ITサービス（日系）",
+    "archetype_id": "JP_IT_ENGINEER",
+    "applies_to": ["LINEヤフー", "楽天グループ", "サイバーエージェント", "DeNA", "メルカリ", "SmartNews", "Sansan", "ビジョナル", "マネーフォワード"],
+    "description": "日系IT・メガベンチャー企業のソフトウェアエンジニアとして、自社プロダクトの設計・開発・運用を担当する。WebアプリケーションのバックエンドAPI設計、フロントエンド開発、インフラ（AWS/GCP）の構築・運用、データ基盤の設計、モバイルアプリ開発など幅広い技術領域に携わる。外資系IT企業ほどの報酬水準ではないが、日本語環境で働ける安心感と、自社サービスの成長に直接貢献できるやりがいがある。エンジニアカルチャー（コードレビュー・技術勉強会・OSSコントリビュート）を重視する企業が多い。",
+    "ideal_profile": {
+      "description": "ソフトウェア開発への情熱があり、チームでプロダクトを成長させることにやりがいを感じる人。外資系ほどのハードコアなアルゴリズム力よりも、プロダクト開発全体を見渡す力と、チームで協働するコミュニケーション力が重視される。",
+      "concrete_examples": [
+        "個人開発やチーム開発でWebアプリやモバイルアプリを制作した経験がある",
+        "GitHubで自分のプロジェクトを公開している",
+        "技術ブログを書いてアウトプットする習慣がある",
+        "ハッカソンやプログラミングコンテストに参加した経験がある",
+        "特定の言語やフレームワーク（TypeScript, React, Go, Rust等）に強みがある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 85,
+      "creativity": 68,
+      "empathy": 52,
+      "cooperativeness": 62,
+      "competitiveness": 58,
+      "initiative": 72,
+      "planning": 62,
+      "action_orientation": 72,
+      "stress_tolerance": 65,
+      "learning_speed": 88,
+      "intellectual_curiosity": 88,
+      "analytical_ability": 85,
+      "abstract_thinking": 82,
+      "communication": 62,
+      "presentation": 55,
+      "negotiation": 42,
+      "leadership": 50,
+      "patience": 65,
+      "flexibility": 72,
+      "discipline": 58
+    },
+    "mbti_ranking": ["INTP", "INTJ", "ENTP", "ISTP", "ENTJ", "INFP", "INFJ", "ENFP", "ISTJ", "ESTP", "ESTJ", "ISFP", "ENFJ", "ESFP", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 82,
+      "conscientiousness": 58,
+      "extraversion": 45,
+      "agreeableness": 52,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 82,
+      "stability": 42,
+      "social_contribution": 42,
+      "income": 68,
+      "autonomy": 78,
+      "expertise": 88,
+      "teamwork": 58
+    },
+    "work_style": {
+      "suitable_environments": ["エンジニアカルチャーが根付いた技術重視の組織", "自社プロダクトの成長に直接貢献できる環境", "技術ブログやOSSへの貢献が推奨される文化"],
+      "unsuitable_environments": ["技術力が評価されない環境", "SIerのような受託開発中心の職場", "英語オンリーの外資系環境（英語が苦手な場合）"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ソフトウェアエンジニア", "テックリード", "SRE", "CTO", "プロダクトエンジニア"],
+      "unsuitable_careers": ["営業", "経理", "人事", "接客サービス"]
+    },
+    "student_features": {
+      "high_school": ["数学・情報が得意でプログラミングに興味", "自主的にアプリやWebサイトを作った", "理系科目が突出"],
+      "university": ["情報工学・計算機科学を専攻", "プログラミングサークルやハッカソンに参加", "個人開発やチーム開発でアプリを公開"],
+      "part_time_job": ["スタートアップでのエンジニアインターン", "フリーランスでのWeb開発"],
+      "club_activities": ["プログラミングサークル", "ハッカソン・プロコン"],
+      "internship": ["メガベンチャーのエンジニアインターン", "スタートアップでの長期エンジニアインターン"]
+    },
+    "feature_tags": ["#日系IT", "#メガベンチャー", "#ソフトウェアエンジニア", "#Web開発", "#モバイル開発", "#バックエンド", "#フロントエンド", "#インフラ", "#AWS", "#GCP", "#Go", "#TypeScript", "#React", "#プロダクト開発", "#チーム開発", "#エンジニアカルチャー", "#コードレビュー", "#技術ブログ", "#OSS", "#知的好奇心", "#学習速度", "#自律性", "#柔軟性", "#ハッカソン", "#個人開発", "#GitHub", "#スクラム", "#アジャイル", "#技術力", "#問題解決"]
+  },
+  {
+    "company": "日系IT企業（ビジネス職）アーキタイプ",
+    "position": "ビジネス職（企画・営業・マーケティング）",
+    "industry": "IT / ITサービス（日系）",
+    "archetype_id": "JP_IT_BUSINESS",
+    "applies_to": ["LINEヤフー", "楽天グループ", "サイバーエージェント", "DeNA", "エムスリー", "Sansan", "ビジョナル", "マネーフォワード", "ジャストシステム"],
+    "description": "日系IT・メガベンチャーのビジネス職として、サービス企画、法人営業、マーケティング、事業開発、カスタマーサクセスなどを担当する。エンジニアやデザイナーと協働してプロダクトの成長を推進し、データに基づく意思決定を行う。テクノロジーの理解とビジネス的な実行力の両方が求められ、スタートアップ的なスピード感の中で裁量大きく仕事ができる。起業やプロダクトマネジメントへのキャリアパスも開かれている。",
+    "ideal_profile": {
+      "description": "IT業界への強い関心とビジネスパーソンとしての実行力を兼ね備え、テクノロジーを理解した上でビジネスの成長を推進できる人。エンジニアと対等にコミュニケーションできるテクノロジーリテラシーと、データドリブンな意思決定ができる分析力が重要。",
+      "concrete_examples": [
+        "IT業界の動向やテクノロジートレンドに関心が高い",
+        "データ分析ツール（SQL, Excel, Google Analytics等）を使いこなせる",
+        "インターンでITサービスの企画や営業を経験した",
+        "将来的にプロダクトマネージャーや起業を目指している",
+        "エンジニアとの協働経験があり、技術的な議論についていける"
+      ]
+    },
+    "personality_scores": {
+      "logic": 72,
+      "creativity": 68,
+      "empathy": 62,
+      "cooperativeness": 62,
+      "competitiveness": 72,
+      "initiative": 82,
+      "planning": 65,
+      "action_orientation": 82,
+      "stress_tolerance": 72,
+      "learning_speed": 82,
+      "intellectual_curiosity": 78,
+      "analytical_ability": 72,
+      "abstract_thinking": 62,
+      "communication": 78,
+      "presentation": 75,
+      "negotiation": 68,
+      "leadership": 68,
+      "patience": 45,
+      "flexibility": 78,
+      "discipline": 55
+    },
+    "mbti_ranking": ["ENTP", "ENTJ", "ENFP", "ESTP", "ENFJ", "INTJ", "INTP", "ESTJ", "ESFP", "INFP", "ESFJ", "ISTP", "INFJ", "ISTJ", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 75,
+      "conscientiousness": 58,
+      "extraversion": 75,
+      "agreeableness": 48,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 85,
+      "stability": 28,
+      "social_contribution": 42,
+      "income": 72,
+      "autonomy": 78,
+      "expertise": 62,
+      "teamwork": 60
+    },
+    "work_style": {
+      "suitable_environments": ["スタートアップ的なスピード感で裁量が大きい環境", "テクノロジーとビジネスが融合する職場", "データドリブンな意思決定文化"],
+      "unsuitable_environments": ["年功序列で裁量が少ない大企業", "テクノロジーに全く関わらない業界", "変化が少ないルーティン業務中心"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["プロダクトマネージャー", "事業企画", "マーケター", "IT営業", "起業家"],
+      "unsuitable_careers": ["定型事務", "公務員", "製造管理", "ルート営業"]
+    },
+    "student_features": {
+      "high_school": ["ITやWebサービスに関心が高い", "行動力があり、自分でプロジェクトを立ち上げた", "数学と国語の両方が得意なバランス型"],
+      "university": ["経済学・経営学・情報系を専攻", "IT企業での長期インターン", "ビジネスコンテストやスタートアップピッチに参加"],
+      "part_time_job": ["IT企業での長期インターン", "営業やマーケティング系のアルバイト"],
+      "club_activities": ["起業サークル・ビジネスサークル", "テックサークル"],
+      "internship": ["メガベンチャーのビジネス職インターン", "スタートアップでの事業開発インターン"]
+    },
+    "feature_tags": ["#日系IT", "#メガベンチャー", "#ビジネス職", "#事業企画", "#マーケティング", "#法人営業", "#プロダクトマネージャー", "#データドリブン", "#テクノロジーリテラシー", "#スタートアップ", "#裁量大", "#スピード感", "#起業志向", "#成長志向", "#行動力", "#競争心", "#コミュニケーション", "#プレゼン力", "#分析力", "#SQL", "#IT知識", "#柔軟性", "#チームワーク", "#エンジニア協働", "#カスタマーサクセス", "#グロースハック", "#仮説検証", "#PDCA", "#リーダーシップ", "#実力主義"]
+  },
+  {
+    "company": "印刷・情報サービス（事務系）アーキタイプ",
+    "position": "事務系（営業・企画）",
+    "industry": "流通／小売業／外食",
+    "archetype_id": "PRINTING_BUSINESS",
+    "applies_to": ["大日本印刷（DNP）", "TOPPANホールディングス"],
+    "description": "大手印刷会社の事務系総合職として、法人営業（出版社・広告主・メーカー等へのソリューション提案）、企画（新規事業開発・マーケティング）、コーポレートスタッフ（経営企画・人事・財務）を担当する。印刷業から情報コミュニケーション事業、ICT事業、ライフサイエンス事業等へ多角化しており、クライアントの課題をテクノロジーで解決するソリューション営業が中心。パッケージング、電子部材、BPO等の多様な事業領域がある。",
+    "ideal_profile": {
+      "description": "幅広い産業のクライアントと関わりながらソリューション提案ができるコミュニケーション力と、印刷業にとどまらない多角的なビジネスへの関心を持つ人。安定した大企業で幅広い事業に携わりたい志向と、テクノロジーへの関心の両方がある。",
+      "concrete_examples": [
+        "法人営業やコンサルティング的な提案活動に興味がある",
+        "印刷にとどまらない多角的な事業展開に関心がある",
+        "クライアントの課題をヒアリングして解決策を提案した経験がある",
+        "安定した大企業で幅広いキャリアを築きたい",
+        "テクノロジーやDXに関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 62,
+      "creativity": 55,
+      "empathy": 65,
+      "cooperativeness": 72,
+      "competitiveness": 58,
+      "initiative": 62,
+      "planning": 68,
+      "action_orientation": 65,
+      "stress_tolerance": 62,
+      "learning_speed": 65,
+      "intellectual_curiosity": 62,
+      "analytical_ability": 60,
+      "abstract_thinking": 48,
+      "communication": 78,
+      "presentation": 70,
+      "negotiation": 68,
+      "leadership": 55,
+      "patience": 68,
+      "flexibility": 65,
+      "discipline": 68
+    },
+    "mbti_ranking": ["ENFJ", "ESTJ", "ENTJ", "ESFJ", "ENTP", "ENFP", "ISTJ", "ESTP", "ISFJ", "INTJ", "INFJ", "ESFP", "INTP", "ISTP", "INFP", "ISFP"],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 68,
+      "extraversion": 68,
+      "agreeableness": 65,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 55,
+      "stability": 72,
+      "social_contribution": 48,
+      "income": 58,
+      "autonomy": 42,
+      "expertise": 52,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["多角的な事業を展開する安定した大企業", "幅広い産業のクライアントと関われる環境", "ソリューション営業で提案力を発揮できる職場"],
+      "unsuitable_environments": ["単一製品の定型営業", "ベンチャー的な不安定な環境", "技術開発中心で対人業務が少ない職場"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["ソリューション営業", "事業企画", "マーケティング", "コンサルタント"],
+      "unsuitable_careers": ["研究者", "プログラマー", "フリーランスクリエイター", "公務員"]
+    },
+    "student_features": {
+      "high_school": ["バランスの取れた成績で文系科目が得意", "コミュニケーション力が高い", "安定志向だが新しいことへの関心もある"],
+      "university": ["経済学・商学を専攻", "法人営業やコンサル系のインターン", "幅広い業界研究を行った"],
+      "part_time_job": ["営業系アルバイト", "事務系アルバイト"],
+      "club_activities": ["ゼミ幹事・サークル幹部", "体育会系部活のマネージャー"],
+      "internship": ["印刷会社のインターンシップ", "BtoB企業の営業インターン"]
+    },
+    "feature_tags": ["#印刷業", "#ソリューション営業", "#多角化", "#BtoB", "#法人営業", "#企画", "#DX", "#パッケージング", "#ICT", "#安定", "#大企業", "#コミュニケーション", "#提案力", "#営業力", "#クライアントワーク", "#チームワーク", "#調整力", "#ジョブローテーション", "#堅実", "#テクノロジー", "#マーケティング", "#事業開発", "#プレゼン力", "#交渉力", "#信頼関係構築", "#幅広い事業", "#安定志向", "#規律", "#協調性", "#責任感"]
+  },
+  {
+    "company": "ニトリ",
+    "position": "総合職",
+    "industry": "流通／小売業／外食",
+    "archetype_id": "NITORI_GENERAL",
+    "applies_to": ["ニトリ"],
+    "description": "製造物流IT小売業を標榜するニトリの総合職として、商品開発（海外工場との交渉・品質管理）、店舗運営（店長候補）、物流（サプライチェーン最適化）、IT（社内システム開発）、広告宣伝（マーケティング）、コーポレートなど幅広い配属先がある。SPAモデルにより製造から販売まで一貫して自社で行うため、バリューチェーン全体を理解するジェネラリスト育成が方針。入社後は店舗配属からスタートし、2年ごとの配転制度で多様な部署を経験する。",
+    "ideal_profile": {
+      "description": "バリューチェーン全体に関心があり、ジェネラリストとして多様な業務を経験しながら成長したい人。店舗での接客や現場仕事を厭わず、将来的には経営幹部を目指す意欲がある。変化を楽しめる柔軟性と、新しい部署でもすぐにキャッチアップできる学習力が重要。",
+      "concrete_examples": [
+        "小売業やサプライチェーンに関心があり、ニトリのビジネスモデルを分析した",
+        "店舗での接客アルバイトの経験があり、現場仕事に抵抗がない",
+        "2年ごとに異動する環境を前向きに捉えられる柔軟性がある",
+        "将来的には商品開発や海外事業に携わりたいビジョンがある",
+        "データやITを活用した業務改善に関心がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 62,
+      "creativity": 52,
+      "empathy": 65,
+      "cooperativeness": 72,
+      "competitiveness": 62,
+      "initiative": 68,
+      "planning": 65,
+      "action_orientation": 72,
+      "stress_tolerance": 68,
+      "learning_speed": 72,
+      "intellectual_curiosity": 62,
+      "analytical_ability": 58,
+      "abstract_thinking": 48,
+      "communication": 72,
+      "presentation": 62,
+      "negotiation": 60,
+      "leadership": 62,
+      "patience": 65,
+      "flexibility": 78,
+      "discipline": 68
+    },
+    "mbti_ranking": ["ESTJ", "ENTJ", "ENFJ", "ESFJ", "ESTP", "ENTP", "ENFP", "ESFP", "ISTJ", "INTJ", "ISFJ", "INFJ", "ISTP", "INTP", "INFP", "ISFP"],
+    "big_five": {
+      "openness": 55,
+      "conscientiousness": 68,
+      "extraversion": 68,
+      "agreeableness": 62,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 68,
+      "stability": 58,
+      "social_contribution": 42,
+      "income": 62,
+      "autonomy": 45,
+      "expertise": 48,
+      "teamwork": 70
+    },
+    "work_style": {
+      "suitable_environments": ["バリューチェーン全体を経験できるジョブローテーション", "SPA型のビジネスモデルで一貫性を学べる環境", "店舗から本社まで幅広い業務に携われる"],
+      "unsuitable_environments": ["一つの専門領域だけを極める環境", "デスクワーク中心で現場がない職場", "変化が少ない固定的なキャリアパス"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["小売業の経営幹部", "商品開発", "サプライチェーン管理", "店舗マネージャー"],
+      "unsuitable_careers": ["研究者", "芸術家", "フリーランス", "外資系金融"]
+    },
+    "student_features": {
+      "high_school": ["部活動に真面目に取り組んだ", "接客アルバイトを始めた", "安定した成績で何事にも積極的"],
+      "university": ["経営学・マーケティングを学んだ", "ニトリの店舗でアルバイト経験", "物流や商品開発に関心を持つゼミ"],
+      "part_time_job": ["ニトリや小売店でのアルバイト", "接客販売で店舗運営を経験"],
+      "club_activities": ["ゼミ幹事・サークル幹部", "スポーツ系部活"],
+      "internship": ["ニトリのインターンシップ", "小売・物流企業のインターン"]
+    },
+    "feature_tags": ["#ニトリ", "#製造物流IT小売業", "#SPA", "#ジョブローテーション", "#店舗運営", "#商品開発", "#物流", "#IT", "#バリューチェーン", "#ジェネラリスト", "#大量採用", "#現場主義", "#柔軟性", "#学習力", "#チームワーク", "#コミュニケーション", "#営業", "#マーケティング", "#サプライチェーン", "#店長候補", "#海外事業", "#経営幹部候補", "#データ活用", "#業務改善", "#協調性", "#行動力", "#計画性", "#責任感", "#安定", "#成長志向"]
+  },
+  {
+    "company": "スポーツブランド（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "サービス業",
+    "archetype_id": "SPORTS_BRAND",
+    "applies_to": ["ナイキジャパン", "アディダスジャパン", "アシックス"],
+    "description": "スポーツブランドの総合職として、マーケティング（ブランドキャンペーン・デジタル・PR）、セールス（小売店・EC・直営店への販売）、リテール（直営店の運営管理）、商品企画（MD）を担当する。スポーツとファッションの交差点にある独自のブランドビジネスで、アスリートとの契約やスポーツイベントのスポンサーシップなど、スポーツカルチャーと深く関わる仕事。外資系（ナイキ・アディダス）は英語力が必要。",
+    "ideal_profile": {
+      "description": "スポーツへの情熱とブランドマーケティングへの関心を兼ね備えた人。スポーツカルチャーやファッションへの感度が高く、ブランドの世界観を消費者に伝えるストーリーテリング力がある。",
+      "concrete_examples": [
+        "スポーツ経験があり、特定のブランドに対する深い愛着がある",
+        "スポーツマーケティングやブランディングに関心がある",
+        "SNSでスポーツやファッションの情報発信をした経験がある",
+        "英語力がある（外資系の場合）",
+        "小売業やリテールの経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 58,
+      "creativity": 68,
+      "empathy": 65,
+      "cooperativeness": 68,
+      "competitiveness": 72,
+      "initiative": 72,
+      "planning": 62,
+      "action_orientation": 75,
+      "stress_tolerance": 68,
+      "learning_speed": 68,
+      "intellectual_curiosity": 68,
+      "analytical_ability": 58,
+      "abstract_thinking": 55,
+      "communication": 78,
+      "presentation": 72,
+      "negotiation": 65,
+      "leadership": 62,
+      "patience": 58,
+      "flexibility": 72,
+      "discipline": 62
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "ESFP", "ENFJ", "ESTP", "ENTJ", "ESTJ", "ESFJ", "INFP", "ISFP", "INTJ", "INTP", "INFJ", "ISTP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 72,
+      "conscientiousness": 58,
+      "extraversion": 78,
+      "agreeableness": 58,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 68,
+      "stability": 42,
+      "social_contribution": 48,
+      "income": 58,
+      "autonomy": 58,
+      "expertise": 58,
+      "teamwork": 68
+    },
+    "work_style": {
+      "suitable_environments": ["スポーツカルチャーに囲まれた職場", "ブランドの世界観を体現する環境", "マーケティングとリテールの両方に携われる"],
+      "unsuitable_environments": ["スポーツに全く関心がない業界", "定型的な事務作業中心", "ブランド力がない無名企業"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["スポーツマーケティング", "ブランドマネージャー", "リテールマネージャー", "商品企画"],
+      "unsuitable_careers": ["金融トレーダー", "プログラマー", "研究者", "公務員"]
+    },
+    "student_features": {
+      "high_school": ["スポーツ部活に熱中した体育会系", "スポーツとファッションの両方に関心", "英語が得意（外資希望者）"],
+      "university": ["スポーツビジネスやマーケティングを学んだ", "体育会系部活で活躍", "スポーツブランドでのアルバイト経験"],
+      "part_time_job": ["スポーツショップの販売員", "スポーツイベントのスタッフ"],
+      "club_activities": ["体育会系部活", "スポーツビジネスサークル"],
+      "internship": ["スポーツブランドのインターン", "リテール企業のマーケティングインターン"]
+    },
+    "feature_tags": ["#スポーツブランド", "#マーケティング", "#ブランディング", "#リテール", "#スポーツカルチャー", "#ファッション", "#アスリート契約", "#イベント", "#SNS", "#PR", "#セールス", "#商品企画", "#MD", "#コミュニケーション", "#行動力", "#トレンド感度", "#スポーツ愛", "#英語力", "#グローバル", "#体育会系", "#チームワーク", "#プレゼン力", "#競争心", "#柔軟性", "#EC", "#直営店", "#ブランド世界観", "#ストーリーテリング", "#外資系", "#エネルギッシュ"]
+  },
+  {
+    "company": "玩具メーカー（総合職）アーキタイプ",
+    "position": "総合職（商品企画・マーケティング・営業）",
+    "industry": "その他（スポーツ・玩具・住設・OA機器）",
+    "archetype_id": "TOY_GENERAL",
+    "applies_to": ["タカラトミー", "バンダイ"],
+    "description": "玩具メーカーの総合職として、商品企画（新玩具の開発企画・デザイン方向性の決定）、マーケティング（テレビCM・Web・SNSを活用した販促）、営業（小売店・量販店への営業・棚確保）を担当。子どもの『ワクワク』を形にする仕事で、IP（キャラクター）を活用した商品開発やグローバル展開も重要。ターゲットである子どもの視点に立った企画力と、玩具市場のトレンド分析が求められる。",
+    "ideal_profile": {
+      "description": "子どもの頃の『遊び心』を大人になっても持ち続け、それをビジネスとして形にできる人。玩具やキャラクターへの愛情と、マーケティング的な分析力の両立が重要。子どもの発達心理やトレンドへの理解も求められる。",
+      "concrete_examples": [
+        "子どもの頃から玩具やキャラクターが大好きで、その愛情が続いている",
+        "自分で玩具やゲームのアイデアを考えた経験がある",
+        "子どもの行動や心理に関心があり、教育学や心理学の知識がある",
+        "マーケティングやプロモーションの企画を立案・実行した経験がある",
+        "IP（キャラクター）ビジネスのエコシステムに興味がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 58,
+      "creativity": 82,
+      "empathy": 72,
+      "cooperativeness": 68,
+      "competitiveness": 58,
+      "initiative": 72,
+      "planning": 65,
+      "action_orientation": 72,
+      "stress_tolerance": 62,
+      "learning_speed": 72,
+      "intellectual_curiosity": 78,
+      "analytical_ability": 60,
+      "abstract_thinking": 68,
+      "communication": 75,
+      "presentation": 72,
+      "negotiation": 62,
+      "leadership": 58,
+      "patience": 62,
+      "flexibility": 75,
+      "discipline": 58
+    },
+    "mbti_ranking": ["ENFP", "ENTP", "ESFP", "ENFJ", "ENTJ", "INFP", "ESTP", "INTP", "INTJ", "INFJ", "ESFJ", "ESTJ", "ISFP", "ISTP", "ISTJ", "ISFJ"],
+    "big_five": {
+      "openness": 85,
+      "conscientiousness": 58,
+      "extraversion": 72,
+      "agreeableness": 62,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 65,
+      "stability": 50,
+      "social_contribution": 55,
+      "income": 52,
+      "autonomy": 58,
+      "expertise": 62,
+      "teamwork": 68
+    },
+    "work_style": {
+      "suitable_environments": ["遊び心とクリエイティビティが評価される職場", "子どもの喜びを直接感じられる商品開発", "IP・キャラクタービジネスに携われる環境"],
+      "unsuitable_environments": ["遊び心や楽しさが全く不要な堅い業界", "子どもやファミリー層に関わらない仕事", "数字だけが全ての営業職"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["商品企画", "マーケティング", "IPビジネス", "クリエイティブディレクター", "エンタメ企画"],
+      "unsuitable_careers": ["金融", "法務", "製造管理", "IT運用保守"]
+    },
+    "student_features": {
+      "high_school": ["玩具やキャラクターへの愛情が強い", "ものづくりやデザインに関心", "友達の間でムードメーカー的存在"],
+      "university": ["マーケティングや心理学を学んだ", "玩具メーカーのインターンやアルバイト", "自分でプロダクトのアイデアを企画した経験"],
+      "part_time_job": ["玩具店や量販店の販売員", "イベントスタッフやエンタメ系アルバイト"],
+      "club_activities": ["ものづくりサークル・デザインサークル", "マーケティング研究会"],
+      "internship": ["玩具メーカーのインターンシップ", "エンタメ企業の商品企画インターン"]
+    },
+    "feature_tags": ["#玩具", "#商品企画", "#IP", "#キャラクタービジネス", "#マーケティング", "#子ども向け", "#遊び心", "#クリエイティブ", "#デザイン", "#ものづくり", "#ファミリー層", "#トレンド分析", "#SNS", "#プロモーション", "#営業", "#小売営業", "#棚確保", "#グローバル展開", "#エンターテインメント", "#楽しさ追求", "#企画力", "#プレゼン力", "#柔軟性", "#共感力", "#発想力", "#プロダクト開発", "#トイ文化", "#カプセルトイ", "#アニメ連動", "#知的好奇心"]
+  },
+  {
+    "company": "ベネッセコーポレーション",
+    "position": "総合職",
+    "industry": "サービス業",
+    "archetype_id": "BENESSE_GENERAL",
+    "applies_to": ["ベネッセコーポレーション"],
+    "description": "教育・生活事業を展開するベネッセの総合職として、教育コンテンツの企画開発、マーケティング（進研ゼミ・こどもちゃれんじ等の会員獲得・継続施策）、営業（学校法人・塾への提案）、DX推進、コーポレートを担当する。『よく生きる（Benesse）』の理念のもと、子どもの学びと成長を支える教育サービスを提供する。少子化という逆風の中で、デジタル化やグローバル展開など事業変革を推進する力も求められる。",
+    "ideal_profile": {
+      "description": "教育への強い関心と情熱を持ち、子どもの成長を支えるサービスの企画・運営にやりがいを感じる人。教育業界の変革期に、デジタル技術を活用した新しい学びの形を創造する意欲がある。",
+      "concrete_examples": [
+        "教育に関心が高く、塾講師や家庭教師の経験がある",
+        "進研ゼミやこどもちゃれんじのユーザーとして、その教育的価値を実感している",
+        "EdTech（教育×テクノロジー）に関心がある",
+        "子どもの発達や学習心理学に関心がある",
+        "マーケティングや事業開発にも興味がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 62,
+      "creativity": 62,
+      "empathy": 82,
+      "cooperativeness": 78,
+      "competitiveness": 48,
+      "initiative": 62,
+      "planning": 68,
+      "action_orientation": 62,
+      "stress_tolerance": 62,
+      "learning_speed": 68,
+      "intellectual_curiosity": 72,
+      "analytical_ability": 58,
+      "abstract_thinking": 55,
+      "communication": 75,
+      "presentation": 65,
+      "negotiation": 58,
+      "leadership": 55,
+      "patience": 78,
+      "flexibility": 62,
+      "discipline": 68
+    },
+    "mbti_ranking": ["ENFJ", "INFJ", "ENFP", "ESFJ", "ENTJ", "ISFJ", "INFP", "ESTJ", "ENTP", "INTJ", "ESFP", "INTP", "ISTJ", "ESTP", "ISTP", "ISFP"],
+    "big_five": {
+      "openness": 65,
+      "conscientiousness": 68,
+      "extraversion": 62,
+      "agreeableness": 78,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 62,
+      "stability": 62,
+      "social_contribution": 85,
+      "income": 48,
+      "autonomy": 45,
+      "expertise": 55,
+      "teamwork": 75
+    },
+    "work_style": {
+      "suitable_environments": ["教育理念を大切にする組織", "子どもの成長に直接貢献できる仕事", "デジタルと教育の融合に取り組める環境"],
+      "unsuitable_environments": ["教育に全く関わらない業界", "利益最優先で理念が軽視される組織", "個人の営業成績だけが問われる環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["教育コンテンツ企画", "EdTech事業", "マーケティング", "教育行政", "NPO教育事業"],
+      "unsuitable_careers": ["金融トレーダー", "ハードウェアエンジニア", "フリーランス", "不動産営業"]
+    },
+    "student_features": {
+      "high_school": ["勉強が好きで自ら学ぶ習慣がある", "後輩の面倒を見るのが好き", "進研ゼミのユーザー"],
+      "university": ["教育学・心理学・社会学を専攻", "塾講師や家庭教師のアルバイト", "教育ボランティアの経験"],
+      "part_time_job": ["塾講師・家庭教師", "教育系NPOでのボランティア"],
+      "club_activities": ["教育ボランティアサークル", "子ども向け学習支援活動"],
+      "internship": ["ベネッセのインターンシップ", "EdTech企業でのインターン"]
+    },
+    "feature_tags": ["#ベネッセ", "#教育", "#進研ゼミ", "#こどもちゃれんじ", "#子どもの成長", "#教育コンテンツ", "#マーケティング", "#DX", "#EdTech", "#社会貢献", "#理念重視", "#共感力", "#忍耐力", "#チームワーク", "#企画力", "#コミュニケーション", "#学習支援", "#教育改革", "#少子化対策", "#グローバル", "#デジタル化", "#安定", "#丁寧さ", "#計画性", "#責任感", "#協調性", "#教育愛", "#サービス精神", "#ホスピタリティ", "#人間理解"]
+  },
+  {
+    "company": "ソニーグループ（技術系）",
+    "position": "技術系",
+    "industry": "IT / ITサービス（日系）",
+    "archetype_id": "SONY_TECH",
+    "applies_to": ["ソニーグループ"],
+    "description": "ソニーグループの技術系として、エレクトロニクス（イメージセンサー・カメラ・オーディオ・テレビ）、ゲーム（PlayStation）、音楽・映画コンテンツの技術基盤、半導体、AI・ロボティクスなど幅広い技術領域での研究開発・設計・実装を担当する。コース別採用で、入社時に希望する事業領域と技術分野を選択できる。『感動』をテクノロジーで創出するソニーらしさを追求する文化と、技術者としての高い専門性が両立する環境。",
+    "ideal_profile": {
+      "description": "技術への深い情熱と、ソニーの『感動』を創る文化への共感を兼ね備えた人。エレクトロニクス・ゲーム・エンターテインメント等のソニーの多様な事業領域の中で、自分の技術で社会にインパクトを与えたいという志がある。",
+      "concrete_examples": [
+        "ソニー製品を愛用し、その技術力と感動体験に共感している",
+        "電気電子工学・情報工学・物理学等の専門知識を有し、研究実績がある",
+        "自分の技術で『世界初』や『今までにない体験』を創りたいという志がある",
+        "ハードウェアとソフトウェアの両方に関心がある",
+        "国際学会での発表やOSSへの貢献など、アウトプット志向が強い"
+      ]
+    },
+    "personality_scores": {
+      "logic": 88,
+      "creativity": 80,
+      "empathy": 48,
+      "cooperativeness": 58,
+      "competitiveness": 62,
+      "initiative": 72,
+      "planning": 65,
+      "action_orientation": 68,
+      "stress_tolerance": 65,
+      "learning_speed": 88,
+      "intellectual_curiosity": 95,
+      "analytical_ability": 90,
+      "abstract_thinking": 88,
+      "communication": 58,
+      "presentation": 58,
+      "negotiation": 42,
+      "leadership": 50,
+      "patience": 72,
+      "flexibility": 68,
+      "discipline": 62
+    },
+    "mbti_ranking": ["INTP", "INTJ", "ENTP", "ENTJ", "ISTP", "INFP", "INFJ", "ENFP", "ISTJ", "ESTP", "ESTJ", "ISFP", "ENFJ", "ESFP", "ESFJ", "ISFJ"],
+    "big_five": {
+      "openness": 90,
+      "conscientiousness": 62,
+      "extraversion": 42,
+      "agreeableness": 48,
+      "neuroticism": 40
+    },
+    "values": {
+      "growth": 82,
+      "stability": 48,
+      "social_contribution": 48,
+      "income": 68,
+      "autonomy": 78,
+      "expertise": 92,
+      "teamwork": 52
+    },
+    "work_style": {
+      "suitable_environments": ["多様な事業領域で技術的挑戦ができる環境", "『感動』を技術で創る文化", "コース別採用で専門性を追求できる組織"],
+      "unsuitable_environments": ["技術が軽視される環境", "SIerのような受託開発中心", "創造性が不要な定型作業"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["研究開発エンジニア", "半導体設計", "AIエンジニア", "イメージセンサー開発", "PlayStation開発"],
+      "unsuitable_careers": ["営業", "事務", "接客", "公務員"]
+    },
+    "student_features": {
+      "high_school": ["理数科目が突出して得意", "電子工作やプログラミングが趣味", "ソニー製品の愛用者"],
+      "university": ["電気電子・情報・物理学の修士/博士課程", "研究室で論文発表の実績がある", "自主的に技術プロジェクトに取り組んだ"],
+      "part_time_job": ["研究室のRA", "技術系アルバイト・フリーランス"],
+      "club_activities": ["ロボコン・プロコン", "電子工作サークル"],
+      "internship": ["ソニーのコース別インターン", "技術系企業の研究開発インターン"]
+    },
+    "feature_tags": ["#ソニー", "#技術系", "#研究開発", "#イメージセンサー", "#PlayStation", "#AI", "#ロボティクス", "#半導体", "#エレクトロニクス", "#感動創造", "#イノベーション", "#専門性", "#知的好奇心", "#学習速度", "#抽象思考", "#分析力", "#論理的思考", "#コース別採用", "#多事業領域", "#世界初", "#技術探求", "#修士/博士", "#研究実績", "#アウトプット志向", "#創造性", "#問題解決", "#自律性", "#国際学会", "#ハードソフト融合", "#テクノロジー"]
+  },
+  {
+    "company": "キーエンス",
+    "position": "ビジネス職（営業）",
+    "industry": "IT / ITサービス（日系）",
+    "archetype_id": "KEYENCE_SALES",
+    "applies_to": ["キーエンス"],
+    "description": "センサー・計測機器・画像処理システム等の製造業向けBtoB企業であるキーエンスの営業職。「直販体制」のもと、工場や研究施設を訪問し、顧客の生産現場の課題をヒアリングして最適なセンサーや計測機器を提案する技術営業を行う。売上ノルマではなく「付加価値」の提供にフォーカスした独自の営業スタイル。日系企業トップクラスの高年収（平均年収2000万円超）で知られるが、仕事量と成果への要求水準も極めて高い。論理的思考力と行動量の両方が求められるハードワーク環境。",
+    "ideal_profile": {
+      "description": "論理的思考力と行動力を極めて高いレベルで兼ね備え、顧客の課題を技術的に解決する提案営業に適性がある人。高い報酬を得るために圧倒的な業務量をこなせるタフさと、技術製品の知識を短期間で習得する学習力が必要。",
+      "concrete_examples": [
+        "大学で理系科目を学び、テクノロジーへの基礎理解がある",
+        "営業系アルバイトで高い成果を出した経験がある",
+        "論理的に物事を考え、相手にわかりやすく伝えるプレゼン力がある",
+        "ハードワークを厭わず、高報酬を得ることへの強い意欲がある",
+        "製造業やものづくりに関心がある",
+        "体育会系部活で厳しい訓練に耐えた経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 88,
+      "creativity": 45,
+      "empathy": 55,
+      "cooperativeness": 55,
+      "competitiveness": 92,
+      "initiative": 90,
+      "planning": 72,
+      "action_orientation": 95,
+      "stress_tolerance": 92,
+      "learning_speed": 88,
+      "intellectual_curiosity": 68,
+      "analytical_ability": 82,
+      "abstract_thinking": 58,
+      "communication": 82,
+      "presentation": 85,
+      "negotiation": 78,
+      "leadership": 65,
+      "patience": 42,
+      "flexibility": 58,
+      "discipline": 88
+    },
+    "mbti_ranking": ["ENTJ", "ESTJ", "ESTP", "ENTP", "INTJ", "ISTJ", "ENFJ", "ISTP", "ESFJ", "INTP", "ENFP", "ESFP", "INFJ", "INFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 50,
+      "conscientiousness": 88,
+      "extraversion": 78,
+      "agreeableness": 38,
+      "neuroticism": 25
+    },
+    "values": {
+      "growth": 82,
+      "stability": 42,
+      "social_contribution": 30,
+      "income": 95,
+      "autonomy": 55,
+      "expertise": 62,
+      "teamwork": 48
+    },
+    "work_style": {
+      "suitable_environments": ["成果と報酬が直結する環境", "技術的な提案営業ができる職場", "行動量と論理性の両方が評価される組織"],
+      "unsuitable_environments": ["ゆったりしたペースの職場", "年功序列で報酬が固定的", "クリエイティブ系の感性重視の環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["BtoB技術営業", "コンサルタント", "事業責任者", "営業マネージャー", "起業家"],
+      "unsuitable_careers": ["芸術家", "学術研究者", "図書館司書", "カウンセラー"]
+    },
+    "student_features": {
+      "high_school": ["理系で成績上位", "体育会系部活で厳しい訓練に耐えた", "目標達成へのストイックさがある"],
+      "university": ["理工学部や経済学部で論理的思考を鍛えた", "体育会系部活で主将・副将を経験", "営業インターンで高い成績"],
+      "part_time_job": ["訪問販売やテレマーケティングで成果を出した", "接客で高い売上を記録"],
+      "club_activities": ["体育会系部活（特に個人競技）", "ビジネスサークル"],
+      "internship": ["キーエンスのインターン", "BtoB企業の営業インターン"]
+    },
+    "feature_tags": ["#キーエンス", "#高年収", "#技術営業", "#BtoB", "#センサー", "#計測機器", "#直販体制", "#付加価値", "#論理的思考", "#行動量", "#ハードワーク", "#成果主義", "#ストイック", "#体力勝負", "#プレゼン力", "#提案力", "#学習速度", "#分析力", "#競争心", "#規律", "#製造業", "#ものづくり", "#顧客課題解決", "#実力主義", "#高報酬", "#タフネス", "#数字意識", "#ソリューション営業", "#目標達成", "#行動力"]
+  },
+  {
+    "company": "BtoBメーカー・住設・OA機器（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "その他（スポーツ・玩具・住設・OA機器）",
+    "archetype_id": "BTOB_MANUFACTURER",
+    "applies_to": ["コクヨ", "リクシル", "富士フイルムビジネスイノベーション"],
+    "description": "文具・オフィス家具、住宅設備・建材、複合機・ソリューション等を手掛けるBtoBメーカーの総合職。営業（法人向けソリューション提案）、マーケティング（商品企画・ブランディング）、商品開発、生産管理、コーポレートを担当する。日本のオフィスや住宅のインフラを支える製品・サービスを提供し、顧客企業の業務効率化やワークスタイル変革を提案する。堅実な日系メーカーとしての安定性と、DX・ソリューション化という事業変革の両面がある。",
+    "ideal_profile": {
+      "description": "日本のビジネスインフラや住環境を支える製品・サービスに関心があり、堅実な法人営業やマーケティングを志向する人。華やかさよりも実直な仕事を好み、長期的にキャリアを築きたいタイプ。",
+      "concrete_examples": [
+        "文具やオフィス環境、住宅設備に関心があり、製品の改善アイデアを考えたことがある",
+        "法人営業や提案型の営業に適性がある",
+        "安定した日系メーカーで堅実にキャリアを積みたい",
+        "DXやソリューション化に関心がある",
+        "ものづくりへの関心とビジネス感覚の両方がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 65,
+      "creativity": 52,
+      "empathy": 62,
+      "cooperativeness": 72,
+      "competitiveness": 52,
+      "initiative": 58,
+      "planning": 72,
+      "action_orientation": 62,
+      "stress_tolerance": 62,
+      "learning_speed": 62,
+      "intellectual_curiosity": 58,
+      "analytical_ability": 60,
+      "abstract_thinking": 48,
+      "communication": 72,
+      "presentation": 65,
+      "negotiation": 65,
+      "leadership": 52,
+      "patience": 72,
+      "flexibility": 58,
+      "discipline": 72
+    },
+    "mbti_ranking": ["ESTJ", "ISTJ", "ENTJ", "ENFJ", "ESFJ", "ISFJ", "ENTP", "ENFP", "INTJ", "ESTP", "INTP", "INFJ", "ESFP", "ISTP", "INFP", "ISFP"],
+    "big_five": {
+      "openness": 50,
+      "conscientiousness": 72,
+      "extraversion": 60,
+      "agreeableness": 65,
+      "neuroticism": 38
+    },
+    "values": {
+      "growth": 52,
+      "stability": 78,
+      "social_contribution": 48,
+      "income": 58,
+      "autonomy": 40,
+      "expertise": 55,
+      "teamwork": 72
+    },
+    "work_style": {
+      "suitable_environments": ["安定した日系メーカー", "法人向けソリューション営業ができる環境", "ものづくりとビジネスの両面に関われる職場"],
+      "unsuitable_environments": ["ベンチャー的な不安定な環境", "華やかなBtoCビジネス", "個人プレーが中心の競争的組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["BtoB法人営業", "商品企画", "マーケティング", "生産管理", "事業企画"],
+      "unsuitable_careers": ["芸能", "金融トレーダー", "フリーランス", "研究者"]
+    },
+    "student_features": {
+      "high_school": ["安定した成績で文理バランスが取れている", "真面目で堅実な性格", "ものづくりや文房具への関心"],
+      "university": ["経営学・マーケティング・工学を専攻", "安定志向で大手メーカーを志望", "ゼミや研究で商品開発や生産管理を学んだ"],
+      "part_time_job": ["文具店・家電量販店での販売", "法人向け営業のアルバイト"],
+      "club_activities": ["ゼミ幹事・サークル幹部", "ものづくり系サークル"],
+      "internship": ["メーカーの営業・企画インターン", "BtoB企業のソリューション営業インターン"]
+    },
+    "feature_tags": ["#BtoBメーカー", "#法人営業", "#ソリューション提案", "#安定", "#日系メーカー", "#文具", "#オフィス家具", "#住宅設備", "#複合機", "#DX", "#商品企画", "#マーケティング", "#ものづくり", "#堅実", "#計画性", "#忍耐力", "#協調性", "#チームワーク", "#コミュニケーション", "#営業力", "#提案力", "#正確性", "#規律", "#責任感", "#安定志向", "#長期キャリア", "#プレゼン力", "#交渉力", "#生産管理", "#実直"]
+  },
+  {
+    "company": "外資系産業機器メーカー（総合職）アーキタイプ",
+    "position": "総合職",
+    "industry": "その他（スポーツ・玩具・住設・OA機器）",
+    "archetype_id": "FOREIGN_INDUSTRIAL",
+    "applies_to": ["エリクソン・ジャパン", "ボッシュ"],
+    "description": "スウェーデン（エリクソン）やドイツ（ボッシュ）に本社を持つ外資系メーカーの日本法人で、技術系（研究開発・生産技術・通信インフラ設計）、事務系（営業・マーケティング・コーポレート）を担当する。グローバル本社との連携が日常的で、英語でのコミュニケーションが必須。欧州系外資の穏やかながらプロフェッショナルな文化の中で、通信機器や自動車部品・産業機器の最先端技術に携わる。ボッシュのJMP（Junior Managers Program）のような若手リーダー育成プログラムもある。",
+    "ideal_profile": {
+      "description": "グローバルな技術企業で専門性を活かしたい人。欧州系外資のワークライフバランスの良い環境を好みながら、技術的な深さとビジネス感覚の両方を求めるタイプ。英語力は必須。",
+      "concrete_examples": [
+        "英語力がビジネスレベル以上で、異文化環境での就業経験がある",
+        "通信技術や自動車技術など特定の産業技術への深い関心がある",
+        "欧州系外資のワークライフバランスの良さに魅力を感じる",
+        "技術とビジネスの両方に関心がある",
+        "グローバルチームでの協働経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 75,
+      "creativity": 55,
+      "empathy": 58,
+      "cooperativeness": 65,
+      "competitiveness": 55,
+      "initiative": 65,
+      "planning": 72,
+      "action_orientation": 65,
+      "stress_tolerance": 62,
+      "learning_speed": 75,
+      "intellectual_curiosity": 75,
+      "analytical_ability": 75,
+      "abstract_thinking": 62,
+      "communication": 72,
+      "presentation": 65,
+      "negotiation": 62,
+      "leadership": 58,
+      "patience": 68,
+      "flexibility": 68,
+      "discipline": 68
+    },
+    "mbti_ranking": ["INTJ", "ENTJ", "INTP", "ENTP", "ISTJ", "ESTJ", "INFJ", "ENFJ", "ISTP", "ENFP", "ESTP", "ISFJ", "ESFJ", "INFP", "ESFP", "ISFP"],
+    "big_five": {
+      "openness": 68,
+      "conscientiousness": 70,
+      "extraversion": 55,
+      "agreeableness": 58,
+      "neuroticism": 35
+    },
+    "values": {
+      "growth": 68,
+      "stability": 65,
+      "social_contribution": 48,
+      "income": 68,
+      "autonomy": 65,
+      "expertise": 78,
+      "teamwork": 62
+    },
+    "work_style": {
+      "suitable_environments": ["グローバル本社との協働がある環境", "欧州系のワークライフバランスの良い文化", "技術的な深さを追求できる職場"],
+      "unsuitable_environments": ["日本語のみの閉じた組織", "ベンチャー的な不安定さ", "営業成績だけが評価基準の環境"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["外資系メーカーのエンジニア", "技術営業", "プロジェクトマネージャー", "グローバル事業企画"],
+      "unsuitable_careers": ["日系企業の定型事務", "接客サービス", "フリーランス", "芸能"]
+    },
+    "student_features": {
+      "high_school": ["理数科目と英語の両方が得意", "海外に関心が高い", "技術やものづくりに興味"],
+      "university": ["工学部・情報系を専攻し英語力も高い", "留学経験がある", "グローバルインターンに参加"],
+      "part_time_job": ["外資系企業でのアルバイト", "技術系のフリーランス"],
+      "club_activities": ["国際交流サークル", "技術系サークル"],
+      "internship": ["外資系メーカーのインターン", "海外インターン"]
+    },
+    "feature_tags": ["#外資系メーカー", "#欧州系", "#グローバル", "#英語必須", "#通信機器", "#自動車部品", "#産業機器", "#技術力", "#ワークライフバランス", "#プロフェッショナル", "#JMP", "#リーダー育成", "#専門性", "#異文化環境", "#論理的思考", "#計画性", "#チームワーク", "#安定", "#国際協働", "#コミュニケーション", "#プレゼン力", "#知的好奇心", "#分析力", "#堅実", "#技術営業", "#R&D", "#生産技術", "#グローバルキャリア", "#柔軟性", "#規律"]
+  },
+  {
+    "company": "ヴイエムウェア（Broadcom）",
+    "position": "セールス・システムズエンジニア",
+    "industry": "IT / ITサービス（外資系）",
+    "archetype_id": "VMWARE_SALES_SE",
+    "applies_to": ["ヴイエムウェア"],
+    "description": "仮想化技術大手ヴイエムウェア（Broadcom傘下）のセールスまたはシステムズエンジニアとして、企業のIT基盤の仮想化・クラウド化・DXを支援する。セールスは法人顧客への仮想化ソリューションの提案・販売、システムズエンジニアはプリセールス段階での技術デモ・PoC（概念実証）の実施、導入支援を担当する。インフラ仮想化からマルチクラウド・セキュリティまで幅広い技術知識が求められる。",
+    "ideal_profile": {
+      "description": "ITインフラや仮想化技術に関心があり、法人顧客に対して技術的なソリューションを提案できる人。セールスの場合は交渉力と提案力、SEの場合は技術的な深い理解とデモ能力が求められる。",
+      "concrete_examples": [
+        "仮想化技術やクラウドインフラに関心がある",
+        "法人向けのIT提案やデモンストレーションの経験がある",
+        "英語でのコミュニケーションが可能",
+        "ネットワークやサーバーの基礎知識がある",
+        "顧客の技術課題をヒアリングして解決策を提案した経験がある"
+      ]
+    },
+    "personality_scores": {
+      "logic": 78,
+      "creativity": 52,
+      "empathy": 58,
+      "cooperativeness": 60,
+      "competitiveness": 72,
+      "initiative": 75,
+      "planning": 68,
+      "action_orientation": 75,
+      "stress_tolerance": 72,
+      "learning_speed": 78,
+      "intellectual_curiosity": 72,
+      "analytical_ability": 75,
+      "abstract_thinking": 58,
+      "communication": 78,
+      "presentation": 78,
+      "negotiation": 72,
+      "leadership": 58,
+      "patience": 55,
+      "flexibility": 65,
+      "discipline": 65
+    },
+    "mbti_ranking": ["ENTJ", "ENTP", "INTJ", "ESTP", "ESTJ", "INTP", "ENFJ", "ISTP", "ENFP", "ESFJ", "ISTJ", "INFJ", "ESFP", "INFP", "ISFP", "ISFJ"],
+    "big_five": {
+      "openness": 65,
+      "conscientiousness": 65,
+      "extraversion": 72,
+      "agreeableness": 48,
+      "neuroticism": 32
+    },
+    "values": {
+      "growth": 72,
+      "stability": 42,
+      "social_contribution": 35,
+      "income": 78,
+      "autonomy": 65,
+      "expertise": 72,
+      "teamwork": 55
+    },
+    "work_style": {
+      "suitable_environments": ["ITインフラの最前線で技術提案ができる環境", "成果が報酬に直結する外資系文化", "英語を使ったグローバルコミュニケーション"],
+      "unsuitable_environments": ["技術に関わらない営業", "年功序列で成果が報われない環境", "日本語のみの閉じた組織"]
+    },
+    "career_aptitude": {
+      "suitable_careers": ["IT法人営業", "プリセールスSE", "クラウドアーキテクト", "テクニカルアカウントマネージャー"],
+      "unsuitable_careers": ["芸術家", "公務員", "接客サービス", "製造ライン"]
+    },
+    "student_features": {
+      "high_school": ["情報や数学が得意", "パソコンやネットワークに関心", "英語力が高い"],
+      "university": ["情報工学・ネットワーク系を専攻", "クラウドや仮想化技術に興味", "英語でのプレゼン経験"],
+      "part_time_job": ["ITヘルプデスク", "SE系アルバイト"],
+      "club_activities": ["情報系サークル", "国際交流サークル"],
+      "internship": ["外資系IT企業のSEインターン", "クラウド企業でのインターン"]
+    },
+    "feature_tags": ["#仮想化", "#クラウド", "#DX", "#外資系IT", "#法人営業", "#プリセールス", "#システムズエンジニア", "#PoC", "#Broadcom", "#インフラ", "#マルチクラウド", "#セキュリティ", "#英語必須", "#技術提案", "#成果主義", "#高年収", "#ソリューション営業", "#デモンストレーション", "#テクノロジー", "#コミュニケーション", "#プレゼン力", "#交渉力", "#分析力", "#学習速度", "#競争心", "#行動力", "#グローバル", "#IT知識", "#専門性", "#実力主義"]
+  }
+]

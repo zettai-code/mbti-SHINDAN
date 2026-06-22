@@ -74,7 +74,7 @@ export default function HomePage() {
               就活に役立つMBTI診断で、<br />自分の性格や価値観を深く理解し、<br />あなたに合った仕事や働き方を見つけます。
             </p>
             <Link
-              href="/diagnosis"
+              href="/job-fit"
               className="inline-flex items-center gap-2 text-white font-bold rounded-full shadow-lg transition-opacity hover:opacity-90"
               style={{ background: PURPLE, fontSize: "clamp(0.7rem,1.95vw,1.15rem)", padding: "clamp(0.45rem,1.5vw,1.1rem) clamp(1.6rem,4.6vw,3.6rem)" }}
             >
@@ -133,7 +133,7 @@ export default function HomePage() {
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link href="/diagnosis" className="inline-flex items-center gap-2 text-white font-bold py-3.5 px-9 rounded-full text-sm shadow-md hover:opacity-90 transition-opacity" style={{ background: PURPLE }}>
+            <Link href="/job-fit" className="inline-flex items-center gap-2 text-white font-bold py-3.5 px-9 rounded-full text-sm shadow-md hover:opacity-90 transition-opacity" style={{ background: PURPLE }}>
               無料で診断を始める <span aria-hidden>→</span>
             </Link>
           </div>
@@ -193,7 +193,7 @@ export default function HomePage() {
           <div className="max-w-xl">
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">あなたの可能性を、<br className="sm:hidden" />今すぐ診断してみませんか？</h2>
             <p className="text-white/80 text-sm mb-8">たった5分で、未来のキャリアのヒントが見つかります。</p>
-            <Link href="/diagnosis" className="inline-flex items-center gap-2 text-white font-bold py-4 px-10 rounded-full text-base shadow-lg hover:opacity-90 transition-opacity" style={{ background: PURPLE }}>
+            <Link href="/job-fit" className="inline-flex items-center gap-2 text-white font-bold py-4 px-10 rounded-full text-base shadow-lg hover:opacity-90 transition-opacity" style={{ background: PURPLE }}>
               無料で診断を始める <span aria-hidden>→</span>
             </Link>
           </div>

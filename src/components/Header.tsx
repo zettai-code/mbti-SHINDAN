@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
-        <Link href="/job-fit" className="text-sm sm:text-base font-bold text-gray-800 tracking-tight shrink-0">
+        <Link href="/" className="text-sm sm:text-base font-bold text-gray-800 tracking-tight shrink-0">
           <span className="hidden sm:inline">職種適合度診断</span>
           <span className="sm:hidden">適合度診断</span>
         </Link>

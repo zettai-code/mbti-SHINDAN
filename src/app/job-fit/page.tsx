@@ -625,7 +625,7 @@ function CompanyProfileDetails({
 }
 
 export default function JobFitPage() {
-  const [screen, setScreen] = useState<Screen>("top")
+  const [screen, setScreen] = useState<Screen>("attributes")
   const [gender, setGender] = useState<Gender | null>(null)
   const [uni, setUni] = useState<UniversityRank | null>(null)
   const [bgs, setBgs] = useState<Background[]>([])
@@ -786,7 +786,7 @@ export default function JobFitPage() {
     setGender(null); setUni(null); setBgs([]); setQIdx(0)
     setAnswers({}); setUserScores({}); setLoadPct(0)
     setExpandedIndustries(new Set())
-    setScreen("top")
+    setScreen("attributes")
   }, [])
 
   // Scroll to top on screen change
@@ -794,40 +794,6 @@ export default function JobFitPage() {
 
   return (
     <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8]">
-      {/* ── TOP ── */}
-      {screen === "top" && (
-        <div className="flex w-full flex-col items-center justify-center overflow-x-hidden min-h-[72vh] px-6 text-center animate-fadeIn">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#eef7fa] text-[#4298b4] text-xs font-bold mb-6">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#4298b4]" /> 職種適合度
-          </div>
-          <h1 className="w-full min-w-0 text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4 leading-tight tracking-tight max-w-[20rem] sm:max-w-3xl mx-auto break-words">
-            あなたに合った
-            <br />
-            職種と企業を
-            <br className="sm:hidden" />
-            見つけよう
-          </h1>
-          <p className="w-full min-w-0 text-gray-500 text-base sm:text-lg max-w-[20rem] sm:max-w-xl leading-relaxed mb-4 [overflow-wrap:anywhere]">
-            30問の質問であなたの素養を分析し、企業ごとの要求プロフィールと照合します。
-            学歴・バックグラウンドも加味して、向いている職種と企業を提案します。
-          </p>
-          <p className="text-gray-400 text-xs mb-10">所要時間：約5分 / 全30問</p>
-          <button
-            onClick={() => setScreen("attributes")}
-            className="block w-full min-w-0 max-w-xs px-8 py-4 bg-[#4298b4] text-white font-bold rounded-full text-base hover:bg-[#3a89a3] transition-colors shadow-sm"
-          >
-            適合度チェックを始める
-          </button>
-          <p className="mt-4 text-xs leading-6 text-gray-400">
-            開始すると
-            <Link href="/terms" className="mx-1 text-[#4298b4] underline underline-offset-2 hover:text-[#3a89a3]">
-              利用規約
-            </Link>
-            に同意したものとみなされます。
-          </p>
-        </div>
-      )}
-
       {/* ── ATTRIBUTES ── */}
       {screen === "attributes" && (
         <div className="max-w-lg mx-auto px-4 py-12 animate-fadeIn">

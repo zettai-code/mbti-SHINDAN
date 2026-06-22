@@ -4,10 +4,16 @@ import { useState, useCallback, useMemo, useEffect } from "react"
 import Link from "next/link"
 import type { JobFitQuestion, Gender, UniversityRank, Background } from "@/lib/job-fit-types"
 import {
-  SCALE_OPTIONS, UNIVERSITY_RANKS, UNIVERSITY_LABELS,
+  SCALE_OPTIONS, UNIVERSITY_LABELS,
   BACKGROUNDS, SCORE_CATEGORIES,
 } from "@/lib/job-fit-types"
-import { computeUserScores, scoreCompanyWithMarketReality } from "@/lib/job-fit-engine"
+import {
+  computeUserScores,
+  getUniversityDeviationByName,
+  getUniversityRankByName,
+  scoreCompanyWithMarketReality,
+  UNIVERSITY_DEVIATION_BY_NAME,
+} from "@/lib/job-fit-engine"
 import type { IndustryGroup, Company } from "@/types"
 import questionsData from "@/data/job-fit-questions.json"
 import companiesData from "@/data/companies.json"
@@ -24,6 +30,11 @@ import genderData from "@/data/gender_background_data.json"
 
 const questions = questionsData as JobFitQuestion[]
 const allIndustries = companiesData as IndustryGroup[]
+const OTHER_UNIVERSITY_VALUE = "その他・リストにない大学"
+const UNIVERSITY_DATALIST_ID = "job-fit-university-options"
+const UNIVERSITY_OPTIONS = Object.entries(UNIVERSITY_DEVIATION_BY_NAME)
+  .map(([name, deviation]) => ({ name, deviation }))
+  .sort((a, b) => b.deviation - a.deviation || a.name.localeCompare(b.name, "ja"))
 
 type Profile = {
   company: string
@@ -628,6 +639,7 @@ export default function JobFitPage() {
   const [screen, setScreen] = useState<Screen>("attributes")
   const [gender, setGender] = useState<Gender | null>(null)
   const [uni, setUni] = useState<UniversityRank | null>(null)
+  const [universityName, setUniversityName] = useState("")
   const [bgs, setBgs] = useState<Background[]>([])
   const [qIdx, setQIdx] = useState(0)
   const [answers, setAnswers] = useState<Record<number, number>>({})
@@ -642,6 +654,7 @@ export default function JobFitPage() {
     if (Object.keys(userScores).length === 0 || !uni) return []
     const scored: ScoredCompany[] = []
     const candidateMarketProfile = {
+      universityName: universityName === OTHER_UNIVERSITY_VALUE ? undefined : universityName,
       universityRank: uni,
       gender: gender ?? undefined,
       backgrounds: bgs,
@@ -728,7 +741,7 @@ export default function JobFitPage() {
     })
     scored.sort((a, b) => b.finalScore - a.finalScore)
     return scored
-  }, [userScores, uni, gender, bgs])
+  }, [userScores, uni, universityName, gender, bgs])
 
   const showToast = useCallback((msg: string, type: "error" | "success" = "error") => {
     setToast({ msg, type })
@@ -744,16 +757,25 @@ export default function JobFitPage() {
     })
   }, [])
 
+  const selectUniversity = useCallback((value: string) => {
+    setUniversityName(value)
+    if (!value) {
+      setUni(null)
+      return
+    }
+    setUni(value === OTHER_UNIVERSITY_VALUE ? "その他" : getUniversityRankByName(value))
+  }, [])
+
   // ── Submit attributes ──
   const submitAttrs = useCallback(() => {
     if (!gender) { showToast("性別を選択してください"); return }
-    if (!uni) { showToast("大学ランクを選択してください"); return }
+    if (!uni || !universityName) { showToast("大学を選択してください"); return }
     const finalBgs = bgs.length === 0 ? ["特になし" as Background] : bgs
     setBgs(finalBgs)
     setQIdx(0)
     setAnswers({})
     setScreen("questions")
-  }, [gender, uni, bgs, showToast])
+  }, [gender, uni, universityName, bgs, showToast])
 
   // ── Answer a question ──
   const answerQ = useCallback((scaleIdx: number) => {
@@ -783,7 +805,7 @@ export default function JobFitPage() {
 
   // ── Restart ──
   const restart = useCallback(() => {
-    setGender(null); setUni(null); setBgs([]); setQIdx(0)
+    setGender(null); setUni(null); setUniversityName(""); setBgs([]); setQIdx(0)
     setAnswers({}); setUserScores({}); setLoadPct(0)
     setExpandedIndustries(new Set())
     setScreen("attributes")
@@ -819,16 +841,29 @@ export default function JobFitPage() {
 
             {/* University */}
             <div className="mb-6">
-              <label className="text-xs font-semibold text-gray-500 mb-2 block">大学ランク</label>
-              <div className="grid grid-cols-2 gap-2">
-                {UNIVERSITY_RANKS.map((u) => (
-                  <button key={u} onClick={() => setUni(u)}
-                    className={`py-3 px-2 rounded-xl text-xs font-medium border transition-colors text-center ${
-                      uni === u ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
-                    }`}
-                  >{UNIVERSITY_LABELS[u]}</button>
+              <label className="text-xs font-semibold text-gray-500 mb-2 block">大学</label>
+              <input
+                type="text"
+                list={UNIVERSITY_DATALIST_ID}
+                value={universityName}
+                autoComplete="off"
+                placeholder="大学名を検索・選択"
+                onChange={(event) => selectUniversity(event.target.value)}
+                className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm font-medium text-gray-700 outline-none transition-colors focus:border-[#4298b4] focus:ring-2 focus:ring-[#4298b4]/20"
+              />
+              <datalist id={UNIVERSITY_DATALIST_ID}>
+                {UNIVERSITY_OPTIONS.map((item) => (
+                  <option key={item.name} value={item.name} label={`就活偏差値 ${item.deviation}`} />
                 ))}
-              </div>
+                <option value={OTHER_UNIVERSITY_VALUE} label="就活偏差値 50.0" />
+              </datalist>
+              {universityName && (
+                <p className="mt-2 text-[10px] text-gray-400">
+                  {universityName === OTHER_UNIVERSITY_VALUE
+                    ? "その他として計算します。"
+                    : `${UNIVERSITY_LABELS[getUniversityRankByName(universityName)]} / 就活偏差値 ${getUniversityDeviationByName(universityName) ?? 50}`}
+                </p>
+              )}
             </div>
 
             {/* Backgrounds */}
@@ -946,7 +981,7 @@ export default function JobFitPage() {
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">あなたの適合度分析結果</h2>
             <p className="text-xs text-gray-400">
-              {gender === "男" ? "男性" : "女性"} ・ {UNIVERSITY_LABELS[uni!]} ・ {bgs.join(", ")}
+              {gender === "男" ? "男性" : "女性"} ・ {universityName === OTHER_UNIVERSITY_VALUE ? "その他・リストにない大学" : universityName} ・ {bgs.join(", ")}
             </p>
           </div>
 
@@ -1188,6 +1223,7 @@ export default function JobFitPage() {
                           const hasProfile = Object.keys(company.requiredProfile).length > 0
                           const weightedMatchScore = hasProfile && uni
                             ? scoreCompanyWithMarketReality(userScores, company.requiredProfile, {
+                                universityName: universityName === OTHER_UNIVERSITY_VALUE ? undefined : universityName,
                                 universityRank: uni,
                                 gender: gender ?? undefined,
                                 backgrounds: bgs,

@@ -20,7 +20,7 @@ const ALL_PARAMS = [
   "激務耐性","出張許容","チーム志向","海外志向",
 ]
 
-const UNIVERSITY_DEVIATION_BY_NAME: Record<string, number> = {
+export const UNIVERSITY_DEVIATION_BY_NAME: Record<string, number> = {
   東京大学: 75.0,
   一橋大学: 75.0,
   京都大学: 75.0,
@@ -122,6 +122,32 @@ const UNIVERSITY_RANK_DEVIATION: Record<UniversityRank, number> = {
   GMARCH: 62.5,
   海外大: 70.0,
   その他: 50.0,
+}
+
+const UNIVERSITY_RANK_BY_NAME: Record<string, UniversityRank> = {
+  東京大学: "東大京大一橋東工",
+  一橋大学: "東大京大一橋東工",
+  京都大学: "東大京大一橋東工",
+  東京科学大学: "東大京大一橋東工",
+  東京工業大学: "東大京大一橋東工",
+  早稲田大学: "早慶",
+  慶應義塾大学: "早慶",
+  北海道大学: "旧帝大",
+  九州大学: "旧帝大",
+  大阪大学: "旧帝大",
+  東北大学: "旧帝大",
+  名古屋大学: "旧帝大",
+  海外大学: "海外大",
+  明治大学: "GMARCH",
+  青山学院大学: "GMARCH",
+  立教大学: "GMARCH",
+  中央大学: "GMARCH",
+  法政大学: "GMARCH",
+  学習院大学: "GMARCH",
+  同志社大学: "GMARCH",
+  立命館大学: "GMARCH",
+  関西学院大学: "GMARCH",
+  関西大学: "GMARCH",
 }
 
 const EDUCATION_ADJUSTMENTS: Record<string, number> = {
@@ -324,15 +350,31 @@ function getToeicAdjustment(toeic?: number): number {
   return 0
 }
 
-function getUniversityBaseScore(profile: CandidateMarketProfile): number {
-  if (profile.universityName) {
-    const normalizedInput = normalizeForMatch(profile.universityName)
-    const matched = Object.entries(UNIVERSITY_DEVIATION_BY_NAME).find(([name]) => (
-      normalizeForMatch(name) === normalizedInput || normalizedInput.includes(normalizeForMatch(name))
-    ))
-    if (matched) return matched[1]
-  }
+export function getUniversityDeviationByName(universityName?: string): number | null {
+  if (!universityName) return null
 
+  const normalizedInput = normalizeForMatch(universityName)
+  const matched = Object.entries(UNIVERSITY_DEVIATION_BY_NAME).find(([name]) => (
+    normalizeForMatch(name) === normalizedInput || normalizedInput.includes(normalizeForMatch(name))
+  ))
+
+  return matched?.[1] ?? null
+}
+
+export function getUniversityRankByName(universityName?: string): UniversityRank {
+  if (!universityName) return "その他"
+
+  const normalizedInput = normalizeForMatch(universityName)
+  const matchedRank = Object.entries(UNIVERSITY_RANK_BY_NAME).find(([name]) => (
+    normalizeForMatch(name) === normalizedInput || normalizedInput.includes(normalizeForMatch(name))
+  ))
+
+  return matchedRank?.[1] ?? "その他"
+}
+
+function getUniversityBaseScore(profile: CandidateMarketProfile): number {
+  const universityScore = getUniversityDeviationByName(profile.universityName)
+  if (universityScore !== null) return universityScore
   if (profile.universityRank) return UNIVERSITY_RANK_DEVIATION[profile.universityRank]
   return 50
 }

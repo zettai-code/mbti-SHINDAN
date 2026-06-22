@@ -52,7 +52,7 @@ export default function DiagnosisPage() {
       </div>
 
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-10">
-        <div className="w-full max-w-xl bg-white rounded-2xl shadow-sm p-8 sm:p-12" key={currentQuestion.id}>
+        <div className="w-full max-w-xl bg-white rounded-2xl shadow-sm p-5 sm:p-12" key={currentQuestion.id}>
           <QuestionCard
             question={currentQuestion}
             selectedValue={answers[currentQuestion.id]}

@@ -29,33 +29,45 @@ export function QuestionCard({
   selectedValue,
   onSelect,
 }: QuestionCardProps) {
+  const buttons = SCALE_OPTIONS.map((option) => {
+    const isSelected = selectedValue === option.value
+    return (
+      <button
+        key={option.value}
+        type="button"
+        onClick={() => onSelect(option.value)}
+        aria-label={`同意度 ${option.value}`}
+        aria-pressed={isSelected}
+        className={`${option.size} rounded-full active:scale-90 ${getButtonStyle(
+          option.value,
+          isSelected
+        )}`}
+      />
+    )
+  })
+
   return (
     <div className="animate-fade-in-scale">
-      <p className="text-xl sm:text-2xl font-bold text-gray-800 text-center mb-10 leading-relaxed">
+      <p className="text-lg sm:text-2xl font-bold text-gray-800 text-center mb-8 sm:mb-10 leading-relaxed">
         {question.text}
       </p>
 
-      <div className="flex items-center justify-between gap-1 sm:gap-2 px-2">
-        <span className="text-xs sm:text-sm font-medium text-[#7c5e99] shrink-0 w-16 sm:w-20 text-center">
+      {/* Mobile: circles row + labels below */}
+      <div className="sm:hidden">
+        <div className="flex items-center justify-between">{buttons}</div>
+        <div className="flex items-center justify-between mt-3 px-0.5">
+          <span className="text-xs font-medium text-[#7c5e99]">同意しない</span>
+          <span className="text-xs font-medium text-[#33a474]">同意する</span>
+        </div>
+      </div>
+
+      {/* Desktop: labels on the sides */}
+      <div className="hidden sm:flex items-center justify-between gap-2 px-2">
+        <span className="text-sm font-medium text-[#7c5e99] shrink-0 w-20 text-center">
           同意しない
         </span>
-        <div className="flex items-center justify-center gap-2 sm:gap-3">
-          {SCALE_OPTIONS.map((option) => {
-            const isSelected = selectedValue === option.value
-            return (
-              <button
-                key={option.value}
-                type="button"
-                onClick={() => onSelect(option.value)}
-                className={`${option.size} rounded-full active:scale-90 ${getButtonStyle(
-                  option.value,
-                  isSelected
-                )}`}
-              />
-            )
-          })}
-        </div>
-        <span className="text-xs sm:text-sm font-medium text-[#33a474] shrink-0 w-16 sm:w-20 text-center">
+        <div className="flex items-center justify-center gap-3">{buttons}</div>
+        <span className="text-sm font-medium text-[#33a474] shrink-0 w-20 text-center">
           同意する
         </span>
       </div>

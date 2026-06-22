@@ -22,6 +22,12 @@ export function Header() {
             企業一覧
           </Link>
           <Link
+            href="/terms"
+            className="text-xs sm:text-sm text-gray-500 hover:text-gray-800 transition-colors whitespace-nowrap"
+          >
+            利用規約
+          </Link>
+          <Link
             href="/dashboard"
             className="hidden sm:inline text-sm text-gray-500 hover:text-gray-800 transition-colors whitespace-nowrap"
           >

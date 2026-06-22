@@ -218,6 +218,13 @@ export default function JobFitPage() {
           >
             適合度チェックを始める
           </button>
+          <p className="mt-4 text-xs leading-6 text-gray-400">
+            開始すると
+            <Link href="/terms" className="mx-1 text-[#4298b4] underline underline-offset-2 hover:text-[#3a89a3]">
+              利用規約
+            </Link>
+            に同意したものとみなされます。
+          </p>
         </div>
       )}
 

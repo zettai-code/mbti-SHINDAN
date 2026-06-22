@@ -809,10 +809,18 @@ export default function JobFitPage() {
               <div className="flex gap-3">
                 {(["男", "女"] as Gender[]).map((g) => (
                   <button key={g} onClick={() => setGender(g)}
-                    className={`flex-1 py-3 rounded-xl text-sm font-medium border transition-colors ${
+                    className={`flex-1 flex flex-col items-center gap-2 py-4 rounded-xl text-sm font-medium border transition-colors ${
                       gender === g ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
                     }`}
-                  >{g === "男" ? "男性" : "女性"}</button>
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={g === "男" ? "/characters/male.png" : "/characters/female.png"}
+                      alt=""
+                      className="h-20 w-auto object-contain"
+                    />
+                    <span>{g === "男" ? "男性" : "女性"}</span>
+                  </button>
                 ))}
               </div>
             </div>

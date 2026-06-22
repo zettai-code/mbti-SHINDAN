@@ -37,7 +37,7 @@ type Profile = {
     concrete_examples: string[]
   }
   personality_scores: Record<string, number>
-  mbti_ranking: { rank: number; type: string; reason: string }[]
+  mbti_ranking: (string | { rank?: number; type?: string; reason?: string })[]
   big_five: Record<string, number>
   values: Record<string, number>
   work_style: { suitable_environments: string[]; unsuitable_environments: string[] }
@@ -252,7 +252,39 @@ function DetailScoreBar({ label, value, color = "primary" }: { label: string; va
   )
 }
 
+function normalizeMbtiRankingItem(
+  item: string | { rank?: number; type?: string; reason?: string },
+  index: number,
+) {
+  if (typeof item === "string") {
+    return {
+      rank: index + 1,
+      type: item,
+      reason: "",
+    }
+  }
+
+  return {
+    rank: item.rank ?? index + 1,
+    type: item.type ?? `TYPE${index + 1}`,
+    reason: item.reason ?? "",
+  }
+}
+
+function getProfileKey(profile: Profile, index: number) {
+  return [
+    profile.company || "company",
+    profile.position || "position",
+    profile.archetype_id || "profile",
+    index,
+  ].join("-")
+}
+
 function ProfileDetailCard({ profile, defaultOpen = false }: { profile: Profile; defaultOpen?: boolean }) {
+  const topMbti = profile.mbti_ranking?.[0]
+    ? normalizeMbtiRankingItem(profile.mbti_ranking[0], 0).type
+    : null
+
   return (
     <details open={defaultOpen} className="group/profile rounded-xl border border-gray-100 bg-white">
       <summary className="cursor-pointer list-none px-4 py-3 select-none">
@@ -262,9 +294,9 @@ function ProfileDetailCard({ profile, defaultOpen = false }: { profile: Profile;
               <span className="text-sm font-black text-gray-900">{profile.company}</span>
               <span className="text-gray-300">|</span>
               <span className="text-sm font-bold text-[#4298b4]">{profile.position}</span>
-              {profile.mbti_ranking?.[0] && (
+              {topMbti && (
                 <span className="rounded-full bg-purple-100 px-2 py-0.5 text-[10px] font-bold text-purple-700">
-                  {profile.mbti_ranking[0].type}
+                  {topMbti}
                 </span>
               )}
             </div>
@@ -313,24 +345,27 @@ function ProfileDetailCard({ profile, defaultOpen = false }: { profile: Profile;
         <section>
           <h6 className="mb-2 text-xs font-bold text-gray-700">タイプ適性ランキング（全16タイプ）</h6>
           <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 lg:grid-cols-4">
-            {profile.mbti_ranking.map((item) => (
-              <div
-                key={`${item.rank}-${item.type}`}
-                className={`rounded-lg px-2 py-1.5 text-xs ${
-                  item.rank <= 3
-                    ? "border border-purple-200 bg-purple-50"
-                    : item.rank <= 8
-                      ? "border border-gray-100 bg-gray-50"
-                      : "bg-gray-50/70"
-                }`}
-              >
-                <div className="flex items-center gap-1">
-                  <span className={`font-black ${item.rank <= 3 ? "text-purple-700" : "text-gray-400"}`}>{item.rank}.</span>
-                  <span className={`font-black ${item.rank <= 3 ? "text-purple-700" : "text-gray-700"}`}>{item.type}</span>
+            {profile.mbti_ranking.map((rawItem, index) => {
+              const item = normalizeMbtiRankingItem(rawItem, index)
+              return (
+                <div
+                  key={`${profile.company}-${profile.position}-mbti-${item.rank}-${item.type}-${index}`}
+                  className={`rounded-lg px-2 py-1.5 text-xs ${
+                    item.rank <= 3
+                      ? "border border-purple-200 bg-purple-50"
+                      : item.rank <= 8
+                        ? "border border-gray-100 bg-gray-50"
+                        : "bg-gray-50/70"
+                  }`}
+                >
+                  <div className="flex items-center gap-1">
+                    <span className={`font-black ${item.rank <= 3 ? "text-purple-700" : "text-gray-400"}`}>{item.rank}.</span>
+                    <span className={`font-black ${item.rank <= 3 ? "text-purple-700" : "text-gray-700"}`}>{item.type}</span>
+                  </div>
+                  {item.reason && <p className="mt-0.5 text-[10px] leading-relaxed text-gray-500">{item.reason}</p>}
                 </div>
-                <p className="mt-0.5 text-[10px] leading-relaxed text-gray-500">{item.reason}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </section>
 
@@ -570,7 +605,7 @@ function CompanyProfileDetails({
       <div className="space-y-3 border-t border-gray-100 p-3">
         {profiles.map((profile, index) => (
           <ProfileDetailCard
-            key={`${profile.company}-${profile.position}-${profile.archetype_id || index}`}
+            key={getProfileKey(profile, index)}
             profile={profile}
             defaultOpen={index === 0}
           />

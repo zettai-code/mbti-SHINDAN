@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>職種適合度エンジン (Beta)</title>
+  <meta name="description" content="30問の質問であなたに最適な職種・企業をAIがマッチング。素養ベクトルと企業要求ベクトルのコサイン類似度＋学歴バックグラウンド補正で、リアルな適合度を算出。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', '"Noto Sans JP"', 'sans-serif'] },
+          animation: {
+            'float-a': 'floatA 22s ease-in-out infinite',
+            'float-b': 'floatB 28s ease-in-out infinite',
+            'float-c': 'floatC 18s ease-in-out infinite',
+            'pulse-glow': 'pulseGlow 2.5s ease-in-out infinite',
+            'spin-slow': 'spin 3s linear infinite',
+          },
+          keyframes: {
+            floatA: { '0%,100%': { transform: 'translate(0,0) scale(1)' }, '33%': { transform: 'translate(60px,-80px) scale(1.1)' }, '66%': { transform: 'translate(-40px,50px) scale(0.95)' } },
+            floatB: { '0%,100%': { transform: 'translate(0,0) scale(1)' }, '33%': { transform: 'translate(-70px,40px) scale(1.05)' }, '66%': { transform: 'translate(50px,-60px) scale(0.9)' } },
+            floatC: { '0%,100%': { transform: 'translate(-50%,-50%) scale(1)' }, '50%': { transform: 'translate(calc(-50% + 40px), calc(-50% - 40px)) scale(1.15)' } },
+            pulseGlow: { '0%,100%': { boxShadow: '0 0 25px rgba(34,211,238,0.25)' }, '50%': { boxShadow: '0 0 50px rgba(34,211,238,0.5), 0 0 80px rgba(59,130,246,0.2)' } },
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    * { box-sizing: border-box; }
+    body { background: #07070f; overflow-x: hidden; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+
+    .screen { display: none; }
+    .screen.active { display: block; animation: screenIn 0.6s ease forwards; }
+    @keyframes screenIn { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+
+    .glass {
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+    }
+
+    .option-btn {
+      --c: 148,163,184;
+      background: rgba(var(--c), 0.08);
+      border: 1px solid rgba(var(--c), 0.2);
+      border-radius: 14px;
+      padding: 14px 18px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      width: 100%;
+      text-align: left;
+      color: rgba(var(--c), 1);
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    .option-btn:hover {
+      background: rgba(var(--c), 0.18);
+      border-color: rgba(var(--c), 0.4);
+      transform: scale(1.02);
+    }
+    .option-btn:active { transform: scale(0.97); }
+
+    .attr-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 12px 16px;
+      color: #94a3b8;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-align: center;
+    }
+    .attr-btn:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); }
+    .attr-btn.selected {
+      background: rgba(34,211,238,0.15);
+      border-color: rgba(34,211,238,0.5);
+      color: #67e8f9;
+      box-shadow: 0 0 20px rgba(34,211,238,0.1);
+    }
+
+    .progress-track {
+      height: 4px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #22d3ee, #3b82f6, #a855f7);
+      border-radius: 2px;
+      transition: width 0.4s ease;
+    }
+
+    .q-transition { transition: opacity 0.3s ease, transform 0.3s ease; }
+    .q-enter { opacity: 0; transform: translateX(30px); }
+    .q-exit { opacity: 0; transform: translateX(-30px); }
+
+    .result-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 28px;
+      transition: all 0.3s ease;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    .result-card.visible { opacity: 1; transform: translateY(0); }
+    .result-card:hover { border-color: rgba(255,255,255,0.15); background: rgba(255,255,255,0.06); }
+    .result-card.rank-1 { border: 1px solid rgba(34,211,238,0.3); background: linear-gradient(135deg, rgba(34,211,238,0.08), rgba(168,85,247,0.06)); }
+
+    .param-bar-track { height: 6px; background: rgba(255,255,255,0.08); border-radius: 3px; position: relative; }
+    .param-bar-fill { height: 100%; border-radius: 3px; transition: width 0.8s ease; }
+    .param-bar-marker { position: absolute; top: -5px; width: 2px; height: 16px; background: rgba(168,85,247,0.7); border-radius: 1px; }
+
+    .toast {
+      position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%) translateY(100px);
+      z-index: 100; padding: 12px 28px; border-radius: 40px;
+      background: rgba(239,68,68,0.9); backdrop-filter: blur(12px);
+      color: white; font-weight: 600; font-size: 0.9rem;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+      opacity: 0; pointer-events: none;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+    .toast.success { background: rgba(34,197,94,0.9); }
+
+    .loader-ring {
+      width: 120px; height: 120px; border-radius: 50%;
+      border: 4px solid rgba(34,211,238,0.15);
+      border-top-color: #22d3ee;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .badge-section {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 14px; border-radius: 20px; font-size: 0.75rem; font-weight: 600;
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+      color: #94a3b8;
+    }
+
+    .detail-panel { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+    .detail-panel.open { max-height: 800px; }
+
+    .share-btn {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #94a3b8;
+    }
+    .share-btn:hover { background: rgba(255,255,255,0.12); color: white; }
+  </style>
+</head>
+
+<body class="text-white font-sans min-h-screen">
+
+  <!-- Ambient Background -->
+  <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+    <div class="absolute -top-32 -left-32 w-[500px] h-[500px] bg-cyan-500/[0.07] rounded-full blur-[120px] animate-float-a"></div>
+    <div class="absolute -bottom-32 -right-32 w-[600px] h-[600px] bg-purple-600/[0.07] rounded-full blur-[130px] animate-float-b"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-blue-500/[0.05] rounded-full blur-[100px] animate-float-c"></div>
+  </div>
+
+  <!-- ===================== SCREEN: TOP ===================== -->
+  <div id="screen-top" class="screen active relative z-10">
+    <div class="flex flex-col items-center justify-center min-h-screen px-6 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold tracking-wider mb-8">
+        <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span> BETA VERSION
+      </div>
+      <h1 class="text-5xl sm:text-6xl md:text-7xl font-black bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent leading-tight mb-6">
+        職種適合度<br class="sm:hidden">エンジン
+      </h1>
+      <p class="text-gray-400 text-lg md:text-xl max-w-xl leading-relaxed mb-4">
+        30問の質問に答えるだけで、あなたの素養ベクトルと企業の要求ベクトルを照合。<br>学歴・バックグラウンド補正を加えた<span class="text-cyan-400 font-semibold">リアルな適合度</span>を算出します。
+      </p>
+      <p class="text-gray-500 text-sm mb-12">28パラメーター × 8職種 × コサイン類似度 + 統計フィルター</p>
+      <button onclick="goToAttributes()" class="group relative px-10 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold text-lg tracking-wide transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:scale-105 animate-pulse-glow">
+        診断を始める
+        <span class="inline-block ml-2 transition-transform duration-300 group-hover:translate-x-1">→</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ===================== SCREEN: ATTRIBUTES ===================== -->
+  <div id="screen-attributes" class="screen relative z-10">
+    <div class="max-w-2xl mx-auto px-6 py-16 min-h-screen flex flex-col justify-center">
+      <div class="glass p-8 md:p-12">
+        <div class="flex items-center gap-3 mb-2">
+          <span class="text-cyan-400 text-sm font-semibold tracking-wider">STEP 1</span>
+          <div class="h-px flex-1 bg-gradient-to-r from-cyan-500/30 to-transparent"></div>
+        </div>
+        <h2 class="text-2xl md:text-3xl font-bold mb-8">あなたのプロフィール</h2>
+
+        <!-- Gender -->
+        <div class="mb-8">
+          <label class="text-sm text-gray-400 font-semibold tracking-wide mb-3 block">性別</label>
+          <div class="flex gap-3">
+            <button class="attr-btn flex-1" data-gender="男" onclick="selectGender('男')">男性</button>
+            <button class="attr-btn flex-1" data-gender="女" onclick="selectGender('女')">女性</button>
+          </div>
+        </div>
+
+        <!-- University -->
+        <div class="mb-8">
+          <label class="text-sm text-gray-400 font-semibold tracking-wide mb-3 block">大学ランク</label>
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <button class="attr-btn" data-uni="東大京大一橋東工" onclick="selectUni('東大京大一橋東工')">東大・京大・一橋・東工</button>
+            <button class="attr-btn" data-uni="早慶" onclick="selectUni('早慶')">早慶</button>
+            <button class="attr-btn" data-uni="旧帝大" onclick="selectUni('旧帝大')">旧帝大</button>
+            <button class="attr-btn" data-uni="GMARCH" onclick="selectUni('GMARCH')">GMARCH・関関同立</button>
+            <button class="attr-btn" data-uni="海外大" onclick="selectUni('海外大')">海外大</button>
+            <button class="attr-btn" data-uni="その他" onclick="selectUni('その他')">その他</button>
+          </div>
+        </div>
+
+        <!-- Background -->
+        <div class="mb-10">
+          <label class="text-sm text-gray-400 font-semibold tracking-wide mb-3 block">バックグラウンド属性 <span class="text-gray-600">（複数選択可）</span></label>
+          <div class="flex flex-wrap gap-3">
+            <button class="attr-btn" data-bg="体育会主将" onclick="toggleBg('体育会主将')">体育会（主将・幹部）</button>
+            <button class="attr-btn" data-bg="体育会一般" onclick="toggleBg('体育会一般')">体育会（一般）</button>
+            <button class="attr-btn" data-bg="帰国子女" onclick="toggleBg('帰国子女')">帰国子女（3年以上）</button>
+            <button class="attr-btn" data-bg="留学" onclick="toggleBg('留学')">留学経験（1年以上）</button>
+            <button class="attr-btn" data-bg="理系院生" onclick="toggleBg('理系院生')">理系院生</button>
+            <button class="attr-btn" data-bg="学生起業" onclick="toggleBg('学生起業')">学生起業・長期インターン</button>
+            <button class="attr-btn" data-bg="特になし" onclick="toggleBg('特になし')">特になし</button>
+          </div>
+        </div>
+
+        <button onclick="submitAttributes()" class="w-full py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl font-bold text-lg transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:scale-[1.02]">
+          次へ進む →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SCREEN: QUESTIONS ===================== -->
+  <div id="screen-questions" class="screen relative z-10">
+    <div class="max-w-2xl mx-auto px-6 py-8 min-h-screen flex flex-col">
+      <!-- Progress -->
+      <div class="mb-2 flex items-center justify-between text-xs text-gray-500">
+        <span id="q-section-badge" class="badge-section">🧠 性格</span>
+        <span><span id="q-counter">1</span> / 30</span>
+      </div>
+      <div class="progress-track mb-8">
+        <div class="progress-fill" id="progress-fill" style="width:3.33%"></div>
+      </div>
+
+      <!-- Question Card -->
+      <div class="flex-1 flex flex-col justify-center">
+        <div id="q-card" class="glass p-8 q-transition">
+          <p id="q-text" class="text-lg md:text-xl font-semibold leading-relaxed mb-8 min-h-[80px]"></p>
+          <div id="q-options" class="space-y-3"></div>
+        </div>
+        <!-- Back Button -->
+        <button id="q-back" onclick="prevQuestion()" class="mt-6 text-sm text-gray-500 hover:text-gray-300 transition-colors self-start hidden">
+          ← 前の質問に戻る
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SCREEN: LOADING ===================== -->
+  <div id="screen-loading" class="screen relative z-10">
+    <div class="flex flex-col items-center justify-center min-h-screen px-6 text-center">
+      <div class="relative mb-10">
+        <div class="loader-ring"></div>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <span id="load-pct" class="text-2xl font-bold text-cyan-400">0%</span>
+        </div>
+      </div>
+      <p class="text-gray-200 text-xl font-semibold mb-2">AIがあなたの適性を分析中…</p>
+      <p class="text-gray-500 text-sm">28パラメーター × 8職種のベクトルマッチングを実行しています</p>
+    </div>
+  </div>
+
+  <!-- ===================== SCREEN: RESULTS ===================== -->
+  <div id="screen-results" class="screen relative z-10">
+    <div class="max-w-5xl mx-auto px-6 py-16">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wider mb-4">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> ANALYSIS COMPLETE
+        </div>
+        <h2 class="text-3xl md:text-4xl font-bold mb-2">あなたの適合度分析結果</h2>
+        <p class="text-gray-500" id="result-subtitle"></p>
+      </div>
+
+      <!-- Radar Chart + Score Summary -->
+      <div class="grid md:grid-cols-2 gap-6 mb-12">
+        <div class="glass p-6">
+          <h3 class="text-sm font-semibold text-gray-400 tracking-wider mb-4">PROFILE RADAR</h3>
+          <div class="relative" style="max-height:350px">
+            <canvas id="radar-chart"></canvas>
+          </div>
+        </div>
+        <div class="glass p-6">
+          <h3 class="text-sm font-semibold text-gray-400 tracking-wider mb-4">SCORE SUMMARY</h3>
+          <div id="score-bars" class="space-y-4"></div>
+        </div>
+      </div>
+
+      <!-- Job Cards -->
+      <h3 class="text-xl font-bold mb-6 flex items-center gap-3">
+        <span class="text-2xl">🏆</span> レコメンド職種
+        <span class="text-sm text-gray-500 font-normal">マッチ度順</span>
+      </h3>
+      <div id="job-cards" class="space-y-5 mb-12"></div>
+
+      <!-- Actions -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button onclick="restart()" class="px-8 py-3.5 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-bold transition-all duration-300 hover:from-cyan-400 hover:to-blue-500 hover:scale-105">
+          もう一度診断する
+        </button>
+        <button onclick="shareResults()" class="share-btn px-8 py-3.5 rounded-full font-bold transition-all duration-300 hover:scale-105">
+          📋 結果をコピー
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <!-- ===================== JAVASCRIPT ===================== -->
+  <script>
+  /* ================================================================
+     HELPERS
+     ================================================================ */
+  const $ = id => document.getElementById(id);
+  const $$ = sel => document.querySelectorAll(sel);
+  const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+
+  /* ================================================================
+     SCALE (7-point Likert)
+     ================================================================ */
+  const SCALE = [
+    { label: '非常に当てはまる',       value:  25, rgb: '52,211,153'  },
+    { label: '当てはまる',             value:  18, rgb: '20,184,166'  },
+    { label: 'やや当てはまる',         value:  10, rgb: '56,189,248'  },
+    { label: 'どちらでもない',         value:   0, rgb: '148,163,184' },
+    { label: 'やや当てはまらない',     value: -10, rgb: '251,191,36'  },
+    { label: '当てはまらない',         value: -18, rgb: '251,146,60'  },
+    { label: '非常に当てはまらない',   value: -25, rgb: '248,113,113' },
+  ];
+
+  /* ================================================================
+     30 QUESTIONS
+     effect: [{p: paramName, w: weight}]   w>0 = same direction, w<0 = inverse
+     ================================================================ */
+  const QUESTIONS = [
+    // ── 性格 (Q1–Q8) ──
+    { text: '「まずは行動を起こし、走りながら修正していく」アプローチが自分には合っている。', sec:'性格', icon:'🧠', effects:[{p:'主体性',w:1}] },
+    { text: '初対面の人が多い場や大規模なイベントでも、自分から物怖じせずに話しかけられる。', sec:'性格', icon:'🧠', effects:[{p:'外向性',w:1}] },
+    { text: 'チーム内で意見が対立した時は、自分の主張を通すことよりも調和や納得感を優先する。', sec:'性格', icon:'🧠', effects:[{p:'協調性',w:1},{p:'競争心',w:-0.5}] },
+    { text: '正解が定義されていない、あるいは前提条件がコロコロ変わる状況のほうがワクワクする。', sec:'性格', icon:'🧠', effects:[{p:'曖昧耐性',w:1}] },
+    { text: '他人に負けることが何よりも嫌いで、同期やライバルの成績は常に意識してしまう。', sec:'性格', icon:'🧠', effects:[{p:'競争心',w:1}] },
+    { text: '厳しい批判を受けたり、想定外の理不尽なトラブルに直面しても、感情を乱さずにいられる。', sec:'性格', icon:'🧠', effects:[{p:'ストレス耐性',w:1}] },
+    { text: '自分の専門外や興味のない分野であっても、新しいトレンドを耳にすると自ら進んで調べ尽くす。', sec:'性格', icon:'🧠', effects:[{p:'好奇心',w:1}] },
+    { text: '「大雑把だがスピードが速い」と言われるよりも、「細部まで緻密でミスがない」と言われる方が嬉しい。', sec:'性格', icon:'🧠', effects:[{p:'誠実性',w:1},{p:'主体性',w:-0.4}] },
+
+    // ── 能力 (Q9–Q16) ──
+    { text: '複雑な問題が起きた時、要素を細かく分解（構造化）して原因を突き止めることが得意だ。', sec:'能力', icon:'💡', effects:[{p:'論理思考',w:1}] },
+    { text: 'データや数字の並びから、規則性や異常値を素早く見つけ出すのが得意（または苦にならない）。', sec:'能力', icon:'💡', effects:[{p:'数学力',w:1}] },
+    { text: '抽象的で分かりにくい話を、誰にでも伝わるシンプルな言葉や文章に落とし込む自信がある。', sec:'能力', icon:'💡', effects:[{p:'言語化能力',w:1}] },
+    { text: '人前で発表する際、ロジックだけでなく、相手の感情を揺さぶって巻き込むプレゼンができる。', sec:'能力', icon:'💡', effects:[{p:'プレゼン力',w:1}] },
+    { text: '英語での交渉や、バックグラウンドが全く異なる海外の人と深い議論を交わすことに抵抗がない。', sec:'能力', icon:'💡', effects:[{p:'英語力',w:1}] },
+    { text: 'プログラミング、SQL、AIツールの活用（プロンプトを工夫して自動化するなど）への理解が早い。', sec:'能力', icon:'💡', effects:[{p:'IT理解',w:1}] },
+    { text: '利害関係が真っ向から対立する相手に対しても、粘り強く交渉してWin-Winの着地点を見出せる。', sec:'能力', icon:'💡', effects:[{p:'交渉力',w:1}] },
+    { text: '集団の中で、ビジョンを掲げて先頭に立ち、全員の熱量を高めて引っ張っていく自信がある。', sec:'能力', icon:'💡', effects:[{p:'リーダーシップ',w:1}] },
+
+    // ── モチベーション (Q17–Q23) ──
+    { text: '20代のうちに周囲を置き去りにするほどの「圧倒的な市場価値・スキル」を身につけたい。', sec:'モチベーション', icon:'🔥', effects:[{p:'成長',w:1},{p:'安定',w:-0.5}] },
+    { text: '自分が関わったプロジェクトがニュースになるなど、社会や市場へ大きなインパクトを与えたい。', sec:'モチベーション', icon:'🔥', effects:[{p:'影響力',w:1}] },
+    { text: '同世代の平均を遥かに凌駕する高い報酬（ボーナス、インセンティブ）を得ることが最優先だ。', sec:'モチベーション', icon:'🔥', effects:[{p:'お金',w:1}] },
+    { text: '知名度が高く、倒産やリストラの心配がない大企業で長く勤めることに魅力を感じる。', sec:'モチベーション', icon:'🔥', effects:[{p:'安定',w:1},{p:'成長',w:-0.5}] },
+    { text: '誰がやっても同じ仕事ではなく、「自分だからこそできた」と社内外から賞賛されたい。', sec:'モチベーション', icon:'🔥', effects:[{p:'承認',w:1}] },
+    { text: '若いうちから大きな金額や、チームのマネジメントといった決定権（権限）を持たせてほしい。', sec:'モチベーション', icon:'🔥', effects:[{p:'権限',w:1}] },
+    { text: '「ビジネスの成功」よりも、社会課題の解決や地域への貢献に直結する仕事にやりがいを感じる。', sec:'モチベーション', icon:'🔥', effects:[{p:'社会貢献',w:1},{p:'お金',w:-0.4}] },
+
+    // ── 働き方 (Q24–Q27) ──
+    { text: '平日のプライベートが皆無になり、連日深夜まで働くことになっても、エキサイティングな仕事なら許容できる。', sec:'働き方', icon:'⚡', effects:[{p:'激務耐性',w:1}] },
+    { text: '月の半分以上が地方・海外への出張（または頻繁な転勤）になっても、フットワーク軽く飛び回りたい。', sec:'働き方', icon:'⚡', effects:[{p:'出張許容',w:1}] },
+    { text: '一人で黙々と個人タスクをこなすよりも、多様なメンバーと議論を重ねてチームで成果を追いたい。', sec:'働き方', icon:'⚡', effects:[{p:'チーム志向',w:1}] },
+    { text: '数年間の海外駐在や、グローバルプロジェクトの最前線で働くチャンスを強く求めている。', sec:'働き方', icon:'⚡', effects:[{p:'海外志向',w:1},{p:'海外',w:0.7}] },
+
+    // ── 総合 (Q28–Q30) ──
+    { text: '膨大な情報量の中から本質を見抜き、誰にでも伝わる一言に凝縮する力には自信がある。', sec:'総合', icon:'🎯', effects:[{p:'言語化能力',w:0.7},{p:'論理思考',w:0.5}] },
+    { text: '既存の枠組みや常識にとらわれず、ゼロから新しい仕組み・アイデアを生み出すことに強く惹かれる。', sec:'総合', icon:'🎯', effects:[{p:'主体性',w:0.6},{p:'好奇心',w:0.6}] },
+    { text: '一度コミットした仕事は、想定外の困難に直面しても絶対に途中で投げ出さず最後までやり遂げる。', sec:'総合', icon:'🎯', effects:[{p:'誠実性',w:0.6},{p:'ストレス耐性',w:0.5}] },
+  ];
+
+  /* ================================================================
+     8 JOBS – Master Data
+     ================================================================ */
+  const JOBS = [
+    {
+      id:'accenture', company:'アクセンチュア', position:'戦略コンサルタント',
+      emoji:'🏢', desc:'経営課題を解決する知の最前線',
+      gradient:'from-purple-500 to-violet-600', tags:['コンサル','戦略','グローバル'],
+      scores:{
+        主体性:95,好奇心:95,曖昧耐性:95,ストレス耐性:90,競争心:85,誠実性:80,外向性:75,協調性:70,
+        論理思考:100,言語化能力:95,プレゼン力:90,数学力:80,交渉力:80,英語力:70,IT理解:60,リーダーシップ:80,
+        成長:100,承認:80,権限:75,お金:70,社会貢献:60,安定:30,影響力:85,海外:60,
+        激務耐性:95,チーム志向:90,出張許容:85,海外志向:60
+      },
+      uniCorr:{'東大京大一橋東工':8,'早慶':5,'旧帝大':3,'GMARCH':0,'海外大':4,'その他':-3},
+      bgCorr:{'体育会主将':1,'体育会一般':0,'帰国子女':2,'留学':1,'理系院生':5,'学生起業':3,'特になし':-2}
+    },
+    {
+      id:'itochu', company:'伊藤忠商事', position:'総合職',
+      emoji:'🌍', desc:'ラーメンからロケットまで、商いの最前線',
+      gradient:'from-red-500 to-orange-500', tags:['商社','グローバル','総合職'],
+      scores:{
+        主体性:95,外向性:90,好奇心:90,ストレス耐性:90,協調性:85,競争心:85,曖昧耐性:80,誠実性:80,
+        交渉力:100,英語力:90,リーダーシップ:90,プレゼン力:85,言語化能力:80,論理思考:75,数学力:55,IT理解:45,
+        海外:95,成長:90,お金:85,権限:80,影響力:90,安定:70,承認:75,社会貢献:55,
+        海外志向:95,出張許容:90,チーム志向:85,激務耐性:85
+      },
+      uniCorr:{'東大京大一橋東工':6,'早慶':7,'旧帝大':5,'GMARCH':0,'海外大':5,'その他':-3},
+      bgCorr:{'体育会主将':8,'体育会一般':5,'帰国子女':7,'留学':5,'理系院生':1,'学生起業':2,'特になし':-3}
+    },
+    {
+      id:'google', company:'Google Japan', position:'セールス',
+      emoji:'💻', desc:'テクノロジーで世界を変えるビジネス推進',
+      gradient:'from-blue-500 to-cyan-400', tags:['外資IT','セールス','テック'],
+      scores:{
+        主体性:90,外向性:90,好奇心:85,ストレス耐性:85,曖昧耐性:80,競争心:90,誠実性:70,協調性:75,
+        論理思考:80,言語化能力:85,プレゼン力:90,数学力:60,交渉力:90,英語力:95,IT理解:80,リーダーシップ:75,
+        成長:90,お金:85,影響力:75,承認:70,権限:65,海外:70,社会貢献:50,安定:50,
+        激務耐性:75,出張許容:70,チーム志向:80,海外志向:80
+      },
+      uniCorr:{'東大京大一橋東工':5,'早慶':4,'旧帝大':3,'GMARCH':0,'海外大':7,'その他':-2},
+      bgCorr:{'体育会主将':2,'体育会一般':1,'帰国子女':6,'留学':5,'理系院生':2,'学生起業':4,'特になし':-2}
+    },
+    {
+      id:'toyota', company:'トヨタ自動車', position:'マーケティング職',
+      emoji:'🚗', desc:'日本のモノづくりを世界に届ける',
+      gradient:'from-indigo-500 to-blue-400', tags:['メーカー','マーケ','BtoC'],
+      scores:{
+        主体性:75,外向性:70,好奇心:80,ストレス耐性:75,曖昧耐性:65,競争心:60,誠実性:90,協調性:90,
+        論理思考:75,言語化能力:85,プレゼン力:80,数学力:65,交渉力:70,英語力:60,IT理解:50,リーダーシップ:65,
+        成長:70,お金:60,影響力:75,承認:65,権限:50,海外:40,社会貢献:70,安定:85,
+        激務耐性:60,出張許容:65,チーム志向:85,海外志向:40
+      },
+      uniCorr:{'東大京大一橋東工':3,'早慶':3,'旧帝大':3,'GMARCH':2,'海外大':2,'その他':0},
+      bgCorr:{'体育会主将':3,'体育会一般':2,'帰国子女':1,'留学':1,'理系院生':1,'学生起業':1,'特になし':0}
+    },
+    {
+      id:'pfn', company:'Preferred Networks', position:'AIエンジニア',
+      emoji:'🤖', desc:'最先端AIで産業の未来を創造する',
+      gradient:'from-emerald-500 to-teal-400', tags:['AI','エンジニア','研究開発'],
+      scores:{
+        主体性:85,外向性:40,好奇心:100,ストレス耐性:80,曖昧耐性:90,競争心:70,誠実性:85,協調性:60,
+        論理思考:100,言語化能力:70,プレゼン力:50,数学力:100,交渉力:30,英語力:80,IT理解:100,リーダーシップ:40,
+        成長:95,お金:75,影響力:70,承認:60,権限:40,海外:50,社会貢献:65,安定:40,
+        激務耐性:80,出張許容:30,チーム志向:60,海外志向:50
+      },
+      uniCorr:{'東大京大一橋東工':8,'早慶':3,'旧帝大':5,'GMARCH':-2,'海外大':6,'その他':-3},
+      bgCorr:{'体育会主将':-1,'体育会一般':-1,'帰国子女':1,'留学':2,'理系院生':8,'学生起業':3,'特になし':-3}
+    },
+    {
+      id:'recruit', company:'リクルート', position:'人事・HR',
+      emoji:'👥', desc:'人と組織の可能性を最大化する',
+      gradient:'from-orange-500 to-yellow-400', tags:['HR','人材','テック'],
+      scores:{
+        主体性:80,外向性:85,好奇心:75,ストレス耐性:80,曖昧耐性:70,競争心:60,誠実性:85,協調性:90,
+        論理思考:70,言語化能力:85,プレゼン力:80,数学力:40,交渉力:80,英語力:40,IT理解:50,リーダーシップ:75,
+        成長:75,お金:55,影響力:65,承認:70,権限:60,海外:30,社会貢献:80,安定:70,
+        激務耐性:65,出張許容:50,チーム志向:90,海外志向:25
+      },
+      uniCorr:{'東大京大一橋東工':2,'早慶':2,'旧帝大':2,'GMARCH':1,'海外大':1,'その他':0},
+      bgCorr:{'体育会主将':2,'体育会一般':1,'帰国子女':1,'留学':1,'理系院生':0,'学生起業':3,'特になし':0}
+    },
+    {
+      id:'gs', company:'ゴールドマン・サックス', position:'投資銀行部門',
+      emoji:'💰', desc:'世界の金融マーケットを動かすエリート集団',
+      gradient:'from-amber-400 to-yellow-500', tags:['金融','外資','投資銀行'],
+      scores:{
+        主体性:90,外向性:80,好奇心:80,ストレス耐性:100,曖昧耐性:85,競争心:100,誠実性:85,協調性:65,
+        論理思考:95,言語化能力:90,プレゼン力:85,数学力:95,交渉力:85,英語力:95,IT理解:60,リーダーシップ:75,
+        成長:90,お金:100,影響力:85,承認:80,権限:80,海外:80,社会貢献:30,安定:30,
+        激務耐性:100,出張許容:75,チーム志向:75,海外志向:85
+      },
+      uniCorr:{'東大京大一橋東工':8,'早慶':6,'旧帝大':3,'GMARCH':-2,'海外大':7,'その他':-5},
+      bgCorr:{'体育会主将':4,'体育会一般':2,'帰国子女':4,'留学':3,'理系院生':3,'学生起業':2,'特になし':-3}
+    },
+    {
+      id:'dentsu', company:'電通', position:'クリエイティブディレクター',
+      emoji:'🎨', desc:'社会を動かすクリエイティブの力',
+      gradient:'from-cyan-400 to-blue-500', tags:['広告','クリエイティブ','メディア'],
+      scores:{
+        主体性:85,外向性:85,好奇心:95,ストレス耐性:80,曖昧耐性:85,競争心:70,誠実性:65,協調性:80,
+        論理思考:70,言語化能力:95,プレゼン力:95,数学力:40,交渉力:75,英語力:50,IT理解:60,リーダーシップ:70,
+        成長:80,お金:65,影響力:95,承認:90,権限:60,海外:40,社会貢献:60,安定:50,
+        激務耐性:85,出張許容:60,チーム志向:85,海外志向:35
+      },
+      uniCorr:{'東大京大一橋東工':3,'早慶':4,'旧帝大':2,'GMARCH':1,'海外大':3,'その他':0},
+      bgCorr:{'体育会主将':2,'体育会一般':1,'帰国子女':2,'留学':2,'理系院生':0,'学生起業':4,'特になし':-1}
+    }
+  ];
+
+  /* ================================================================
+     RADAR AXES (synthesised from raw params)
+     ================================================================ */
+  const RADAR_AXES = [
+    { label:'行動力',       params:['主体性','曖昧耐性','好奇心'] },
+    { label:'対人力',       params:['外向性','協調性','チーム志向'] },
+    { label:'分析力',       params:['論理思考','数学力','IT理解'] },
+    { label:'表現力',       params:['言語化能力','プレゼン力','交渉力'] },
+    { label:'耐久力',       params:['ストレス耐性','激務耐性','誠実性'] },
+    { label:'野心',         params:['成長','お金','権限','競争心'] },
+    { label:'リーダーシップ', params:['リーダーシップ','影響力'] },
+    { label:'グローバル',   params:['英語力','海外志向','海外'] },
+  ];
+
+  /* ================================================================
+     STATE
+     ================================================================ */
+  const state = {
+    gender: null,
+    universityRank: null,
+    backgrounds: [],
+    currentQ: 0,
+    answers: [],     // scaleIndex per question (-1 if unanswered)
+    scores: {},
+    results: [],
+    radarChart: null,
+  };
+
+  function initScores() {
+    const allParams = new Set();
+    JOBS.forEach(j => Object.keys(j.scores).forEach(p => allParams.add(p)));
+    allParams.forEach(p => { state.scores[p] = 50; });
+  }
+  initScores();
+
+  /* ================================================================
+     UI — Attribute Selection
+     ================================================================ */
+  function selectGender(g) {
+    state.gender = g;
+    $$('[data-gender]').forEach(b => b.classList.toggle('selected', b.dataset.gender === g));
+  }
+  function selectUni(u) {
+    state.universityRank = u;
+    $$('[data-uni]').forEach(b => b.classList.toggle('selected', b.dataset.uni === u));
+  }
+  function toggleBg(bg) {
+    if (bg === '特になし') {
+      state.backgrounds = ['特になし'];
+    } else {
+      state.backgrounds = state.backgrounds.filter(b => b !== '特になし');
+      const idx = state.backgrounds.indexOf(bg);
+      if (idx >= 0) state.backgrounds.splice(idx, 1);
+      else state.backgrounds.push(bg);
+    }
+    $$('[data-bg]').forEach(b => b.classList.toggle('selected', state.backgrounds.includes(b.dataset.bg)));
+  }
+
+  /* ================================================================
+     UI — Screen Management
+     ================================================================ */
+  function showScreen(id) {
+    $$('.screen').forEach(s => { s.classList.remove('active'); });
+    const el = $(id);
+    // force reflow so animation replays
+    void el.offsetWidth;
+    el.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function goToAttributes() { showScreen('screen-attributes'); }
+
+  function submitAttributes() {
+    if (!state.gender) { showToast('性別を選択してください'); return; }
+    if (!state.universityRank) { showToast('大学ランクを選択してください'); return; }
+    if (state.backgrounds.length === 0) state.backgrounds = ['特になし'];
+    state.currentQ = 0;
+    state.answers = new Array(QUESTIONS.length).fill(-1);
+    initScores();
+    renderQuestion(0);
+    showScreen('screen-questions');
+  }
+
+  /* ================================================================
+     UI — Questions
+     ================================================================ */
+  function renderQuestion(idx) {
+    const q = QUESTIONS[idx];
+    $('q-counter').textContent = idx + 1;
+    $('progress-fill').style.width = ((idx + 1) / QUESTIONS.length * 100) + '%';
+    $('q-section-badge').innerHTML = `${q.icon} ${q.sec}`;
+    $('q-text').textContent = q.text;
+
+    // Build options
+    let html = '';
+    SCALE.forEach((s, si) => {
+      const selected = state.answers[idx] === si;
+      html += `<button class="option-btn${selected ? ' ring-2 ring-cyan-400/60' : ''}"
+        style="--c:${s.rgb}" onclick="answerQuestion(${si})">
+        ${s.label}
+      </button>`;
+    });
+    $('q-options').innerHTML = html;
+
+    $('q-back').classList.toggle('hidden', idx === 0);
+  }
+
+  function answerQuestion(scaleIdx) {
+    state.answers[state.currentQ] = scaleIdx;
+
+    // Animate transition
+    const card = $('q-card');
+    card.classList.add('q-exit');
+
+    setTimeout(() => {
+      if (state.currentQ < QUESTIONS.length - 1) {
+        state.currentQ++;
+        renderQuestion(state.currentQ);
+        card.classList.remove('q-exit');
+        card.classList.add('q-enter');
+        void card.offsetWidth;
+        card.classList.remove('q-enter');
+      } else {
+        card.classList.remove('q-exit');
+        showLoadingScreen();
+      }
+    }, 250);
+  }
+
+  function prevQuestion() {
+    if (state.currentQ > 0) {
+      const card = $('q-card');
+      card.classList.add('q-enter');
+      setTimeout(() => {
+        state.currentQ--;
+        renderQuestion(state.currentQ);
+        card.classList.remove('q-enter');
+      }, 200);
+    }
+  }
+
+  /* ================================================================
+     LOADING ANIMATION
+     ================================================================ */
+  function showLoadingScreen() {
+    showScreen('screen-loading');
+    let pct = 0;
+    const el = $('load-pct');
+    const iv = setInterval(() => {
+      pct += Math.random() * 6 + 3;
+      if (pct >= 100) { pct = 100; clearInterval(iv); setTimeout(computeAndShow, 400); }
+      el.textContent = Math.floor(pct) + '%';
+    }, 80);
+  }
+
+  /* ================================================================
+     SCORING ENGINE
+     ================================================================ */
+  function computeAndShow() {
+    // 1. Apply all answers to scores
+    initScores();
+    QUESTIONS.forEach((q, qi) => {
+      const si = state.answers[qi];
+      if (si < 0) return;
+      const val = SCALE[si].value;
+      q.effects.forEach(e => {
+        state.scores[e.p] = clamp(state.scores[e.p] + val * e.w, 0, 100);
+      });
+    });
+
+    // 2. Calculate match for each job
+    state.results = JOBS.map(job => {
+      const params = Object.keys(job.scores);
+      let wSum = 0, wTotal = 0;
+
+      params.forEach(p => {
+        const u = state.scores[p] ?? 50;
+        const j = job.scores[p];
+        const diff = u - j;
+        let match;
+        if (diff >= 0) {
+          match = Math.max(0.85, 1 - diff / 200);
+        } else {
+          match = Math.pow(Math.max(0, 1 + diff / 100), 1.5);
+        }
+        const weight = j / 100;
+        wSum += match * weight;
+        wTotal += weight;
+      });
+
+      let base = (wSum / wTotal) * 100;
+
+      // Background correction
+      let corr = 0;
+      corr += job.uniCorr[state.universityRank] || 0;
+      state.backgrounds.forEach(bg => { corr += job.bgCorr[bg] || 0; });
+      corr = clamp(corr, -10, 10);
+
+      const final = clamp(base + corr, 0, 100);
+
+      return {
+        ...job,
+        baseScore: Math.round(base * 10) / 10,
+        correction: corr,
+        finalScore: Math.round(final * 10) / 10,
+      };
+    });
+
+    state.results.sort((a, b) => b.finalScore - a.finalScore);
+
+    renderResults();
+    showScreen('screen-results');
+  }
+
+  /* ================================================================
+     RESULTS RENDERER
+     ================================================================ */
+  function renderResults() {
+    $('result-subtitle').textContent =
+      `${state.gender === '男' ? '男性' : '女性'} ・ ${state.universityRank} ・ ${state.backgrounds.join(', ')}`;
+
+    // ── Radar Chart ──
+    const radarData = RADAR_AXES.map(ax => {
+      const avg = ax.params.reduce((s, p) => s + (state.scores[p] ?? 50), 0) / ax.params.length;
+      return Math.round(avg);
+    });
+
+    if (state.radarChart) state.radarChart.destroy();
+    const ctx = $('radar-chart').getContext('2d');
+    state.radarChart = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: RADAR_AXES.map(a => a.label),
+        datasets: [{
+          label: 'あなた',
+          data: radarData,
+          backgroundColor: 'rgba(34,211,238,0.12)',
+          borderColor: 'rgba(34,211,238,0.7)',
+          borderWidth: 2,
+          pointBackgroundColor: '#22d3ee',
+          pointBorderColor: '#fff',
+          pointRadius: 4,
+          pointHoverRadius: 6,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        animation: { duration: 1200, easing: 'easeOutQuart' },
+        scales: {
+          r: {
+            min: 0, max: 100,
+            ticks: { stepSize: 20, color: 'rgba(255,255,255,0.25)', backdropColor: 'transparent', font: { size: 10 } },
+            grid: { color: 'rgba(255,255,255,0.06)' },
+            angleLines: { color: 'rgba(255,255,255,0.06)' },
+            pointLabels: { color: 'rgba(255,255,255,0.65)', font: { size: 12, weight: 600 } },
+          }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+
+    // ── Score Summary Bars ──
+    const categories = [
+      { name: '性格', color: '#22d3ee', params: ['主体性','外向性','協調性','曖昧耐性','競争心','ストレス耐性','好奇心','誠実性'] },
+      { name: '能力', color: '#3b82f6', params: ['論理思考','数学力','言語化能力','プレゼン力','英語力','IT理解','交渉力','リーダーシップ'] },
+      { name: 'モチベーション', color: '#f59e0b', params: ['成長','影響力','お金','安定','承認','権限','社会貢献','海外'] },
+      { name: '働き方', color: '#a855f7', params: ['激務耐性','出張許容','チーム志向','海外志向'] },
+    ];
+    let barsHtml = '';
+    categories.forEach(cat => {
+      const avg = Math.round(cat.params.reduce((s, p) => s + (state.scores[p] ?? 50), 0) / cat.params.length);
+      barsHtml += `
+        <div>
+          <div class="flex justify-between mb-1.5">
+            <span class="text-sm font-semibold" style="color:${cat.color}">${cat.name}</span>
+            <span class="text-sm font-bold text-white">${avg}</span>
+          </div>
+          <div class="h-2 rounded-full bg-white/[0.06]">
+            <div class="h-full rounded-full transition-all duration-1000" style="width:${avg}%;background:${cat.color}"></div>
+          </div>
+          <div class="flex flex-wrap gap-x-4 gap-y-1 mt-2 text-xs text-gray-500">
+            ${cat.params.map(p => `<span>${p}: <b class="text-gray-400">${Math.round(state.scores[p] ?? 50)}</b></span>`).join('')}
+          </div>
+        </div>`;
+    });
+    $('score-bars').innerHTML = barsHtml;
+
+    // ── Job Cards ──
+    let cardsHtml = '';
+    state.results.forEach((r, i) => {
+      const insight = generateInsight(state.scores, r);
+      const bgInsight = generateBgInsight(r);
+      const rankClass = i === 0 ? 'rank-1' : '';
+      const rankLabel = i < 3 ? ['🥇','🥈','🥉'][i] : `#${i + 1}`;
+      const detailId = `detail-${r.id}`;
+
+      cardsHtml += `
+        <div class="result-card ${rankClass}" style="transition-delay:${i * 120}ms">
+          <div class="flex flex-col sm:flex-row sm:items-start gap-4">
+            <!-- Left: Rank + Emoji -->
+            <div class="flex items-center gap-3 sm:flex-col sm:items-center sm:min-w-[80px]">
+              <span class="text-3xl">${rankLabel}</span>
+              <span class="text-4xl">${r.emoji}</span>
+            </div>
+            <!-- Center: Info -->
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h4 class="text-lg font-bold">${r.company}</h4>
+                <span class="text-gray-400 text-sm">|</span>
+                <span class="text-gray-300 text-sm font-medium">${r.position}</span>
+              </div>
+              <p class="text-gray-500 text-sm mb-3">${r.desc}</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                ${r.tags.map(t => `<span class="px-2.5 py-1 rounded-full bg-white/[0.06] text-xs text-gray-400 font-medium">${t}</span>`).join('')}
+              </div>
+              <!-- Insight -->
+              <div class="bg-white/[0.03] rounded-xl p-4 mb-3">
+                <p class="text-sm text-gray-300 leading-relaxed"><span class="text-cyan-400 font-semibold">💡 なぜ向いているか：</span>${insight}</p>
+              </div>
+              <!-- Background Fit -->
+              <div class="bg-white/[0.03] rounded-xl p-4 mb-3">
+                <p class="text-sm font-semibold text-gray-400 mb-2">📊 バックグラウンド適合度</p>
+                ${bgInsight}
+              </div>
+              <button onclick="toggleDetail('${detailId}')" class="text-xs text-gray-500 hover:text-gray-300 transition-colors">
+                ▼ パラメーター詳細
+              </button>
+              <div id="${detailId}" class="detail-panel mt-3">${renderDetailBars(r)}</div>
+            </div>
+            <!-- Right: Score -->
+            <div class="flex flex-col items-center sm:min-w-[100px]">
+              <div class="relative w-20 h-20">
+                <svg viewBox="0 0 36 36" class="w-full h-full -rotate-90">
+                  <circle cx="18" cy="18" r="15.5" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2.5"/>
+                  <circle cx="18" cy="18" r="15.5" fill="none" stroke="url(#scoreGrad)" stroke-width="2.5"
+                    stroke-dasharray="${r.finalScore * 0.974} 100" stroke-linecap="round"/>
+                  <defs><linearGradient id="scoreGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#22d3ee"/>
+                    <stop offset="100%" stop-color="#a855f7"/>
+                  </linearGradient></defs>
+                </svg>
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <span class="text-xl font-black counter" data-target="${r.finalScore}">0</span><span class="text-xs text-gray-400">%</span>
+                </div>
+              </div>
+              ${r.correction !== 0 ? `<span class="mt-1 text-xs font-semibold ${r.correction > 0 ? 'text-emerald-400' : 'text-red-400'}">${r.correction > 0 ? '+' : ''}${r.correction}%補正</span>` : ''}
+            </div>
+          </div>
+        </div>`;
+    });
+    $('job-cards').innerHTML = cardsHtml;
+
+    // Animate cards in
+    setTimeout(() => {
+      $$('.result-card').forEach((c, i) => {
+        setTimeout(() => c.classList.add('visible'), i * 120);
+      });
+      // Animate counters
+      $$('.counter').forEach(el => {
+        const target = parseFloat(el.dataset.target);
+        animateCounter(el, target);
+      });
+    }, 200);
+  }
+
+  /* ── Insight text generation ── */
+  function generateInsight(userScores, job) {
+    const comps = Object.keys(job.scores).map(p => ({
+      name: p,
+      user: Math.round(userScores[p] ?? 50),
+      job: job.scores[p],
+      excess: (userScores[p] ?? 50) - job.scores[p],
+    }));
+
+    // Strengths: user meets/exceeds important requirements
+    const strengths = comps
+      .filter(c => c.excess >= -5 && c.job >= 70)
+      .sort((a, b) => (b.job + b.excess) - (a.job + a.excess))
+      .slice(0, 3);
+
+    // Weaknesses: user falls short on important requirements
+    const weaks = comps
+      .filter(c => c.excess < -15 && c.job >= 60)
+      .sort((a, b) => a.excess - b.excess)
+      .slice(0, 2);
+
+    let txt = '';
+    if (strengths.length > 0) {
+      txt += `あなたの${strengths.map(s => `<b>${s.name}</b>(${s.user})`).join('・')}は、${job.company}が求める水準と高い親和性があります。`;
+    }
+    if (weaks.length > 0) {
+      txt += `一方で、${weaks.map(w => `<b>${w.name}</b>`).join('・')}の強化が内定確率をさらに高めるカギになります。`;
+    }
+    if (!txt) txt = 'あなたのプロフィールはこの職種の要求と幅広く合致しています。';
+    return txt;
+  }
+
+  function generateBgInsight(job) {
+    const parts = [];
+    const uniCorr = job.uniCorr[state.universityRank] || 0;
+    if (uniCorr > 0) {
+      parts.push(`<span class="inline-flex items-center gap-1.5"><span class="px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-bold">+${uniCorr}%</span><span class="text-sm text-gray-400">${state.universityRank} → 採用実績と高い親和性</span></span>`);
+    } else if (uniCorr < 0) {
+      parts.push(`<span class="inline-flex items-center gap-1.5"><span class="px-2 py-0.5 rounded-full bg-red-500/15 text-red-400 text-xs font-bold">${uniCorr}%</span><span class="text-sm text-gray-400">${state.universityRank} → 採用実績は限定的</span></span>`);
+    } else {
+      parts.push(`<span class="inline-flex items-center gap-1.5"><span class="px-2 py-0.5 rounded-full bg-gray-500/15 text-gray-400 text-xs font-bold">±0%</span><span class="text-sm text-gray-400">${state.universityRank} → 標準的な採用層</span></span>`);
+    }
+
+    state.backgrounds.filter(b => b !== '特になし').forEach(bg => {
+      const c = job.bgCorr[bg] || 0;
+      if (c > 0) {
+        parts.push(`<span class="inline-flex items-center gap-1.5"><span class="px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 text-xs font-bold">+${c}%</span><span class="text-sm text-gray-400">${bg} → 選考で有利に働く経験</span></span>`);
+      } else if (c < 0) {
+        parts.push(`<span class="inline-flex items-center gap-1.5"><span class="px-2 py-0.5 rounded-full bg-red-500/15 text-red-400 text-xs font-bold">${c}%</span><span class="text-sm text-gray-400">${bg}</span></span>`);
+      }
+    });
+
+    if (state.backgrounds.includes('特になし')) {
+      const c = job.bgCorr['特になし'] || 0;
+      if (c !== 0) {
+        const cls = c > 0 ? 'emerald' : 'red';
+        parts.push(`<span class="inline-flex items-center gap-1.5"><span class="px-2 py-0.5 rounded-full bg-${cls}-500/15 text-${cls}-400 text-xs font-bold">${c > 0 ? '+' : ''}${c}%</span><span class="text-sm text-gray-400">特筆すべき経歴なし</span></span>`);
+      }
+    }
+
+    const totalCorr = clamp(
+      (job.uniCorr[state.universityRank] || 0) + state.backgrounds.reduce((s, bg) => s + (job.bgCorr[bg] || 0), 0),
+      -10, 10
+    );
+    parts.push(`<span class="inline-flex items-center gap-1.5 mt-1 pt-2 border-t border-white/[0.06]"><span class="text-sm font-semibold ${totalCorr >= 0 ? 'text-emerald-400' : 'text-red-400'}">合計補正: ${totalCorr >= 0 ? '+' : ''}${totalCorr}%</span><span class="text-xs text-gray-600">(上限±10%)</span></span>`);
+
+    return `<div class="flex flex-col gap-1.5">${parts.join('')}</div>`;
+  }
+
+  /* ── Detail parameter bars ── */
+  function renderDetailBars(job) {
+    const params = Object.keys(job.scores)
+      .map(p => ({ name: p, user: Math.round(state.scores[p] ?? 50), job: job.scores[p] }))
+      .sort((a, b) => b.job - a.job)
+      .slice(0, 12);
+
+    let html = '<div class="space-y-3 pt-3 border-t border-white/[0.06]">';
+    params.forEach(p => {
+      const pct = p.user;
+      const reqPct = p.job;
+      const diff = p.user - p.job;
+      const barColor = diff >= 0 ? '#22d3ee' : (diff >= -15 ? '#f59e0b' : '#ef4444');
+      html += `
+        <div class="flex items-center gap-3 text-xs">
+          <span class="w-20 text-gray-400 text-right shrink-0">${p.name}</span>
+          <div class="flex-1 param-bar-track">
+            <div class="param-bar-fill" style="width:${pct}%;background:${barColor}"></div>
+            <div class="param-bar-marker" style="left:${reqPct}%" title="要求値:${reqPct}"></div>
+          </div>
+          <span class="w-16 text-right shrink-0"><b class="text-gray-300">${p.user}</b> <span class="text-gray-600">/ ${p.job}</span></span>
+        </div>`;
+    });
+    html += '<p class="text-[10px] text-gray-600 mt-2">バー = あなたのスコア ｜ <span class="text-purple-400">紫マーカー</span> = 職種の要求値</p></div>';
+    return html;
+  }
+
+  function toggleDetail(id) {
+    $(id).classList.toggle('open');
+  }
+
+  /* ── Animated counter ── */
+  function animateCounter(el, target) {
+    let current = 0;
+    const duration = 1200;
+    const steps = duration / 16;
+    const increment = target / steps;
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= target) { current = target; clearInterval(timer); }
+      el.textContent = Math.round(current * 10) / 10;
+    }, 16);
+  }
+
+  /* ── Share ── */
+  function shareResults() {
+    const top3 = state.results.slice(0, 3);
+    const text = `【職種適合度エンジン Beta】診断結果\n\n` +
+      top3.map((r, i) => `${['🥇','🥈','🥉'][i]} ${r.company} ${r.position}（${r.finalScore}%）`).join('\n') +
+      `\n\n#職種適合度エンジン`;
+    navigator.clipboard.writeText(text).then(() => {
+      showToast('結果をクリップボードにコピーしました！', true);
+    }).catch(() => {
+      showToast('コピーに失敗しました', false);
+    });
+  }
+
+  /* ── Restart ── */
+  function restart() {
+    state.gender = null;
+    state.universityRank = null;
+    state.backgrounds = [];
+    state.currentQ = 0;
+    state.answers = [];
+    initScores();
+    $$('.attr-btn').forEach(b => b.classList.remove('selected'));
+    if (state.radarChart) { state.radarChart.destroy(); state.radarChart = null; }
+    showScreen('screen-top');
+  }
+
+  /* ── Toast ── */
+  function showToast(msg, success) {
+    const t = $('toast');
+    t.textContent = msg;
+    t.className = 'toast show' + (success ? ' success' : '');
+    setTimeout(() => { t.className = 'toast'; }, 2800);
+  }
+  </script>
+</body>
+</html>

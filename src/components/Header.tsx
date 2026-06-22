@@ -15,6 +15,12 @@ export function Header() {
             診断テスト
           </Link>
           <Link
+            href="/job-fit"
+            className="text-sm text-gray-500 hover:text-gray-800 transition-colors"
+          >
+            職種適合度
+          </Link>
+          <Link
             href="/companies"
             className="text-sm text-gray-500 hover:text-gray-800 transition-colors"
           >

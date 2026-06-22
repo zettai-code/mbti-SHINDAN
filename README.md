@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MBTI SHINDAN
 
-## Getting Started
+MBTI 風の性格診断と、就活向けの職種・企業適合度診断を組み合わせた Next.js アプリです。
 
-First, run the development server:
+30問の回答から、ユーザーの素養・能力・価値観・働き方の傾向をスコア化し、企業・職種ごとの要求プロファイルと照合してマッチ度を表示します。
+
+## 主な機能
+
+- MBTI 風の性格タイプ診断
+- 30問による職種適性診断
+- 28個の能力・価値観パラメータのスコアリング
+- 大学ランク・性別・バックグラウンドを考慮した補正
+- 企業・職種ごとのマッチ度ランキング
+- 企業データ、採用大学データ、男女比データの表示
+- アクセス集計用の管理ページ
+
+## 技術スタック
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- ESLint
+
+## セットアップ
+
+```bash
+npm install
+npm run dev
+```
+
+ブラウザで以下を開きます。
+
+```text
+http://localhost:3000
+```
+
+## よく使うコマンド
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm run lint
+npm run scrape:universities
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ディレクトリ構成
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+src/app          ページと API Routes
+src/components   UI コンポーネント
+src/data         診断・企業・職種・採用関連データ
+src/lib          診断ロジック、職種適合度計算、アクセス集計
+src/types        共通型定義
+scripts          データ生成・スクレイピング用スクリプト
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 注意
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+このアプリの診断結果は就活準備の参考情報です。実際の選考結果や企業適性を保証するものではありません。

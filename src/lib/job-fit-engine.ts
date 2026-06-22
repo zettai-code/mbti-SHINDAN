@@ -429,20 +429,18 @@ export function classifyMarketReach(candidateScore: number, companyDifficulty: n
   const gap = companyDifficulty - candidateScore
   if (gap <= -5) return "余裕"
   if (gap <= 2) return "実力相応"
-  if (gap <= 5) return "挑戦"
+  if (gap < 5) return "挑戦"
   return "高望み"
 }
 
 export function scoreMarketReach(candidateScore: number, companyDifficulty: number): number {
   const gap = companyDifficulty - candidateScore
 
+  if (gap >= 5) return 0
   if (gap <= -15) return 86
   if (gap <= -5) return 92
   if (gap <= 2) return 100
-  if (gap <= 5) return 82
-  if (gap <= 8) return 58
-  if (gap <= 12) return 34
-  return 18
+  return 82
 }
 
 export function evaluateCompanyMarketFit(
@@ -507,7 +505,8 @@ export function scoreCompanyWithMarketReality(
     ...company,
     requiredProfile,
   })
-  const finalScore = round1(market.marketScore * 0.7 + personalityScore * 0.3)
+  const weightedScore = round1(market.marketScore * 0.7 + personalityScore * 0.3)
+  const finalScore = market.gap >= 5 ? 0 : weightedScore
 
   return {
     ...market,

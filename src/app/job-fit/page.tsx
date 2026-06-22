@@ -597,8 +597,8 @@ function CompanyProfileDetails({
   if (profiles.length === 0 && uniEntries.length === 0 && genderEntries.length === 0) return null
 
   return (
-    <details open={defaultOpen} className="group/company mt-4 rounded-2xl border border-gray-100 bg-gray-50/70">
-      <summary className="cursor-pointer list-none px-4 py-3 select-none">
+    <details open={defaultOpen} className="group/company mt-3">
+      <summary className="w-full cursor-pointer list-none select-none rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm transition-colors hover:border-[#4298b4]/40 hover:bg-[#eef7fa]/50 sm:w-[18rem] md:w-1/3">
         <div className="flex items-center justify-between gap-3">
           <div>
             <p className="text-xs font-black text-gray-700">職種詳細プロフィール</p>
@@ -609,7 +609,7 @@ function CompanyProfileDetails({
           <span className="text-xs font-bold text-gray-400 transition-transform group-open/company:rotate-90">▶</span>
         </div>
       </summary>
-      <div className="space-y-3 border-t border-gray-100 p-3">
+      <div className="mt-3 space-y-3 rounded-2xl border border-gray-100 bg-gray-50/70 p-3">
         {profiles.map((profile, index) => (
           <ProfileDetailCard
             key={getProfileKey(profile, index)}
@@ -1090,9 +1090,10 @@ export default function JobFitPage() {
                           )}
 
                           {/* Parameter bars */}
-                          <details className="group">
-                            <summary className="text-[11px] font-bold text-gray-400 cursor-pointer hover:text-gray-600 select-none list-none flex items-center gap-1">
-                              <span className="transition-transform group-open:rotate-90">▶</span> 求められる人物像とあなたの素養（詳細）
+                          <details className="group mt-3">
+                            <summary className="flex w-full cursor-pointer list-none items-center justify-between gap-2 rounded-xl border border-gray-200 bg-white px-4 py-3 text-[11px] font-black text-gray-700 shadow-sm transition-colors hover:border-[#4298b4]/40 hover:bg-[#eef7fa]/50 sm:w-[18rem] md:w-1/3">
+                              <span>求められる人物像と素養</span>
+                              <span className="text-xs text-gray-400 transition-transform group-open:rotate-90">▶</span>
                             </summary>
                             <div className="bg-gray-50 rounded-xl p-4 mt-2 space-y-2">
                               {Object.keys(c.requiredProfile)

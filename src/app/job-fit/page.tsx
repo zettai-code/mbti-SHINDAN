@@ -290,7 +290,7 @@ export default function JobFitPage() {
 
       {/* ── QUESTIONS ── */}
       {screen === "questions" && (
-        <div className="max-w-xl mx-auto px-6 pt-6 pb-10 animate-fadeIn">
+        <div className="max-w-xl mx-auto w-full px-6 pt-6 pb-10 animate-fadeIn">
           {/* Progress */}
           <div className="flex items-center justify-between text-xs text-gray-500 mb-1">
             <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-white text-xs font-medium border border-gray-100">
@@ -303,25 +303,22 @@ export default function JobFitPage() {
           </div>
 
           {/* Question */}
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 sm:p-12 mb-4">
-            <p className="text-xl sm:text-2xl font-bold text-gray-800 text-center leading-relaxed mb-10 min-h-[84px]">
+          <div className="w-full bg-white rounded-2xl shadow-sm border border-gray-100 p-8 sm:p-12 mb-4">
+            <p className="text-xl sm:text-2xl font-bold text-gray-800 text-center leading-relaxed mb-10 min-h-[84px] break-words">
               {questions[qIdx].text}
             </p>
-            <div className="flex items-center justify-between gap-1 sm:gap-2 px-1 sm:px-2">
-              <span className="text-xs sm:text-sm font-medium text-[#33a474] shrink-0 w-20 sm:w-24 text-center">
-                当てはまる
-              </span>
-              <div className="flex items-center justify-center gap-1.5 sm:gap-2">
+            <div className="px-1 sm:px-2">
+              <div className="mx-auto flex w-full max-w-[17rem] sm:max-w-[22rem] flex-nowrap items-center justify-center gap-1.5 sm:gap-2">
               {SCALE_OPTIONS.map((opt, si) => {
                 const selected = answers[questions[qIdx].id] === si
                 const sizes = [
-                  "w-11 h-11 sm:w-14 sm:h-14",
-                  "w-9 h-9 sm:w-12 sm:h-12",
-                  "w-8 h-8 sm:w-10 sm:h-10",
-                  "w-7 h-7 sm:w-8 sm:h-8",
-                  "w-8 h-8 sm:w-10 sm:h-10",
-                  "w-9 h-9 sm:w-12 sm:h-12",
-                  "w-11 h-11 sm:w-14 sm:h-14",
+                  "w-8 h-8 sm:w-12 sm:h-12",
+                  "w-7 h-7 sm:w-10 sm:h-10",
+                  "w-6 h-6 sm:w-9 sm:h-9",
+                  "w-5 h-5 sm:w-7 sm:h-7",
+                  "w-6 h-6 sm:w-9 sm:h-9",
+                  "w-7 h-7 sm:w-10 sm:h-10",
+                  "w-8 h-8 sm:w-12 sm:h-12",
                 ]
                 const selectedColor =
                   si < 3
@@ -333,16 +330,17 @@ export default function JobFitPage() {
                   <button key={si} onClick={() => answerQ(si)}
                     aria-label={opt.label}
                     title={opt.label}
-                    className={`${sizes[si]} rounded-full border-2 active:scale-90 transition-all duration-200 ${
+                    className={`${sizes[si]} shrink-0 rounded-full border-2 active:scale-90 transition-all duration-200 ${
                       selected ? selectedColor : "bg-gray-50 border-gray-200 hover:border-gray-300 hover:bg-gray-100"
                     }`}
                   />
                 )
               })}
               </div>
-              <span className="text-xs sm:text-sm font-medium text-[#7c5e99] shrink-0 w-20 sm:w-24 text-center">
-                当てはまらない
-              </span>
+              <div className="mx-auto mt-3 flex w-full max-w-[17rem] sm:max-w-[22rem] items-center justify-between text-xs sm:text-sm font-medium">
+                <span className="text-[#33a474]">当てはまる</span>
+                <span className="text-[#7c5e99]">当てはまらない</span>
+              </div>
             </div>
           </div>
 

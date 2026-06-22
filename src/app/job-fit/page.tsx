@@ -179,7 +179,7 @@ export default function JobFitPage() {
         }, 80)
       }
     }, 200)
-  }, [answers, qIdx, uni, bgs])
+  }, [answers, qIdx])
 
   // ── Restart ──
   const restart = useCallback(() => {
@@ -563,7 +563,11 @@ export default function JobFitPage() {
                     <button
                       onClick={() => setExpandedIndustries((prev) => {
                         const next = new Set(prev)
-                        next.has(group.industry) ? next.delete(group.industry) : next.add(group.industry)
+                        if (next.has(group.industry)) {
+                          next.delete(group.industry)
+                        } else {
+                          next.add(group.industry)
+                        }
                         return next
                       })}
                       className="w-full px-5 py-3 flex items-center justify-between hover:bg-gray-50 transition-colors"

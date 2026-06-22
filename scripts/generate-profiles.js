@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 // Generate requiredProfile, emoji, tags, uniCorr, and bgCorr for all companies based on industry
 const fs = require('fs');
 const data = JSON.parse(fs.readFileSync('src/data/companies.json', 'utf8'));
@@ -207,7 +208,7 @@ const metadata = {
     emoji: "🚚",
     tags: ["流通", "小売", "物流"],
     uniCorr: {"東大京大一橋東工": 2, "早慶": 2, "旧帝大": 2, "GMARCH": 2, "海外大": 2, "その他": 1},
-    bgCorr: {"体育会主将": 3, "体育会一般": 2, "帰<ユーザー子女": 2, "留学": 2, "理系院生": 0, "学生起業": 2, "特になし": 1}
+    bgCorr: {"体育会主将": 3, "体育会一般": 2, "帰国子女": 2, "留学": 2, "理系院生": 0, "学生起業": 2, "特になし": 1}
   },
   "小売": {
     emoji: "🛒",

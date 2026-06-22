@@ -11,9 +11,143 @@ import { computeUserScores, scoreCompany } from "@/lib/job-fit-engine"
 import type { IndustryGroup, Company } from "@/types"
 import questionsData from "@/data/job-fit-questions.json"
 import companiesData from "@/data/companies.json"
+import accentureDeloitte from "@/data/job-profiles/accenture_deloitte.json"
+import pwcNri from "@/data/job-profiles/pwc_nri.json"
+import gafa from "@/data/job-profiles/gafa.json"
+import tradingCompanies from "@/data/job-profiles/trading_companies.json"
+import finance from "@/data/job-profiles/finance.json"
+import manufacturing from "@/data/job-profiles/manufacturing.json"
+import infraSi from "@/data/job-profiles/infra_si.json"
+import mediaServiceIt from "@/data/job-profiles/media_service_it.json"
+import universityData from "@/data/university_data.json"
+import genderData from "@/data/gender_background_data.json"
 
 const questions = questionsData as JobFitQuestion[]
 const allIndustries = companiesData as IndustryGroup[]
+
+type Profile = {
+  company: string
+  position: string
+  industry: string
+  description: string
+  archetype_id?: string
+  applies_to?: string[]
+  ideal_profile: {
+    description: string
+    concrete_examples: string[]
+  }
+  personality_scores: Record<string, number>
+  mbti_ranking: { rank: number; type: string; reason: string }[]
+  big_five: Record<string, number>
+  values: Record<string, number>
+  work_style: { suitable_environments: string[]; unsuitable_environments: string[] }
+  career_aptitude?: { suitable_careers: string[]; unsuitable_careers: string[] }
+  student_features: Record<string, string[]>
+  feature_tags: string[]
+}
+
+type UniEntry = {
+  company: string
+  industry: string
+  university_tier: string
+  hiring_universities: Record<string, { universities?: string[]; percentage: number }>
+  position_university_pattern: Record<string, { min_tier: string; notes: string }>
+  gender_pattern: Record<string, { min_tier: string; notes?: string }>
+  background_preference: Record<string, { preference: string; notes?: string }>
+  confidence: string
+}
+
+type GenderEntry = {
+  company: string
+  industry: string
+  gender_data: {
+    overall_male_pct: number
+    overall_female_pct: number
+    new_grad_male_pct?: number
+    new_grad_female_pct?: number
+    by_position?: Record<string, { male: number; female: number }>
+    confidence: string
+  }
+  background_data: {
+    athlete_pct: number
+    returnee_pct: number
+    stem_grad_pct: number
+    study_abroad_pct?: number
+    confidence: string
+  }
+  hiring_volume?: { total: number }
+}
+
+const allJobProfiles: Profile[] = [
+  ...accentureDeloitte,
+  ...pwcNri,
+  ...gafa,
+  ...tradingCompanies,
+  ...finance,
+  ...manufacturing,
+  ...infraSi,
+  ...mediaServiceIt,
+] as Profile[]
+
+const uniData = universityData as unknown as UniEntry[]
+const genData = genderData as unknown as GenderEntry[]
+
+const SCORE_LABELS: Record<string, string> = {
+  logic: "論理性",
+  creativity: "創造性",
+  empathy: "共感力",
+  cooperativeness: "協調性",
+  competitiveness: "競争性",
+  initiative: "主体性",
+  planning: "計画性",
+  action_orientation: "行動力",
+  stress_tolerance: "ストレス耐性",
+  learning_speed: "学習速度",
+  intellectual_curiosity: "知的好奇心",
+  analytical_ability: "分析力",
+  abstract_thinking: "抽象思考力",
+  communication: "コミュ力",
+  presentation: "プレゼン力",
+  negotiation: "交渉力",
+  leadership: "リーダーシップ",
+  patience: "忍耐力",
+  flexibility: "柔軟性",
+  discipline: "規律性",
+}
+
+const BIG5_LABELS: Record<string, string> = {
+  openness: "開放性",
+  conscientiousness: "誠実性",
+  extraversion: "外向性",
+  agreeableness: "協調性",
+  neuroticism: "神経症傾向",
+}
+
+const VALUE_LABELS: Record<string, string> = {
+  growth: "成長志向",
+  stability: "安定志向",
+  social_contribution: "社会貢献",
+  income: "収入志向",
+  autonomy: "裁量志向",
+  expertise: "専門性志向",
+  teamwork: "チーム志向",
+}
+
+const STUDENT_FEATURE_LABELS: Record<string, string> = {
+  high_school: "高校",
+  university: "大学",
+  part_time_job: "バイト",
+  club_activities: "部活",
+  internship: "インターン",
+}
+
+const TIER_COLORS: Record<string, string> = {
+  S: "bg-red-100 text-red-800",
+  A: "bg-orange-100 text-orange-800",
+  B: "bg-yellow-100 text-yellow-800",
+  C: "bg-green-100 text-green-800",
+  D: "bg-gray-100 text-gray-800",
+}
 
 interface ScoredCompany extends Company {
   industry: string
@@ -23,9 +157,430 @@ interface ScoredCompany extends Company {
   strengths: string[]
   weaknesses: string[]
   corrDetails: { label: string; value: number; reason: string }[]
+  detailProfiles: Profile[]
+  uniEntries: UniEntry[]
+  genderEntries: GenderEntry[]
 }
 
 type Screen = "top" | "attributes" | "questions" | "loading" | "results"
+
+function normalizeText(value = "") {
+  return value
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[（）()・\s　、,./／|｜]/g, "")
+}
+
+function namesOverlap(left = "", right = "") {
+  const a = normalizeText(left)
+  const b = normalizeText(right)
+  return Boolean(a && b && (a.includes(b) || b.includes(a)))
+}
+
+function profileMatchesCompany(company: Company, profile: Profile) {
+  if (namesOverlap(company.name, profile.company) || namesOverlap(company.name_en, profile.company)) {
+    return true
+  }
+
+  return Boolean(profile.applies_to?.some((name) => (
+    namesOverlap(company.name, name) || namesOverlap(company.name_en, name)
+  )))
+}
+
+const POSITION_KEYWORDS = [
+  "事務系",
+  "技術系",
+  "総合職",
+  "営業",
+  "マーケティング",
+  "企画",
+  "コーポレート",
+  "ネットワーク",
+  "研究開発",
+  "データサイエンス",
+  "SE",
+  "エンジニア",
+  "コンサルタント",
+  "デザイン",
+  "クリエイティブ",
+]
+
+function positionMatchesCompany(company: Company, profile: Profile) {
+  const profilePosition = normalizeText(profile.position)
+  return company.positions.some((position) => {
+    const companyPosition = normalizeText(position)
+    if (companyPosition.includes(profilePosition) || profilePosition.includes(companyPosition)) {
+      return true
+    }
+
+    return POSITION_KEYWORDS.some((keyword) => {
+      const normalizedKeyword = normalizeText(keyword)
+      return companyPosition.includes(normalizedKeyword) && profilePosition.includes(normalizedKeyword)
+    })
+  })
+}
+
+function getProfilesForCompany(company: Company) {
+  const companyProfiles = allJobProfiles.filter((profile) => profileMatchesCompany(company, profile))
+  const positionMatched = companyProfiles.filter((profile) => positionMatchesCompany(company, profile))
+  return positionMatched.length > 0 ? positionMatched : companyProfiles
+}
+
+function getUniEntriesForCompany(company: Company) {
+  return uniData.filter((entry) => (
+    namesOverlap(company.name, entry.company) || namesOverlap(company.name_en, entry.company)
+  ))
+}
+
+function getGenderEntriesForCompany(company: Company) {
+  return genData.filter((entry) => (
+    namesOverlap(company.name, entry.company) || namesOverlap(company.name_en, entry.company)
+  ))
+}
+
+function DetailScoreBar({ label, value, color = "primary" }: { label: string; value: number; color?: "primary" | "emerald" | "amber" }) {
+  const barColor = color === "primary" ? "#4298b4" : color === "emerald" ? "#33a474" : "#f59e0b"
+
+  return (
+    <div className="flex items-center gap-2 text-[10px] sm:text-xs">
+      <span className="w-20 shrink-0 text-right font-semibold text-gray-400">{label}</span>
+      <div className="h-1.5 flex-1 rounded-full bg-gray-200">
+        <div className="h-full rounded-full" style={{ width: `${value}%`, backgroundColor: barColor }} />
+      </div>
+      <span className="w-8 shrink-0 text-right font-mono font-bold text-gray-600">{value}</span>
+    </div>
+  )
+}
+
+function ProfileDetailCard({ profile, defaultOpen = false }: { profile: Profile; defaultOpen?: boolean }) {
+  return (
+    <details open={defaultOpen} className="group/profile rounded-xl border border-gray-100 bg-white">
+      <summary className="cursor-pointer list-none px-4 py-3 select-none">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+          <div className="min-w-0">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-sm font-black text-gray-900">{profile.company}</span>
+              <span className="text-gray-300">|</span>
+              <span className="text-sm font-bold text-[#4298b4]">{profile.position}</span>
+              {profile.mbti_ranking?.[0] && (
+                <span className="rounded-full bg-purple-100 px-2 py-0.5 text-[10px] font-bold text-purple-700">
+                  {profile.mbti_ranking[0].type}
+                </span>
+              )}
+            </div>
+            <p className="mt-1 text-xs leading-relaxed text-gray-500">{profile.description}</p>
+          </div>
+          <span className="shrink-0 text-xs font-bold text-gray-400 transition-transform group-open/profile:rotate-90">▶</span>
+        </div>
+      </summary>
+
+      <div className="space-y-5 border-t border-gray-100 px-4 py-4">
+        {profile.applies_to && profile.applies_to.length > 0 && (
+          <section>
+            <h6 className="mb-2 text-xs font-bold text-gray-700">適用企業</h6>
+            <div className="flex flex-wrap gap-1">
+              {profile.applies_to.map((companyName) => (
+                <span key={companyName} className="rounded-md bg-blue-50 px-2 py-0.5 text-[10px] font-medium text-blue-700">
+                  {companyName}
+                </span>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <section>
+          <h6 className="mb-2 text-xs font-bold text-gray-700">向いている人物像</h6>
+          <p className="mb-2 text-xs leading-relaxed text-gray-600">{profile.ideal_profile.description}</p>
+          <ul className="space-y-1">
+            {profile.ideal_profile.concrete_examples.map((example, index) => (
+              <li key={index} className="flex items-start gap-1.5 text-xs leading-relaxed text-gray-500">
+                <span className="mt-0.5 text-[#4298b4]">-</span>
+                <span>{example}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section>
+          <h6 className="mb-2 text-xs font-bold text-gray-700">性格特性スコア（20項目）</h6>
+          <div className="grid gap-1.5 md:grid-cols-2">
+            {Object.entries(profile.personality_scores).map(([key, value]) => (
+              <DetailScoreBar key={key} label={SCORE_LABELS[key] || key} value={value} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h6 className="mb-2 text-xs font-bold text-gray-700">タイプ適性ランキング（全16タイプ）</h6>
+          <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 lg:grid-cols-4">
+            {profile.mbti_ranking.map((item) => (
+              <div
+                key={`${item.rank}-${item.type}`}
+                className={`rounded-lg px-2 py-1.5 text-xs ${
+                  item.rank <= 3
+                    ? "border border-purple-200 bg-purple-50"
+                    : item.rank <= 8
+                      ? "border border-gray-100 bg-gray-50"
+                      : "bg-gray-50/70"
+                }`}
+              >
+                <div className="flex items-center gap-1">
+                  <span className={`font-black ${item.rank <= 3 ? "text-purple-700" : "text-gray-400"}`}>{item.rank}.</span>
+                  <span className={`font-black ${item.rank <= 3 ? "text-purple-700" : "text-gray-700"}`}>{item.type}</span>
+                </div>
+                <p className="mt-0.5 text-[10px] leading-relaxed text-gray-500">{item.reason}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="grid gap-4 md:grid-cols-2">
+          <div>
+            <h6 className="mb-2 text-xs font-bold text-gray-700">Big Five</h6>
+            <div className="space-y-1.5">
+              {Object.entries(profile.big_five).map(([key, value]) => (
+                <DetailScoreBar key={key} label={BIG5_LABELS[key] || key} value={value} color="emerald" />
+              ))}
+            </div>
+          </div>
+          <div>
+            <h6 className="mb-2 text-xs font-bold text-gray-700">価値観</h6>
+            <div className="space-y-1.5">
+              {Object.entries(profile.values).map(([key, value]) => (
+                <DetailScoreBar key={key} label={VALUE_LABELS[key] || key} value={value} color="amber" />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="grid gap-4 md:grid-cols-2">
+          <div>
+            <h6 className="mb-1 text-xs font-bold text-green-700">向いている環境</h6>
+            <ul className="space-y-0.5">
+              {profile.work_style.suitable_environments.map((environment, index) => (
+                <li key={index} className="text-xs leading-relaxed text-gray-600">+ {environment}</li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h6 className="mb-1 text-xs font-bold text-red-700">向いていない環境</h6>
+            <ul className="space-y-0.5">
+              {profile.work_style.unsuitable_environments.map((environment, index) => (
+                <li key={index} className="text-xs leading-relaxed text-gray-600">- {environment}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {profile.career_aptitude && (
+          <section className="grid gap-4 md:grid-cols-2">
+            <div>
+              <h6 className="mb-1 text-xs font-bold text-[#4298b4]">向いているキャリア</h6>
+              <ul className="space-y-0.5">
+                {profile.career_aptitude.suitable_careers.map((career, index) => (
+                  <li key={index} className="text-xs leading-relaxed text-gray-600">+ {career}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h6 className="mb-1 text-xs font-bold text-amber-700">向いていないキャリア</h6>
+              <ul className="space-y-0.5">
+                {profile.career_aptitude.unsuitable_careers.map((career, index) => (
+                  <li key={index} className="text-xs leading-relaxed text-gray-600">- {career}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
+        <section>
+          <h6 className="mb-2 text-xs font-bold text-gray-700">学生時代の特徴</h6>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+            {Object.entries(profile.student_features).map(([key, items]) => (
+              <div key={key} className="rounded-lg bg-gray-50 p-2">
+                <span className="text-[10px] font-bold text-gray-500">{STUDENT_FEATURE_LABELS[key] || key}</span>
+                <ul className="mt-1 space-y-0.5">
+                  {items.map((item, index) => (
+                    <li key={index} className="text-[10px] leading-relaxed text-gray-500">{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h6 className="mb-2 text-xs font-bold text-gray-700">特徴タグ（{profile.feature_tags.length}個）</h6>
+          <div className="flex flex-wrap gap-1">
+            {profile.feature_tags.map((tag) => (
+              <span key={tag} className="rounded bg-gray-100 px-1.5 py-0.5 text-[10px] text-gray-600">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </section>
+      </div>
+    </details>
+  )
+}
+
+function UniversityDataPanel({ entries }: { entries: UniEntry[] }) {
+  if (entries.length === 0) return null
+
+  return (
+    <section className="rounded-xl bg-blue-50/60 p-4">
+      <h6 className="mb-3 text-xs font-bold text-blue-800">採用大学データ</h6>
+      <div className="space-y-4">
+        {entries.map((entry) => (
+          <div key={`${entry.company}-${entry.industry}`} className="rounded-lg bg-white/70 p-3">
+            <div className="mb-2 flex flex-wrap items-center gap-2">
+              <span className="text-xs font-black text-gray-800">{entry.company}</span>
+              <span className="text-[10px] text-gray-500">{entry.industry}</span>
+              <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${TIER_COLORS[entry.university_tier] || "bg-gray-100 text-gray-700"}`}>
+                Tier {entry.university_tier}
+              </span>
+            </div>
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-5">
+              {Object.entries(entry.hiring_universities).map(([tier, data]) => (
+                <div key={tier} className="rounded-lg bg-blue-50 px-2 py-2 text-center">
+                  <div className="text-[10px] uppercase text-gray-500">{tier}</div>
+                  <div className="text-lg font-black text-blue-700">{data.percentage}%</div>
+                </div>
+              ))}
+            </div>
+            {entry.position_university_pattern && (
+              <div className="mt-2 space-y-1">
+                {Object.entries(entry.position_university_pattern).map(([position, pattern]) => (
+                  <p key={position} className="text-[10px] leading-relaxed text-gray-600">
+                    <span className="font-bold">{position}</span>: 最低Tier {pattern.min_tier} - {pattern.notes}
+                  </p>
+                ))}
+              </div>
+            )}
+            {entry.gender_pattern && (
+              <div className="mt-2 space-y-1">
+                {Object.entries(entry.gender_pattern).map(([genderKey, pattern]) => (
+                  <p key={genderKey} className="text-[10px] leading-relaxed text-gray-600">
+                    <span className="font-bold">{genderKey === "male" ? "男性" : "女性"}</span>: 最低Tier {pattern.min_tier}
+                    {pattern.notes ? ` - ${pattern.notes}` : ""}
+                  </p>
+                ))}
+              </div>
+            )}
+            {entry.background_preference && (
+              <div className="mt-2 flex flex-wrap gap-1">
+                {Object.entries(entry.background_preference).map(([key, value]) => (
+                  <span key={key} className="rounded bg-white px-1.5 py-0.5 text-[10px] text-gray-500">
+                    {key}: {value.preference}{value.notes ? ` / ${value.notes}` : ""}
+                  </span>
+                ))}
+              </div>
+            )}
+            <p className="mt-2 text-[10px] text-gray-400">信頼度: {entry.confidence}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function GenderDataPanel({ entries }: { entries: GenderEntry[] }) {
+  if (entries.length === 0) return null
+
+  return (
+    <section className="rounded-xl bg-pink-50/60 p-4">
+      <h6 className="mb-3 text-xs font-bold text-pink-800">男女比・バックグラウンド</h6>
+      <div className="space-y-4">
+        {entries.map((entry) => (
+          <div key={`${entry.company}-${entry.industry}`} className="rounded-lg bg-white/70 p-3">
+            <div className="mb-2 flex flex-wrap items-center gap-2">
+              <span className="text-xs font-black text-gray-800">{entry.company}</span>
+              <span className="text-[10px] text-gray-500">{entry.industry}</span>
+              {entry.hiring_volume && (
+                <span className="rounded-full bg-gray-100 px-2 py-0.5 text-[10px] font-bold text-gray-600">
+                  採用数 {entry.hiring_volume.total}名
+                </span>
+              )}
+            </div>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
+              <div className="rounded-lg bg-blue-50 p-2 text-center">
+                <div className="text-[10px] text-gray-500">男性</div>
+                <div className="text-lg font-black text-blue-600">{entry.gender_data.overall_male_pct}%</div>
+              </div>
+              <div className="rounded-lg bg-pink-50 p-2 text-center">
+                <div className="text-[10px] text-gray-500">女性</div>
+                <div className="text-lg font-black text-pink-600">{entry.gender_data.overall_female_pct}%</div>
+              </div>
+              <div className="rounded-lg bg-orange-50 p-2 text-center">
+                <div className="text-[10px] text-gray-500">体育会</div>
+                <div className="text-lg font-black text-orange-600">{entry.background_data.athlete_pct}%</div>
+              </div>
+              <div className="rounded-lg bg-green-50 p-2 text-center">
+                <div className="text-[10px] text-gray-500">帰国子女</div>
+                <div className="text-lg font-black text-green-600">{entry.background_data.returnee_pct}%</div>
+              </div>
+              <div className="rounded-lg bg-purple-50 p-2 text-center">
+                <div className="text-[10px] text-gray-500">理系</div>
+                <div className="text-lg font-black text-purple-600">{entry.background_data.stem_grad_pct}%</div>
+              </div>
+            </div>
+            {entry.gender_data.by_position && (
+              <div className="mt-2 space-y-1">
+                {Object.entries(entry.gender_data.by_position).map(([position, ratio]) => (
+                  <p key={position} className="text-[10px] leading-relaxed text-gray-600">
+                    <span className="font-bold">{position}</span>: 男{ratio.male}% / 女{ratio.female}%
+                  </p>
+                ))}
+              </div>
+            )}
+            <p className="mt-2 text-[10px] text-gray-400">信頼度: {entry.gender_data.confidence} / 背景データ: {entry.background_data.confidence}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function CompanyProfileDetails({
+  profiles,
+  uniEntries,
+  genderEntries,
+  defaultOpen = false,
+}: {
+  profiles: Profile[]
+  uniEntries: UniEntry[]
+  genderEntries: GenderEntry[]
+  defaultOpen?: boolean
+}) {
+  if (profiles.length === 0 && uniEntries.length === 0 && genderEntries.length === 0) return null
+
+  return (
+    <details open={defaultOpen} className="group/company mt-4 rounded-2xl border border-gray-100 bg-gray-50/70">
+      <summary className="cursor-pointer list-none px-4 py-3 select-none">
+        <div className="flex items-center justify-between gap-3">
+          <div>
+            <p className="text-xs font-black text-gray-700">職種詳細プロフィール</p>
+            <p className="mt-0.5 text-[10px] text-gray-400">
+              {profiles.length}職種 / 採用大学{uniEntries.length}件 / 男女比{genderEntries.length}件
+            </p>
+          </div>
+          <span className="text-xs font-bold text-gray-400 transition-transform group-open/company:rotate-90">▶</span>
+        </div>
+      </summary>
+      <div className="space-y-3 border-t border-gray-100 p-3">
+        {profiles.map((profile, index) => (
+          <ProfileDetailCard
+            key={`${profile.company}-${profile.position}-${profile.archetype_id || index}`}
+            profile={profile}
+            defaultOpen={index === 0}
+          />
+        ))}
+        <UniversityDataPanel entries={uniEntries} />
+        <GenderDataPanel entries={genderEntries} />
+      </div>
+    </details>
+  )
+}
 
 export default function JobFitPage() {
   const [screen, setScreen] = useState<Screen>("top")
@@ -120,7 +675,10 @@ export default function JobFitPage() {
               finalScore: Math.round(final * 10) / 10,
               strengths,
               weaknesses,
-              corrDetails
+              corrDetails,
+              detailProfiles: getProfilesForCompany(c),
+              uniEntries: getUniEntriesForCompany(c),
+              genderEntries: getGenderEntriesForCompany(c),
             })
           }
         }
@@ -515,9 +1073,16 @@ export default function JobFitPage() {
                                       </span>
                                     </div>
                                   )
-                                })}
+                              })}
                             </div>
                           </details>
+
+                          <CompanyProfileDetails
+                            profiles={c.detailProfiles}
+                            uniEntries={c.uniEntries}
+                            genderEntries={c.genderEntries}
+                            defaultOpen={i === 0}
+                          />
                         </div>
 
                         {/* Right Score Column */}

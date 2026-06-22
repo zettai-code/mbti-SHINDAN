@@ -116,14 +116,16 @@ const TIER_COLORS: Record<string, string> = {
   D: "bg-gray-100 text-gray-800",
 }
 
-function ScoreBar({ label, value, color = "indigo" }: { label: string; value: number; color?: string }) {
+function ScoreBar({ label, value, color = "primary" }: { label: string; value: number; color?: string }) {
+  const barColor = color === "primary" ? "#4298b4" : color === "emerald" ? "#33a474" : "#f59e0b"
+
   return (
     <div className="flex items-center gap-2 text-xs">
       <span className="w-20 text-gray-500 shrink-0">{label}</span>
       <div className="flex-1 bg-gray-100 rounded-full h-2">
         <div
-          className={`h-2 rounded-full bg-${color}-500`}
-          style={{ width: `${value}%`, backgroundColor: color === "indigo" ? "#6366f1" : color === "emerald" ? "#10b981" : "#f59e0b" }}
+          className="h-2 rounded-full"
+          style={{ width: `${value}%`, backgroundColor: barColor }}
         />
       </div>
       <span className="w-8 text-right text-gray-600 font-mono">{value}</span>
@@ -148,7 +150,7 @@ function ProfileCard({ profile, uniEntry, genderEntry }: {
           <div>
             <span className="font-bold text-gray-900 text-sm">{profile.company}</span>
             <span className="mx-2 text-gray-300">|</span>
-            <span className="text-indigo-600 text-sm font-medium">{profile.position}</span>
+            <span className="text-[#4298b4] text-sm font-medium">{profile.position}</span>
           </div>
           <div className="flex items-center gap-2">
             {profile.mbti_ranking?.[0] && (
@@ -193,7 +195,7 @@ function ProfileCard({ profile, uniEntry, genderEntry }: {
             <ul className="space-y-1">
               {profile.ideal_profile.concrete_examples.map((ex, i) => (
                 <li key={i} className="text-xs text-gray-500 flex items-start gap-1.5">
-                  <span className="text-indigo-400 mt-0.5">-</span>{ex}
+                  <span className="text-[#4298b4] mt-0.5">-</span>{ex}
                 </li>
               ))}
             </ul>
@@ -209,9 +211,9 @@ function ProfileCard({ profile, uniEntry, genderEntry }: {
             </div>
           </div>
 
-          {/* MBTI適性ランキング */}
+          {/* タイプ適性ランキング */}
           <div>
-            <h4 className="text-xs font-bold text-gray-700 mb-2">MBTI適性ランキング（全16タイプ）</h4>
+            <h4 className="text-xs font-bold text-gray-700 mb-2">タイプ適性ランキング（全16タイプ）</h4>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-1.5">
               {profile.mbti_ranking.map((m) => (
                 <div key={m.rank} className={`px-2 py-1.5 rounded-lg text-xs ${
@@ -432,14 +434,15 @@ export default function DashboardPage() {
   }, [search])
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8]">
+      <div className="max-w-6xl mx-auto px-4 py-8">
       {/* Header Stats */}
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">就活データダッシュボード</h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <div className="bg-indigo-50 rounded-xl p-3 text-center">
-            <div className="text-2xl font-bold text-indigo-700">{allProfiles.length}</div>
-            <div className="text-xs text-indigo-500">職種プロファイル</div>
+          <div className="bg-[#eef7fa] rounded-xl p-3 text-center">
+            <div className="text-2xl font-bold text-[#4298b4]">{allProfiles.length}</div>
+            <div className="text-xs text-[#4298b4]">職種プロファイル</div>
           </div>
           <div className="bg-blue-50 rounded-xl p-3 text-center">
             <div className="text-2xl font-bold text-blue-700">{uniData.length}</div>
@@ -459,10 +462,10 @@ export default function DashboardPage() {
       {/* Search */}
       <input
         type="text"
-        placeholder="企業名・職種・MBTIタイプ・タグで検索..."
+        placeholder="企業名・職種・タイプ・タグで検索..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm mb-4 focus:outline-none focus:ring-2 focus:ring-[#4298b4]"
       />
 
       {/* Tabs */}
@@ -591,6 +594,7 @@ export default function DashboardPage() {
           ))}
         </div>
       )}
+      </div>
     </div>
   )
 }

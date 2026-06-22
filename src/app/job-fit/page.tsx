@@ -193,26 +193,30 @@ export default function JobFitPage() {
   useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }) }, [screen])
 
   return (
-    <div className="min-h-[calc(100vh-52px)]">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8]">
       {/* ── TOP ── */}
       {screen === "top" && (
-        <div className="flex flex-col items-center justify-center min-h-[70vh] px-6 text-center animate-fadeIn">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 text-xs font-semibold mb-6">
-            <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse" /> BETA
+        <div className="flex w-full flex-col items-center justify-center overflow-x-hidden min-h-[72vh] px-6 text-center animate-fadeIn">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#eef7fa] text-[#4298b4] text-xs font-bold mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#4298b4]" /> 職種適合度
           </div>
-          <h1 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4 leading-tight">
-            職種適合度エンジン
+          <h1 className="w-full min-w-0 text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4 leading-tight tracking-tight max-w-[20rem] sm:max-w-3xl mx-auto break-words">
+            あなたに合った
+            <br />
+            職種と企業を
+            <br className="sm:hidden" />
+            見つけよう
           </h1>
-          <p className="text-gray-500 text-sm max-w-md leading-relaxed mb-3">
-            30問の質問に答えるだけで、あなたの素養ベクトルと企業の要求ベクトルを照合。
-            学歴・バックグラウンド補正を加えた<span className="text-indigo-600 font-semibold">リアルな適合度</span>を算出します。
+          <p className="w-full min-w-0 text-gray-500 text-base sm:text-lg max-w-[20rem] sm:max-w-xl leading-relaxed mb-4 [overflow-wrap:anywhere]">
+            30問の質問であなたの素養を分析し、企業ごとの要求プロフィールと照合します。
+            学歴・バックグラウンドも加味して、向いている職種と企業を提案します。
           </p>
-          <p className="text-gray-400 text-xs mb-10">28パラメーター × 8職種 × 重み付きマッチング + 統計フィルター</p>
+          <p className="text-gray-400 text-xs mb-10">所要時間：約5分 / 全30問</p>
           <button
             onClick={() => setScreen("attributes")}
-            className="px-10 py-4 bg-indigo-600 text-white font-bold rounded-2xl text-base hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
+            className="block w-full min-w-0 max-w-xs px-8 py-4 bg-[#4298b4] text-white font-bold rounded-full text-base hover:bg-[#3a89a3] transition-colors shadow-sm"
           >
-            診断を始める →
+            適合度チェックを始める
           </button>
         </div>
       )}
@@ -220,9 +224,9 @@ export default function JobFitPage() {
       {/* ── ATTRIBUTES ── */}
       {screen === "attributes" && (
         <div className="max-w-lg mx-auto px-4 py-12 animate-fadeIn">
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
             <div className="flex items-center gap-2 mb-1">
-              <span className="text-xs font-semibold text-indigo-600 tracking-wider">STEP 1</span>
+              <span className="text-xs font-bold text-[#4298b4] tracking-wider">STEP 1</span>
             </div>
             <h2 className="text-xl font-bold text-gray-900 mb-6">あなたのプロフィール</h2>
 
@@ -233,7 +237,7 @@ export default function JobFitPage() {
                 {(["男", "女"] as Gender[]).map((g) => (
                   <button key={g} onClick={() => setGender(g)}
                     className={`flex-1 py-3 rounded-xl text-sm font-medium border transition-colors ${
-                      gender === g ? "bg-indigo-600 text-white border-indigo-600" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                      gender === g ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
                     }`}
                   >{g === "男" ? "男性" : "女性"}</button>
                 ))}
@@ -247,7 +251,7 @@ export default function JobFitPage() {
                 {UNIVERSITY_RANKS.map((u) => (
                   <button key={u} onClick={() => setUni(u)}
                     className={`py-3 px-2 rounded-xl text-xs font-medium border transition-colors text-center ${
-                      uni === u ? "bg-indigo-600 text-white border-indigo-600" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                      uni === u ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
                     }`}
                   >{UNIVERSITY_LABELS[u]}</button>
                 ))}
@@ -263,7 +267,7 @@ export default function JobFitPage() {
                 {BACKGROUNDS.map(({ key, label }) => (
                   <button key={key} onClick={() => toggleBg(key)}
                     className={`px-3 py-2 rounded-xl text-xs font-medium border transition-colors ${
-                      bgs.includes(key) ? "bg-indigo-600 text-white border-indigo-600" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                      bgs.includes(key) ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
                     }`}
                   >{label}</button>
                 ))}
@@ -271,51 +275,67 @@ export default function JobFitPage() {
             </div>
 
             <button onClick={submitAttrs}
-              className="w-full py-4 bg-indigo-600 text-white font-bold rounded-2xl text-sm hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
-            >次へ進む →</button>
+              className="w-full py-4 bg-[#4298b4] text-white font-bold rounded-full text-sm hover:bg-[#3a89a3] transition-colors shadow-sm"
+            >質問へ進む</button>
           </div>
         </div>
       )}
 
       {/* ── QUESTIONS ── */}
       {screen === "questions" && (
-        <div className="max-w-lg mx-auto px-4 py-6 animate-fadeIn">
+        <div className="max-w-xl mx-auto px-6 pt-6 pb-10 animate-fadeIn">
           {/* Progress */}
           <div className="flex items-center justify-between text-xs text-gray-500 mb-1">
-            <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-gray-100 text-xs font-medium">
+            <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-white text-xs font-medium border border-gray-100">
               {questions[qIdx].icon} {questions[qIdx].sec}
             </span>
             <span>{qIdx + 1} / {questions.length}</span>
           </div>
           <div className="h-1 bg-gray-100 rounded-full mb-6 overflow-hidden">
-            <div className="h-full bg-indigo-500 rounded-full transition-all duration-300" style={{ width: `${((qIdx + 1) / questions.length) * 100}%` }} />
+            <div className="h-full bg-[#4298b4] rounded-full transition-all duration-300" style={{ width: `${((qIdx + 1) / questions.length) * 100}%` }} />
           </div>
 
           {/* Question */}
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-4">
-            <p className="text-base font-semibold text-gray-800 leading-relaxed mb-6 min-h-[60px]">
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 sm:p-12 mb-4">
+            <p className="text-xl sm:text-2xl font-bold text-gray-800 text-center leading-relaxed mb-10 min-h-[84px]">
               {questions[qIdx].text}
             </p>
-            <div className="space-y-2">
+            <div className="flex items-center justify-between gap-1 sm:gap-2 px-1 sm:px-2">
+              <span className="text-xs sm:text-sm font-medium text-[#33a474] shrink-0 w-20 sm:w-24 text-center">
+                当てはまる
+              </span>
+              <div className="flex items-center justify-center gap-1.5 sm:gap-2">
               {SCALE_OPTIONS.map((opt, si) => {
                 const selected = answers[questions[qIdx].id] === si
-                const colors = [
-                  "bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-100",
-                  "bg-teal-50 text-teal-700 border-teal-200 hover:bg-teal-100",
-                  "bg-sky-50 text-sky-700 border-sky-200 hover:bg-sky-100",
-                  "bg-gray-50 text-gray-600 border-gray-200 hover:bg-gray-100",
-                  "bg-amber-50 text-amber-700 border-amber-200 hover:bg-amber-100",
-                  "bg-orange-50 text-orange-700 border-orange-200 hover:bg-orange-100",
-                  "bg-red-50 text-red-700 border-red-200 hover:bg-red-100",
+                const sizes = [
+                  "w-11 h-11 sm:w-14 sm:h-14",
+                  "w-9 h-9 sm:w-12 sm:h-12",
+                  "w-8 h-8 sm:w-10 sm:h-10",
+                  "w-7 h-7 sm:w-8 sm:h-8",
+                  "w-8 h-8 sm:w-10 sm:h-10",
+                  "w-9 h-9 sm:w-12 sm:h-12",
+                  "w-11 h-11 sm:w-14 sm:h-14",
                 ]
+                const selectedColor =
+                  si < 3
+                    ? "bg-[#33a474] border-[#33a474] shadow-lg shadow-[#33a474]/20"
+                    : si === 3
+                      ? "bg-gray-300 border-gray-300"
+                      : "bg-[#7c5e99] border-[#7c5e99] shadow-lg shadow-[#7c5e99]/20"
                 return (
                   <button key={si} onClick={() => answerQ(si)}
-                    className={`w-full py-3 px-4 rounded-xl text-sm font-medium border transition-all ${colors[si]} ${
-                      selected ? "ring-2 ring-indigo-400 scale-[1.01]" : ""
+                    aria-label={opt.label}
+                    title={opt.label}
+                    className={`${sizes[si]} rounded-full border-2 active:scale-90 transition-all duration-200 ${
+                      selected ? selectedColor : "bg-gray-50 border-gray-200 hover:border-gray-300 hover:bg-gray-100"
                     }`}
-                  >{opt.label}</button>
+                  />
                 )
               })}
+              </div>
+              <span className="text-xs sm:text-sm font-medium text-[#7c5e99] shrink-0 w-20 sm:w-24 text-center">
+                当てはまらない
+              </span>
             </div>
           </div>
 
@@ -333,15 +353,15 @@ export default function JobFitPage() {
           <div className="relative w-24 h-24 mb-8">
             <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
               <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e5e7eb" strokeWidth="2.5" />
-              <circle cx="18" cy="18" r="15.5" fill="none" stroke="#6366f1" strokeWidth="2.5"
+              <circle cx="18" cy="18" r="15.5" fill="none" stroke="#4298b4" strokeWidth="2.5"
                 strokeDasharray={`${loadPct * 0.974} 100`} strokeLinecap="round"
                 className="transition-all duration-100" />
             </svg>
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-xl font-bold text-indigo-600">{loadPct}%</span>
+              <span className="text-xl font-bold text-[#4298b4]">{loadPct}%</span>
             </div>
           </div>
-          <p className="text-gray-800 font-semibold text-lg mb-1">AIがあなたの適性を分析中…</p>
+          <p className="text-gray-800 font-semibold text-lg mb-1">あなたの適性を分析中...</p>
           <p className="text-gray-400 text-xs">28パラメーター × {allIndustries.reduce((s, g) => s + g.companies.length, 0)}社のベクトルマッチングを実行しています</p>
         </div>
       )}
@@ -350,8 +370,8 @@ export default function JobFitPage() {
       {screen === "results" && (
         <div className="max-w-4xl mx-auto px-4 py-8 animate-fadeIn">
           <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 text-emerald-600 text-xs font-semibold mb-3">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" /> ANALYSIS COMPLETE
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#eef8f3] text-[#33a474] text-xs font-bold mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#33a474]" /> 分析完了
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">あなたの適合度分析結果</h2>
             <p className="text-xs text-gray-400">
@@ -389,7 +409,7 @@ export default function JobFitPage() {
           {scoredCompanies.length > 0 && (
             <>
               <h3 className="text-base font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <span>🏆</span> レコメンド企業
+                <span className="w-1 h-5 bg-[#4298b4] rounded-full" /> レコメンド企業
                 <span className="text-xs text-gray-400 font-normal">マッチ度順</span>
               </h3>
               <div className="space-y-4 mb-8">
@@ -399,7 +419,7 @@ export default function JobFitPage() {
                   return (
                     <div key={`${c.industry}-${c.name}-${i}`}
                       className={`bg-white rounded-2xl shadow-sm border p-6 transition-all ${
-                        i === 0 ? "border-indigo-300 ring-2 ring-indigo-50" : "border-gray-100"
+                        i === 0 ? "border-[#4298b4]/40 ring-2 ring-[#eef7fa]" : "border-gray-100"
                       }`}
                     >
                       <div className="flex flex-col md:flex-row md:items-start gap-4">
@@ -410,16 +430,16 @@ export default function JobFitPage() {
                             {rankEmoji ? (
                               <span className="text-3xl filter drop-shadow-sm">{rankEmoji}</span>
                             ) : (
-                              <span className="text-sm font-black text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-md">{rankText}</span>
+                              <span className="text-sm font-black text-[#4298b4] bg-[#eef7fa] px-2 py-0.5 rounded-md">{rankText}</span>
                             )}
                             <span className="text-2xl">{c.emoji || "🏢"}</span>
                             <h4 className="text-lg font-black text-gray-900 leading-tight">
-                              {c.name} <span className="text-gray-400 font-normal mx-1">|</span> <span className="text-indigo-600 font-bold">{c.positions.join("・")}</span>
+                              {c.name} <span className="text-gray-400 font-normal mx-1">|</span> <span className="text-[#4298b4] font-bold">{c.positions.join("・")}</span>
                             </h4>
                           </div>
 
                           {c.note && (
-                            <p className="text-xs text-gray-600 font-medium mb-3 pl-1 border-l-2 border-indigo-200">
+                            <p className="text-xs text-gray-600 font-medium mb-3 pl-1 border-l-2 border-[#4298b4]/25">
                               {c.note}
                             </p>
                           )}
@@ -428,14 +448,14 @@ export default function JobFitPage() {
                           <div className="flex flex-wrap gap-1.5 mb-4">
                             <span className="px-2 py-0.5 rounded-full bg-gray-100 text-gray-500 text-[10px] font-semibold">{c.industry}</span>
                             {(c.tags || []).map((t) => (
-                              <span key={t} className="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-600 text-[10px] font-semibold">{t}</span>
+                              <span key={t} className="px-2 py-0.5 rounded-full bg-[#eef7fa] text-[#4298b4] text-[10px] font-semibold">{t}</span>
                             ))}
                           </div>
 
                           {/* Why Suitable Insight */}
                           {c.strengths.length > 0 && (
-                            <div className="bg-indigo-50/40 rounded-xl p-3 mb-4 text-xs leading-relaxed text-gray-700">
-                              <span className="font-bold text-indigo-700">💡 なぜ向いているか：</span>
+                            <div className="bg-[#eef7fa] rounded-xl p-3 mb-4 text-xs leading-relaxed text-gray-700">
+                              <span className="font-bold text-[#4298b4]">なぜ向いているか：</span>
                               あなたの <span className="font-bold text-gray-900">{c.strengths.join("・")}</span> は、{c.name}が求める水準と高い親和性があります。
                               {c.weaknesses.length > 0 && (
                                 <>
@@ -477,13 +497,13 @@ export default function JobFitPage() {
                                   const uVal = Math.round(userScores[p] ?? 50)
                                   const jVal = c.requiredProfile[p]
                                   const diff = uVal - jVal
-                                  const barColor = diff >= 0 ? "#6366f1" : diff >= -15 ? "#f59e0b" : "#ef4444"
+                                  const barColor = diff >= 0 ? "#4298b4" : diff >= -15 ? "#f59e0b" : "#ef4444"
                                   return (
                                     <div key={p} className="flex items-center gap-2 text-[10px]">
                                       <span className="w-16 text-right text-gray-400 shrink-0 font-semibold">{p}</span>
                                       <div className="flex-1 h-1.5 bg-gray-200 rounded-full relative">
                                         <div className="h-full rounded-full" style={{ width: `${uVal}%`, background: barColor }} />
-                                        <div className="absolute top-[-3px] w-0.5 h-[9px] bg-indigo-800 rounded-full" style={{ left: `${jVal}%` }} />
+                                        <div className="absolute top-[-3px] w-0.5 h-[9px] bg-[#7c5e99] rounded-full" style={{ left: `${jVal}%` }} />
                                       </div>
                                       <span className="w-14 text-right shrink-0">
                                         <b className="text-gray-700">{uVal}</b> <span className="text-gray-400">/ {jVal}</span>
@@ -501,7 +521,7 @@ export default function JobFitPage() {
                             <div className="relative w-20 h-20">
                               <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
                                 <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e5e7eb" strokeWidth="2.5" />
-                                <circle cx="18" cy="18" r="15.5" fill="none" stroke="#6366f1" strokeWidth="3"
+                                <circle cx="18" cy="18" r="15.5" fill="none" stroke="#4298b4" strokeWidth="3"
                                   strokeDasharray={`${c.finalScore * 0.974} 100`} strokeLinecap="round" />
                               </svg>
                               <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -542,7 +562,7 @@ export default function JobFitPage() {
             placeholder="企業名・職種で検索..."
             value={companySearch}
             onChange={(e) => setCompanySearch(e.target.value)}
-            className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm mb-4 focus:outline-none focus:ring-2 focus:ring-[#4298b4] focus:border-transparent"
           />
 
           <div className="space-y-3 mb-8">
@@ -576,7 +596,7 @@ export default function JobFitPage() {
                         <span className={`text-gray-400 text-xs transition-transform ${isOpen ? "rotate-90" : ""}`}>▶</span>
                         <span className="font-bold text-gray-800 text-sm">{group.industry}</span>
                       </div>
-                      <span className="bg-indigo-50 text-indigo-700 text-xs font-medium px-2 py-0.5 rounded-full">{group.companies.length}社</span>
+                      <span className="bg-[#eef7fa] text-[#4298b4] text-xs font-medium px-2 py-0.5 rounded-full">{group.companies.length}社</span>
                     </button>
                     {isOpen && (
                       <div className="border-t border-gray-100">
@@ -584,7 +604,7 @@ export default function JobFitPage() {
                           const hasProfile = Object.keys(company.requiredProfile).length > 0
                           const matchScore = hasProfile ? scoreCompany(userScores, company.requiredProfile) : null
                           return (
-                            <div key={`${group.industry}-${ci}`} className={`px-5 py-3 ${ci !== group.companies.length - 1 ? "border-b border-gray-50" : ""} hover:bg-indigo-50/30 transition-colors`}>
+                            <div key={`${group.industry}-${ci}`} className={`px-5 py-3 ${ci !== group.companies.length - 1 ? "border-b border-gray-50" : ""} hover:bg-[#eef7fa]/60 transition-colors`}>
                               <div className="flex items-start justify-between gap-3">
                                 <div className="flex-1 min-w-0">
                                   <div className="flex items-center gap-2 mb-0.5">
@@ -593,7 +613,7 @@ export default function JobFitPage() {
                                   </div>
                                   <div className="flex flex-wrap gap-1 mb-1">
                                     {company.positions.map((pos) => (
-                                      <span key={pos} className="text-[10px] bg-indigo-50 text-indigo-600 px-1.5 py-0.5 rounded-md">{pos}</span>
+                                      <span key={pos} className="text-[10px] bg-[#eef7fa] text-[#4298b4] px-1.5 py-0.5 rounded-md">{pos}</span>
                                     ))}
                                   </div>
                                   {company.note && <p className="text-[10px] text-gray-500 leading-relaxed">{company.note}</p>}
@@ -609,7 +629,7 @@ export default function JobFitPage() {
                                 <div className="shrink-0 min-w-[48px] text-center">
                                   {matchScore !== null ? (
                                     <div>
-                                      <span className="text-sm font-black text-indigo-600">{matchScore}</span>
+                                      <span className="text-sm font-black text-[#4298b4]">{matchScore}</span>
                                       <span className="text-[8px] text-gray-400">%</span>
                                     </div>
                                   ) : (
@@ -630,8 +650,8 @@ export default function JobFitPage() {
           {/* Actions */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <button onClick={restart}
-              className="px-8 py-3 bg-indigo-600 text-white font-bold rounded-2xl text-sm hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200"
-            >もう一度診断する</button>
+              className="px-8 py-3 bg-[#4298b4] text-white font-bold rounded-full text-sm hover:bg-[#3a89a3] transition-colors shadow-sm"
+            >もう一度チェックする</button>
             <Link href="/"
               className="px-8 py-3 text-gray-500 text-sm hover:text-gray-700 transition-colors"
             >トップに戻る</Link>

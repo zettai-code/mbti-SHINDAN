@@ -90,7 +90,8 @@ export default function CompaniesPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8]">
+      <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-gray-900 mb-2">
           新卒就活 企業・職種一覧
@@ -107,7 +108,7 @@ export default function CompaniesPage() {
           placeholder="企業名・職種で検索..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+          className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#4298b4] focus:border-transparent"
         />
 
         <div className="flex flex-wrap gap-2">
@@ -117,7 +118,7 @@ export default function CompaniesPage() {
               onClick={() => setSelectedCategory(cat)}
               className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                 selectedCategory === cat
-                  ? "bg-indigo-600 text-white"
+                  ? "bg-[#4298b4] text-white"
                   : "bg-gray-100 text-gray-600 hover:bg-gray-200"
               }`}
             >
@@ -133,14 +134,14 @@ export default function CompaniesPage() {
           <div className="flex gap-2">
             <button
               onClick={expandAll}
-              className="text-xs text-indigo-600 hover:text-indigo-800"
+              className="text-xs text-[#4298b4] hover:text-[#3a89a3]"
             >
               すべて開く
             </button>
             <span className="text-gray-300">|</span>
             <button
               onClick={collapseAll}
-              className="text-xs text-indigo-600 hover:text-indigo-800"
+              className="text-xs text-[#4298b4] hover:text-[#3a89a3]"
             >
               すべて閉じる
             </button>
@@ -173,7 +174,7 @@ export default function CompaniesPage() {
                     {group.industry}
                   </span>
                 </div>
-                <span className="bg-indigo-50 text-indigo-700 text-xs font-medium px-2.5 py-1 rounded-full">
+                <span className="bg-[#eef7fa] text-[#4298b4] text-xs font-medium px-2.5 py-1 rounded-full">
                   {group.companies.length}社
                 </span>
               </button>
@@ -195,7 +196,7 @@ export default function CompaniesPage() {
                         i !== group.companies.length - 1
                           ? "border-b border-gray-50"
                           : ""
-                      } hover:bg-indigo-50/30 transition-colors`}
+                      } hover:bg-[#eef7fa]/60 transition-colors`}
                     >
                       {/* モバイル */}
                       <div className="md:hidden space-y-1.5">
@@ -211,7 +212,7 @@ export default function CompaniesPage() {
                           {company.positions.map((pos) => (
                             <span
                               key={pos}
-                              className="inline-block bg-indigo-50 text-indigo-700 text-xs px-2 py-0.5 rounded-md"
+                              className="inline-block bg-[#eef7fa] text-[#4298b4] text-xs px-2 py-0.5 rounded-md"
                             >
                               {pos}
                             </span>
@@ -236,7 +237,7 @@ export default function CompaniesPage() {
                           {company.positions.map((pos) => (
                             <span
                               key={pos}
-                              className="inline-block bg-indigo-50 text-indigo-700 text-xs px-2 py-0.5 rounded-md"
+                              className="inline-block bg-[#eef7fa] text-[#4298b4] text-xs px-2 py-0.5 rounded-md"
                             >
                               {pos}
                             </span>
@@ -260,6 +261,7 @@ export default function CompaniesPage() {
           該当する企業が見つかりません
         </div>
       )}
+      </div>
     </div>
   )
 }

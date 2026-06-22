@@ -34,6 +34,59 @@ export interface JobResult extends JobProfile {
 export type UniversityRank = "東大京大一橋東工" | "早慶" | "旧帝大" | "GMARCH" | "海外大" | "その他"
 export type Gender = "男" | "女"
 export type Background = "体育会主将" | "体育会一般" | "帰国子女" | "留学" | "理系院生" | "学生起業" | "特になし"
+export type EducationLevel = "学部卒" | "修士卒" | "博士卒" | "高専卒" | "短大卒" | "専門卒" | "高卒"
+export type MajorType = "文系" | "理系"
+export type MarketReach = "余裕" | "実力相応" | "挑戦" | "高望み"
+
+export interface CandidateMarketProfile {
+  universityName?: string
+  universityRank?: UniversityRank
+  educationLevel?: EducationLevel
+  majorType?: MajorType
+  gender?: Gender
+  toeic?: number
+  repeatYears?: number
+  roninYears?: number
+  backgrounds?: Background[]
+  hasLongInternship?: boolean
+  hasVolunteer?: boolean
+  hasSeminarPresentation?: boolean
+}
+
+export interface CompanyMarketProfile {
+  name: string
+  nameEn?: string
+  industry?: string
+  positions?: string[]
+  requiredProfile?: Record<string, number>
+}
+
+export interface MarketScoreBreakdown {
+  label: string
+  value: number
+  reason: string
+}
+
+export interface JobHuntingDeviationResult {
+  score: number
+  level: string
+  baseUniversityScore: number
+  adjustments: MarketScoreBreakdown[]
+}
+
+export interface CompanyMarketResult {
+  candidateScore: number
+  candidateLevel: string
+  companyDifficulty: number
+  gap: number
+  reach: MarketReach
+  marketScore: number
+}
+
+export interface WeightedCompanyScore extends CompanyMarketResult {
+  personalityScore: number
+  finalScore: number
+}
 
 export const SCALE_OPTIONS = [
   { label: "非常に当てはまる",     value:  25 },

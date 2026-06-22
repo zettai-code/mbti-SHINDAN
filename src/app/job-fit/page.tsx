@@ -7,7 +7,7 @@ import {
   SCALE_OPTIONS, UNIVERSITY_RANKS, UNIVERSITY_LABELS,
   BACKGROUNDS, SCORE_CATEGORIES,
 } from "@/lib/job-fit-types"
-import { computeUserScores, scoreCompany } from "@/lib/job-fit-engine"
+import { computeUserScores, scoreCompanyWithMarketReality } from "@/lib/job-fit-engine"
 import type { IndustryGroup, Company } from "@/types"
 import questionsData from "@/data/job-fit-questions.json"
 import companiesData from "@/data/companies.json"
@@ -156,7 +156,14 @@ interface ScoredCompany extends Company {
   finalScore: number
   strengths: string[]
   weaknesses: string[]
-  corrDetails: { label: string; value: number; reason: string }[]
+  corrDetails: { label: string; value: number; reason: string; unit?: string }[]
+  personalityScore: number
+  marketScore: number
+  candidateMarketScore: number
+  candidateMarketLevel: string
+  companyDifficulty: number
+  marketGap: number
+  marketReach: string
   detailProfiles: Profile[]
   uniEntries: UniEntry[]
   genderEntries: GenderEntry[]
@@ -634,47 +641,40 @@ export default function JobFitPage() {
   const scoredCompanies = useMemo(() => {
     if (Object.keys(userScores).length === 0 || !uni) return []
     const scored: ScoredCompany[] = []
+    const candidateMarketProfile = {
+      universityRank: uni,
+      gender: gender ?? undefined,
+      backgrounds: bgs,
+    }
+
     allIndustries.forEach((group) => {
       group.companies.forEach((c) => {
         if (c.requiredProfile && Object.keys(c.requiredProfile).length > 0) {
-          const base = scoreCompany(userScores, c.requiredProfile)
-          if (base !== null) {
-            // Apply university and background corrections
-            let corr = 0
-            const corrDetails: { label: string; value: number; reason: string }[] = []
+          const weighted = scoreCompanyWithMarketReality(userScores, c.requiredProfile, candidateMarketProfile, {
+            name: c.name,
+            nameEn: c.name_en,
+            industry: group.industry,
+            positions: c.positions,
+          })
 
-            // Uni correction
-            if (c.uniCorr && uni in c.uniCorr) {
-              const uVal = c.uniCorr[uni] ?? 0
-              if (uVal !== 0) {
-                corr += uVal
-                corrDetails.push({
-                  label: UNIVERSITY_LABELS[uni] || uni,
-                  value: uVal,
-                  reason: uVal > 0 ? "採用実績と高い親和性" : "採用傾向に基づく調整"
-                })
-              }
-            }
-
-            // Bg corrections
-            if (c.bgCorr) {
-              bgs.forEach((bg) => {
-                const bVal = c.bgCorr?.[bg] ?? 0
-                if (bVal !== 0) {
-                  corr += bVal
-                  const bgLabel = BACKGROUNDS.find((item) => item.key === bg)?.label || bg
-                  corrDetails.push({
-                    label: bgLabel,
-                    value: bVal,
-                    reason: bVal > 0 ? "選考で有利に働く経験" : "採用傾向に基づく調整"
-                  })
-                }
-              })
-            }
-
-            // Clamp correction between -10% and +10%
-            const clampedCorr = Math.max(-10, Math.min(10, corr))
-            const final = Math.max(0, Math.min(100, base + clampedCorr))
+          if (weighted !== null) {
+            const base = weighted.personalityScore
+            const realismCorrection = Math.round((weighted.finalScore - weighted.personalityScore) * 10) / 10
+            const marketAdvantage = Math.round((weighted.candidateScore - weighted.companyDifficulty) * 10) / 10
+            const corrDetails: { label: string; value: number; reason: string; unit?: string }[] = [
+              {
+                label: "就活偏差値",
+                value: marketAdvantage,
+                reason: `${weighted.reach}：あなた${weighted.candidateScore} / 企業${weighted.companyDifficulty}`,
+                unit: "pt",
+              },
+              {
+                label: "現実補正",
+                value: realismCorrection,
+                reason: "就活偏差値70%・性格適合30%で最終MATCHに反映",
+                unit: "%",
+              },
+            ]
 
             // Compute dynamic strengths / weaknesses
             const comps = Object.keys(c.requiredProfile).map((p) => {
@@ -706,11 +706,18 @@ export default function JobFitPage() {
               ...c,
               industry: group.industry,
               baseScore: Math.round(base * 10) / 10,
-              correction: Math.round(clampedCorr * 10) / 10,
-              finalScore: Math.round(final * 10) / 10,
+              correction: realismCorrection,
+              finalScore: weighted.finalScore,
               strengths,
               weaknesses,
               corrDetails,
+              personalityScore: weighted.personalityScore,
+              marketScore: weighted.marketScore,
+              candidateMarketScore: weighted.candidateScore,
+              candidateMarketLevel: weighted.candidateLevel,
+              companyDifficulty: weighted.companyDifficulty,
+              marketGap: weighted.gap,
+              marketReach: weighted.reach,
               detailProfiles: getProfilesForCompany(c),
               uniEntries: getUniEntriesForCompany(c),
               genderEntries: getGenderEntriesForCompany(c),
@@ -721,7 +728,7 @@ export default function JobFitPage() {
     })
     scored.sort((a, b) => b.finalScore - a.finalScore)
     return scored
-  }, [userScores, uni, bgs])
+  }, [userScores, uni, gender, bgs])
 
   const showToast = useCallback((msg: string, type: "error" | "success" = "error") => {
     setToast({ msg, type })
@@ -1067,14 +1074,14 @@ export default function JobFitPage() {
                           {c.corrDetails.length > 0 && (
                             <div className="bg-emerald-50/30 rounded-xl p-3 mb-4 border border-emerald-50">
                               <p className="text-[10px] font-bold text-emerald-800 mb-1.5 flex items-center gap-1">
-                                <span>📊</span> バックグラウンド適合度
+                                <span>📊</span> 就活偏差値・現実判定
                               </p>
                               <div className="space-y-1">
                                 {c.corrDetails.map((det, di) => (
                                   <div key={di} className="flex justify-between items-center text-[10px]">
                                     <span className="text-gray-500">{det.label} → {det.reason}</span>
                                     <span className={`font-bold ${det.value > 0 ? "text-emerald-600" : "text-amber-600"}`}>
-                                      {det.value > 0 ? `+${det.value}%` : `${det.value}%`}
+                                      {det.value > 0 ? `+${det.value}${det.unit ?? "%"}` : `${det.value}${det.unit ?? "%"}`}
                                     </span>
                                   </div>
                                 ))}
@@ -1139,7 +1146,12 @@ export default function JobFitPage() {
                             </div>
                           </div>
                           <div className="text-center md:mt-2 text-[10px] text-gray-400">
-                            <div>ベース: {c.baseScore}%</div>
+                            <div>就活: {c.candidateMarketScore}</div>
+                            <div>企業: {c.companyDifficulty}</div>
+                            <div className={c.marketReach === "高望み" ? "text-amber-600 font-medium" : "text-emerald-600 font-medium"}>
+                              {c.marketReach}
+                            </div>
+                            <div>性格: {c.personalityScore}%</div>
                             {c.correction !== 0 && (
                               <div className={c.correction > 0 ? "text-emerald-600 font-medium" : "text-amber-600 font-medium"}>
                                 補正: {c.correction > 0 ? `+${c.correction}%` : `${c.correction}%`}
@@ -1207,7 +1219,19 @@ export default function JobFitPage() {
                       <div className="border-t border-gray-100">
                         {group.companies.map((company, ci) => {
                           const hasProfile = Object.keys(company.requiredProfile).length > 0
-                          const matchScore = hasProfile ? scoreCompany(userScores, company.requiredProfile) : null
+                          const weightedMatchScore = hasProfile && uni
+                            ? scoreCompanyWithMarketReality(userScores, company.requiredProfile, {
+                                universityRank: uni,
+                                gender: gender ?? undefined,
+                                backgrounds: bgs,
+                              }, {
+                                name: company.name,
+                                nameEn: company.name_en,
+                                industry: group.industry,
+                                positions: company.positions,
+                              })
+                            : null
+                          const matchScore = weightedMatchScore?.finalScore ?? null
                           return (
                             <div key={`${group.industry}-${ci}`} className={`px-5 py-3 ${ci !== group.companies.length - 1 ? "border-b border-gray-50" : ""} hover:bg-[#eef7fa]/60 transition-colors`}>
                               <div className="flex items-start justify-between gap-3">

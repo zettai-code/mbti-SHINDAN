@@ -60,7 +60,7 @@ export default function HomePage() {
 
         {/* テキストオーバーレイ：画像と同じ座標系（左からの%）で配置し、島の青い余白ゾーン内に固定 */}
         <div className="absolute inset-0 flex items-center">
-          <div style={{ paddingLeft: "6.5%", width: "55%", transform: "translateY(-6%)" }}>
+          <div style={{ paddingLeft: "6.5%", width: "55%", transform: "translateY(-2%)" }}>
             <h1
               className="font-extrabold text-white leading-tight"
               style={{ fontSize: "clamp(1rem,3vw,2.85rem)", letterSpacing: "0.07em" }}

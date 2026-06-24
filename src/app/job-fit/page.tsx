@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useMemo, useEffect } from "react"
 import Link from "next/link"
-import type { JobFitQuestion, Gender, UniversityRank, Background } from "@/lib/job-fit-types"
+import type { JobFitQuestion, Gender, UniversityRank, Background, MajorType } from "@/lib/job-fit-types"
 import {
   SCALE_OPTIONS, UNIVERSITY_LABELS,
   BACKGROUNDS, SCORE_CATEGORIES,
@@ -638,6 +638,7 @@ function CompanyProfileDetails({
 export default function JobFitPage() {
   const [screen, setScreen] = useState<Screen>("attributes")
   const [gender, setGender] = useState<Gender | null>(null)
+  const [majorType, setMajorType] = useState<MajorType | null>(null)
   const [uni, setUni] = useState<UniversityRank | null>(null)
   const [universityName, setUniversityName] = useState("")
   const [bgs, setBgs] = useState<Background[]>([])
@@ -805,7 +806,7 @@ export default function JobFitPage() {
 
   // ── Restart ──
   const restart = useCallback(() => {
-    setGender(null); setUni(null); setUniversityName(""); setBgs([]); setQIdx(0)
+    setGender(null); setMajorType(null); setUni(null); setUniversityName(""); setBgs([]); setQIdx(0)
     setAnswers({}); setUserScores({}); setLoadPct(0)
     setExpandedIndustries(new Set())
     setScreen("attributes")
@@ -815,50 +816,112 @@ export default function JobFitPage() {
   useEffect(() => { window.scrollTo({ top: 0, behavior: "smooth" }) }, [screen])
 
   return (
-    <div className="min-h-[calc(100vh-3.5rem)] bg-[#f8f8f8]">
+    <div className="h-[calc(100vh-4rem)] overflow-hidden" style={{ background: "url('/job-fit-bg.png') center top / cover no-repeat, #f4f2f7" }}>
       {/* ── ATTRIBUTES ── */}
       {screen === "attributes" && (
-        <div className="max-w-lg mx-auto px-4 py-12 animate-fadeIn">
-          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-xs font-bold text-[#4298b4] tracking-wider">STEP 1</span>
+        <div className="max-w-3xl mx-auto px-4 h-full flex items-center animate-fadeIn">
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 w-full">
+            {/* Step header with progress bar and feature badges */}
+            <div className="flex items-center justify-between mb-1">
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-bold text-[#1a56a8] tracking-wider">STEP 1 / 3</span>
+                <div className="w-20 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className="h-full bg-[#1a56a8] rounded-full" style={{ width: "33%" }} />
+                </div>
+              </div>
+              <div className="hidden sm:flex items-center gap-4">
+                <span className="flex items-center gap-1 text-[10px] text-gray-400">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>
+                  約5〜7分
+                </span>
+                <span className="flex items-center gap-1 text-[10px] text-gray-400">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z" /><path d="M9 12l2 2 4-4" /></svg>
+                  精度の高い診断
+                </span>
+                <span className="flex items-center gap-1 text-[10px] text-gray-400">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18" /></svg>
+                  最適な仕事探索
+                </span>
+              </div>
             </div>
-            <h2 className="text-xl font-bold text-gray-900 mb-6">あなたのプロフィール</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-1">あなたのプロフィール</h2>
+            <p className="text-[11px] text-gray-400 mb-5">ご回答いただいた内容は、あなたに合った職種をより正確に診断するために利用します。</p>
 
             {/* Gender */}
-            <div className="mb-6">
-              <label className="text-xs font-semibold text-gray-500 mb-2 block">性別</label>
+            <div className="mb-4">
+              <label className="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 text-[#1a56a8]"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
+                性別
+                <span className="text-[9px] text-red-500 font-bold bg-red-50 px-1.5 py-0.5 rounded">必須</span>
+              </label>
               <div className="flex gap-3">
                 {(["男", "女"] as Gender[]).map((g) => (
                   <button key={g} onClick={() => setGender(g)}
-                    className={`flex-1 flex flex-col items-center gap-2 py-4 rounded-xl text-sm font-medium border transition-colors ${
-                      gender === g ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                    className={`flex-1 relative flex flex-col items-center gap-1 py-3 rounded-xl text-sm font-medium border-2 transition-all ${
+                      gender === g ? "bg-[#eef4fb] text-[#1a56a8] border-[#1a56a8]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
                     }`}
                   >
+                    {gender === g && (
+                      <span className="absolute top-2 right-2 w-5 h-5 bg-[#1a56a8] rounded-full flex items-center justify-center">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" className="w-3 h-3"><path d="M5 12l5 5L20 7" /></svg>
+                      </span>
+                    )}
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={g === "男" ? "/characters/male.png" : "/characters/female.png"}
                       alt=""
-                      className="h-20 w-auto object-contain"
+                      className="h-16 w-auto object-contain"
                     />
-                    <span>{g === "男" ? "男性" : "女性"}</span>
+                    <span className="font-bold">{g === "男" ? "男性" : "女性"}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Major Type */}
+            <div className="mb-4">
+              <label className="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 text-[#1a56a8]"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" /></svg>
+                文理
+                <span className="text-[9px] text-red-500 font-bold bg-red-50 px-1.5 py-0.5 rounded">必須</span>
+              </label>
+              <div className="flex gap-3">
+                {(["文系", "理系"] as MajorType[]).map((m) => (
+                  <button key={m} onClick={() => setMajorType(m)}
+                    className={`flex-1 relative py-2.5 rounded-xl text-sm font-bold border-2 transition-all ${
+                      majorType === m ? "bg-[#eef4fb] text-[#1a56a8] border-[#1a56a8]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                    }`}
+                  >
+                    {majorType === m && (
+                      <span className="absolute top-2 right-2 w-5 h-5 bg-[#1a56a8] rounded-full flex items-center justify-center">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" className="w-3 h-3"><path d="M5 12l5 5L20 7" /></svg>
+                      </span>
+                    )}
+                    {m}
                   </button>
                 ))}
               </div>
             </div>
 
             {/* University */}
-            <div className="mb-6">
-              <label className="text-xs font-semibold text-gray-500 mb-2 block">大学</label>
-              <input
-                type="text"
-                list={UNIVERSITY_DATALIST_ID}
-                value={universityName}
-                autoComplete="off"
-                placeholder="大学名を検索・選択"
-                onChange={(event) => selectUniversity(event.target.value)}
-                className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm font-medium text-gray-700 outline-none transition-colors focus:border-[#4298b4] focus:ring-2 focus:ring-[#4298b4]/20"
-              />
+            <div className="mb-4">
+              <label className="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 text-[#1a56a8]"><path d="M22 10v6M2 10l10-5 10 5-10 5z" /><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5" /></svg>
+                大学
+                <span className="text-[9px] text-red-500 font-bold bg-red-50 px-1.5 py-0.5 rounded">必須</span>
+              </label>
+              <div className="relative">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"><circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" /></svg>
+                <input
+                  type="text"
+                  list={UNIVERSITY_DATALIST_ID}
+                  value={universityName}
+                  autoComplete="off"
+                  placeholder="大学名を検索・選択してください"
+                  onChange={(event) => selectUniversity(event.target.value)}
+                  className="w-full rounded-xl border-2 border-gray-200 bg-white pl-9 pr-4 py-2.5 text-sm font-medium text-gray-700 outline-none transition-colors focus:border-[#1a56a8] focus:ring-2 focus:ring-[#1a56a8]/10"
+                />
+              </div>
               <datalist id={UNIVERSITY_DATALIST_ID}>
                 {UNIVERSITY_OPTIONS.map((item) => (
                   <option key={item.name} value={item.name} label={`就活偏差値 ${item.deviation}`} />
@@ -866,7 +929,7 @@ export default function JobFitPage() {
                 <option value={OTHER_UNIVERSITY_VALUE} label="就活偏差値 50.0" />
               </datalist>
               {universityName && (
-                <p className="mt-2 text-[10px] text-gray-400">
+                <p className="mt-1 text-[10px] text-gray-400">
                   {universityName === OTHER_UNIVERSITY_VALUE
                     ? "その他として計算します。"
                     : `${UNIVERSITY_LABELS[getUniversityRankByName(universityName)]} / 就活偏差値 ${getUniversityDeviationByName(universityName) ?? 50}`}
@@ -875,24 +938,39 @@ export default function JobFitPage() {
             </div>
 
             {/* Backgrounds */}
-            <div className="mb-8">
-              <label className="text-xs font-semibold text-gray-500 mb-2 block">
-                バックグラウンド属性 <span className="text-gray-400">（複数選択可）</span>
+            <div className="mb-5">
+              <label className="text-xs font-semibold text-gray-700 mb-2 flex items-center gap-1.5">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5 text-[#1a56a8]"><path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" /></svg>
+                バックグラウンド属性
+                <span className="text-[10px] text-gray-400 font-normal">（複数選択可）</span>
+                <span className="text-[9px] text-gray-400 font-normal bg-gray-100 px-1.5 py-0.5 rounded">任意</span>
               </label>
               <div className="flex flex-wrap gap-2">
                 {BACKGROUNDS.map(({ key, label }) => (
                   <button key={key} onClick={() => toggleBg(key)}
-                    className={`px-3 py-2 rounded-xl text-xs font-medium border transition-colors ${
-                      bgs.includes(key) ? "bg-[#4298b4] text-white border-[#4298b4]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                    className={`flex items-center gap-1 px-3 py-2 rounded-full text-xs font-medium border-2 transition-all ${
+                      bgs.includes(key) ? "bg-[#eef4fb] text-[#1a56a8] border-[#1a56a8]" : "bg-white text-gray-500 border-gray-200 hover:bg-gray-50"
                     }`}
-                  >{label}</button>
+                  >
+                    {bgs.includes(key) && (
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" className="w-3 h-3"><path d="M5 12l5 5L20 7" /></svg>
+                    )}
+                    {label}
+                  </button>
                 ))}
               </div>
             </div>
 
             <button onClick={submitAttrs}
-              className="w-full py-4 bg-[#4298b4] text-white font-bold rounded-full text-sm hover:bg-[#3a89a3] transition-colors shadow-sm"
-            >質問へ進む</button>
+              className="w-full py-3.5 bg-[#1a56a8] text-white font-bold rounded-full text-sm hover:bg-[#154a91] transition-colors shadow-md flex items-center justify-center gap-2"
+            >
+              質問へ進む
+              <span aria-hidden>&#8250;</span>
+            </button>
+            <p className="text-center text-[10px] text-gray-400 mt-3 flex items-center justify-center gap-1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3 h-3"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z" /></svg>
+              ご入力いただいた情報は診断の目的のみに使用し、第三者に提供することはありません。
+            </p>
           </div>
         </div>
       )}
@@ -989,7 +1067,7 @@ export default function JobFitPage() {
             </div>
             <h2 className="text-2xl font-bold text-gray-900 mb-1">あなたの適合度分析結果</h2>
             <p className="text-xs text-gray-400">
-              {gender === "男" ? "男性" : "女性"} ・ {universityName === OTHER_UNIVERSITY_VALUE ? "その他・リストにない大学" : universityName} ・ {bgs.join(", ")}
+              {gender === "男" ? "男性" : "女性"} ・ {majorType ?? "未選択"} ・ {universityName === OTHER_UNIVERSITY_VALUE ? "その他・リストにない大学" : universityName} ・ {bgs.join(", ")}
             </p>
           </div>
 

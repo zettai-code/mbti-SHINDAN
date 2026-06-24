@@ -6,10 +6,10 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 h-16 flex items-center justify-center gap-4">
         <nav className="hidden sm:flex items-center gap-6">
           <Link
-            href="/diagnosis"
+            href="/match"
             className="relative text-sm text-white/70 hover:text-white transition-colors whitespace-nowrap group py-1"
           >
-            性格診断
+            企業マッチ
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#7c5e99] group-hover:w-full transition-all duration-300" />
           </Link>
           <Link
